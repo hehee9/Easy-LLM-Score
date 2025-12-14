@@ -18,11 +18,11 @@
     ],
     "dataSources": {
       "lmarena": {
-        "lastFetched": "2025-12-14T14:57:19.017Z",
+        "lastFetched": "2025-12-14T15:02:24.325Z",
         "totalModels": 282
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-14T14:53:19.616Z",
+        "lastFetched": "2025-12-14T15:02:36.366Z",
         "totalModels": 355
       }
     }
