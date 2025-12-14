@@ -1,0 +1,15 @@
+{
+  "name": "llm-benchmark-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch-lmarena": "node fetch-lmarena.js",
+    "fetch-aa": "node fetch-aa.js",
+    "merge": "node merge-data.js",
+    "update-all": "npm run fetch-lmarena && npm run fetch-aa && npm run merge"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2"
+  }
+}

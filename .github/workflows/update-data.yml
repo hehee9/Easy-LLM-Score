@@ -1,0 +1,51 @@
+name: Update Benchmark Data
+
+on:
+  schedule:
+    # ‰| UTC 00:00 (\m‹ 09:00) ‰â
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:  # Ÿ ∏¨p »©
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm ci
+
+      - name: Fetch LM Arena data
+        run: |
+          cd scripts
+          npm run fetch-lmarena
+
+      - name: Fetch Artificial Analysis data
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: |
+          cd scripts
+          npm run fetch-aa
+
+      - name: Merge data
+        run: |
+          cd scripts
+          npm run merge
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update benchmark data [$(date +'%Y-%m-%d')]"
+          git push

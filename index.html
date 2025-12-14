@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="다양한 LLM 모델의 성능을 직관적인 차트로 비교하세요">
+    <title>LLM 성능 비교 차트</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>LLM 성능 비교</h1>
+            <p class="subtitle">직관적인 차트로 AI 모델을 비교하세요</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="chart-container">
+            <div class="chart-wrapper">
+                <h2>종합 성능 비교</h2>
+                <div id="radar-chart" class="chart"></div>
+            </div>
+
+            <div class="chart-wrapper">
+                <div class="chart-header">
+                    <h2>카테고리별 성능</h2>
+                    <div class="chart-controls" id="category-tabs">
+                        <!-- 카테고리 탭 버튼이 JavaScript로 동적 생성됩니다 -->
+                    </div>
+                </div>
+                <div id="bar-chart" class="chart"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>데이터 출처</h4>
+                <p>벤치마크 출처: 공개 벤치마크 기반</p>
+                <p>최종 업데이트: 2025-12-13</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>프로젝트</h4>
+                <p>GitHub Pages로 호스팅</p>
+                <p>MIT License</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ECharts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+
+    <!-- 앱 스크립트 (ES6 모듈) -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
