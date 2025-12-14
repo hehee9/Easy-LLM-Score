@@ -1,10 +1,42 @@
 {
   "models": {
+    "gemini-3-pro": {
+      "MMMU Pro": 75,
+      "AA-Omniscience": -18,
+      "AA-Omniscience Accuracy": 37.48,
+      "AA-Omniscience Hallucination Rate": 88.67
+    },
+    "gemini-2.5-pro": {
+      "MMMU Pro": 80,
+      "AA-Omniscience": 13,
+      "AA-Omniscience Accuracy": 53.65,
+      "AA-Omniscience Hallucination Rate": 87.99
+    },
+    "gemini-2-5-flash-preview-09-2025": {
+      "MMMU Pro": 70,
+      "AA-Omniscience": -41,
+      "AA-Omniscience Accuracy": 25.77,
+      "AA-Omniscience Hallucination Rate": 90.37
+    },
+
+
+    "claude-4-5-haiku": {
+      "MMMU Pro": 55,
+      "AA-Omniscience": -8,
+      "AA-Omniscience Accuracy": 13.42,
+      "AA-Omniscience Hallucination Rate": 24.68
+    },
     "claude-4-5-sonnet": {
       "MMMU Pro": 65,
-      "AA-Omniscience": -2,
+      "AA-Omniscience": -11,
       "AA-Omniscience Accuracy": 26.93,
       "AA-Omniscience Hallucination Rate": 51.44
+    },
+    "claude-opus-4-5": {
+      "MMMU Pro": 71,
+      "AA-Omniscience": -6,
+      "AA-Omniscience Accuracy": 38.90,
+      "AA-Omniscience Hallucination Rate": 74.22
     }
   },
   "metadata": {
