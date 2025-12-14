@@ -2,10 +2,10 @@ name: Update Benchmark Data
 
 on:
   schedule:
-    # ‰| UTC 00:00 (\m‹ 09:00) ‰â
+    # Daily at UTC 00:00 (KST 09:00)
     - cron: '0 0 * * *'
 
-  workflow_dispatch:  # Ÿ ∏¨p »©
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   update-data:
