@@ -26,11 +26,13 @@ jobs:
           npm ci
 
       - name: Fetch LM Arena data
+        continue-on-error: true
         run: |
           cd scripts
           npm run fetch-lmarena
 
       - name: Fetch Artificial Analysis data
+        continue-on-error: true
         env:
           AA_API_KEY: ${{ secrets.AA_API_KEY }}
         run: |
