@@ -5,6 +5,7 @@
     --bg-primary: #ffffff;
     --bg-secondary: #f5f7fa;
     --bg-card: #ffffff;
+    --bg-hover: #f7fafc;
     --text-primary: #1a202c;
     --text-secondary: #4a5568;
     --text-tertiary: #718096;
@@ -66,6 +67,7 @@
     --bg-primary: #1a202c;
     --bg-secondary: #2d3748;
     --bg-card: #2d3748;
+    --bg-hover: #374151;
     --text-primary: #f7fafc;
     --text-secondary: #e2e8f0;
     --text-tertiary: #cbd5e0;

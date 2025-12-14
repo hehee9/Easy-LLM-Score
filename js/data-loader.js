@@ -40,19 +40,21 @@ export function getDefaultModels(data) {
 /**
  * @description 모델 데이터만 추출 (하위 호환성 유지)
  * - benchmarks를 scores로 변환
+ * @param {boolean} [defaultOnly=false] true면 기본 모델만, false면 모든 모델
  * @returns {Promise<Array>} 모델 배열 (scores 포함)
  */
-export async function loadModels() {
+export async function loadModels(defaultOnly = false) {
     try {
         const data = await loadData();
 
-        // 기본 표시 모델만 선택
-        const models = getDefaultModels(data);
+        // 모든 모델 또는 기본 모델만 선택
+        const models = defaultOnly ? getDefaultModels(data) : data.models;
 
         // 각 모델의 benchmarks에서 scores 계산 (LM Arena 정규화를 위해 전체 모델 배열 전달)
         return models.map(model => ({
             ...model,
-            scores: calculateScores(model, models)
+            scores: calculateScores(model, models),
+            isDefault: data.metadata?.defaultModelIds?.includes(model.id) || false
         }));
     } catch (error) {
         console.error('모델 로드 실패:', error);

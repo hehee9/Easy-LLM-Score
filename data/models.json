@@ -3,11 +3,23 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-14",
     "description": "LLM �x 1� DP pt0",
-    "totalModels": 0,
-    "defaultModelIds": [],
+    "totalModels": 78,
+    "defaultModelIds": [
+      "gemini-3-pro",
+      "claude-opus-4-5",
+      "gpt-5-1",
+      "gemini-2-5-pro",
+      "claude-4-5-sonnet",
+      "gpt-5-1",
+      "gpt-5",
+      "o3",
+      "qwen3-max-preview",
+      "grok-4-1-fast-reasoning"
+    ],
     "dataSources": {
       "lmarena": {
-        "totalModels": 0
+        "lastFetched": "2025-12-14T14:57:19.017Z",
+        "totalModels": 282
       },
       "artificialanalysis": {
         "lastFetched": "2025-12-14T14:35:57.784Z",
@@ -193,10 +205,10 @@
         "LiveCodeBench": 59,
         "SciCode": 42.8,
         "AIME 2025": 37,
-        "MMMU Pro": 75.3,
-        "AA-Omniscience": 82.1,
-        "AA-Omniscience Accuracy": 90.5,
-        "AA-Omniscience Hallucination Rate": 5.2,
+        "MMMU Pro": 65,
+        "AA-Omniscience": -2,
+        "AA-Omniscience Accuracy": 26.93,
+        "AA-Omniscience Hallucination Rate": 51.44,
         "LMArena-Text": 1445,
         "LMArena-Text-Creative-Writing": 1437,
         "LMArean-Text-Math": 1431,
@@ -829,8 +841,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 30.131,
-          "timeToFirstToken": 1.094
+          "outputTokensPerSecond": 29.452,
+          "timeToFirstToken": 1.098
         }
       },
       "tags": [],
@@ -1567,8 +1579,8 @@
           "output": 1.1
         },
         "performance": {
-          "outputTokensPerSecond": 108.342,
-          "timeToFirstToken": 0.445
+          "outputTokensPerSecond": 109.285,
+          "timeToFirstToken": 0.55
         }
       },
       "tags": [],

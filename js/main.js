@@ -11,6 +11,7 @@ import { getActiveCategories } from './config.js';
 
 // 전역 변수
 let allModels = [];
+let selectedModelIds = new Set();  // 선택된 모델 ID
 let radarChart = null;
 let barChart = null;
 let currentCategory = 'general_knowledge';  // 기본 카테고리
@@ -18,8 +19,8 @@ let currentCategory = 'general_knowledge';  // 기본 카테고리
 /** @description 앱 초기화 */
 async function init() {
     try {
-        // 데이터 로드
-        allModels = await loadModels();
+        // 데이터 로드 (모든 모델)
+        allModels = await loadModels(false);
 
         if (allModels.length === 0) {
             console.error('모델 데이터가 없습니다.');
@@ -29,8 +30,20 @@ async function init() {
 
         console.log(`${allModels.length}개 모델 로드 완료:`, allModels.map(m => m.name));
 
-        // 레이더 차트 렌더링 (모든 모델 표시)
-        radarChart = renderRadarChart('radar-chart', allModels);
+        // 기본 모델 선택
+        allModels.forEach(model => {
+            if (model.isDefault) {
+                selectedModelIds.add(model.id);
+            }
+        });
+
+        console.log(`기본 선택 모델: ${selectedModelIds.size}개`);
+
+        // 모델 선택 UI 생성
+        createModelSelector();
+
+        // 레이더 차트 렌더링 (선택된 모델만)
+        radarChart = renderRadarChart('radar-chart', getSelectedModels());
 
         if (radarChart) {
             console.log('레이더 차트 렌더링 완료');
@@ -40,7 +53,7 @@ async function init() {
         createCategoryTabs();
 
         // 막대 그래프 렌더링 (기본 카테고리)
-        barChart = renderBarChart('bar-chart', allModels, currentCategory);
+        barChart = renderBarChart('bar-chart', getSelectedModels(), currentCategory);
 
         if (barChart) {
             console.log('막대 그래프 렌더링 완료');
@@ -48,6 +61,86 @@ async function init() {
     } catch (error) {
         console.error('초기화 실패:', error);
         showError('데이터를 불러오는 중 오류가 발생했습니다.');
+    }
+}
+
+/** @description 선택된 모델만 반환 */
+function getSelectedModels() {
+    return allModels.filter(model => selectedModelIds.has(model.id));
+}
+
+/** @description 모델 선택 UI 생성 */
+function createModelSelector() {
+    const container = document.getElementById('model-selector');
+
+    if (!container) {
+        console.warn('모델 선택 컨테이너를 찾을 수 없습니다.');
+        return;
+    }
+
+    container.innerHTML = '<h3>모델 선택</h3>';
+
+    const list = document.createElement('div');
+    list.className = 'model-list';
+
+    allModels.forEach(model => {
+        const item = document.createElement('label');
+        item.className = 'model-item';
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = selectedModelIds.has(model.id);
+        checkbox.dataset.modelId = model.id;
+
+        checkbox.addEventListener('change', (e) => {
+            handleModelToggle(model.id, e.target.checked);
+        });
+
+        const name = document.createElement('span');
+        name.textContent = model.name;
+        if (model.isDefault) {
+            name.style.fontWeight = 'bold';
+        }
+
+        item.appendChild(checkbox);
+        item.appendChild(name);
+        list.appendChild(item);
+    });
+
+    container.appendChild(list);
+}
+
+/** @description 모델 선택/해제 처리 */
+function handleModelToggle(modelId, isChecked) {
+    if (isChecked) {
+        selectedModelIds.add(modelId);
+    } else {
+        selectedModelIds.delete(modelId);
+    }
+
+    // 차트 업데이트
+    updateCharts();
+
+    console.log(`모델 ${isChecked ? '선택' : '해제'}: ${modelId}`);
+}
+
+/** @description 차트 업데이트 */
+function updateCharts() {
+    const selectedModels = getSelectedModels();
+
+    if (selectedModels.length === 0) {
+        console.warn('선택된 모델이 없습니다.');
+        return;
+    }
+
+    // 레이더 차트 업데이트
+    if (radarChart) {
+        radarChart = renderRadarChart('radar-chart', selectedModels);
+    }
+
+    // 막대 그래프 업데이트
+    if (barChart) {
+        updateBarChart(barChart, selectedModels, currentCategory);
     }
 }
 
