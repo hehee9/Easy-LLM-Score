@@ -1,5 +1,30 @@
 {
   "models": {
+    "gpt-5-1": {
+      "MMMU Pro": 76,
+      "AA-Omniscience": 2,
+      "AA-Omniscience Accuracy": 35.30,
+      "AA-Omniscience Hallucination Rate": 51.16
+    },
+    "gpt-5": {
+      "MMMU Pro": 74,
+      "AA-Omniscience": -11,
+      "AA-Omniscience Accuracy": 38.62,
+      "AA-Omniscience Hallucination Rate": 80.99
+    },
+    "gpt-5-mini": {
+      "MMMU Pro": 70,
+      "AA-Omniscience": -20,
+      "AA-Omniscience Accuracy": 22.97,
+      "AA-Omniscience Hallucination Rate": 55.28
+    },
+    "gpt-5-nano": {
+      "MMMU Pro": 61,
+      "AA-Omniscience": -30,
+      "AA-Omniscience Accuracy": 18.28,
+      "AA-Omniscience Hallucination Rate": 58.66
+    },
+
     "gemini-3-pro": {
       "MMMU Pro": 75,
       "AA-Omniscience": -18,

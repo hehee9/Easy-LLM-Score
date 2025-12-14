@@ -71,11 +71,11 @@ export const CATEGORIES = [
         id: 'hallucination',
         name: '환각 저항',
         enabled: true,
-        reversed: false  // 공식에서 이미 100 - rate로 변환됨
+        reversed: false
     },
     {
         id: 'natural_speech',
-        name: '자연스러운 말투',
+        name: '응답 품질',
         enabled: true,
         reversed: false
     }

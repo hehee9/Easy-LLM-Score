@@ -25,6 +25,10 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+DEV.md
+TODO.md
+벤치마크 점수 크롤링용 사이트.md
+
 # Raw data (optional - uncomment if you don't want to commit raw data)
 # data/raw/
 
