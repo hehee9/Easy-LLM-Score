@@ -1,0 +1,14 @@
+{
+  "models": {
+    "claude-4-5-sonnet": {
+      "MMMU Pro": 65,
+      "AA-Omniscience": -2,
+      "AA-Omniscience Accuracy": 26.93,
+      "AA-Omniscience Hallucination Rate": 51.44
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2025-12-14",
+    "description": "Manually entered benchmark scores not available via API"
+  }
+}
