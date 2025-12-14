@@ -27,7 +27,6 @@
       }
     }
   },
-<<<<<<< HEAD
   "models": [
     {
       "id": "gemini-3-pro",
@@ -3228,7 +3227,4 @@
       "description": ""
     }
   ]
-=======
-  "models": []
->>>>>>> e1a41c6dec6d1b73a061bb7aca64ecb470861f44
 }
