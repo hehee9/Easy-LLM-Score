@@ -3,26 +3,14 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-14",
     "description": "LLM �x 1� DP pt0",
-    "totalModels": 78,
-    "defaultModelIds": [
-      "gemini-3-pro",
-      "claude-opus-4-5",
-      "gpt-5-1",
-      "gemini-2-5-pro",
-      "claude-4-5-sonnet",
-      "gpt-5-1",
-      "gpt-5",
-      "o3",
-      "qwen3-max-preview",
-      "grok-4-1-fast-reasoning"
-    ],
+    "totalModels": 0,
+    "defaultModelIds": [],
     "dataSources": {
       "lmarena": {
-        "lastFetched": "2025-12-14T05:13:36.591Z",
-        "totalModels": 282
+        "totalModels": 0
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-14T05:13:24.913Z",
+        "lastFetched": "2025-12-14T14:35:57.784Z",
         "totalModels": 355
       }
     }
