@@ -40,7 +40,7 @@
       "AA-Omniscience Accuracy": 53.65,
       "AA-Omniscience Hallucination Rate": 87.99
     },
-    "gemini-2.5-pro": {
+    "gemini-2-5-pro": {
       "MMMU Pro": 75,
       "AA-Omniscience": -18,
       "AA-Omniscience Accuracy": 37.48,
