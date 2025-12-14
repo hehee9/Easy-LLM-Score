@@ -193,8 +193,8 @@ function handleCategoryChange(categoryId) {
         }
     });
 
-    // 막대 그래프 업데이트
-    updateBarChart(barChart, allModels, categoryId);
+    // 막대 그래프 업데이트 (선택된 모델만)
+    updateBarChart(barChart, getSelectedModels(), categoryId);
 
     console.log(`카테고리 변경: ${categoryId}`);
 }
