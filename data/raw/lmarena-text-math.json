@@ -3,50 +3,50 @@
   "models": [
     {
       "rank": 1,
-      "model": "Anthropicclaude-opus-4-5-20251101",
-      "score": 1480,
-      "organization": "1◄─►12",
+      "model": "gemini-3-pro",
+      "score": 1476,
+      "organization": "1◄─►10",
       "votes": 0
     },
     {
       "rank": 2,
-      "model": "gemini-3-pro",
-      "score": 1475,
-      "organization": "1◄─►11",
+      "model": "gpt-5.1-high",
+      "score": 1474,
+      "organization": "1◄─►13",
       "votes": 0
     },
     {
       "rank": 3,
-      "model": "Anthropicclaude-opus-4-5-20251101-thinking-32k",
-      "score": 1475,
-      "organization": "1◄─►20",
+      "model": "Anthropicclaude-opus-4-5-20251101",
+      "score": 1474,
+      "organization": "1◄─►17",
       "votes": 0
     },
     {
       "rank": 4,
-      "model": "gpt-5.1-high",
-      "score": 1473,
-      "organization": "1◄─►16",
+      "model": "Anthropicclaude-opus-4-5-20251101-thinking-32k",
+      "score": 1472,
+      "organization": "1◄─►20",
       "votes": 0
     },
     {
       "rank": 5,
       "model": "Anthropicclaude-sonnet-4-5-20250929-thinking-32k",
-      "score": 1463,
-      "organization": "1◄─►22",
+      "score": 1464,
+      "organization": "1◄─►20",
       "votes": 0
     },
     {
       "rank": 6,
       "model": "o3-2025-04-16",
-      "score": 1456,
+      "score": 1455,
       "organization": "1◄─►23",
       "votes": 0
     },
     {
       "rank": 7,
       "model": "gemini-2.5-pro",
-      "score": 1453,
+      "score": 1452,
       "organization": "1◄─►26",
       "votes": 0
     },
@@ -54,14 +54,14 @@
       "rank": 8,
       "model": "grok-4.1-thinking",
       "score": 1450,
-      "organization": "1◄─►45",
+      "organization": "1◄─►43",
       "votes": 0
     },
     {
       "rank": 9,
       "model": "Anthropicclaude-opus-4-1-20250805-thinking-16k",
-      "score": 1446,
-      "organization": "1◄─►39",
+      "score": 1448,
+      "organization": "1◄─►36",
       "votes": 0
     },
     {
@@ -74,1844 +74,1865 @@
     {
       "rank": 11,
       "model": "gpt-5-high",
-      "score": 1438,
-      "organization": "4◄─►50",
+      "score": 1439,
+      "organization": "3◄─►51",
       "votes": 0
     },
     {
       "rank": 12,
       "model": "grok-4-0709",
-      "score": 1438,
-      "organization": "4◄─►50",
+      "score": 1437,
+      "organization": "4◄─►51",
       "votes": 0
     },
     {
       "rank": 13,
       "model": "qwen3-max-2025-09-23",
-      "score": 1437,
-      "organization": "1◄─►62",
+      "score": 1436,
+      "organization": "1◄─►66",
       "votes": 0
     },
     {
       "rank": 14,
-      "model": "grok-4.1",
-      "score": 1436,
-      "organization": "3◄─►58",
+      "model": "Anthropicclaude-opus-4-1-20250805",
+      "score": 1435,
+      "organization": "6◄─►51",
       "votes": 0
     },
     {
       "rank": 15,
-      "model": "Anthropicclaude-opus-4-1-20250805",
-      "score": 1435,
-      "organization": "7◄─►50",
+      "model": "grok-4.1",
+      "score": 1433,
+      "organization": "4◄─►61",
       "votes": 0
     },
     {
       "rank": 16,
       "model": "glm-4.6",
-      "score": 1433,
-      "organization": "5◄─►59",
+      "score": 1430,
+      "organization": "6◄─►63",
       "votes": 0
     },
     {
       "rank": 17,
-      "model": "Anthropicclaude-sonnet-4-5-20250929",
-      "score": 1431,
-      "organization": "6◄─►62",
-      "votes": 0
-    },
-    {
-      "rank": 18,
       "model": "qwen3-235b-a22b-instruct-2507",
       "score": 1430,
       "organization": "8◄─►57",
       "votes": 0
     },
     {
-      "rank": 19,
+      "rank": 18,
       "model": "MoonshotAIkimi-k2-thinking-turbo",
+      "score": 1430,
+      "organization": "6◄─►69",
+      "votes": 0
+    },
+    {
+      "rank": 19,
+      "model": "Anthropicclaude-sonnet-4-5-20250929",
       "score": 1429,
-      "organization": "4◄─►67",
+      "organization": "7◄─►64",
       "votes": 0
     },
     {
       "rank": 20,
       "model": "longcat-flash-chat",
       "score": 1429,
-      "organization": "4◄─►69",
+      "organization": "4◄─►71",
       "votes": 0
     },
     {
       "rank": 21,
-      "model": "deepseek-v3.2-exp-thinking",
+      "model": "deepseek-v3.2",
       "score": 1428,
-      "organization": "3◄─►70",
+      "organization": "3◄─►71",
       "votes": 0
     },
     {
       "rank": 22,
-      "model": "qwen3-next-80b-a3b-instruct",
+      "model": "deepseek-v3.2-thinking",
       "score": 1428,
-      "organization": "7◄─►66",
+      "organization": "2◄─►73",
       "votes": 0
     },
     {
       "rank": 23,
-      "model": "grok-4-fast-chat",
-      "score": 1427,
-      "organization": "3◄─►74",
+      "model": "deepseek-v3.2-exp-thinking",
+      "score": 1428,
+      "organization": "3◄─►72",
       "votes": 0
     },
     {
       "rank": 24,
-      "model": "deepseek-v3.2",
+      "model": "qwen3-next-80b-a3b-instruct",
       "score": 1426,
-      "organization": "3◄─►74",
+      "organization": "7◄─►70",
       "votes": 0
     },
     {
       "rank": 25,
-      "model": "gemini-2.5-flash-preview-09-2025",
-      "score": 1424,
-      "organization": "8◄─►67",
+      "model": "grok-4-fast-chat",
+      "score": 1425,
+      "organization": "3◄─►78",
       "votes": 0
     },
     {
       "rank": 26,
       "model": "deepseek-v3.1-thinking",
-      "score": 1422,
+      "score": 1423,
       "organization": "7◄─►73",
       "votes": 0
     },
     {
       "rank": 27,
-      "model": "Anthropicclaude-opus-4-20250514-thinking-16k",
-      "score": 1422,
-      "organization": "9◄─►67",
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "score": 1423,
+      "organization": "8◄─►70",
       "votes": 0
     },
     {
       "rank": 28,
-      "model": "o4-mini-2025-04-16",
-      "score": 1420,
-      "organization": "9◄─►67",
+      "model": "Anthropicclaude-opus-4-20250514-thinking-16k",
+      "score": 1421,
+      "organization": "9◄─►70",
       "votes": 0
     },
     {
       "rank": 29,
       "model": "glm-4.5",
       "score": 1420,
-      "organization": "8◄─►69",
+      "organization": "9◄─►71",
       "votes": 0
     },
     {
       "rank": 30,
-      "model": "deepseek-v3.1",
-      "score": 1418,
-      "organization": "8◄─►73",
+      "model": "o4-mini-2025-04-16",
+      "score": 1420,
+      "organization": "10◄─►70",
       "votes": 0
     },
     {
       "rank": 31,
-      "model": "deepseek-v3.1-terminus-thinking",
+      "model": "deepseek-v3.1",
       "score": 1418,
-      "organization": "1◄─►90",
+      "organization": "8◄─►75",
       "votes": 0
     },
     {
       "rank": 32,
       "model": "deepseek-v3.2-exp",
-      "score": 1417,
-      "organization": "8◄─►78",
+      "score": 1418,
+      "organization": "8◄─►79",
       "votes": 0
     },
     {
       "rank": 33,
-      "model": "MoonshotAIkimi-k2-0905-preview",
+      "model": "mistral-large-3",
       "score": 1417,
-      "organization": "8◄─►77",
+      "organization": "8◄─►81",
       "votes": 0
     },
     {
       "rank": 34,
-      "model": "deepseek-v3.2-thinking",
-      "score": 1416,
-      "organization": "5◄─►85",
+      "model": "deepseek-v3.1-terminus-thinking",
+      "score": 1417,
+      "organization": "2◄─►93",
       "votes": 0
     },
     {
       "rank": 35,
-      "model": "gpt-5-mini-high",
-      "score": 1415,
-      "organization": "9◄─►73",
+      "model": "gpt-5.1",
+      "score": 1417,
+      "organization": "9◄─►76",
       "votes": 0
     },
     {
       "rank": 36,
-      "model": "gpt-5-chat",
+      "model": "MoonshotAIkimi-k2-0905-preview",
       "score": 1415,
-      "organization": "10◄─►72",
-      "votes": 0
-    },
-    {
-      "rank": 37,
-      "model": "qwen3-vl-235b-a22b-instruct",
-      "score": 1414,
-      "organization": "8◄─►80",
-      "votes": 0
-    },
-    {
-      "rank": 38,
-      "model": "qwen3-vl-235b-a22b-thinking",
-      "score": 1414,
-      "organization": "8◄─►83",
-      "votes": 0
-    },
-    {
-      "rank": 39,
-      "model": "gpt-4.5-preview-2025-02-27",
-      "score": 1414,
-      "organization": "10◄─►73",
-      "votes": 0
-    },
-    {
-      "rank": 40,
-      "model": "grok-4-1-fast-reasoning",
-      "score": 1414,
-      "organization": "8◄─►80",
-      "votes": 0
-    },
-    {
-      "rank": 41,
-      "model": "deepseek-r1",
-      "score": 1413,
-      "organization": "10◄─►73",
-      "votes": 0
-    },
-    {
-      "rank": 42,
-      "model": "grok-4-fast-reasoning",
-      "score": 1413,
       "organization": "9◄─►79",
       "votes": 0
     },
     {
-      "rank": 43,
-      "model": "gemini-2.5-flash",
-      "score": 1413,
-      "organization": "14◄─►69",
+      "rank": 37,
+      "model": "gpt-5-mini-high",
+      "score": 1415,
+      "organization": "10◄─►75",
       "votes": 0
     },
     {
-      "rank": 44,
-      "model": "gpt-5.1",
-      "score": 1411,
-      "organization": "10◄─►80",
+      "rank": 38,
+      "model": "gpt-5-chat",
+      "score": 1415,
+      "organization": "10◄─►73",
       "votes": 0
     },
     {
-      "rank": 45,
-      "model": "o1-2024-12-17",
-      "score": 1411,
-      "organization": "14◄─►72",
+      "rank": 39,
+      "model": "qwen3-vl-235b-a22b-instruct",
+      "score": 1414,
+      "organization": "8◄─►82",
       "votes": 0
     },
     {
-      "rank": 46,
-      "model": "ernie-5.0-preview-1103",
-      "score": 1411,
+      "rank": 40,
+      "model": "qwen3-vl-235b-a22b-thinking",
+      "score": 1414,
       "organization": "8◄─►86",
       "votes": 0
     },
     {
+      "rank": 41,
+      "model": "gpt-4.5-preview-2025-02-27",
+      "score": 1413,
+      "organization": "10◄─►77",
+      "votes": 0
+    },
+    {
+      "rank": 42,
+      "model": "gemini-2.5-flash",
+      "score": 1413,
+      "organization": "14◄─►71",
+      "votes": 0
+    },
+    {
+      "rank": 43,
+      "model": "deepseek-r1",
+      "score": 1413,
+      "organization": "11◄─►76",
+      "votes": 0
+    },
+    {
+      "rank": 44,
+      "model": "grok-4-fast-reasoning",
+      "score": 1413,
+      "organization": "10◄─►79",
+      "votes": 0
+    },
+    {
+      "rank": 45,
+      "model": "ernie-5.0-preview-1103",
+      "score": 1412,
+      "organization": "8◄─►88",
+      "votes": 0
+    },
+    {
+      "rank": 46,
+      "model": "o1-2024-12-17",
+      "score": 1410,
+      "organization": "14◄─►75",
+      "votes": 0
+    },
+    {
       "rank": 47,
-      "model": "o3-mini-high",
-      "score": 1409,
-      "organization": "14◄─►77",
+      "model": "grok-4-1-fast-reasoning",
+      "score": 1410,
+      "organization": "9◄─►83",
       "votes": 0
     },
     {
       "rank": 48,
-      "model": "mistral-large-3",
+      "model": "o3-mini-high",
       "score": 1409,
-      "organization": "8◄─►88",
+      "organization": "14◄─►79",
       "votes": 0
     },
     {
       "rank": 49,
       "model": "Anthropicclaude-sonnet-4-20250514-thinking-32k",
       "score": 1406,
-      "organization": "15◄─►79",
+      "organization": "15◄─►81",
       "votes": 0
     },
     {
       "rank": 50,
-      "model": "chatgpt-4o-latest-20250326",
-      "score": 1404,
-      "organization": "19◄─►79",
+      "model": "qwen3-32b",
+      "score": 1403,
+      "organization": "9◄─►94",
       "votes": 0
     },
     {
       "rank": 51,
-      "model": "mistral-medium-2508",
-      "score": 1404,
-      "organization": "17◄─►79",
+      "model": "chatgpt-4o-latest-20250326",
+      "score": 1403,
+      "organization": "19◄─►79",
       "votes": 0
     },
     {
       "rank": 52,
-      "model": "qwen3-32b",
-      "score": 1404,
-      "organization": "9◄─►92",
+      "model": "Tencenthunyuan-t1-20250711",
+      "score": 1403,
+      "organization": "8◄─►101",
       "votes": 0
     },
     {
       "rank": 53,
-      "model": "Tencenthunyuan-t1-20250711",
-      "score": 1404,
-      "organization": "8◄─►97",
+      "model": "qwen3-235b-a22b-thinking-2507",
+      "score": 1403,
+      "organization": "10◄─►91",
       "votes": 0
     },
     {
       "rank": 54,
-      "model": "qwen3-235b-a22b-thinking-2507",
+      "model": "mistral-medium-2508",
       "score": 1403,
-      "organization": "10◄─►89",
+      "organization": "17◄─►81",
       "votes": 0
     },
     {
       "rank": 55,
-      "model": "Minimaxminimax-m1",
+      "model": "Anthropicclaude-opus-4-20250514",
       "score": 1403,
-      "organization": "17◄─►80",
+      "organization": "18◄─►81",
       "votes": 0
     },
     {
       "rank": 56,
-      "model": "Anthropicclaude-opus-4-20250514",
+      "model": "Minimaxminimax-m1",
       "score": 1402,
-      "organization": "19◄─►80",
+      "organization": "16◄─►82",
       "votes": 0
     },
     {
       "rank": 57,
       "model": "qwen3-235b-a22b",
-      "score": 1402,
-      "organization": "17◄─►80",
+      "score": 1401,
+      "organization": "16◄─►82",
       "votes": 0
     },
     {
       "rank": 58,
       "model": "qwen3-next-80b-a3b-thinking",
-      "score": 1401,
-      "organization": "14◄─►86",
+      "score": 1400,
+      "organization": "14◄─►89",
       "votes": 0
     },
     {
       "rank": 59,
       "model": "mai-1-preview",
-      "score": 1401,
-      "organization": "14◄─►86",
+      "score": 1400,
+      "organization": "15◄─►89",
       "votes": 0
     },
     {
       "rank": 60,
       "model": "deepseek-v3.1-terminus",
       "score": 1399,
-      "organization": "8◄─►99",
+      "organization": "8◄─►102",
       "votes": 0
     },
     {
       "rank": 61,
-      "model": "qwen3-235b-a22b-no-thinking",
+      "model": "deepseek-r1-0528",
       "score": 1398,
-      "organization": "20◄─►82",
+      "organization": "15◄─►90",
       "votes": 0
     },
     {
       "rank": 62,
-      "model": "deepseek-r1-0528",
+      "model": "qwen3-235b-a22b-no-thinking",
       "score": 1398,
-      "organization": "16◄─►89",
+      "organization": "20◄─►83",
       "votes": 0
     },
     {
       "rank": 63,
       "model": "amazon-nova-experimental-chat-10-20",
-      "score": 1398,
-      "organization": "14◄─►93",
+      "score": 1396,
+      "organization": "14◄─►94",
       "votes": 0
     },
     {
       "rank": 64,
-      "model": "glm-4.5-air",
-      "score": 1397,
-      "organization": "19◄─►86",
+      "model": "Anthropicclaude-haiku-4-5-20251001",
+      "score": 1396,
+      "organization": "19◄─►89",
       "votes": 0
     },
     {
       "rank": 65,
-      "model": "grok-3-mini-high",
-      "score": 1395,
-      "organization": "19◄─►90",
+      "model": "glm-4.5-air",
+      "score": 1396,
+      "organization": "19◄─►89",
       "votes": 0
     },
     {
       "rank": 66,
-      "model": "Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5",
-      "score": 1394,
-      "organization": "9◄─►100",
+      "model": "grok-3-mini-high",
+      "score": 1395,
+      "organization": "18◄─►93",
       "votes": 0
     },
     {
       "rank": 67,
       "model": "MoonshotAIkimi-k2-0711-preview",
       "score": 1394,
-      "organization": "24◄─►87",
+      "organization": "24◄─►90",
       "votes": 0
     },
     {
       "rank": 68,
-      "model": "Anthropicclaude-haiku-4-5-20251001",
+      "model": "Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5",
       "score": 1393,
-      "organization": "24◄─►90",
+      "organization": "9◄─►104",
       "votes": 0
     },
     {
       "rank": 69,
       "model": "Anthropicclaude-sonnet-4-20250514",
       "score": 1389,
-      "organization": "30◄─►90",
+      "organization": "32◄─►93",
       "votes": 0
     },
     {
       "rank": 70,
-      "model": "o1-preview",
-      "score": 1388,
-      "organization": "37◄─►89",
+      "model": "intellect-3",
+      "score": 1389,
+      "organization": "10◄─►106",
       "votes": 0
     },
     {
       "rank": 71,
-      "model": "gpt-oss-120b",
-      "score": 1388,
-      "organization": "28◄─►91",
+      "model": "o1-preview",
+      "score": 1387,
+      "organization": "39◄─►92",
       "votes": 0
     },
     {
       "rank": 72,
       "model": "qwen3-30b-a3b-instruct-2507",
       "score": 1387,
-      "organization": "27◄─►92",
+      "organization": "28◄─►94",
       "votes": 0
     },
     {
       "rank": 73,
-      "model": "Anthropicclaude-3-7-sonnet-20250219-thinking-32k",
+      "model": "gpt-oss-120b",
       "score": 1387,
-      "organization": "37◄─►91",
+      "organization": "31◄─►94",
       "votes": 0
     },
     {
       "rank": 74,
-      "model": "o3-mini",
-      "score": 1387,
-      "organization": "40◄─►89",
+      "model": "Anthropicclaude-3-7-sonnet-20250219-thinking-32k",
+      "score": 1386,
+      "organization": "38◄─►93",
       "votes": 0
     },
     {
       "rank": 75,
-      "model": "Nvidiallama-3.1-nemotron-ultra-253b-v1",
-      "score": 1383,
-      "organization": "14◄─►105",
+      "model": "o3-mini",
+      "score": 1386,
+      "organization": "44◄─►93",
       "votes": 0
     },
     {
       "rank": 76,
-      "model": "grok-3-preview-02-24",
-      "score": 1381,
-      "organization": "44◄─►95",
+      "model": "Nvidiallama-3.1-nemotron-ultra-253b-v1",
+      "score": 1382,
+      "organization": "14◄─►108",
       "votes": 0
     },
     {
       "rank": 77,
-      "model": "qwen3-coder-480b-a35b-instruct",
+      "model": "grok-3-preview-02-24",
       "score": 1380,
-      "organization": "39◄─►97",
+      "organization": "48◄─►98",
       "votes": 0
     },
     {
       "rank": 78,
-      "model": "deepseek-v3-0324",
-      "score": 1375,
-      "organization": "52◄─►98",
+      "model": "Nvidianvidia-nemotron-3-nano-30b-a3b-bf16",
+      "score": 1380,
+      "organization": "15◄─►108",
       "votes": 0
     },
     {
       "rank": 79,
-      "model": "gpt-4.1-2025-04-14",
-      "score": 1375,
-      "organization": "52◄─►98",
+      "model": "qwen3-coder-480b-a35b-instruct",
+      "score": 1379,
+      "organization": "44◄─►101",
       "votes": 0
     },
     {
       "rank": 80,
-      "model": "grok-3-mini-beta",
-      "score": 1373,
-      "organization": "50◄─►100",
+      "model": "deepseek-v3-0324",
+      "score": 1375,
+      "organization": "53◄─►101",
       "votes": 0
     },
     {
       "rank": 81,
-      "model": "gemini-2.5-flash-lite-preview-06-17-thinking",
-      "score": 1372,
-      "organization": "53◄─►100",
+      "model": "gpt-4.1-2025-04-14",
+      "score": 1375,
+      "organization": "54◄─►101",
       "votes": 0
     },
     {
       "rank": 82,
-      "model": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
-      "score": 1371,
-      "organization": "51◄─►100",
+      "model": "grok-3-mini-beta",
+      "score": 1373,
+      "organization": "51◄─►103",
       "votes": 0
     },
     {
       "rank": 83,
-      "model": "Stepfunstep-3",
-      "score": 1370,
-      "organization": "28◄─►106",
+      "model": "gemini-2.5-flash-lite-preview-06-17-thinking",
+      "score": 1372,
+      "organization": "54◄─►103",
       "votes": 0
     },
     {
       "rank": 84,
-      "model": "qwen2.5-max",
-      "score": 1369,
-      "organization": "63◄─►100",
+      "model": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+      "score": 1371,
+      "organization": "53◄─►103",
       "votes": 0
     },
     {
       "rank": 85,
-      "model": "qwq-32b",
-      "score": 1366,
-      "organization": "59◄─►101",
+      "model": "Stepfunstep-3",
+      "score": 1370,
+      "organization": "29◄─►109",
       "votes": 0
     },
     {
       "rank": 86,
-      "model": "o1-mini",
-      "score": 1365,
-      "organization": "71◄─►100",
+      "model": "qwen2.5-max",
+      "score": 1369,
+      "organization": "63◄─►103",
       "votes": 0
     },
     {
       "rank": 87,
-      "model": "Minimaxminimax-m2",
-      "score": 1364,
-      "organization": "35◄─►111",
+      "model": "glm-4.5v",
+      "score": 1366,
+      "organization": "35◄─►113",
       "votes": 0
     },
     {
       "rank": 88,
-      "model": "glm-4.5v",
-      "score": 1363,
-      "organization": "37◄─►111",
+      "model": "qwq-32b",
+      "score": 1365,
+      "organization": "62◄─►104",
       "votes": 0
     },
     {
       "rank": 89,
-      "model": "Anthropicclaude-3-7-sonnet-20250219",
-      "score": 1361,
-      "organization": "72◄─►101",
+      "model": "o1-mini",
+      "score": 1364,
+      "organization": "72◄─►103",
       "votes": 0
     },
     {
       "rank": 90,
-      "model": "qwen3-30b-a3b",
-      "score": 1360,
-      "organization": "69◄─►105",
+      "model": "Minimaxminimax-m2",
+      "score": 1364,
+      "organization": "37◄─►114",
       "votes": 0
     },
     {
       "rank": 91,
-      "model": "ling-flash-2.0",
-      "score": 1360,
-      "organization": "50◄─►110",
+      "model": "Anthropicclaude-3-7-sonnet-20250219",
+      "score": 1361,
+      "organization": "72◄─►104",
       "votes": 0
     },
     {
       "rank": 92,
-      "model": "gemini-2.0-flash-001",
-      "score": 1358,
-      "organization": "73◄─►103",
+      "model": "qwen3-30b-a3b",
+      "score": 1360,
+      "organization": "68◄─►106",
       "votes": 0
     },
     {
       "rank": 93,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "score": 1358,
-      "organization": "73◄─►105",
+      "model": "ling-flash-2.0",
+      "score": 1359,
+      "organization": "53◄─►113",
       "votes": 0
     },
     {
       "rank": 94,
-      "model": "gpt-5-nano-high",
-      "score": 1354,
-      "organization": "57◄─►113",
+      "model": "gemini-2.0-flash-001",
+      "score": 1358,
+      "organization": "73◄─►106",
       "votes": 0
     },
     {
       "rank": 95,
-      "model": "mistral-medium-2505",
-      "score": 1353,
-      "organization": "75◄─►105",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "score": 1357,
+      "organization": "73◄─►108",
       "votes": 0
     },
     {
       "rank": 96,
-      "model": "ring-flash-2.0",
-      "score": 1352,
-      "organization": "58◄─►114",
+      "model": "gpt-5-nano-high",
+      "score": 1356,
+      "organization": "55◄─►114",
       "votes": 0
     },
     {
       "rank": 97,
-      "model": "Tencenthunyuan-turbos-20250416",
-      "score": 1352,
-      "organization": "72◄─►110",
+      "model": "mistral-medium-2505",
+      "score": 1354,
+      "organization": "73◄─►108",
       "votes": 0
     },
     {
       "rank": 98,
-      "model": "Anthropicclaude-3-5-sonnet-20241022",
-      "score": 1350,
-      "organization": "84◄─►105",
+      "model": "ring-flash-2.0",
+      "score": 1354,
+      "organization": "59◄─►116",
       "votes": 0
     },
     {
       "rank": 99,
-      "model": "mistral-small-2506",
-      "score": 1346,
-      "organization": "77◄─►112",
+      "model": "Tencenthunyuan-turbos-20250416",
+      "score": 1352,
+      "organization": "72◄─►113",
       "votes": 0
     },
     {
       "rank": 100,
       "model": "nova-2-lite",
-      "score": 1346,
-      "organization": "67◄─►125",
+      "score": 1352,
+      "organization": "61◄─►117",
       "votes": 0
     },
     {
       "rank": 101,
-      "model": "Anthropicclaude-3-5-sonnet-20240620",
-      "score": 1343,
-      "organization": "86◄─►107",
+      "model": "Anthropicclaude-3-5-sonnet-20241022",
+      "score": 1349,
+      "organization": "83◄─►108",
       "votes": 0
     },
     {
       "rank": 102,
-      "model": "gemini-1.5-pro-002",
-      "score": 1340,
-      "organization": "87◄─►110",
+      "model": "mistral-small-2506",
+      "score": 1347,
+      "organization": "77◄─►114",
       "votes": 0
     },
     {
       "rank": 103,
-      "model": "gpt-oss-20b",
-      "score": 1338,
-      "organization": "78◄─►125",
+      "model": "Anthropicclaude-3-5-sonnet-20240620",
+      "score": 1342,
+      "organization": "86◄─►110",
       "votes": 0
     },
     {
       "rank": 104,
-      "model": "gemini-2.0-flash-lite-preview-02-05",
-      "score": 1329,
-      "organization": "92◄─►122",
+      "model": "gemini-1.5-pro-002",
+      "score": 1340,
+      "organization": "89◄─►113",
       "votes": 0
     },
     {
       "rank": 105,
-      "model": "qwen-plus-0125",
-      "score": 1328,
-      "organization": "87◄─►131",
+      "model": "gpt-oss-20b",
+      "score": 1338,
+      "organization": "78◄─►128",
       "votes": 0
     },
     {
       "rank": 106,
-      "model": "gemma-3-27b-it",
-      "score": 1326,
-      "organization": "94◄─►125",
+      "model": "gemini-2.0-flash-lite-preview-02-05",
+      "score": 1328,
+      "organization": "94◄─►124",
       "votes": 0
     },
     {
       "rank": 107,
-      "model": "Metallama-4-maverick-17b-128e-instruct",
-      "score": 1325,
-      "organization": "94◄─►125",
+      "model": "qwen-plus-0125",
+      "score": 1328,
+      "organization": "89◄─►134",
       "votes": 0
     },
     {
       "rank": 108,
-      "model": "gemma-3-12b-it",
-      "score": 1322,
-      "organization": "86◄─►144",
+      "model": "olmo-3-32b-think",
+      "score": 1326,
+      "organization": "72◄─►163",
       "votes": 0
     },
     {
       "rank": 109,
-      "model": "Metallama-3.1-405b-instruct-fp8",
-      "score": 1321,
-      "organization": "100◄─►125",
+      "model": "gemma-3-27b-it",
+      "score": 1325,
+      "organization": "96◄─►128",
       "votes": 0
     },
     {
       "rank": 110,
-      "model": "Metallama-3.1-405b-instruct-bf16",
-      "score": 1317,
-      "organization": "102◄─►131",
+      "model": "Metallama-4-maverick-17b-128e-instruct",
+      "score": 1324,
+      "organization": "96◄─►128",
       "votes": 0
     },
     {
       "rank": 111,
-      "model": "Metallama-4-scout-17b-16e-instruct",
-      "score": 1317,
-      "organization": "99◄─►137",
+      "model": "gemma-3-12b-it",
+      "score": 1322,
+      "organization": "86◄─►147",
       "votes": 0
     },
     {
       "rank": 112,
-      "model": "Stepfunstep-2-16k-exp-202412",
-      "score": 1316,
-      "organization": "93◄─►144",
+      "model": "Metallama-3.1-405b-instruct-fp8",
+      "score": 1320,
+      "organization": "103◄─►128",
       "votes": 0
     },
     {
       "rank": 113,
-      "model": "deepseek-v3",
-      "score": 1316,
-      "organization": "101◄─►136",
+      "model": "Metallama-3.1-405b-instruct-bf16",
+      "score": 1317,
+      "organization": "105◄─►134",
       "votes": 0
     },
     {
       "rank": 114,
-      "model": "athene-v2-chat",
-      "score": 1315,
-      "organization": "102◄─►133",
+      "model": "Metallama-4-scout-17b-16e-instruct",
+      "score": 1316,
+      "organization": "103◄─►140",
       "votes": 0
     },
     {
       "rank": 115,
-      "model": "Coherecommand-a-03-2025",
-      "score": 1315,
-      "organization": "102◄─►136",
+      "model": "Stepfunstep-2-16k-exp-202412",
+      "score": 1316,
+      "organization": "95◄─►147",
       "votes": 0
     },
     {
       "rank": 116,
-      "model": "Anthropicclaude-3-opus-20240229",
-      "score": 1313,
-      "organization": "103◄─►133",
+      "model": "deepseek-v3",
+      "score": 1315,
+      "organization": "104◄─►139",
       "votes": 0
     },
     {
       "rank": 117,
-      "model": "gpt-4o-2024-08-06",
-      "score": 1310,
-      "organization": "103◄─►137",
+      "model": "athene-v2-chat",
+      "score": 1315,
+      "organization": "105◄─►137",
       "votes": 0
     },
     {
       "rank": 118,
-      "model": "01.AIyi-lightning",
-      "score": 1310,
-      "organization": "102◄─►139",
+      "model": "Coherecommand-a-03-2025",
+      "score": 1314,
+      "organization": "105◄─►140",
       "votes": 0
     },
     {
       "rank": 119,
-      "model": "qwen2.5-plus-1127",
-      "score": 1309,
-      "organization": "102◄─►144",
+      "model": "Anthropicclaude-3-opus-20240229",
+      "score": 1312,
+      "organization": "106◄─►136",
       "votes": 0
     },
     {
       "rank": 120,
-      "model": "Stepfunstep-1o-turbo-202506",
-      "score": 1308,
-      "organization": "97◄─►151",
+      "model": "gpt-4o-2024-08-06",
+      "score": 1310,
+      "organization": "106◄─►140",
       "votes": 0
     },
     {
       "rank": 121,
-      "model": "gpt-4o-2024-05-13",
-      "score": 1307,
-      "organization": "108◄─►139",
+      "model": "01.AIyi-lightning",
+      "score": 1310,
+      "organization": "105◄─►142",
       "votes": 0
     },
     {
       "rank": 122,
-      "model": "gpt-4-1106-preview",
-      "score": 1306,
-      "organization": "108◄─►142",
+      "model": "qwen2.5-plus-1127",
+      "score": 1309,
+      "organization": "105◄─►147",
       "votes": 0
     },
     {
       "rank": 123,
-      "model": "gemini-advanced-0514",
-      "score": 1304,
-      "organization": "108◄─►144",
+      "model": "Stepfunstep-1o-turbo-202506",
+      "score": 1308,
+      "organization": "100◄─►154",
       "votes": 0
     },
     {
       "rank": 124,
-      "model": "Tencenthunyuan-turbos-20250226",
-      "score": 1304,
-      "organization": "94◄─►163",
+      "model": "gpt-4o-2024-05-13",
+      "score": 1307,
+      "organization": "110◄─►142",
       "votes": 0
     },
     {
       "rank": 125,
-      "model": "gpt-4-0125-preview",
-      "score": 1302,
-      "organization": "110◄─►146",
+      "model": "gpt-4-1106-preview",
+      "score": 1305,
+      "organization": "110◄─►145",
       "votes": 0
     },
     {
       "rank": 126,
-      "model": "glm-4-plus-0111",
-      "score": 1300,
-      "organization": "102◄─►160",
+      "model": "gemini-advanced-0514",
+      "score": 1304,
+      "organization": "110◄─►147",
       "votes": 0
     },
     {
       "rank": 127,
-      "model": "qwen2.5-72b-instruct",
-      "score": 1300,
-      "organization": "110◄─►149",
+      "model": "Tencenthunyuan-turbos-20250226",
+      "score": 1304,
+      "organization": "96◄─►166",
       "votes": 0
     },
     {
       "rank": 128,
-      "model": "Metallama-3.3-70b-instruct",
-      "score": 1299,
-      "organization": "112◄─►150",
+      "model": "gpt-4-0125-preview",
+      "score": 1301,
+      "organization": "112◄─►149",
       "votes": 0
     },
     {
       "rank": 129,
-      "model": "gpt-4-turbo-2024-04-09",
-      "score": 1299,
-      "organization": "112◄─►150",
+      "model": "glm-4-plus-0111",
+      "score": 1300,
+      "organization": "105◄─►163",
       "votes": 0
     },
     {
       "rank": 130,
-      "model": "gemini-1.5-pro-001",
-      "score": 1298,
-      "organization": "114◄─►150",
+      "model": "qwen2.5-72b-instruct",
+      "score": 1299,
+      "organization": "112◄─►152",
       "votes": 0
     },
     {
       "rank": 131,
-      "model": "Tencenthunyuan-large-2025-02-10",
-      "score": 1296,
-      "organization": "102◄─►163",
+      "model": "Metallama-3.3-70b-instruct",
+      "score": 1299,
+      "organization": "113◄─►153",
       "votes": 0
     },
     {
       "rank": 132,
-      "model": "deepseek-v2.5-1210",
-      "score": 1296,
-      "organization": "108◄─►160",
+      "model": "gpt-4-turbo-2024-04-09",
+      "score": 1298,
+      "organization": "114◄─►152",
       "votes": 0
     },
     {
       "rank": 133,
-      "model": "grok-2-2024-08-13",
-      "score": 1296,
-      "organization": "116◄─►150",
+      "model": "gemini-1.5-pro-001",
+      "score": 1297,
+      "organization": "115◄─►153",
       "votes": 0
     },
     {
       "rank": 134,
-      "model": "qwen-max-0919",
-      "score": 1294,
-      "organization": "112◄─►156",
+      "model": "Tencenthunyuan-large-2025-02-10",
+      "score": 1296,
+      "organization": "105◄─►166",
       "votes": 0
     },
     {
       "rank": 135,
-      "model": "Tencenthunyuan-standard-2025-02-10",
-      "score": 1294,
-      "organization": "103◄─►164",
+      "model": "deepseek-v2.5-1210",
+      "score": 1296,
+      "organization": "110◄─►163",
       "votes": 0
     },
     {
       "rank": 136,
-      "model": "Tencenthunyuan-large-vision",
-      "score": 1291,
-      "organization": "102◄─►168",
+      "model": "grok-2-2024-08-13",
+      "score": 1296,
+      "organization": "118◄─►153",
       "votes": 0
     },
     {
       "rank": 137,
-      "model": "gemini-1.5-flash-002",
-      "score": 1291,
-      "organization": "118◄─►156",
+      "model": "qwen-max-0919",
+      "score": 1294,
+      "organization": "114◄─►159",
       "votes": 0
     },
     {
       "rank": 138,
-      "model": "deepseek-v2.5",
-      "score": 1291,
-      "organization": "118◄─►160",
+      "model": "Tencenthunyuan-standard-2025-02-10",
+      "score": 1293,
+      "organization": "106◄─►167",
       "votes": 0
     },
     {
       "rank": 139,
-      "model": "mistral-large-2407",
+      "model": "gemini-1.5-flash-002",
       "score": 1291,
-      "organization": "119◄─►156",
+      "organization": "120◄─►159",
       "votes": 0
     },
     {
       "rank": 140,
-      "model": "glm-4-plus",
+      "model": "mistral-large-2407",
       "score": 1290,
-      "organization": "118◄─►160",
+      "organization": "121◄─►159",
       "votes": 0
     },
     {
       "rank": 141,
-      "model": "magistral-medium-2506",
-      "score": 1287,
-      "organization": "108◄─►170",
+      "model": "deepseek-v2.5",
+      "score": 1290,
+      "organization": "120◄─►163",
       "votes": 0
     },
     {
       "rank": 142,
-      "model": "Anthropicclaude-3-5-haiku-20241022",
-      "score": 1286,
-      "organization": "124◄─►160",
+      "model": "glm-4-plus",
+      "score": 1290,
+      "organization": "120◄─►163",
       "votes": 0
     },
     {
       "rank": 143,
-      "model": "mistral-large-2411",
-      "score": 1284,
-      "organization": "124◄─►163",
+      "model": "Tencenthunyuan-large-vision",
+      "score": 1288,
+      "organization": "106◄─►174",
       "votes": 0
     },
     {
       "rank": 144,
-      "model": "gpt-4-0314",
-      "score": 1283,
-      "organization": "124◄─►163",
+      "model": "magistral-medium-2506",
+      "score": 1287,
+      "organization": "110◄─►171",
       "votes": 0
     },
     {
       "rank": 145,
-      "model": "mistral-small-3.1-24b-instruct-2503",
-      "score": 1283,
-      "organization": "123◄─►164",
+      "model": "Anthropicclaude-3-5-haiku-20241022",
+      "score": 1286,
+      "organization": "126◄─►163",
       "votes": 0
     },
     {
       "rank": 146,
-      "model": "Tencenthunyuan-turbo-0110",
-      "score": 1282,
-      "organization": "108◄─►174",
+      "model": "mistral-large-2411",
+      "score": 1284,
+      "organization": "126◄─►166",
       "votes": 0
     },
     {
       "rank": 147,
-      "model": "Nvidiallama-3.1-nemotron-70b-instruct",
-      "score": 1281,
-      "organization": "119◄─►166",
+      "model": "gpt-4-0314",
+      "score": 1283,
+      "organization": "126◄─►166",
       "votes": 0
     },
     {
       "rank": 148,
-      "model": "gpt-4o-mini-2024-07-18",
-      "score": 1279,
-      "organization": "130◄─►163",
+      "model": "mistral-small-3.1-24b-instruct-2503",
+      "score": 1282,
+      "organization": "125◄─►167",
       "votes": 0
     },
     {
       "rank": 149,
-      "model": "gpt-4.1-nano-2025-04-14",
-      "score": 1279,
-      "organization": "116◄─►173",
+      "model": "Tencenthunyuan-turbo-0110",
+      "score": 1282,
+      "organization": "110◄─►177",
       "votes": 0
     },
     {
       "rank": 150,
-      "model": "grok-2-mini-2024-08-13",
-      "score": 1275,
-      "organization": "133◄─►164",
+      "model": "Nvidiallama-3.1-nemotron-70b-instruct",
+      "score": 1281,
+      "organization": "121◄─►170",
       "votes": 0
     },
     {
       "rank": 151,
-      "model": "qwen2-72b-instruct",
-      "score": 1275,
-      "organization": "130◄─►165",
+      "model": "gpt-4o-mini-2024-07-18",
+      "score": 1279,
+      "organization": "132◄─►166",
       "votes": 0
     },
     {
       "rank": 152,
-      "model": "gpt-4-0613",
-      "score": 1274,
-      "organization": "133◄─►165",
+      "model": "gpt-4.1-nano-2025-04-14",
+      "score": 1278,
+      "organization": "118◄─►176",
       "votes": 0
     },
     {
       "rank": 153,
-      "model": "qwen2.5-coder-32b-instruct",
-      "score": 1273,
-      "organization": "125◄─►174",
+      "model": "grok-2-mini-2024-08-13",
+      "score": 1275,
+      "organization": "135◄─►167",
       "votes": 0
     },
     {
       "rank": 154,
-      "model": "Nvidiallama-3.1-nemotron-51b-instruct",
-      "score": 1272,
-      "organization": "123◄─►175",
+      "model": "qwen2-72b-instruct",
+      "score": 1275,
+      "organization": "132◄─►168",
       "votes": 0
     },
     {
       "rank": 155,
-      "model": "amazon-nova-pro-v1.0",
-      "score": 1272,
-      "organization": "133◄─►168",
+      "model": "gpt-4-0613",
+      "score": 1274,
+      "organization": "135◄─►167",
       "votes": 0
     },
     {
       "rank": 156,
-      "model": "deepseek-coder-v2",
+      "model": "qwen2.5-coder-32b-instruct",
       "score": 1272,
-      "organization": "130◄─►172",
+      "organization": "128◄─►177",
       "votes": 0
     },
     {
       "rank": 157,
-      "model": "Metallama-3.1-70b-instruct",
+      "model": "Nvidiallama-3.1-nemotron-51b-instruct",
       "score": 1272,
-      "organization": "138◄─►166",
+      "organization": "125◄─►178",
       "votes": 0
     },
     {
       "rank": 158,
-      "model": "gemma-3n-e4b-it",
-      "score": 1270,
-      "organization": "130◄─►173",
+      "model": "amazon-nova-pro-v1.0",
+      "score": 1272,
+      "organization": "135◄─►171",
       "votes": 0
     },
     {
       "rank": 159,
-      "model": "Azurephi-4",
-      "score": 1268,
-      "organization": "138◄─►173",
+      "model": "deepseek-coder-v2",
+      "score": 1271,
+      "organization": "132◄─►175",
       "votes": 0
     },
     {
       "rank": 160,
-      "model": "llama-3.1-tulu-3-70b",
-      "score": 1264,
-      "organization": "129◄─►179",
+      "model": "Metallama-3.1-70b-instruct",
+      "score": 1271,
+      "organization": "141◄─►170",
       "votes": 0
     },
     {
       "rank": 161,
-      "model": "mistral-small-24b-instruct-2501",
-      "score": 1264,
-      "organization": "138◄─►174",
+      "model": "gemma-3n-e4b-it",
+      "score": 1270,
+      "organization": "132◄─►176",
       "votes": 0
     },
     {
       "rank": 162,
-      "model": "athene-70b-0725",
-      "score": 1261,
-      "organization": "143◄─►174",
+      "model": "Azurephi-4",
+      "score": 1267,
+      "organization": "141◄─►176",
       "votes": 0
     },
     {
       "rank": 163,
-      "model": "Metallama-3-70b-instruct",
-      "score": 1259,
-      "organization": "148◄─►174",
+      "model": "llama-3.1-tulu-3-70b",
+      "score": 1264,
+      "organization": "131◄─►182",
       "votes": 0
     },
     {
       "rank": 164,
-      "model": "gemma-3-4b-it",
-      "score": 1258,
-      "organization": "130◄─►187",
+      "model": "mistral-small-24b-instruct-2501",
+      "score": 1264,
+      "organization": "141◄─►177",
       "votes": 0
     },
     {
       "rank": 165,
-      "model": "gemini-1.5-flash-001",
-      "score": 1257,
-      "organization": "150◄─►175",
+      "model": "athene-70b-0725",
+      "score": 1261,
+      "organization": "146◄─►177",
       "votes": 0
     },
     {
       "rank": 166,
-      "model": "Nvidianemotron-4-340b-instruct",
-      "score": 1255,
-      "organization": "146◄─►178",
+      "model": "Metallama-3-70b-instruct",
+      "score": 1258,
+      "organization": "151◄─►177",
       "votes": 0
     },
     {
       "rank": 167,
-      "model": "Anthropicclaude-3-sonnet-20240229",
-      "score": 1255,
-      "organization": "152◄─►175",
+      "model": "gemma-3-4b-it",
+      "score": 1257,
+      "organization": "132◄─►190",
       "votes": 0
     },
     {
       "rank": 168,
-      "model": "Tencenthunyuan-standard-256k",
-      "score": 1254,
-      "organization": "133◄─►189",
+      "model": "gemini-1.5-flash-001",
+      "score": 1257,
+      "organization": "151◄─►178",
       "votes": 0
     },
     {
       "rank": 169,
-      "model": "glm-4-0520",
-      "score": 1248,
-      "organization": "150◄─►186",
+      "model": "Nvidianemotron-4-340b-instruct",
+      "score": 1255,
+      "organization": "150◄─►181",
       "votes": 0
     },
     {
       "rank": 170,
-      "model": "reka-core-20240904",
-      "score": 1248,
-      "organization": "153◄─►185",
+      "model": "Anthropicclaude-3-sonnet-20240229",
+      "score": 1255,
+      "organization": "155◄─►178",
       "votes": 0
     },
     {
       "rank": 171,
-      "model": "amazon-nova-lite-v1.0",
-      "score": 1248,
-      "organization": "154◄─►183",
+      "model": "Tencenthunyuan-standard-256k",
+      "score": 1254,
+      "organization": "135◄─►192",
       "votes": 0
     },
     {
       "rank": 172,
-      "model": "jamba-1.5-large",
-      "score": 1247,
-      "organization": "152◄─►187",
+      "model": "glm-4-0520",
+      "score": 1248,
+      "organization": "153◄─►189",
       "votes": 0
     },
     {
       "rank": 173,
-      "model": "mistral-large-2402",
-      "score": 1245,
-      "organization": "157◄─►183",
+      "model": "reka-core-20240904",
+      "score": 1248,
+      "organization": "155◄─►188",
       "votes": 0
     },
     {
       "rank": 174,
-      "model": "gemma-2-27b-it",
-      "score": 1244,
-      "organization": "162◄─►182",
+      "model": "amazon-nova-lite-v1.0",
+      "score": 1247,
+      "organization": "157◄─►186",
       "votes": 0
     },
     {
       "rank": 175,
-      "model": "reka-flash-20240904",
-      "score": 1233,
-      "organization": "165◄─►196",
+      "model": "jamba-1.5-large",
+      "score": 1247,
+      "organization": "155◄─►190",
       "votes": 0
     },
     {
       "rank": 176,
-      "model": "olmo-2-0325-32b-instruct",
-      "score": 1232,
-      "organization": "153◄─►210",
+      "model": "mistral-large-2402",
+      "score": 1245,
+      "organization": "160◄─►186",
       "votes": 0
     },
     {
       "rank": 177,
-      "model": "Coherec4ai-aya-expanse-32b",
-      "score": 1232,
-      "organization": "166◄─►193",
+      "model": "gemma-2-27b-it",
+      "score": 1244,
+      "organization": "165◄─►184",
       "votes": 0
     },
     {
       "rank": 178,
-      "model": "Coherecommand-r-plus-08-2024",
-      "score": 1232,
-      "organization": "165◄─►199",
+      "model": "reka-flash-20240904",
+      "score": 1233,
+      "organization": "168◄─►200",
       "votes": 0
     },
     {
       "rank": 179,
-      "model": "Anthropicclaude-3-haiku-20240307",
+      "model": "Coherec4ai-aya-expanse-32b",
       "score": 1232,
-      "organization": "167◄─►190",
+      "organization": "169◄─►196",
       "votes": 0
     },
     {
       "rank": 180,
-      "model": "gemini-1.5-flash-8b-001",
-      "score": 1230,
-      "organization": "167◄─►193",
+      "model": "Anthropicclaude-3-haiku-20240307",
+      "score": 1231,
+      "organization": "170◄─►193",
       "votes": 0
     },
     {
       "rank": 181,
-      "model": "mixtral-8x22b-instruct-v0.1",
-      "score": 1229,
-      "organization": "168◄─►195",
+      "model": "Coherecommand-r-plus-08-2024",
+      "score": 1231,
+      "organization": "168◄─►202",
       "votes": 0
     },
     {
       "rank": 182,
-      "model": "amazon-nova-micro-v1.0",
-      "score": 1228,
-      "organization": "167◄─►199",
+      "model": "olmo-2-0325-32b-instruct",
+      "score": 1231,
+      "organization": "156◄─►213",
       "votes": 0
     },
     {
       "rank": 183,
-      "model": "qwen1.5-110b-chat",
-      "score": 1223,
-      "organization": "171◄─►204",
+      "model": "gemini-1.5-flash-8b-001",
+      "score": 1230,
+      "organization": "171◄─►196",
       "votes": 0
     },
     {
       "rank": 184,
-      "model": "mistral-medium",
-      "score": 1222,
-      "organization": "172◄─►204",
+      "model": "mixtral-8x22b-instruct-v0.1",
+      "score": 1229,
+      "organization": "171◄─►198",
       "votes": 0
     },
     {
       "rank": 185,
-      "model": "qwq-32b-preview",
-      "score": 1221,
-      "organization": "165◄─►214",
+      "model": "amazon-nova-micro-v1.0",
+      "score": 1228,
+      "organization": "170◄─►202",
       "votes": 0
     },
     {
       "rank": 186,
-      "model": "Azurephi-3-medium-4k-instruct",
-      "score": 1218,
-      "organization": "174◄─►206",
+      "model": "qwen1.5-110b-chat",
+      "score": 1223,
+      "organization": "174◄─►207",
       "votes": 0
     },
     {
       "rank": 187,
-      "model": "gemma-2-9b-it",
-      "score": 1217,
-      "organization": "176◄─►205",
+      "model": "mistral-medium",
+      "score": 1222,
+      "organization": "175◄─►207",
       "votes": 0
     },
     {
       "rank": 188,
-      "model": "ministral-8b-2410",
-      "score": 1216,
-      "organization": "170◄─►214",
+      "model": "qwq-32b-preview",
+      "score": 1220,
+      "organization": "168◄─►217",
       "votes": 0
     },
     {
       "rank": 189,
-      "model": "01.AIyi-1.5-34b-chat",
-      "score": 1215,
-      "organization": "175◄─►210",
+      "model": "Azurephi-3-medium-4k-instruct",
+      "score": 1217,
+      "organization": "177◄─►209",
       "votes": 0
     },
     {
       "rank": 190,
-      "model": "Coherecommand-r-plus",
-      "score": 1213,
-      "organization": "178◄─►210",
+      "model": "gemma-2-9b-it",
+      "score": 1217,
+      "organization": "179◄─►208",
       "votes": 0
     },
     {
       "rank": 191,
-      "model": "reka-flash-21b-20240226-online",
-      "score": 1213,
-      "organization": "174◄─►214",
+      "model": "ministral-8b-2410",
+      "score": 1215,
+      "organization": "173◄─►217",
       "votes": 0
     },
     {
       "rank": 192,
-      "model": "llama-3.1-tulu-3-8b",
-      "score": 1211,
-      "organization": "170◄─►215",
+      "model": "01.AIyi-1.5-34b-chat",
+      "score": 1215,
+      "organization": "178◄─►213",
       "votes": 0
     },
     {
       "rank": 193,
-      "model": "InternLMinternlm2_5-20b-chat",
-      "score": 1210,
-      "organization": "176◄─►214",
+      "model": "Coherecommand-r-plus",
+      "score": 1213,
+      "organization": "181◄─►213",
       "votes": 0
     },
     {
       "rank": 194,
-      "model": "qwen1.5-72b-chat",
-      "score": 1210,
-      "organization": "180◄─►214",
+      "model": "reka-flash-21b-20240226-online",
+      "score": 1212,
+      "organization": "177◄─►217",
       "votes": 0
     },
     {
       "rank": 195,
-      "model": "Coherecommand-r-08-2024",
-      "score": 1206,
-      "organization": "180◄─►214",
+      "model": "llama-3.1-tulu-3-8b",
+      "score": 1211,
+      "organization": "173◄─►218",
       "votes": 0
     },
     {
       "rank": 196,
-      "model": "gemma-2-9b-it-simpo",
-      "score": 1204,
-      "organization": "180◄─►214",
+      "model": "InternLMinternlm2_5-20b-chat",
+      "score": 1210,
+      "organization": "179◄─►217",
       "votes": 0
     },
     {
       "rank": 197,
-      "model": "qwen1.5-32b-chat",
-      "score": 1202,
-      "organization": "182◄─►214",
+      "model": "qwen1.5-72b-chat",
+      "score": 1209,
+      "organization": "183◄─►216",
       "votes": 0
     },
     {
       "rank": 198,
-      "model": "gpt-3.5-turbo-1106",
-      "score": 1202,
-      "organization": "182◄─►215",
+      "model": "Coherecommand-r-08-2024",
+      "score": 1206,
+      "organization": "183◄─►217",
       "votes": 0
     },
     {
       "rank": 199,
-      "model": "Coherec4ai-aya-expanse-8b",
-      "score": 1201,
-      "organization": "182◄─►215",
+      "model": "gemma-2-9b-it-simpo",
+      "score": 1204,
+      "organization": "182◄─►217",
       "votes": 0
     },
     {
       "rank": 200,
-      "model": "reka-flash-21b-20240226",
-      "score": 1200,
-      "organization": "184◄─►214",
+      "model": "qwen1.5-32b-chat",
+      "score": 1202,
+      "organization": "185◄─►217",
       "votes": 0
     },
     {
       "rank": 201,
-      "model": "gpt-3.5-turbo-0125",
-      "score": 1199,
-      "organization": "186◄─►214",
-      "votes": 0
-    },
-    {
-      "rank": 202,
-      "model": "granite-3.1-2b-instruct",
-      "score": 1198,
-      "organization": "176◄─►223",
-      "votes": 0
-    },
-    {
-      "rank": 203,
-      "model": "HuggingFacezephyr-orpo-141b-A35b-v0.1",
-      "score": 1198,
-      "organization": "179◄─►221",
-      "votes": 0
-    },
-    {
-      "rank": 204,
-      "model": "granite-3.0-8b-instruct",
-      "score": 1196,
-      "organization": "182◄─►221",
-      "votes": 0
-    },
-    {
-      "rank": 205,
-      "model": "gemini-pro",
-      "score": 1196,
-      "organization": "182◄─►221",
-      "votes": 0
-    },
-    {
-      "rank": 206,
-      "model": "dbrx-instruct-preview",
-      "score": 1196,
-      "organization": "186◄─►215",
-      "votes": 0
-    },
-    {
-      "rank": 207,
-      "model": "Azurephi-3-mini-4k-instruct-june-2024",
-      "score": 1195,
+      "model": "gpt-3.5-turbo-1106",
+      "score": 1202,
       "organization": "185◄─►218",
       "votes": 0
     },
     {
-      "rank": 208,
-      "model": "Azurephi-3-small-8k-instruct",
-      "score": 1195,
-      "organization": "186◄─►217",
+      "rank": 202,
+      "model": "Coherec4ai-aya-expanse-8b",
+      "score": 1200,
+      "organization": "185◄─►218",
       "votes": 0
     },
     {
-      "rank": 209,
-      "model": "granite-3.1-8b-instruct",
-      "score": 1194,
-      "organization": "178◄─►227",
+      "rank": 203,
+      "model": "reka-flash-21b-20240226",
+      "score": 1200,
+      "organization": "187◄─►217",
       "votes": 0
     },
     {
-      "rank": 210,
-      "model": "Metallama-3.1-8b-instruct",
-      "score": 1194,
-      "organization": "189◄─►215",
-      "votes": 0
-    },
-    {
-      "rank": 211,
-      "model": "Metallama-3-8b-instruct",
-      "score": 1194,
-      "organization": "189◄─►215",
-      "votes": 0
-    },
-    {
-      "rank": 212,
-      "model": "mixtral-8x7b-instruct-v0.1",
-      "score": 1192,
+      "rank": 204,
+      "model": "gpt-3.5-turbo-0125",
+      "score": 1199,
       "organization": "189◄─►217",
       "votes": 0
     },
     {
+      "rank": 205,
+      "model": "granite-3.1-2b-instruct",
+      "score": 1198,
+      "organization": "179◄─►226",
+      "votes": 0
+    },
+    {
+      "rank": 206,
+      "model": "HuggingFacezephyr-orpo-141b-A35b-v0.1",
+      "score": 1197,
+      "organization": "182◄─►224",
+      "votes": 0
+    },
+    {
+      "rank": 207,
+      "model": "gemini-pro",
+      "score": 1196,
+      "organization": "185◄─►224",
+      "votes": 0
+    },
+    {
+      "rank": 208,
+      "model": "granite-3.0-8b-instruct",
+      "score": 1196,
+      "organization": "185◄─►224",
+      "votes": 0
+    },
+    {
+      "rank": 209,
+      "model": "dbrx-instruct-preview",
+      "score": 1196,
+      "organization": "189◄─►219",
+      "votes": 0
+    },
+    {
+      "rank": 210,
+      "model": "Azurephi-3-mini-4k-instruct-june-2024",
+      "score": 1195,
+      "organization": "188◄─►221",
+      "votes": 0
+    },
+    {
+      "rank": 211,
+      "model": "Azurephi-3-small-8k-instruct",
+      "score": 1194,
+      "organization": "189◄─►220",
+      "votes": 0
+    },
+    {
+      "rank": 212,
+      "model": "granite-3.1-8b-instruct",
+      "score": 1194,
+      "organization": "181◄─►230",
+      "votes": 0
+    },
+    {
       "rank": 213,
-      "model": "gemini-pro-dev-api",
-      "score": 1192,
-      "organization": "186◄─►220",
+      "model": "Metallama-3-8b-instruct",
+      "score": 1193,
+      "organization": "192◄─►218",
       "votes": 0
     },
     {
       "rank": 214,
-      "model": "jamba-1.5-mini",
-      "score": 1188,
-      "organization": "189◄─►223",
+      "model": "Metallama-3.1-8b-instruct",
+      "score": 1193,
+      "organization": "192◄─►218",
       "votes": 0
     },
     {
       "rank": 215,
-      "model": "Coherecommand-r",
-      "score": 1176,
-      "organization": "205◄─►227",
+      "model": "mixtral-8x7b-instruct-v0.1",
+      "score": 1192,
+      "organization": "192◄─►220",
       "votes": 0
     },
     {
       "rank": 216,
-      "model": "granite-3.0-2b-instruct",
-      "score": 1169,
-      "organization": "199◄─►232",
+      "model": "gemini-pro-dev-api",
+      "score": 1192,
+      "organization": "189◄─►223",
       "votes": 0
     },
     {
       "rank": 217,
-      "model": "qwen1.5-14b-chat",
-      "score": 1168,
-      "organization": "208◄─►231",
+      "model": "jamba-1.5-mini",
+      "score": 1188,
+      "organization": "192◄─►226",
       "votes": 0
     },
     {
       "rank": 218,
-      "model": "Metallama-3.2-3b-instruct",
-      "score": 1167,
-      "organization": "207◄─►232",
+      "model": "Coherecommand-r",
+      "score": 1176,
+      "organization": "208◄─►230",
       "votes": 0
     },
     {
       "rank": 219,
-      "model": "Snowflakesnowflake-arctic-instruct",
-      "score": 1163,
-      "organization": "212◄─►232",
+      "model": "granite-3.0-2b-instruct",
+      "score": 1169,
+      "organization": "202◄─►235",
       "votes": 0
     },
     {
       "rank": 220,
-      "model": "gemma-2-2b-it",
-      "score": 1162,
-      "organization": "214◄─►231",
+      "model": "qwen1.5-14b-chat",
+      "score": 1168,
+      "organization": "211◄─►234",
       "votes": 0
     },
     {
       "rank": 221,
-      "model": "starling-lm-7b-beta",
-      "score": 1160,
-      "organization": "212◄─►233",
+      "model": "Metallama-3.2-3b-instruct",
+      "score": 1166,
+      "organization": "210◄─►235",
       "votes": 0
     },
     {
       "rank": 222,
-      "model": "Azurewizardlm-70b",
-      "score": 1160,
-      "organization": "209◄─►240",
+      "model": "Snowflakesnowflake-arctic-instruct",
+      "score": 1163,
+      "organization": "215◄─►235",
       "votes": 0
     },
     {
       "rank": 223,
-      "model": "OpenChatopenchat-3.5-0106",
-      "score": 1158,
-      "organization": "214◄─►234",
+      "model": "gemma-2-2b-it",
+      "score": 1161,
+      "organization": "217◄─►234",
       "votes": 0
     },
     {
       "rank": 224,
-      "model": "gemma-1.1-7b-it",
-      "score": 1157,
-      "organization": "214◄─►234",
+      "model": "starling-lm-7b-beta",
+      "score": 1160,
+      "organization": "215◄─►237",
       "votes": 0
     },
     {
       "rank": 225,
-      "model": "deepseek-llm-67b-chat",
-      "score": 1156,
-      "organization": "208◄─►240",
+      "model": "Azurewizardlm-70b",
+      "score": 1159,
+      "organization": "212◄─►243",
       "votes": 0
     },
     {
       "rank": 226,
-      "model": "Azurephi-3-mini-4k-instruct",
-      "score": 1153,
-      "organization": "216◄─►240",
+      "model": "OpenChatopenchat-3.5-0106",
+      "score": 1158,
+      "organization": "217◄─►237",
       "votes": 0
     },
     {
       "rank": 227,
-      "model": "01.AIyi-34b-chat",
-      "score": 1153,
-      "organization": "216◄─►240",
+      "model": "gemma-1.1-7b-it",
+      "score": 1157,
+      "organization": "217◄─►237",
       "votes": 0
     },
     {
       "rank": 228,
-      "model": "HuggingFacesmollm2-1.7b-instruct",
-      "score": 1152,
-      "organization": "205◄─►248",
+      "model": "deepseek-llm-67b-chat",
+      "score": 1156,
+      "organization": "211◄─►243",
       "votes": 0
     },
     {
       "rank": 229,
-      "model": "openhermes-2.5-mistral-7b",
-      "score": 1151,
-      "organization": "214◄─►243",
+      "model": "Azurephi-3-mini-4k-instruct",
+      "score": 1153,
+      "organization": "219◄─►243",
       "votes": 0
     },
     {
       "rank": 230,
-      "model": "tulu-2-dpo-70b",
-      "score": 1147,
-      "organization": "216◄─►245",
+      "model": "HuggingFacesmollm2-1.7b-instruct",
+      "score": 1153,
+      "organization": "207◄─►251",
       "votes": 0
     },
     {
       "rank": 231,
-      "model": "Azurephi-3-mini-128k-instruct",
-      "score": 1140,
-      "organization": "218◄─►246",
+      "model": "01.AIyi-34b-chat",
+      "score": 1152,
+      "organization": "219◄─►243",
       "votes": 0
     },
     {
       "rank": 232,
-      "model": "Metallama-2-70b-chat",
-      "score": 1137,
-      "organization": "221◄─►246",
+      "model": "openhermes-2.5-mistral-7b",
+      "score": 1151,
+      "organization": "217◄─►246",
       "votes": 0
     },
     {
       "rank": 233,
-      "model": "mistral-7b-instruct-v0.2",
-      "score": 1130,
-      "organization": "224◄─►248",
+      "model": "tulu-2-dpo-70b",
+      "score": 1147,
+      "organization": "219◄─►248",
       "votes": 0
     },
     {
       "rank": 234,
-      "model": "starling-lm-7b-alpha",
-      "score": 1128,
-      "organization": "224◄─►249",
+      "model": "Azurephi-3-mini-128k-instruct",
+      "score": 1140,
+      "organization": "221◄─►249",
       "votes": 0
     },
     {
       "rank": 235,
-      "model": "Metallama-3.2-1b-instruct",
-      "score": 1126,
-      "organization": "224◄─►250",
+      "model": "Metallama-2-70b-chat",
+      "score": 1137,
+      "organization": "224◄─►249",
       "votes": 0
     },
     {
       "rank": 236,
-      "model": "dolphin-2.2.1-mistral-7b",
-      "score": 1126,
-      "organization": "216◄─►256",
+      "model": "mistral-7b-instruct-v0.2",
+      "score": 1130,
+      "organization": "227◄─►251",
       "votes": 0
     },
     {
       "rank": 237,
-      "model": "qwen-14b-chat",
-      "score": 1125,
-      "organization": "221◄─►252",
+      "model": "starling-lm-7b-alpha",
+      "score": 1128,
+      "organization": "227◄─►253",
       "votes": 0
     },
     {
       "rank": 238,
-      "model": "OpenChatopenchat-3.5",
-      "score": 1124,
-      "organization": "224◄─►250",
+      "model": "Metallama-3.2-1b-instruct",
+      "score": 1126,
+      "organization": "227◄─►253",
       "votes": 0
     },
     {
       "rank": 239,
-      "model": "qwen1.5-7b-chat",
-      "score": 1122,
-      "organization": "224◄─►252",
+      "model": "dolphin-2.2.1-mistral-7b",
+      "score": 1125,
+      "organization": "219◄─►259",
       "votes": 0
     },
     {
       "rank": 240,
-      "model": "vicuna-33b",
-      "score": 1117,
-      "organization": "229◄─►251",
+      "model": "qwen-14b-chat",
+      "score": 1125,
+      "organization": "224◄─►255",
       "votes": 0
     },
     {
       "rank": 241,
-      "model": "Nvidiallama2-70b-steerlm-chat",
-      "score": 1116,
-      "organization": "224◄─►256",
+      "model": "OpenChatopenchat-3.5",
+      "score": 1124,
+      "organization": "227◄─►253",
       "votes": 0
     },
     {
       "rank": 242,
-      "model": "gemma-7b-it",
-      "score": 1116,
-      "organization": "228◄─►255",
+      "model": "qwen1.5-7b-chat",
+      "score": 1122,
+      "organization": "227◄─►255",
       "votes": 0
     },
     {
       "rank": 243,
-      "model": "palm-2",
-      "score": 1113,
-      "organization": "228◄─►256",
+      "model": "vicuna-33b",
+      "score": 1116,
+      "organization": "232◄─►254",
       "votes": 0
     },
     {
       "rank": 244,
-      "model": "Metallama-2-13b-chat",
-      "score": 1111,
-      "organization": "232◄─►255",
+      "model": "Nvidiallama2-70b-steerlm-chat",
+      "score": 1116,
+      "organization": "227◄─►259",
       "votes": 0
     },
     {
       "rank": 245,
-      "model": "solar-10.7b-instruct-v1.0",
-      "score": 1111,
-      "organization": "228◄─►257",
+      "model": "gemma-7b-it",
+      "score": 1116,
+      "organization": "231◄─►258",
       "votes": 0
     },
     {
       "rank": 246,
-      "model": "Metacodellama-34b-instruct",
-      "score": 1109,
-      "organization": "230◄─►256",
+      "model": "palm-2",
+      "score": 1113,
+      "organization": "231◄─►259",
       "votes": 0
     },
     {
       "rank": 247,
-      "model": "gemma-1.1-2b-it",
-      "score": 1105,
-      "organization": "232◄─►256",
+      "model": "Metallama-2-13b-chat",
+      "score": 1111,
+      "organization": "235◄─►258",
       "votes": 0
     },
     {
       "rank": 248,
-      "model": "nous-hermes-2-mixtral-8x7b-dpo",
-      "score": 1096,
-      "organization": "234◄─►259",
+      "model": "solar-10.7b-instruct-v1.0",
+      "score": 1110,
+      "organization": "231◄─►260",
       "votes": 0
     },
     {
       "rank": 249,
-      "model": "mpt-30b-chat",
-      "score": 1095,
-      "organization": "229◄─►261",
+      "model": "Metacodellama-34b-instruct",
+      "score": 1109,
+      "organization": "233◄─►259",
       "votes": 0
     },
     {
       "rank": 250,
-      "model": "Metallama-2-7b-chat",
-      "score": 1088,
-      "organization": "240◄─►259",
+      "model": "gemma-1.1-2b-it",
+      "score": 1105,
+      "organization": "235◄─►259",
       "votes": 0
     },
     {
       "rank": 251,
-      "model": "stripedhyena-nous-7b",
-      "score": 1085,
-      "organization": "237◄─►261",
+      "model": "nous-hermes-2-mixtral-8x7b-dpo",
+      "score": 1096,
+      "organization": "237◄─►262",
       "votes": 0
     },
     {
       "rank": 252,
-      "model": "qwen1.5-4b-chat",
-      "score": 1085,
-      "organization": "238◄─►260",
+      "model": "mpt-30b-chat",
+      "score": 1095,
+      "organization": "232◄─►264",
       "votes": 0
     },
     {
       "rank": 253,
-      "model": "HuggingFacezephyr-7b-beta",
-      "score": 1084,
-      "organization": "240◄─►260",
+      "model": "Metallama-2-7b-chat",
+      "score": 1088,
+      "organization": "243◄─►262",
       "votes": 0
     },
     {
       "rank": 254,
-      "model": "vicuna-13b",
-      "score": 1083,
-      "organization": "242◄─►260",
+      "model": "stripedhyena-nous-7b",
+      "score": 1085,
+      "organization": "240◄─►263",
       "votes": 0
     },
     {
       "rank": 255,
-      "model": "mistral-7b-instruct",
-      "score": 1082,
-      "organization": "240◄─►261",
+      "model": "qwen1.5-4b-chat",
+      "score": 1084,
+      "organization": "241◄─►263",
       "votes": 0
     },
     {
       "rank": 256,
-      "model": "guanaco-33b",
-      "score": 1081,
-      "organization": "235◄─►261",
+      "model": "HuggingFacezephyr-7b-beta",
+      "score": 1084,
+      "organization": "243◄─►263",
       "votes": 0
     },
     {
       "rank": 257,
-      "model": "gemma-2b-it",
-      "score": 1068,
-      "organization": "247◄─►261",
+      "model": "vicuna-13b",
+      "score": 1083,
+      "organization": "245◄─►263",
       "votes": 0
     },
     {
       "rank": 258,
-      "model": "Azurewizardlm-13b",
-      "score": 1065,
-      "organization": "248◄─►261",
+      "model": "mistral-7b-instruct",
+      "score": 1082,
+      "organization": "243◄─►264",
       "votes": 0
     },
     {
       "rank": 259,
-      "model": "olmo-7b-instruct",
-      "score": 1057,
-      "organization": "248◄─►261",
+      "model": "guanaco-33b",
+      "score": 1082,
+      "organization": "237◄─►264",
       "votes": 0
     },
     {
       "rank": 260,
-      "model": "vicuna-7b",
-      "score": 1048,
-      "organization": "250◄─►262",
+      "model": "gemma-2b-it",
+      "score": 1068,
+      "organization": "250◄─►264",
       "votes": 0
     },
     {
       "rank": 261,
-      "model": "chatglm3-6b",
-      "score": 1042,
-      "organization": "253◄─►262",
+      "model": "Azurewizardlm-13b",
+      "score": 1065,
+      "organization": "251◄─►264",
       "votes": 0
     },
     {
       "rank": 262,
-      "model": "gpt4all-13b-snoozy",
-      "score": 997,
-      "organization": "260◄─►270",
+      "model": "olmo-7b-instruct",
+      "score": 1057,
+      "organization": "251◄─►264",
       "votes": 0
     },
     {
       "rank": 263,
-      "model": "alpaca-13b",
-      "score": 986,
-      "organization": "262◄─►270",
+      "model": "vicuna-7b",
+      "score": 1049,
+      "organization": "253◄─►265",
       "votes": 0
     },
     {
       "rank": 264,
-      "model": "mpt-7b-chat",
-      "score": 982,
-      "organization": "262◄─►270",
+      "model": "chatglm3-6b",
+      "score": 1042,
+      "organization": "257◄─►265",
       "votes": 0
     },
     {
       "rank": 265,
-      "model": "RWKVRWKV-4-Raven-14B",
-      "score": 981,
-      "organization": "262◄─►270",
+      "model": "gpt4all-13b-snoozy",
+      "score": 998,
+      "organization": "263◄─►273",
       "votes": 0
     },
     {
       "rank": 266,
-      "model": "koala-13b",
-      "score": 980,
-      "organization": "262◄─►270",
+      "model": "alpaca-13b",
+      "score": 987,
+      "organization": "265◄─►273",
       "votes": 0
     },
     {
       "rank": 267,
-      "model": "chatglm-6b",
-      "score": 976,
-      "organization": "262◄─►270",
+      "model": "mpt-7b-chat",
+      "score": 983,
+      "organization": "265◄─►273",
       "votes": 0
     },
     {
       "rank": 268,
-      "model": "chatglm2-6b",
-      "score": 970,
-      "organization": "262◄─►272",
+      "model": "RWKVRWKV-4-Raven-14B",
+      "score": 982,
+      "organization": "265◄─►273",
       "votes": 0
     },
     {
       "rank": 269,
-      "model": "oasst-pythia-12b",
-      "score": 957,
-      "organization": "262◄─►272",
+      "model": "koala-13b",
+      "score": 981,
+      "organization": "265◄─►273",
       "votes": 0
     },
     {
       "rank": 270,
-      "model": "dolly-v2-12b",
-      "score": 946,
-      "organization": "262◄─►273",
+      "model": "chatglm-6b",
+      "score": 977,
+      "organization": "265◄─►273",
       "votes": 0
     },
     {
       "rank": 271,
-      "model": "fastchat-t5-3b",
-      "score": 918,
-      "organization": "268◄─►273",
+      "model": "chatglm2-6b",
+      "score": 969,
+      "organization": "265◄─►275",
       "votes": 0
     },
     {
       "rank": 272,
-      "model": "Metallama-13b",
-      "score": 912,
-      "organization": "268◄─►273",
+      "model": "oasst-pythia-12b",
+      "score": 958,
+      "organization": "265◄─►275",
       "votes": 0
     },
     {
       "rank": 273,
+      "model": "dolly-v2-12b",
+      "score": 948,
+      "organization": "265◄─►276",
+      "votes": 0
+    },
+    {
+      "rank": 274,
+      "model": "fastchat-t5-3b",
+      "score": 919,
+      "organization": "271◄─►276",
+      "votes": 0
+    },
+    {
+      "rank": 275,
+      "model": "Metallama-13b",
+      "score": 915,
+      "organization": "271◄─►276",
+      "votes": 0
+    },
+    {
+      "rank": 276,
       "model": "Stabilitystablelm-tuned-alpha-7b",
-      "score": 890,
-      "organization": "270◄─►273",
+      "score": 891,
+      "organization": "273◄─►276",
       "votes": 0
     }
   ],
-  "fetchedAt": "2025-12-14T15:16:45.126Z"
+  "fetchedAt": "2025-12-16T05:35:44.814Z"
 }

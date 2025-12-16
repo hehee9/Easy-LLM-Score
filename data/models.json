@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "lastUpdated": "2025-12-14",
+    "lastUpdated": "2025-12-16",
     "description": "LLM 벤치마크 통합 데이터",
     "totalModels": 78,
     "defaultModelIds": [
@@ -18,8 +18,6 @@
       "qwen3-235b-a22b-instruct-2507",
       "deepseek-r1",
       "qwen3-vl-235b-a22b-instruct",
-      "deepseek-v3-1-terminus",
-      "deepseek-v3-2",
       "gemini-2-5-flash-preview-09-2025",
       "claude-4-5-haiku",
       "qwen3-next-80b-a3b-instruct",
@@ -29,12 +27,12 @@
     ],
     "dataSources": {
       "lmarena": {
-        "lastFetched": "2025-12-14T15:16:40.753Z",
-        "totalModels": 282
+        "lastFetched": "2025-12-16T05:35:39.577Z",
+        "totalModels": 283
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-14T15:14:37.441Z",
-        "totalModels": 355
+        "lastFetched": "2025-12-16T05:35:18.889Z",
+        "totalModels": 357
       }
     }
   },
@@ -42,7 +40,7 @@
     {
       "id": "gemini-3-pro",
       "name": "gemini-3-pro",
-      "provider": "1◄─►1",
+      "provider": "1◄─►2",
       "releaseDate": "2025-11-18",
       "benchmarks": {
         "MMLU Pro": 89.8,
@@ -56,14 +54,14 @@
         "AA-Omniscience": 13,
         "AA-Omniscience Accuracy": 53.65,
         "AA-Omniscience Hallucination Rate": 87.99,
-        "LMArena-Text": 1492,
-        "LMArena-Text-Creative-Writing": 1493,
-        "LMArean-Text-Math": 1475,
+        "LMArena-Text": 1491,
+        "LMArena-Text-Creative-Writing": 1492,
+        "LMArean-Text-Math": 1476,
         "LMArena-Text-Coding": 1520,
-        "LMArena-Text-Expert": 1498,
-        "LMArena-Text-Hard-Prompts": 1503,
+        "LMArena-Text-Expert": 1499,
+        "LMArena-Text-Hard-Prompts": 1504,
         "LMArena-Text-Longer-Query": 1494,
-        "LMArena-Text-Multi-Turn": 1500
+        "LMArena-Text-Multi-Turn": 1499
       },
       "metadata": {
         "lmarenaRank": 1,
@@ -73,8 +71,8 @@
           "output": 12
         },
         "performance": {
-          "outputTokensPerSecond": 123.549,
-          "timeToFirstToken": 33.304
+          "outputTokensPerSecond": 118.708,
+          "timeToFirstToken": 33.902
         }
       },
       "tags": [],
@@ -83,7 +81,7 @@
     {
       "id": "claude-opus-4-5",
       "name": "Anthropicclaude-opus-4-5-20251101",
-      "provider": "2◄─►6",
+      "provider": "3◄─►6",
       "releaseDate": "2025-11-24",
       "benchmarks": {
         "MMLU Pro": 88.9,
@@ -97,14 +95,14 @@
         "AA-Omniscience": -6,
         "AA-Omniscience Accuracy": 38.9,
         "AA-Omniscience Hallucination Rate": 74.22,
-        "LMArena-Text": 1467,
+        "LMArena-Text": 1464,
         "LMArena-Text-Creative-Writing": 1455,
-        "LMArean-Text-Math": 1480,
-        "LMArena-Text-Coding": 1514,
-        "LMArena-Text-Expert": 1548,
-        "LMArena-Text-Hard-Prompts": 1494,
-        "LMArena-Text-Longer-Query": 1498,
-        "LMArena-Text-Multi-Turn": 1478
+        "LMArean-Text-Math": 1474,
+        "LMArena-Text-Coding": 1516,
+        "LMArena-Text-Expert": 1541,
+        "LMArena-Text-Hard-Prompts": 1493,
+        "LMArena-Text-Longer-Query": 1499,
+        "LMArena-Text-Multi-Turn": 1477
       },
       "metadata": {
         "lmarenaRank": 4,
@@ -114,8 +112,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 78.311,
-          "timeToFirstToken": 2.26
+          "outputTokensPerSecond": 78.419,
+          "timeToFirstToken": 2.384
         }
       },
       "tags": [],
@@ -139,13 +137,13 @@
         "AA-Omniscience Accuracy": 35.3,
         "AA-Omniscience Hallucination Rate": 51.16,
         "LMArena-Text": 1457,
-        "LMArena-Text-Creative-Writing": 1435,
-        "LMArean-Text-Math": 1473,
-        "LMArena-Text-Coding": 1486,
-        "LMArena-Text-Expert": 1482,
+        "LMArena-Text-Creative-Writing": 1437,
+        "LMArean-Text-Math": 1474,
+        "LMArena-Text-Coding": 1489,
+        "LMArena-Text-Expert": 1481,
         "LMArena-Text-Hard-Prompts": 1473,
-        "LMArena-Text-Longer-Query": 1462,
-        "LMArena-Text-Multi-Turn": 1469
+        "LMArena-Text-Longer-Query": 1465,
+        "LMArena-Text-Multi-Turn": 1471
       },
       "metadata": {
         "lmarenaRank": 6,
@@ -155,8 +153,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 144.06,
-          "timeToFirstToken": 22.281
+          "outputTokensPerSecond": 111.41,
+          "timeToFirstToken": 30.516
         }
       },
       "tags": [],
@@ -180,13 +178,13 @@
         "AA-Omniscience Accuracy": 37.48,
         "AA-Omniscience Hallucination Rate": 88.67,
         "LMArena-Text": 1451,
-        "LMArena-Text-Creative-Writing": 1452,
-        "LMArean-Text-Math": 1453,
-        "LMArena-Text-Coding": 1469,
-        "LMArena-Text-Expert": 1465,
-        "LMArena-Text-Hard-Prompts": 1462,
-        "LMArena-Text-Longer-Query": 1462,
-        "LMArena-Text-Multi-Turn": 1454
+        "LMArena-Text-Creative-Writing": 1451,
+        "LMArean-Text-Math": 1452,
+        "LMArena-Text-Coding": 1470,
+        "LMArena-Text-Expert": 1464,
+        "LMArena-Text-Hard-Prompts": 1463,
+        "LMArena-Text-Longer-Query": 1463,
+        "LMArena-Text-Multi-Turn": 1453
       },
       "metadata": {
         "lmarenaRank": 7,
@@ -196,8 +194,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 157.317,
-          "timeToFirstToken": 32.333
+          "outputTokensPerSecond": 152.105,
+          "timeToFirstToken": 35.309
         }
       },
       "tags": [],
@@ -206,7 +204,7 @@
     {
       "id": "claude-4-5-sonnet",
       "name": "Anthropicclaude-sonnet-4-5-20250929",
-      "provider": "7◄─►15",
+      "provider": "7◄─►14",
       "releaseDate": "2025-09-29",
       "benchmarks": {
         "MMLU Pro": 86,
@@ -220,14 +218,14 @@
         "AA-Omniscience": -11,
         "AA-Omniscience Accuracy": 26.93,
         "AA-Omniscience Hallucination Rate": 51.44,
-        "LMArena-Text": 1445,
-        "LMArena-Text-Creative-Writing": 1437,
-        "LMArean-Text-Math": 1431,
-        "LMArena-Text-Coding": 1504,
-        "LMArena-Text-Expert": 1486,
-        "LMArena-Text-Hard-Prompts": 1472,
-        "LMArena-Text-Longer-Query": 1473,
-        "LMArena-Text-Multi-Turn": 1475
+        "LMArena-Text": 1446,
+        "LMArena-Text-Creative-Writing": 1439,
+        "LMArean-Text-Math": 1429,
+        "LMArena-Text-Coding": 1506,
+        "LMArena-Text-Expert": 1485,
+        "LMArena-Text-Hard-Prompts": 1473,
+        "LMArena-Text-Longer-Query": 1476,
+        "LMArena-Text-Multi-Turn": 1477
       },
       "metadata": {
         "lmarenaRank": 10,
@@ -237,8 +235,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 72.02,
-          "timeToFirstToken": 1.917
+          "outputTokensPerSecond": 72.232,
+          "timeToFirstToken": 1.928
         }
       },
       "tags": [],
@@ -247,7 +245,7 @@
     {
       "id": "gpt-5-1",
       "name": "gpt-5.1",
-      "provider": "10◄─►20",
+      "provider": "10◄─►21",
       "releaseDate": "2025-11-13",
       "benchmarks": {
         "MMLU Pro": 87,
@@ -261,14 +259,14 @@
         "AA-Omniscience": 2,
         "AA-Omniscience Accuracy": 35.3,
         "AA-Omniscience Hallucination Rate": 51.16,
-        "LMArena-Text": 1437,
-        "LMArena-Text-Creative-Writing": 1406,
-        "LMArean-Text-Math": 1411,
+        "LMArena-Text": 1436,
+        "LMArena-Text-Creative-Writing": 1409,
+        "LMArean-Text-Math": 1417,
         "LMArena-Text-Coding": 1476,
-        "LMArena-Text-Expert": 1464,
-        "LMArena-Text-Hard-Prompts": 1453,
-        "LMArena-Text-Longer-Query": 1445,
-        "LMArena-Text-Multi-Turn": 1445
+        "LMArena-Text-Expert": 1467,
+        "LMArena-Text-Hard-Prompts": 1454,
+        "LMArena-Text-Longer-Query": 1446,
+        "LMArena-Text-Multi-Turn": 1447
       },
       "metadata": {
         "lmarenaRank": 14,
@@ -278,8 +276,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 144.06,
-          "timeToFirstToken": 22.281
+          "outputTokensPerSecond": 111.41,
+          "timeToFirstToken": 30.516
         }
       },
       "tags": [],
@@ -288,7 +286,7 @@
     {
       "id": "gpt-5",
       "name": "gpt-5-high",
-      "provider": "10◄─►19",
+      "provider": "11◄─►20",
       "releaseDate": "2025-08-07",
       "benchmarks": {
         "MMLU Pro": 87.1,
@@ -304,12 +302,12 @@
         "AA-Omniscience Hallucination Rate": 80.99,
         "LMArena-Text": 1436,
         "LMArena-Text-Creative-Writing": 1381,
-        "LMArean-Text-Math": 1438,
+        "LMArean-Text-Math": 1439,
         "LMArena-Text-Coding": 1470,
-        "LMArena-Text-Expert": 1459,
-        "LMArena-Text-Hard-Prompts": 1449,
+        "LMArena-Text-Expert": 1458,
+        "LMArena-Text-Hard-Prompts": 1448,
         "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1425
+        "LMArena-Text-Multi-Turn": 1424
       },
       "metadata": {
         "lmarenaRank": 15,
@@ -319,8 +317,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 100.709,
-          "timeToFirstToken": 94.2
+          "outputTokensPerSecond": 114.823,
+          "timeToFirstToken": 101.819
         }
       },
       "tags": [],
@@ -329,7 +327,7 @@
     {
       "id": "o3",
       "name": "o3-2025-04-16",
-      "provider": "12◄─►20",
+      "provider": "12◄─►22",
       "releaseDate": "2025-04-16",
       "benchmarks": {
         "MMLU Pro": 85.3,
@@ -344,12 +342,12 @@
         "AA-Omniscience Accuracy": 37.25,
         "AA-Omniscience Hallucination Rate": 86.75,
         "LMArena-Text": 1433,
-        "LMArena-Text-Creative-Writing": 1382,
-        "LMArean-Text-Math": 1456,
+        "LMArena-Text-Creative-Writing": 1383,
+        "LMArean-Text-Math": 1455,
         "LMArena-Text-Coding": 1457,
-        "LMArena-Text-Expert": 1444,
+        "LMArena-Text-Expert": 1443,
         "LMArena-Text-Hard-Prompts": 1440,
-        "LMArena-Text-Longer-Query": 1409,
+        "LMArena-Text-Longer-Query": 1410,
         "LMArena-Text-Multi-Turn": 1420
       },
       "metadata": {
@@ -360,8 +358,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 235.107,
-          "timeToFirstToken": 14.408
+          "outputTokensPerSecond": 305.395,
+          "timeToFirstToken": 12.264
         }
       },
       "tags": [],
@@ -370,7 +368,7 @@
     {
       "id": "qwen3-max-preview",
       "name": "qwen3-max-preview",
-      "provider": "11◄─►24",
+      "provider": "11◄─►25",
       "releaseDate": "2025-09-05",
       "benchmarks": {
         "MMLU Pro": 83.8,
@@ -388,9 +386,9 @@
         "LMArena-Text-Creative-Writing": 1396,
         "LMArean-Text-Math": 1442,
         "LMArena-Text-Coding": 1481,
-        "LMArena-Text-Expert": 1466,
-        "LMArena-Text-Hard-Prompts": 1456,
-        "LMArena-Text-Longer-Query": 1446,
+        "LMArena-Text-Expert": 1467,
+        "LMArena-Text-Hard-Prompts": 1457,
+        "LMArena-Text-Longer-Query": 1447,
         "LMArena-Text-Multi-Turn": 1444
       },
       "metadata": {
@@ -401,8 +399,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 34.688,
-          "timeToFirstToken": 1.663
+          "outputTokensPerSecond": 36.712,
+          "timeToFirstToken": 1.765
         }
       },
       "tags": [],
@@ -411,7 +409,7 @@
     {
       "id": "grok-4-1-fast-reasoning",
       "name": "grok-4-1-fast-reasoning",
-      "provider": "14◄─►39",
+      "provider": "13◄─►32",
       "releaseDate": "2025-11-19",
       "benchmarks": {
         "MMLU Pro": 85.39999999999999,
@@ -425,13 +423,13 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1428,
-        "LMArena-Text-Creative-Writing": 1402,
-        "LMArean-Text-Math": 1414,
-        "LMArena-Text-Coding": 1454,
-        "LMArena-Text-Expert": 1447,
-        "LMArena-Text-Hard-Prompts": 1439,
-        "LMArena-Text-Longer-Query": 1415,
+        "LMArena-Text": 1430,
+        "LMArena-Text-Creative-Writing": 1407,
+        "LMArean-Text-Math": 1410,
+        "LMArena-Text-Coding": 1456,
+        "LMArena-Text-Expert": 1438,
+        "LMArena-Text-Hard-Prompts": 1440,
+        "LMArena-Text-Longer-Query": 1416,
         "LMArena-Text-Multi-Turn": 1409
       },
       "metadata": {
@@ -442,8 +440,49 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 151.411,
-          "timeToFirstToken": 8.371
+          "outputTokensPerSecond": 167.984,
+          "timeToFirstToken": 13.739
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "glm-4-6",
+      "name": "glm-4.6",
+      "provider": "15◄─►38",
+      "releaseDate": "2025-09-30",
+      "benchmarks": {
+        "MMLU Pro": 78.4,
+        "GPQA Diamond": 63.2,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 26.3,
+        "LiveCodeBench": 56.10000000000001,
+        "SciCode": 33.1,
+        "AIME 2025": 44.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1426,
+        "LMArena-Text-Creative-Writing": 1400,
+        "LMArean-Text-Math": 1430,
+        "LMArena-Text-Coding": 1464,
+        "LMArena-Text-Expert": 1441,
+        "LMArena-Text-Hard-Prompts": 1443,
+        "LMArena-Text-Longer-Query": 1435,
+        "LMArena-Text-Multi-Turn": 1421
+      },
+      "metadata": {
+        "lmarenaRank": 21,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.6,
+          "output": 2.2
+        },
+        "performance": {
+          "outputTokensPerSecond": 36.33,
+          "timeToFirstToken": 0.597
         }
       },
       "tags": [],
@@ -469,63 +508,22 @@
         "LMArena-Text": 1425,
         "LMArena-Text-Creative-Writing": 1388,
         "LMArean-Text-Math": 1415,
-        "LMArena-Text-Coding": 1458,
-        "LMArena-Text-Expert": 1441,
+        "LMArena-Text-Coding": 1459,
+        "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1446,
-        "LMArena-Text-Longer-Query": 1435,
+        "LMArena-Text-Longer-Query": 1436,
         "LMArena-Text-Multi-Turn": 1445
       },
       "metadata": {
-        "lmarenaRank": 21,
+        "lmarenaRank": 22,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.25,
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 100.709,
-          "timeToFirstToken": 94.2
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "glm-4-6",
-      "name": "glm-4.6",
-      "provider": "17◄─►39",
-      "releaseDate": "2025-09-30",
-      "benchmarks": {
-        "MMLU Pro": 78.4,
-        "GPQA Diamond": 63.2,
-        "Humanity's Last Exam": 5.2,
-        "AA-LCR": 26.3,
-        "LiveCodeBench": 56.10000000000001,
-        "SciCode": 33.1,
-        "AIME 2025": 44.3,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1425,
-        "LMArena-Text-Creative-Writing": 1397,
-        "LMArean-Text-Math": 1433,
-        "LMArena-Text-Coding": 1464,
-        "LMArena-Text-Expert": 1437,
-        "LMArena-Text-Hard-Prompts": 1442,
-        "LMArena-Text-Longer-Query": 1433,
-        "LMArena-Text-Multi-Turn": 1419
-      },
-      "metadata": {
-        "lmarenaRank": 22,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.6,
-          "output": 2.2
-        },
-        "performance": {
-          "outputTokensPerSecond": 39.037,
-          "timeToFirstToken": 0.553
+          "outputTokensPerSecond": 114.823,
+          "timeToFirstToken": 101.819
         }
       },
       "tags": [],
@@ -549,12 +547,12 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1423,
-        "LMArena-Text-Creative-Writing": 1401,
-        "LMArean-Text-Math": 1417,
-        "LMArena-Text-Coding": 1467,
+        "LMArena-Text-Creative-Writing": 1400,
+        "LMArean-Text-Math": 1418,
+        "LMArena-Text-Coding": 1468,
         "LMArena-Text-Expert": 1423,
         "LMArena-Text-Hard-Prompts": 1446,
-        "LMArena-Text-Longer-Query": 1440,
+        "LMArena-Text-Longer-Query": 1441,
         "LMArena-Text-Multi-Turn": 1428
       },
       "metadata": {
@@ -565,8 +563,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 27.731,
-          "timeToFirstToken": 1.212
+          "outputTokensPerSecond": 29.845,
+          "timeToFirstToken": 1.219
         }
       },
       "tags": [],
@@ -590,24 +588,24 @@
         "AA-Omniscience Accuracy": 17.58,
         "AA-Omniscience Hallucination Rate": 76.4,
         "LMArena-Text": 1421,
-        "LMArena-Text-Creative-Writing": 1380,
+        "LMArena-Text-Creative-Writing": 1378,
         "LMArean-Text-Math": 1430,
         "LMArena-Text-Coding": 1470,
         "LMArena-Text-Expert": 1447,
-        "LMArena-Text-Hard-Prompts": 1448,
-        "LMArena-Text-Longer-Query": 1436,
-        "LMArena-Text-Multi-Turn": 1431
+        "LMArena-Text-Hard-Prompts": 1449,
+        "LMArena-Text-Longer-Query": 1437,
+        "LMArena-Text-Multi-Turn": 1432
       },
       "metadata": {
-        "lmarenaRank": 26,
+        "lmarenaRank": 27,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 43.282,
-          "timeToFirstToken": 1.162
+          "outputTokensPerSecond": 41.92,
+          "timeToFirstToken": 1.211
         }
       },
       "tags": [],
@@ -635,12 +633,12 @@
         "LMArean-Text-Math": 1398,
         "LMArena-Text-Coding": 1462,
         "LMArena-Text-Expert": 1412,
-        "LMArena-Text-Hard-Prompts": 1431,
-        "LMArena-Text-Longer-Query": 1408,
+        "LMArena-Text-Hard-Prompts": 1432,
+        "LMArena-Text-Longer-Query": 1409,
         "LMArena-Text-Multi-Turn": 1405
       },
       "metadata": {
-        "lmarenaRank": 31,
+        "lmarenaRank": 30,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.075,
@@ -655,37 +653,37 @@
       "description": ""
     },
     {
-      "id": "deepseek-v3-1",
+      "id": "deepseek-v3-1-reasoning",
       "name": "deepseek-v3.1",
-      "provider": "18◄─►46",
+      "provider": "19◄─►46",
       "releaseDate": "2025-08-21",
       "benchmarks": {
-        "MMLU Pro": 83.3,
-        "GPQA Diamond": 73.5,
-        "Humanity's Last Exam": 6.3,
-        "AA-LCR": 45,
-        "LiveCodeBench": 57.699999999999996,
-        "SciCode": 36.7,
-        "AIME 2025": 49.7,
+        "MMLU Pro": 85.1,
+        "GPQA Diamond": 77.9,
+        "Humanity's Last Exam": 13,
+        "AA-LCR": 53.300000000000004,
+        "LiveCodeBench": 78.4,
+        "SciCode": 39.1,
+        "AIME 2025": 89.7,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1416,
-        "LMArena-Text-Creative-Writing": 1392,
+        "LMArena-Text-Creative-Writing": 1393,
         "LMArean-Text-Math": 1418,
-        "LMArena-Text-Coding": 1446,
-        "LMArena-Text-Expert": 1429,
+        "LMArena-Text-Coding": 1447,
+        "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1431,
-        "LMArena-Text-Longer-Query": 1424,
+        "LMArena-Text-Longer-Query": 1425,
         "LMArena-Text-Multi-Turn": 1404
       },
       "metadata": {
-        "lmarenaRank": 33,
+        "lmarenaRank": 32,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 0.56,
-          "output": 1.66
+          "input": 0.58,
+          "output": 1.68
         },
         "performance": {
           "outputTokensPerSecond": 0,
@@ -696,41 +694,82 @@
       "description": ""
     },
     {
-      "id": "mistral-large-3",
-      "name": "mistral-large-3",
-      "provider": "18◄─►48",
-      "releaseDate": "2025-12-02",
+      "id": "deepseek-v3-2-reasoning",
+      "name": "deepseek-v3.2",
+      "provider": "19◄─►47",
+      "releaseDate": "2025-12-01",
       "benchmarks": {
-        "MMLU Pro": 80.7,
-        "GPQA Diamond": 68,
-        "Humanity's Last Exam": 4.1000000000000005,
-        "AA-LCR": 34.699999999999996,
-        "LiveCodeBench": 46.5,
-        "SciCode": 36.199999999999996,
-        "AIME 2025": 38,
+        "MMLU Pro": 86.2,
+        "GPQA Diamond": 84,
+        "Humanity's Last Exam": 22.2,
+        "AA-LCR": 65,
+        "LiveCodeBench": 86.2,
+        "SciCode": 38.9,
+        "AIME 2025": 92,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1415,
-        "LMArena-Text-Creative-Writing": 1374,
-        "LMArean-Text-Math": 1409,
-        "LMArena-Text-Coding": 1467,
-        "LMArena-Text-Expert": 1398,
+        "LMArena-Text": 1416,
+        "LMArena-Text-Creative-Writing": 1389,
+        "LMArean-Text-Math": 1428,
+        "LMArena-Text-Coding": 1454,
+        "LMArena-Text-Expert": 1416,
         "LMArena-Text-Hard-Prompts": 1438,
-        "LMArena-Text-Longer-Query": 1420,
-        "LMArena-Text-Multi-Turn": 1418
+        "LMArena-Text-Longer-Query": 1435,
+        "LMArena-Text-Multi-Turn": 1423
       },
       "metadata": {
         "lmarenaRank": 35,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 0.5,
-          "output": 1.5
+          "input": 0.28,
+          "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 53.555,
-          "timeToFirstToken": 0.546
+          "outputTokensPerSecond": 29.635,
+          "timeToFirstToken": 1.258
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v3-1-terminus-reasoning",
+      "name": "deepseek-v3.1-terminus",
+      "provider": "18◄─►50",
+      "releaseDate": "2025-09-22",
+      "benchmarks": {
+        "MMLU Pro": 85.1,
+        "GPQA Diamond": 79.2,
+        "Humanity's Last Exam": 15.2,
+        "AA-LCR": 65,
+        "LiveCodeBench": 79.80000000000001,
+        "SciCode": 40.6,
+        "AIME 2025": 89.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1415,
+        "LMArena-Text-Creative-Writing": 1404,
+        "LMArean-Text-Math": 1399,
+        "LMArena-Text-Coding": 1437,
+        "LMArena-Text-Expert": 0,
+        "LMArena-Text-Hard-Prompts": 1422,
+        "LMArena-Text-Longer-Query": 1416,
+        "LMArena-Text-Multi-Turn": 1392
+      },
+      "metadata": {
+        "lmarenaRank": 36,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.4,
+          "output": 2
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -739,7 +778,7 @@
     {
       "id": "qwen3-vl-235b-a22b-instruct",
       "name": "qwen3-vl-235b-a22b-instruct",
-      "provider": "18◄─►47",
+      "provider": "19◄─►47",
       "releaseDate": "2025-09-23",
       "benchmarks": {
         "MMLU Pro": 82.3,
@@ -757,103 +796,62 @@
         "LMArena-Text-Creative-Writing": 1362,
         "LMArean-Text-Math": 1414,
         "LMArena-Text-Coding": 1464,
-        "LMArena-Text-Expert": 1439,
+        "LMArena-Text-Expert": 1443,
         "LMArena-Text-Hard-Prompts": 1439,
-        "LMArena-Text-Longer-Query": 1423,
+        "LMArena-Text-Longer-Query": 1424,
         "LMArena-Text-Multi-Turn": 1422
       },
       "metadata": {
-        "lmarenaRank": 36,
+        "lmarenaRank": 37,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 38.217,
-          "timeToFirstToken": 1.16
+          "outputTokensPerSecond": 37.114,
+          "timeToFirstToken": 1.206
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "deepseek-v3-1-terminus",
-      "name": "deepseek-v3.1-terminus",
-      "provider": "18◄─►50",
-      "releaseDate": "2025-09-22",
+      "id": "mistral-large-3",
+      "name": "mistral-large-3",
+      "provider": "19◄─►49",
+      "releaseDate": "2025-12-02",
       "benchmarks": {
-        "MMLU Pro": 83.6,
-        "GPQA Diamond": 75.1,
-        "Humanity's Last Exam": 8.4,
-        "AA-LCR": 43.3,
-        "LiveCodeBench": 52.900000000000006,
-        "SciCode": 32.1,
-        "AIME 2025": 53.7,
+        "MMLU Pro": 80.7,
+        "GPQA Diamond": 68,
+        "Humanity's Last Exam": 4.1000000000000005,
+        "AA-LCR": 34.699999999999996,
+        "LiveCodeBench": 46.5,
+        "SciCode": 36.199999999999996,
+        "AIME 2025": 38,
         "MMMU Pro": 0,
-        "AA-Omniscience": -45,
-        "AA-Omniscience Accuracy": 22.62,
-        "AA-Omniscience Hallucination Rate": 86.84,
-        "LMArena-Text": 1415,
-        "LMArena-Text-Creative-Writing": 1404,
-        "LMArean-Text-Math": 1399,
-        "LMArena-Text-Coding": 1437,
-        "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1421,
-        "LMArena-Text-Longer-Query": 1415,
-        "LMArena-Text-Multi-Turn": 1392
-      },
-      "metadata": {
-        "lmarenaRank": 37,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.4,
-          "output": 1.68
-        },
-        "performance": {
-          "outputTokensPerSecond": 0,
-          "timeToFirstToken": 0
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "deepseek-v3-2",
-      "name": "deepseek-v3.2",
-      "provider": "18◄─►51",
-      "releaseDate": "2025-12-01",
-      "benchmarks": {
-        "MMLU Pro": 83.7,
-        "GPQA Diamond": 75.1,
-        "Humanity's Last Exam": 10.5,
-        "AA-LCR": 39,
-        "LiveCodeBench": 59.3,
-        "SciCode": 38.7,
-        "AIME 2025": 59,
-        "MMMU Pro": 0,
-        "AA-Omniscience": -49,
-        "AA-Omniscience Accuracy": 22.77,
-        "AA-Omniscience Hallucination Rate": 92.51,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1414,
-        "LMArena-Text-Creative-Writing": 1388,
-        "LMArean-Text-Math": 1426,
-        "LMArena-Text-Coding": 1449,
-        "LMArena-Text-Expert": 1409,
-        "LMArena-Text-Hard-Prompts": 1433,
-        "LMArena-Text-Longer-Query": 1429,
-        "LMArena-Text-Multi-Turn": 1423
+        "LMArena-Text-Creative-Writing": 1373,
+        "LMArean-Text-Math": 1417,
+        "LMArena-Text-Coding": 1470,
+        "LMArena-Text-Expert": 1400,
+        "LMArena-Text-Hard-Prompts": 1437,
+        "LMArena-Text-Longer-Query": 1420,
+        "LMArena-Text-Multi-Turn": 1419
       },
       "metadata": {
         "lmarenaRank": 38,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 0.28,
-          "output": 0.42
+          "input": 0.5,
+          "output": 1.5
         },
         "performance": {
-          "outputTokensPerSecond": 29.452,
-          "timeToFirstToken": 1.098
+          "outputTokensPerSecond": 53.027,
+          "timeToFirstToken": 0.526
         }
       },
       "tags": [],
@@ -879,22 +877,22 @@
         "LMArena-Text": 1412,
         "LMArena-Text-Creative-Writing": 1399,
         "LMArean-Text-Math": 1375,
-        "LMArena-Text-Coding": 1453,
-        "LMArena-Text-Expert": 1399,
+        "LMArena-Text-Coding": 1454,
+        "LMArena-Text-Expert": 1400,
         "LMArena-Text-Hard-Prompts": 1428,
-        "LMArena-Text-Longer-Query": 1423,
+        "LMArena-Text-Longer-Query": 1424,
         "LMArena-Text-Multi-Turn": 1426
       },
       "metadata": {
-        "lmarenaRank": 41,
+        "lmarenaRank": 40,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2,
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 91.257,
-          "timeToFirstToken": 0.522
+          "outputTokensPerSecond": 94.327,
+          "timeToFirstToken": 0.572
         }
       },
       "tags": [],
@@ -903,7 +901,7 @@
     {
       "id": "glm-4.5",
       "name": "glm-4.5",
-      "provider": "28◄─►53",
+      "provider": "29◄─►53",
       "releaseDate": "2025-07-28",
       "benchmarks": {
         "MMLU Pro": 83.5,
@@ -920,10 +918,10 @@
         "LMArena-Text": 1408,
         "LMArena-Text-Creative-Writing": 1374,
         "LMArean-Text-Math": 1420,
-        "LMArena-Text-Coding": 1455,
-        "LMArena-Text-Expert": 1439,
+        "LMArena-Text-Coding": 1454,
+        "LMArena-Text-Expert": 1440,
         "LMArena-Text-Hard-Prompts": 1431,
-        "LMArena-Text-Longer-Query": 1421,
+        "LMArena-Text-Longer-Query": 1422,
         "LMArena-Text-Multi-Turn": 1406
       },
       "metadata": {
@@ -934,26 +932,26 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 45.628,
-          "timeToFirstToken": 0.783
+          "outputTokensPerSecond": 39.679,
+          "timeToFirstToken": 0.79
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "gemini-2-5-flash-reasoning",
+      "id": "gemini-2-5-flash",
       "name": "gemini-2.5-flash",
-      "provider": "32◄─►52",
+      "provider": "31◄─►51",
       "releaseDate": "2025-05-20",
       "benchmarks": {
-        "MMLU Pro": 83.2,
-        "GPQA Diamond": 79,
-        "Humanity's Last Exam": 11.1,
-        "AA-LCR": 61.7,
-        "LiveCodeBench": 69.5,
-        "SciCode": 39.4,
-        "AIME 2025": 73.3,
+        "MMLU Pro": 80.9,
+        "GPQA Diamond": 68.30000000000001,
+        "Humanity's Last Exam": 5.1,
+        "AA-LCR": 45.9,
+        "LiveCodeBench": 49.5,
+        "SciCode": 29.099999999999998,
+        "AIME 2025": 60.3,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
@@ -961,10 +959,10 @@
         "LMArena-Text": 1408,
         "LMArena-Text-Creative-Writing": 1398,
         "LMArean-Text-Math": 1413,
-        "LMArena-Text-Coding": 1422,
+        "LMArena-Text-Coding": 1421,
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1414,
-        "LMArena-Text-Longer-Query": 1421,
+        "LMArena-Text-Longer-Query": 1422,
         "LMArena-Text-Multi-Turn": 1400
       },
       "metadata": {
@@ -975,8 +973,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 277.105,
-          "timeToFirstToken": 14.851
+          "outputTokensPerSecond": 238.639,
+          "timeToFirstToken": 0.378
         }
       },
       "tags": [],
@@ -1001,12 +999,12 @@
         "AA-Omniscience Hallucination Rate": 90.37,
         "LMArena-Text": 1405,
         "LMArena-Text-Creative-Writing": 1380,
-        "LMArean-Text-Math": 1424,
-        "LMArena-Text-Coding": 1422,
-        "LMArena-Text-Expert": 1444,
-        "LMArena-Text-Hard-Prompts": 1417,
+        "LMArean-Text-Math": 1423,
+        "LMArena-Text-Coding": 1424,
+        "LMArena-Text-Expert": 1442,
+        "LMArena-Text-Hard-Prompts": 1418,
         "LMArena-Text-Longer-Query": 1419,
-        "LMArena-Text-Multi-Turn": 1398
+        "LMArena-Text-Multi-Turn": 1396
       },
       "metadata": {
         "lmarenaRank": 47,
@@ -1016,8 +1014,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 230.957,
-          "timeToFirstToken": 0.364
+          "outputTokensPerSecond": 240.266,
+          "timeToFirstToken": 0.362
         }
       },
       "tags": [],
@@ -1026,7 +1024,7 @@
     {
       "id": "claude-4-5-haiku",
       "name": "Anthropicclaude-haiku-4-5-20251001",
-      "provider": "38◄─►58",
+      "provider": "39◄─►58",
       "releaseDate": "2025-10-15",
       "benchmarks": {
         "MMLU Pro": 80,
@@ -1041,13 +1039,13 @@
         "AA-Omniscience Accuracy": 13.42,
         "AA-Omniscience Hallucination Rate": 24.68,
         "LMArena-Text": 1402,
-        "LMArena-Text-Creative-Writing": 1377,
-        "LMArean-Text-Math": 1393,
-        "LMArena-Text-Coding": 1477,
-        "LMArena-Text-Expert": 1438,
-        "LMArena-Text-Hard-Prompts": 1434,
+        "LMArena-Text-Creative-Writing": 1375,
+        "LMArean-Text-Math": 1396,
+        "LMArena-Text-Coding": 1476,
+        "LMArena-Text-Expert": 1436,
+        "LMArena-Text-Hard-Prompts": 1433,
         "LMArena-Text-Longer-Query": 1434,
-        "LMArena-Text-Multi-Turn": 1420
+        "LMArena-Text-Multi-Turn": 1419
       },
       "metadata": {
         "lmarenaRank": 48,
@@ -1057,8 +1055,8 @@
           "output": 5
         },
         "performance": {
-          "outputTokensPerSecond": 108.457,
-          "timeToFirstToken": 0.534
+          "outputTokensPerSecond": 109.756,
+          "timeToFirstToken": 0.491
         }
       },
       "tags": [],
@@ -1067,7 +1065,7 @@
     {
       "id": "grok-4-fast-reasoning",
       "name": "grok-4-fast-reasoning",
-      "provider": "38◄─►58",
+      "provider": "39◄─►59",
       "releaseDate": "2025-09-19",
       "benchmarks": {
         "MMLU Pro": 85,
@@ -1082,10 +1080,10 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1402,
-        "LMArena-Text-Creative-Writing": 1377,
+        "LMArena-Text-Creative-Writing": 1376,
         "LMArean-Text-Math": 1413,
-        "LMArena-Text-Coding": 1437,
-        "LMArena-Text-Expert": 1414,
+        "LMArena-Text-Coding": 1438,
+        "LMArena-Text-Expert": 1413,
         "LMArena-Text-Hard-Prompts": 1410,
         "LMArena-Text-Longer-Query": 1409,
         "LMArena-Text-Multi-Turn": 1403
@@ -1098,49 +1096,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 188.137,
-          "timeToFirstToken": 3.81
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "o1",
-      "name": "o1-2024-12-17",
-      "provider": "42◄─►59",
-      "releaseDate": "2024-12-05",
-      "benchmarks": {
-        "MMLU Pro": 84.1,
-        "GPQA Diamond": 74.7,
-        "Humanity's Last Exam": 7.7,
-        "AA-LCR": 0,
-        "LiveCodeBench": 67.9,
-        "SciCode": 35.8,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1401,
-        "LMArena-Text-Creative-Writing": 1380,
-        "LMArean-Text-Math": 1411,
-        "LMArena-Text-Coding": 1430,
-        "LMArena-Text-Expert": 1398,
-        "LMArena-Text-Hard-Prompts": 1415,
-        "LMArena-Text-Longer-Query": 1410,
-        "LMArena-Text-Multi-Turn": 1383
-      },
-      "metadata": {
-        "lmarenaRank": 50,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 15,
-          "output": 60
-        },
-        "performance": {
-          "outputTokensPerSecond": 178.01,
-          "timeToFirstToken": 20.057
+          "outputTokensPerSecond": 236.125,
+          "timeToFirstToken": 3.686
         }
       },
       "tags": [],
@@ -1165,23 +1122,64 @@
         "AA-Omniscience Hallucination Rate": 92.7,
         "LMArena-Text": 1400,
         "LMArena-Text-Creative-Writing": 1317,
-        "LMArean-Text-Math": 1428,
-        "LMArena-Text-Coding": 1445,
-        "LMArena-Text-Expert": 1397,
+        "LMArean-Text-Math": 1426,
+        "LMArena-Text-Coding": 1446,
+        "LMArena-Text-Expert": 1399,
         "LMArena-Text-Hard-Prompts": 1421,
-        "LMArena-Text-Longer-Query": 1394,
+        "LMArena-Text-Longer-Query": 1395,
         "LMArena-Text-Multi-Turn": 1401
       },
       "metadata": {
-        "lmarenaRank": 51,
+        "lmarenaRank": 50,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.5,
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 175.781,
-          "timeToFirstToken": 1.245
+          "outputTokensPerSecond": 179.091,
+          "timeToFirstToken": 1.186
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "o1",
+      "name": "o1-2024-12-17",
+      "provider": "45◄─►59",
+      "releaseDate": "2024-12-05",
+      "benchmarks": {
+        "MMLU Pro": 84.1,
+        "GPQA Diamond": 74.7,
+        "Humanity's Last Exam": 7.7,
+        "AA-LCR": 0,
+        "LiveCodeBench": 67.9,
+        "SciCode": 35.8,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1400,
+        "LMArena-Text-Creative-Writing": 1380,
+        "LMArean-Text-Math": 1410,
+        "LMArena-Text-Coding": 1430,
+        "LMArena-Text-Expert": 1398,
+        "LMArena-Text-Hard-Prompts": 1415,
+        "LMArena-Text-Longer-Query": 1410,
+        "LMArena-Text-Multi-Turn": 1383
+      },
+      "metadata": {
+        "lmarenaRank": 51,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 15,
+          "output": 60
+        },
+        "performance": {
+          "outputTokensPerSecond": 184.696,
+          "timeToFirstToken": 19.237
         }
       },
       "tags": [],
@@ -1190,7 +1188,7 @@
     {
       "id": "deepseek-r1",
       "name": "deepseek-r1",
-      "provider": "47◄─►66",
+      "provider": "48◄─►66",
       "releaseDate": "2025-05-28",
       "benchmarks": {
         "MMLU Pro": 84.89999999999999,
@@ -1204,11 +1202,11 @@
         "AA-Omniscience": -30,
         "AA-Omniscience Accuracy": 29.28,
         "AA-Omniscience Hallucination Rate": 83.36,
-        "LMArena-Text": 1396,
+        "LMArena-Text": 1395,
         "LMArena-Text-Creative-Writing": 1372,
         "LMArean-Text-Math": 1413,
         "LMArena-Text-Coding": 1443,
-        "LMArena-Text-Expert": 1395,
+        "LMArena-Text-Expert": 1394,
         "LMArena-Text-Hard-Prompts": 1415,
         "LMArena-Text-Longer-Query": 1397,
         "LMArena-Text-Multi-Turn": 1406
@@ -1231,7 +1229,7 @@
     {
       "id": "gpt-5-mini",
       "name": "gpt-5-mini-high",
-      "provider": "50◄─►68",
+      "provider": "49◄─►68",
       "releaseDate": "2025-08-07",
       "benchmarks": {
         "MMLU Pro": 83.7,
@@ -1246,13 +1244,13 @@
         "AA-Omniscience Accuracy": 22.97,
         "AA-Omniscience Hallucination Rate": 55.28,
         "LMArena-Text": 1392,
-        "LMArena-Text-Creative-Writing": 1330,
+        "LMArena-Text-Creative-Writing": 1329,
         "LMArean-Text-Math": 1415,
         "LMArena-Text-Coding": 1429,
-        "LMArena-Text-Expert": 1405,
+        "LMArena-Text-Expert": 1403,
         "LMArena-Text-Hard-Prompts": 1404,
-        "LMArena-Text-Longer-Query": 1374,
-        "LMArena-Text-Multi-Turn": 1375
+        "LMArena-Text-Longer-Query": 1375,
+        "LMArena-Text-Multi-Turn": 1374
       },
       "metadata": {
         "lmarenaRank": 58,
@@ -1262,8 +1260,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 71.459,
-          "timeToFirstToken": 99.455
+          "outputTokensPerSecond": 71.154,
+          "timeToFirstToken": 108.592
         }
       },
       "tags": [],
@@ -1290,9 +1288,9 @@
         "LMArena-Text-Creative-Writing": 1388,
         "LMArean-Text-Math": 1375,
         "LMArena-Text-Coding": 1425,
-        "LMArena-Text-Expert": 1391,
+        "LMArena-Text-Expert": 1390,
         "LMArena-Text-Hard-Prompts": 1404,
-        "LMArena-Text-Longer-Query": 1391,
+        "LMArena-Text-Longer-Query": 1392,
         "LMArena-Text-Multi-Turn": 1405
       },
       "metadata": {
@@ -1313,7 +1311,7 @@
     {
       "id": "o4-mini",
       "name": "o4-mini-2025-04-16",
-      "provider": "52◄─►68",
+      "provider": "53◄─►68",
       "releaseDate": "2025-04-16",
       "benchmarks": {
         "MMLU Pro": 83.2,
@@ -1330,10 +1328,10 @@
         "LMArena-Text": 1391,
         "LMArena-Text-Creative-Writing": 1339,
         "LMArean-Text-Math": 1420,
-        "LMArena-Text-Coding": 1429,
-        "LMArena-Text-Expert": 1407,
+        "LMArena-Text-Coding": 1430,
+        "LMArena-Text-Expert": 1406,
         "LMArena-Text-Hard-Prompts": 1404,
-        "LMArena-Text-Longer-Query": 1367,
+        "LMArena-Text-Longer-Query": 1368,
         "LMArena-Text-Multi-Turn": 1381
       },
       "metadata": {
@@ -1344,8 +1342,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 126.212,
-          "timeToFirstToken": 46.433
+          "outputTokensPerSecond": 124.201,
+          "timeToFirstToken": 59.397
         }
       },
       "tags": [],
@@ -1354,7 +1352,7 @@
     {
       "id": "o1-preview",
       "name": "o1-preview",
-      "provider": "55◄─►71",
+      "provider": "55◄─►72",
       "releaseDate": "2024-09-12",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -1368,13 +1366,13 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1388,
+        "LMArena-Text": 1387,
         "LMArena-Text-Creative-Writing": 1364,
-        "LMArean-Text-Math": 1388,
-        "LMArena-Text-Coding": 1415,
-        "LMArena-Text-Expert": 1377,
-        "LMArena-Text-Hard-Prompts": 1393,
-        "LMArena-Text-Longer-Query": 1379,
+        "LMArean-Text-Math": 1387,
+        "LMArena-Text-Coding": 1414,
+        "LMArena-Text-Expert": 1376,
+        "LMArena-Text-Hard-Prompts": 1394,
+        "LMArena-Text-Longer-Query": 1380,
         "LMArena-Text-Multi-Turn": 1387
       },
       "metadata": {
@@ -1411,11 +1409,11 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1385,
         "LMArena-Text-Creative-Writing": 1360,
-        "LMArean-Text-Math": 1380,
+        "LMArean-Text-Math": 1379,
         "LMArena-Text-Coding": 1453,
-        "LMArena-Text-Expert": 1376,
-        "LMArena-Text-Hard-Prompts": 1410,
-        "LMArena-Text-Longer-Query": 1405,
+        "LMArena-Text-Expert": 1375,
+        "LMArena-Text-Hard-Prompts": 1411,
+        "LMArena-Text-Longer-Query": 1406,
         "LMArena-Text-Multi-Turn": 1392
       },
       "metadata": {
@@ -1426,8 +1424,8 @@
           "output": 7.5
         },
         "performance": {
-          "outputTokensPerSecond": 45.268,
-          "timeToFirstToken": 1.772
+          "outputTokensPerSecond": 45.172,
+          "timeToFirstToken": 1.681
         }
       },
       "tags": [],
@@ -1436,7 +1434,7 @@
     {
       "id": "gpt-4-1-mini",
       "name": "gpt-4.1-mini-2025-04-14",
-      "provider": "61◄─►75",
+      "provider": "62◄─►75",
       "releaseDate": "2025-04-14",
       "benchmarks": {
         "MMLU Pro": 78.10000000000001,
@@ -1452,12 +1450,12 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1380,
         "LMArena-Text-Creative-Writing": 1344,
-        "LMArean-Text-Math": 1358,
+        "LMArean-Text-Math": 1357,
         "LMArena-Text-Coding": 1432,
-        "LMArena-Text-Expert": 1381,
+        "LMArena-Text-Expert": 1380,
         "LMArena-Text-Hard-Prompts": 1399,
         "LMArena-Text-Longer-Query": 1387,
-        "LMArena-Text-Multi-Turn": 1389
+        "LMArena-Text-Multi-Turn": 1388
       },
       "metadata": {
         "lmarenaRank": 70,
@@ -1467,8 +1465,8 @@
           "output": 1.6
         },
         "performance": {
-          "outputTokensPerSecond": 82.545,
-          "timeToFirstToken": 0.474
+          "outputTokensPerSecond": 80.873,
+          "timeToFirstToken": 0.438
         }
       },
       "tags": [],
@@ -1493,12 +1491,12 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1374,
         "LMArena-Text-Creative-Writing": 1328,
-        "LMArean-Text-Math": 1402,
-        "LMArena-Text-Coding": 1431,
+        "LMArean-Text-Math": 1401,
+        "LMArena-Text-Coding": 1432,
         "LMArena-Text-Expert": 1381,
         "LMArena-Text-Hard-Prompts": 1390,
         "LMArena-Text-Longer-Query": 1380,
-        "LMArena-Text-Multi-Turn": 1369
+        "LMArena-Text-Multi-Turn": 1368
       },
       "metadata": {
         "lmarenaRank": 74,
@@ -1508,8 +1506,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 62.677,
-          "timeToFirstToken": 1.262
+          "outputTokensPerSecond": 62.579,
+          "timeToFirstToken": 1.184
         }
       },
       "tags": [],
@@ -1532,12 +1530,12 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1373,
+        "LMArena-Text": 1372,
         "LMArena-Text-Creative-Writing": 1352,
         "LMArean-Text-Math": 1369,
         "LMArena-Text-Coding": 1400,
         "LMArena-Text-Expert": 1364,
-        "LMArena-Text-Hard-Prompts": 1381,
+        "LMArena-Text-Hard-Prompts": 1382,
         "LMArena-Text-Longer-Query": 1383,
         "LMArena-Text-Multi-Turn": 1369
       },
@@ -1549,8 +1547,8 @@
           "output": 6.4
         },
         "performance": {
-          "outputTokensPerSecond": 29.382,
-          "timeToFirstToken": 1.268
+          "outputTokensPerSecond": 27.345,
+          "timeToFirstToken": 1.205
         }
       },
       "tags": [],
@@ -1574,13 +1572,13 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1370,
-        "LMArena-Text-Creative-Writing": 1327,
-        "LMArean-Text-Math": 1397,
+        "LMArena-Text-Creative-Writing": 1326,
+        "LMArean-Text-Math": 1396,
         "LMArena-Text-Coding": 1426,
         "LMArena-Text-Expert": 1388,
         "LMArena-Text-Hard-Prompts": 1389,
         "LMArena-Text-Longer-Query": 1380,
-        "LMArena-Text-Multi-Turn": 1367
+        "LMArena-Text-Multi-Turn": 1368
       },
       "metadata": {
         "lmarenaRank": 78,
@@ -1590,8 +1588,8 @@
           "output": 1.1
         },
         "performance": {
-          "outputTokensPerSecond": 109.285,
-          "timeToFirstToken": 0.55
+          "outputTokensPerSecond": 104.588,
+          "timeToFirstToken": 0.553
         }
       },
       "tags": [],
@@ -1600,7 +1598,7 @@
     {
       "id": "o3-mini-high",
       "name": "o3-mini-high",
-      "provider": "77◄─►90",
+      "provider": "77◄─►92",
       "releaseDate": "2025-01-31",
       "benchmarks": {
         "MMLU Pro": 80.2,
@@ -1614,13 +1612,13 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1363,
+        "LMArena-Text": 1362,
         "LMArena-Text-Creative-Writing": 1310,
         "LMArean-Text-Math": 1409,
         "LMArena-Text-Coding": 1432,
-        "LMArena-Text-Expert": 1394,
+        "LMArena-Text-Expert": 1393,
         "LMArena-Text-Hard-Prompts": 1398,
-        "LMArena-Text-Longer-Query": 1370,
+        "LMArena-Text-Longer-Query": 1371,
         "LMArena-Text-Multi-Turn": 1342
       },
       "metadata": {
@@ -1631,8 +1629,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 138.79,
-          "timeToFirstToken": 65.934
+          "outputTokensPerSecond": 146.831,
+          "timeToFirstToken": 64.935
         }
       },
       "tags": [],
@@ -1641,7 +1639,7 @@
     {
       "id": "deepseek-v3",
       "name": "deepseek-v3",
-      "provider": "79◄─►100",
+      "provider": "80◄─►101",
       "releaseDate": "2024-12-26",
       "benchmarks": {
         "MMLU Pro": 75.2,
@@ -1655,13 +1653,13 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1358,
+        "LMArena-Text": 1357,
         "LMArena-Text-Creative-Writing": 1348,
-        "LMArean-Text-Math": 1316,
+        "LMArean-Text-Math": 1315,
         "LMArena-Text-Coding": 1385,
         "LMArena-Text-Expert": 1343,
         "LMArena-Text-Hard-Prompts": 1347,
-        "LMArena-Text-Longer-Query": 1372,
+        "LMArena-Text-Longer-Query": 1373,
         "LMArena-Text-Multi-Turn": 1369
       },
       "metadata": {
@@ -1680,123 +1678,123 @@
       "description": ""
     },
     {
-      "id": "gpt-oss-120b",
+      "id": "gpt-oss-120b-low",
       "name": "gpt-oss-120b",
-      "provider": "85◄─►108",
+      "provider": "84◄─►107",
       "releaseDate": "2025-08-05",
       "benchmarks": {
-        "MMLU Pro": 80.80000000000001,
-        "GPQA Diamond": 78.2,
-        "Humanity's Last Exam": 18.5,
-        "AA-LCR": 50.7,
-        "LiveCodeBench": 87.8,
-        "SciCode": 38.9,
-        "AIME 2025": 93.4,
+        "MMLU Pro": 77.5,
+        "GPQA Diamond": 67.2,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 43.7,
+        "LiveCodeBench": 70.7,
+        "SciCode": 36,
+        "AIME 2025": 66.7,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1352,
         "LMArena-Text-Creative-Writing": 1282,
-        "LMArean-Text-Math": 1388,
+        "LMArean-Text-Math": 1387,
         "LMArena-Text-Coding": 1388,
-        "LMArena-Text-Expert": 1360,
+        "LMArena-Text-Expert": 1358,
         "LMArena-Text-Hard-Prompts": 1359,
-        "LMArena-Text-Longer-Query": 1324,
+        "LMArena-Text-Longer-Query": 1325,
         "LMArena-Text-Multi-Turn": 1322
       },
       "metadata": {
-        "lmarenaRank": 89,
+        "lmarenaRank": 88,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.15,
-          "output": 0.6
+          "output": 0.595
         },
         "performance": {
-          "outputTokensPerSecond": 326.837,
-          "timeToFirstToken": 0.462
+          "outputTokensPerSecond": 282.64,
+          "timeToFirstToken": 0.555
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "glm-4-5v",
+      "id": "glm-4-5v-reasoning",
       "name": "glm-4.5v",
-      "provider": "82◄─►110",
+      "provider": "82◄─►111",
       "releaseDate": "2025-08-11",
       "benchmarks": {
-        "MMLU Pro": 75.1,
-        "GPQA Diamond": 57.3,
-        "Humanity's Last Exam": 3.5999999999999996,
+        "MMLU Pro": 78.8,
+        "GPQA Diamond": 68.4,
+        "Humanity's Last Exam": 5.8999999999999995,
         "AA-LCR": 0,
-        "LiveCodeBench": 35.199999999999996,
-        "SciCode": 18.8,
-        "AIME 2025": 15.299999999999999,
+        "LiveCodeBench": 60.4,
+        "SciCode": 22.1,
+        "AIME 2025": 73,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1352,
-        "LMArena-Text-Creative-Writing": 1308,
-        "LMArean-Text-Math": 1363,
+        "LMArena-Text-Creative-Writing": 1307,
+        "LMArean-Text-Math": 1366,
         "LMArena-Text-Coding": 1402,
-        "LMArena-Text-Expert": 1404,
-        "LMArena-Text-Hard-Prompts": 1369,
-        "LMArena-Text-Longer-Query": 1338,
+        "LMArena-Text-Expert": 1403,
+        "LMArena-Text-Hard-Prompts": 1370,
+        "LMArena-Text-Longer-Query": 1340,
         "LMArena-Text-Multi-Turn": 1354
       },
       "metadata": {
-        "lmarenaRank": 92,
+        "lmarenaRank": 90,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.6,
           "output": 1.8
         },
         "performance": {
-          "outputTokensPerSecond": 37.997,
-          "timeToFirstToken": 0.68
+          "outputTokensPerSecond": 35.435,
+          "timeToFirstToken": 0.678
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "o3-mini-high",
+      "id": "o3-mini",
       "name": "o3-mini",
-      "provider": "87◄─►110",
+      "provider": "87◄─►111",
       "releaseDate": "2025-01-31",
       "benchmarks": {
-        "MMLU Pro": 80.2,
-        "GPQA Diamond": 77.3,
-        "Humanity's Last Exam": 12.3,
+        "MMLU Pro": 79.10000000000001,
+        "GPQA Diamond": 74.8,
+        "Humanity's Last Exam": 8.7,
         "AA-LCR": 0,
-        "LiveCodeBench": 73.4,
-        "SciCode": 39.800000000000004,
+        "LiveCodeBench": 71.7,
+        "SciCode": 39.900000000000006,
         "AIME 2025": 0,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1348,
+        "LMArena-Text": 1347,
         "LMArena-Text-Creative-Writing": 1301,
-        "LMArean-Text-Math": 1387,
+        "LMArean-Text-Math": 1386,
         "LMArena-Text-Coding": 1413,
-        "LMArena-Text-Expert": 1363,
+        "LMArena-Text-Expert": 1362,
         "LMArena-Text-Hard-Prompts": 1368,
         "LMArena-Text-Longer-Query": 1358,
         "LMArena-Text-Multi-Turn": 1336
       },
       "metadata": {
-        "lmarenaRank": 94,
+        "lmarenaRank": 95,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.1,
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 138.79,
-          "timeToFirstToken": 65.934
+          "outputTokensPerSecond": 149.286,
+          "timeToFirstToken": 16.271
         }
       },
       "tags": [],
@@ -1805,7 +1803,7 @@
     {
       "id": "ling-flash-2-0",
       "name": "ling-flash-2.0",
-      "provider": "85◄─►116",
+      "provider": "85◄─►113",
       "releaseDate": "2025-09-17",
       "benchmarks": {
         "MMLU Pro": 77.7,
@@ -1820,24 +1818,65 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1346,
-        "LMArena-Text-Creative-Writing": 1271,
-        "LMArean-Text-Math": 1360,
+        "LMArena-Text-Creative-Writing": 1272,
+        "LMArean-Text-Math": 1359,
         "LMArena-Text-Coding": 1412,
-        "LMArena-Text-Expert": 1358,
+        "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1329,
         "LMArena-Text-Multi-Turn": 1316
       },
       "metadata": {
-        "lmarenaRank": 97,
+        "lmarenaRank": 96,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 50.144,
-          "timeToFirstToken": 1.699
+          "outputTokensPerSecond": 49.706,
+          "timeToFirstToken": 1.575
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "qwen3-32b-instruct",
+      "name": "qwen3-32b",
+      "provider": "85◄─►121",
+      "releaseDate": "2025-04-28",
+      "benchmarks": {
+        "MMLU Pro": 72.7,
+        "GPQA Diamond": 53.5,
+        "Humanity's Last Exam": 4.3,
+        "AA-LCR": 0,
+        "LiveCodeBench": 28.799999999999997,
+        "SciCode": 28.000000000000004,
+        "AIME 2025": 19.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1345,
+        "LMArena-Text-Creative-Writing": 1304,
+        "LMArean-Text-Math": 1403,
+        "LMArena-Text-Coding": 1405,
+        "LMArena-Text-Expert": 1395,
+        "LMArena-Text-Hard-Prompts": 1363,
+        "LMArena-Text-Longer-Query": 1355,
+        "LMArena-Text-Multi-Turn": 1334
+      },
+      "metadata": {
+        "lmarenaRank": 102,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.7,
+          "output": 2.8
+        },
+        "performance": {
+          "outputTokensPerSecond": 90.582,
+          "timeToFirstToken": 1.117
         }
       },
       "tags": [],
@@ -1846,7 +1885,7 @@
     {
       "id": "gpt-4o-2024-05-13",
       "name": "gpt-4o-2024-05-13",
-      "provider": "88◄─►111",
+      "provider": "91◄─►111",
       "releaseDate": "2024-05-13",
       "benchmarks": {
         "MMLU Pro": 74,
@@ -1860,66 +1899,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1346,
+        "LMArena-Text": 1344,
         "LMArena-Text-Creative-Writing": 1335,
         "LMArean-Text-Math": 1307,
-        "LMArena-Text-Coding": 1366,
+        "LMArena-Text-Coding": 1367,
         "LMArena-Text-Expert": 1306,
-        "LMArena-Text-Hard-Prompts": 1334,
+        "LMArena-Text-Hard-Prompts": 1335,
         "LMArena-Text-Longer-Query": 1329,
-        "LMArena-Text-Multi-Turn": 1337
+        "LMArena-Text-Multi-Turn": 1336
       },
       "metadata": {
-        "lmarenaRank": 98,
+        "lmarenaRank": 103,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 5,
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 97.76,
-          "timeToFirstToken": 0.536
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "qwen3-32b-instruct-reasoning",
-      "name": "qwen3-32b",
-      "provider": "85◄─►120",
-      "releaseDate": "2025-04-28",
-      "benchmarks": {
-        "MMLU Pro": 79.80000000000001,
-        "GPQA Diamond": 66.8,
-        "Humanity's Last Exam": 8.3,
-        "AA-LCR": 0,
-        "LiveCodeBench": 54.6,
-        "SciCode": 35.4,
-        "AIME 2025": 73,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1344,
-        "LMArena-Text-Creative-Writing": 1304,
-        "LMArean-Text-Math": 1404,
-        "LMArena-Text-Coding": 1405,
-        "LMArena-Text-Expert": 1395,
-        "LMArena-Text-Hard-Prompts": 1363,
-        "LMArena-Text-Longer-Query": 1355,
-        "LMArena-Text-Multi-Turn": 1334
-      },
-      "metadata": {
-        "lmarenaRank": 104,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.7,
-          "output": 8.4
-        },
-        "performance": {
-          "outputTokensPerSecond": 98.525,
-          "timeToFirstToken": 1.175
+          "outputTokensPerSecond": 118.14,
+          "timeToFirstToken": 0.581
         }
       },
       "tags": [],
@@ -1928,7 +1926,7 @@
     {
       "id": "gpt-5-nano",
       "name": "gpt-5-nano-high",
-      "provider": "92◄─►122",
+      "provider": "92◄─►123",
       "releaseDate": "2025-08-07",
       "benchmarks": {
         "MMLU Pro": 78,
@@ -1942,25 +1940,25 @@
         "AA-Omniscience": -30,
         "AA-Omniscience Accuracy": 18.28,
         "AA-Omniscience Hallucination Rate": 58.66,
-        "LMArena-Text": 1339,
-        "LMArena-Text-Creative-Writing": 1254,
-        "LMArean-Text-Math": 1354,
-        "LMArena-Text-Coding": 1380,
+        "LMArena-Text": 1338,
+        "LMArena-Text-Creative-Writing": 1252,
+        "LMArean-Text-Math": 1356,
+        "LMArena-Text-Coding": 1381,
         "LMArena-Text-Expert": 1357,
         "LMArena-Text-Hard-Prompts": 1353,
-        "LMArena-Text-Longer-Query": 1331,
-        "LMArena-Text-Multi-Turn": 1329
+        "LMArena-Text-Longer-Query": 1332,
+        "LMArena-Text-Multi-Turn": 1328
       },
       "metadata": {
-        "lmarenaRank": 110,
+        "lmarenaRank": 109,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.05,
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 122.966,
-          "timeToFirstToken": 129.106
+          "outputTokensPerSecond": 127.927,
+          "timeToFirstToken": 104.016
         }
       },
       "tags": [],
@@ -1969,7 +1967,7 @@
     {
       "id": "o1-mini",
       "name": "o1-mini",
-      "provider": "97◄─►122",
+      "provider": "98◄─►123",
       "releaseDate": "2024-09-12",
       "benchmarks": {
         "MMLU Pro": 74.2,
@@ -1983,17 +1981,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1336,
-        "LMArena-Text-Creative-Writing": 1280,
-        "LMArean-Text-Math": 1365,
-        "LMArena-Text-Coding": 1386,
+        "LMArena-Text": 1335,
+        "LMArena-Text-Creative-Writing": 1279,
+        "LMArean-Text-Math": 1364,
+        "LMArena-Text-Coding": 1385,
         "LMArena-Text-Expert": 1347,
         "LMArena-Text-Hard-Prompts": 1357,
-        "LMArena-Text-Longer-Query": 1342,
+        "LMArena-Text-Longer-Query": 1343,
         "LMArena-Text-Multi-Turn": 1319
       },
       "metadata": {
-        "lmarenaRank": 111,
+        "lmarenaRank": 112,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2010,7 +2008,7 @@
     {
       "id": "gpt-4o-2024-08-06",
       "name": "gpt-4o-2024-08-06",
-      "provider": "97◄─►123",
+      "provider": "101◄─►126",
       "releaseDate": "2024-08-06",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2024,25 +2022,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1335,
+        "LMArena-Text": 1334,
         "LMArena-Text-Creative-Writing": 1324,
         "LMArean-Text-Math": 1310,
         "LMArena-Text-Coding": 1358,
-        "LMArena-Text-Expert": 1306,
-        "LMArena-Text-Hard-Prompts": 1323,
-        "LMArena-Text-Longer-Query": 1335,
-        "LMArena-Text-Multi-Turn": 1324
+        "LMArena-Text-Expert": 1305,
+        "LMArena-Text-Hard-Prompts": 1324,
+        "LMArena-Text-Longer-Query": 1336,
+        "LMArena-Text-Multi-Turn": 1323
       },
       "metadata": {
-        "lmarenaRank": 113,
+        "lmarenaRank": 114,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2.5,
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 103.406,
-          "timeToFirstToken": 0.598
+          "outputTokensPerSecond": 121.814,
+          "timeToFirstToken": 0.591
         }
       },
       "tags": [],
@@ -2051,7 +2049,7 @@
     {
       "id": "qwq-32b",
       "name": "qwq-32b",
-      "provider": "99◄─►125",
+      "provider": "101◄─►126",
       "releaseDate": "2025-03-05",
       "benchmarks": {
         "MMLU Pro": 76.4,
@@ -2066,24 +2064,24 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1334,
-        "LMArena-Text-Creative-Writing": 1293,
-        "LMArean-Text-Math": 1366,
+        "LMArena-Text-Creative-Writing": 1294,
+        "LMArean-Text-Math": 1365,
         "LMArena-Text-Coding": 1384,
-        "LMArena-Text-Expert": 1359,
+        "LMArena-Text-Expert": 1357,
         "LMArena-Text-Hard-Prompts": 1354,
         "LMArena-Text-Longer-Query": 1336,
         "LMArena-Text-Multi-Turn": 1319
       },
       "metadata": {
-        "lmarenaRank": 118,
+        "lmarenaRank": 115,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.43,
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 28.731,
-          "timeToFirstToken": 1.257
+          "outputTokensPerSecond": 30.217,
+          "timeToFirstToken": 1.376
         }
       },
       "tags": [],
@@ -2092,7 +2090,7 @@
     {
       "id": "qwen3-30b-a3b-instruct-reasoning",
       "name": "qwen3-30b-a3b",
-      "provider": "114◄─►139",
+      "provider": "111◄─►140",
       "releaseDate": "2025-04-28",
       "benchmarks": {
         "MMLU Pro": 77.7,
@@ -2106,25 +2104,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1326,
-        "LMArena-Text-Creative-Writing": 1285,
+        "LMArena-Text": 1325,
+        "LMArena-Text-Creative-Writing": 1284,
         "LMArean-Text-Math": 1360,
         "LMArena-Text-Coding": 1384,
         "LMArena-Text-Expert": 1342,
-        "LMArena-Text-Hard-Prompts": 1343,
-        "LMArena-Text-Longer-Query": 1339,
-        "LMArena-Text-Multi-Turn": 1319
+        "LMArena-Text-Hard-Prompts": 1342,
+        "LMArena-Text-Longer-Query": 1340,
+        "LMArena-Text-Multi-Turn": 1318
       },
       "metadata": {
-        "lmarenaRank": 122,
+        "lmarenaRank": 123,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
           "output": 2.4
         },
         "performance": {
-          "outputTokensPerSecond": 79.142,
-          "timeToFirstToken": 1.149
+          "outputTokensPerSecond": 88.14,
+          "timeToFirstToken": 1.138
         }
       },
       "tags": [],
@@ -2133,7 +2131,7 @@
     {
       "id": "gpt-4-turbo",
       "name": "gpt-4-turbo-2024-04-09",
-      "provider": "117◄─►139",
+      "provider": "119◄─►144",
       "releaseDate": "2023-11-06",
       "benchmarks": {
         "MMLU Pro": 69.39999999999999,
@@ -2147,66 +2145,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1325,
+        "LMArena-Text": 1323,
         "LMArena-Text-Creative-Writing": 1321,
-        "LMArean-Text-Math": 1299,
+        "LMArean-Text-Math": 1298,
         "LMArena-Text-Coding": 1344,
-        "LMArena-Text-Expert": 1292,
-        "LMArena-Text-Hard-Prompts": 1313,
-        "LMArena-Text-Longer-Query": 1312,
+        "LMArena-Text-Expert": 1291,
+        "LMArena-Text-Hard-Prompts": 1314,
+        "LMArena-Text-Longer-Query": 1313,
         "LMArena-Text-Multi-Turn": 1309
       },
       "metadata": {
-        "lmarenaRank": 125,
+        "lmarenaRank": 126,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 10,
           "output": 30
         },
         "performance": {
-          "outputTokensPerSecond": 34.593,
-          "timeToFirstToken": 0.906
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "claude-3-opus",
-      "name": "Anthropicclaude-3-opus-20240229",
-      "provider": "118◄─►142",
-      "releaseDate": "2024-03-04",
-      "benchmarks": {
-        "MMLU Pro": 69.6,
-        "GPQA Diamond": 48.9,
-        "Humanity's Last Exam": 3.1,
-        "AA-LCR": 0,
-        "LiveCodeBench": 27.900000000000002,
-        "SciCode": 23.3,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1323,
-        "LMArena-Text-Creative-Writing": 1287,
-        "LMArean-Text-Math": 1313,
-        "LMArena-Text-Coding": 1351,
-        "LMArena-Text-Expert": 1312,
-        "LMArena-Text-Hard-Prompts": 1326,
-        "LMArena-Text-Longer-Query": 1325,
-        "LMArena-Text-Multi-Turn": 1320
-      },
-      "metadata": {
-        "lmarenaRank": 126,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 15,
-          "output": 75
-        },
-        "performance": {
-          "outputTokensPerSecond": 0,
-          "timeToFirstToken": 0
+          "outputTokensPerSecond": 37.193,
+          "timeToFirstToken": 0.789
         }
       },
       "tags": [],
@@ -2215,7 +2172,7 @@
     {
       "id": "claude-3-5-haiku",
       "name": "Anthropicclaude-3-5-haiku-20241022",
-      "provider": "118◄─►142",
+      "provider": "119◄─►144",
       "releaseDate": "2024-10-22",
       "benchmarks": {
         "MMLU Pro": 63.4,
@@ -2229,14 +2186,14 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1323,
-        "LMArena-Text-Creative-Writing": 1300,
+        "LMArena-Text": 1322,
+        "LMArena-Text-Creative-Writing": 1299,
         "LMArean-Text-Math": 1286,
         "LMArena-Text-Coding": 1383,
-        "LMArena-Text-Expert": 1308,
+        "LMArena-Text-Expert": 1307,
         "LMArena-Text-Hard-Prompts": 1341,
-        "LMArena-Text-Longer-Query": 1340,
-        "LMArena-Text-Multi-Turn": 1324
+        "LMArena-Text-Longer-Query": 1341,
+        "LMArena-Text-Multi-Turn": 1323
       },
       "metadata": {
         "lmarenaRank": 128,
@@ -2246,8 +2203,8 @@
           "output": 4
         },
         "performance": {
-          "outputTokensPerSecond": 48.445,
-          "timeToFirstToken": 0.74
+          "outputTokensPerSecond": 49.021,
+          "timeToFirstToken": 0.721
         }
       },
       "tags": [],
@@ -2256,7 +2213,7 @@
     {
       "id": "deepseek-v2-5",
       "name": "deepseek-v2.5-1210",
-      "provider": "112◄─►148",
+      "provider": "112◄─►149",
       "releaseDate": "2024-12-10",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2270,13 +2227,13 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1323,
-        "LMArena-Text-Creative-Writing": 1308,
+        "LMArena-Text": 1322,
+        "LMArena-Text-Creative-Writing": 1307,
         "LMArean-Text-Math": 1296,
         "LMArena-Text-Coding": 1372,
         "LMArena-Text-Expert": 1302,
         "LMArena-Text-Hard-Prompts": 1326,
-        "LMArena-Text-Longer-Query": 1334,
+        "LMArena-Text-Longer-Query": 1335,
         "LMArena-Text-Multi-Turn": 1319
       },
       "metadata": {
@@ -2295,9 +2252,50 @@
       "description": ""
     },
     {
+      "id": "claude-3-opus",
+      "name": "Anthropicclaude-3-opus-20240229",
+      "provider": "119◄─►144",
+      "releaseDate": "2024-03-04",
+      "benchmarks": {
+        "MMLU Pro": 69.6,
+        "GPQA Diamond": 48.9,
+        "Humanity's Last Exam": 3.1,
+        "AA-LCR": 0,
+        "LiveCodeBench": 27.900000000000002,
+        "SciCode": 23.3,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1321,
+        "LMArena-Text-Creative-Writing": 1286,
+        "LMArean-Text-Math": 1312,
+        "LMArena-Text-Coding": 1351,
+        "LMArena-Text-Expert": 1311,
+        "LMArena-Text-Hard-Prompts": 1326,
+        "LMArena-Text-Longer-Query": 1325,
+        "LMArena-Text-Multi-Turn": 1320
+      },
+      "metadata": {
+        "lmarenaRank": 130,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 15,
+          "output": 75
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "gpt-4-1-nano",
       "name": "gpt-4.1-nano-2025-04-14",
-      "provider": "117◄─►148",
+      "provider": "117◄─►149",
       "releaseDate": "2025-04-14",
       "benchmarks": {
         "MMLU Pro": 65.7,
@@ -2313,23 +2311,23 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1320,
         "LMArena-Text-Creative-Writing": 1306,
-        "LMArean-Text-Math": 1279,
+        "LMArean-Text-Math": 1278,
         "LMArena-Text-Coding": 1372,
         "LMArena-Text-Expert": 1310,
         "LMArena-Text-Hard-Prompts": 1329,
-        "LMArena-Text-Longer-Query": 1325,
+        "LMArena-Text-Longer-Query": 1326,
         "LMArena-Text-Multi-Turn": 1311
       },
       "metadata": {
-        "lmarenaRank": 131,
+        "lmarenaRank": 132,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 142.537,
-          "timeToFirstToken": 0.468
+          "outputTokensPerSecond": 140.379,
+          "timeToFirstToken": 0.418
         }
       },
       "tags": [],
@@ -2338,7 +2336,7 @@
     {
       "id": "ring-flash-2-0",
       "name": "ring-flash-2.0",
-      "provider": "118◄─►148",
+      "provider": "119◄─►149",
       "releaseDate": "2025-09-19",
       "benchmarks": {
         "MMLU Pro": 79.3,
@@ -2352,25 +2350,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1320,
-        "LMArena-Text-Creative-Writing": 1256,
-        "LMArean-Text-Math": 1352,
+        "LMArena-Text": 1319,
+        "LMArena-Text-Creative-Writing": 1257,
+        "LMArean-Text-Math": 1354,
         "LMArena-Text-Coding": 1390,
-        "LMArena-Text-Expert": 1359,
+        "LMArena-Text-Expert": 1358,
         "LMArena-Text-Hard-Prompts": 1350,
         "LMArena-Text-Longer-Query": 1332,
         "LMArena-Text-Multi-Turn": 1281
       },
       "metadata": {
-        "lmarenaRank": 132,
+        "lmarenaRank": 133,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 79.797,
-          "timeToFirstToken": 2.082
+          "outputTokensPerSecond": 78.495,
+          "timeToFirstToken": 1.565
         }
       },
       "tags": [],
@@ -2379,7 +2377,7 @@
     {
       "id": "gpt-oss-20b",
       "name": "gpt-oss-20b",
-      "provider": "120◄─►149",
+      "provider": "119◄─►150",
       "releaseDate": "2025-08-05",
       "benchmarks": {
         "MMLU Pro": 74.8,
@@ -2394,24 +2392,24 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1318,
-        "LMArena-Text-Creative-Writing": 1239,
+        "LMArena-Text-Creative-Writing": 1238,
         "LMArean-Text-Math": 1338,
         "LMArena-Text-Coding": 1369,
-        "LMArena-Text-Expert": 1316,
-        "LMArena-Text-Hard-Prompts": 1322,
-        "LMArena-Text-Longer-Query": 1303,
+        "LMArena-Text-Expert": 1317,
+        "LMArena-Text-Hard-Prompts": 1321,
+        "LMArena-Text-Longer-Query": 1304,
         "LMArena-Text-Multi-Turn": 1288
       },
       "metadata": {
-        "lmarenaRank": 138,
+        "lmarenaRank": 137,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.07,
           "output": 0.2
         },
         "performance": {
-          "outputTokensPerSecond": 308.453,
-          "timeToFirstToken": 0.495
+          "outputTokensPerSecond": 313.01,
+          "timeToFirstToken": 0.478
         }
       },
       "tags": [],
@@ -2420,7 +2418,7 @@
     {
       "id": "gpt-4o-mini",
       "name": "gpt-4o-mini-2024-07-18",
-      "provider": "124◄─►148",
+      "provider": "123◄─►149",
       "releaseDate": "2024-07-18",
       "benchmarks": {
         "MMLU Pro": 64.8,
@@ -2434,25 +2432,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1317,
+        "LMArena-Text": 1316,
         "LMArena-Text-Creative-Writing": 1293,
         "LMArean-Text-Math": 1279,
-        "LMArena-Text-Coding": 1346,
-        "LMArena-Text-Expert": 1280,
+        "LMArena-Text-Coding": 1347,
+        "LMArena-Text-Expert": 1279,
         "LMArena-Text-Hard-Prompts": 1308,
-        "LMArena-Text-Longer-Query": 1322,
-        "LMArena-Text-Multi-Turn": 1307
+        "LMArena-Text-Longer-Query": 1323,
+        "LMArena-Text-Multi-Turn": 1306
       },
       "metadata": {
-        "lmarenaRank": 139,
+        "lmarenaRank": 140,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.15,
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 50.843,
-          "timeToFirstToken": 0.521
+          "outputTokensPerSecond": 50.102,
+          "timeToFirstToken": 0.656
         }
       },
       "tags": [],
@@ -2461,7 +2459,7 @@
     {
       "id": "mistral-large-2407",
       "name": "mistral-large-2407",
-      "provider": "127◄─►153",
+      "provider": "129◄─►154",
       "releaseDate": "2024-07-24",
       "benchmarks": {
         "MMLU Pro": 68.30000000000001,
@@ -2475,14 +2473,14 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1314,
+        "LMArena-Text": 1313,
         "LMArena-Text-Creative-Writing": 1286,
-        "LMArean-Text-Math": 1291,
+        "LMArean-Text-Math": 1290,
         "LMArena-Text-Coding": 1350,
-        "LMArena-Text-Expert": 1296,
+        "LMArena-Text-Expert": 1295,
         "LMArena-Text-Hard-Prompts": 1317,
-        "LMArena-Text-Longer-Query": 1301,
-        "LMArena-Text-Multi-Turn": 1294
+        "LMArena-Text-Longer-Query": 1302,
+        "LMArena-Text-Multi-Turn": 1293
       },
       "metadata": {
         "lmarenaRank": 143,
@@ -2500,9 +2498,50 @@
       "description": ""
     },
     {
+      "id": "olmo-3-32b-think",
+      "name": "olmo-3-32b-think",
+      "provider": "123◄─►159",
+      "releaseDate": "2025-11-20",
+      "benchmarks": {
+        "MMLU Pro": 75.9,
+        "GPQA Diamond": 61,
+        "Humanity's Last Exam": 5.8999999999999995,
+        "AA-LCR": 0,
+        "LiveCodeBench": 67.2,
+        "SciCode": 28.599999999999998,
+        "AIME 2025": 73.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1310,
+        "LMArena-Text-Creative-Writing": 1255,
+        "LMArean-Text-Math": 1326,
+        "LMArena-Text-Coding": 1363,
+        "LMArena-Text-Expert": 1272,
+        "LMArena-Text-Hard-Prompts": 1327,
+        "LMArena-Text-Longer-Query": 1320,
+        "LMArena-Text-Multi-Turn": 1293
+      },
+      "metadata": {
+        "lmarenaRank": 147,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.2,
+          "output": 0.35
+        },
+        "performance": {
+          "outputTokensPerSecond": 53.402,
+          "timeToFirstToken": 0.45
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "deepseek-v2-5",
       "name": "deepseek-v2.5",
-      "provider": "140◄─►158",
+      "provider": "141◄─►159",
       "releaseDate": "2024-12-10",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2516,17 +2555,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1307,
+        "LMArena-Text": 1305,
         "LMArena-Text-Creative-Writing": 1264,
-        "LMArean-Text-Math": 1291,
+        "LMArean-Text-Math": 1290,
         "LMArena-Text-Coding": 1365,
-        "LMArena-Text-Expert": 1292,
-        "LMArena-Text-Hard-Prompts": 1318,
-        "LMArena-Text-Longer-Query": 1311,
+        "LMArena-Text-Expert": 1291,
+        "LMArena-Text-Hard-Prompts": 1319,
+        "LMArena-Text-Longer-Query": 1312,
         "LMArena-Text-Multi-Turn": 1289
       },
       "metadata": {
-        "lmarenaRank": 149,
+        "lmarenaRank": 151,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2541,50 +2580,9 @@
       "description": ""
     },
     {
-      "id": "olmo-3-32b-think",
-      "name": "olmo-3-32b-think",
-      "provider": "128◄─►162",
-      "releaseDate": "2025-11-20",
-      "benchmarks": {
-        "MMLU Pro": 75.9,
-        "GPQA Diamond": 61,
-        "Humanity's Last Exam": 5.8999999999999995,
-        "AA-LCR": 0,
-        "LiveCodeBench": 67.2,
-        "SciCode": 28.599999999999998,
-        "AIME 2025": 73.7,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1306,
-        "LMArena-Text-Creative-Writing": 1259,
-        "LMArean-Text-Math": 0,
-        "LMArena-Text-Coding": 1361,
-        "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1326,
-        "LMArena-Text-Longer-Query": 1324,
-        "LMArena-Text-Multi-Turn": 1291
-      },
-      "metadata": {
-        "lmarenaRank": 150,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.2,
-          "output": 0.35
-        },
-        "performance": {
-          "outputTokensPerSecond": 20.123,
-          "timeToFirstToken": 0.871
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
       "id": "qwen2-5-72b-instruct",
       "name": "qwen2.5-72b-instruct",
-      "provider": "146◄─►158",
+      "provider": "147◄─►159",
       "releaseDate": "2024-09-19",
       "benchmarks": {
         "MMLU Pro": 72,
@@ -2598,25 +2596,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1302,
-        "LMArena-Text-Creative-Writing": 1253,
-        "LMArean-Text-Math": 1300,
+        "LMArena-Text": 1301,
+        "LMArena-Text-Creative-Writing": 1252,
+        "LMArean-Text-Math": 1299,
         "LMArena-Text-Coding": 1353,
         "LMArena-Text-Expert": 1291,
-        "LMArena-Text-Hard-Prompts": 1314,
-        "LMArena-Text-Longer-Query": 1314,
+        "LMArena-Text-Hard-Prompts": 1315,
+        "LMArena-Text-Longer-Query": 1315,
         "LMArena-Text-Multi-Turn": 1295
       },
       "metadata": {
-        "lmarenaRank": 156,
+        "lmarenaRank": 157,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 45.069,
-          "timeToFirstToken": 1.181
+          "outputTokensPerSecond": 45.699,
+          "timeToFirstToken": 1.174
         }
       },
       "tags": [],
@@ -2625,7 +2623,7 @@
     {
       "id": "jamba-1-5-large",
       "name": "jamba-1.5-large",
-      "provider": "155◄─►171",
+      "provider": "157◄─►172",
       "releaseDate": "2024-08-22",
       "benchmarks": {
         "MMLU Pro": 57.199999999999996,
@@ -2639,17 +2637,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1289,
-        "LMArena-Text-Creative-Writing": 1260,
+        "LMArena-Text": 1287,
+        "LMArena-Text-Creative-Writing": 1259,
         "LMArean-Text-Math": 1247,
         "LMArena-Text-Coding": 1309,
         "LMArena-Text-Expert": 1279,
         "LMArena-Text-Hard-Prompts": 1281,
-        "LMArena-Text-Longer-Query": 1258,
-        "LMArena-Text-Multi-Turn": 1264
+        "LMArena-Text-Longer-Query": 1259,
+        "LMArena-Text-Multi-Turn": 1263
       },
       "metadata": {
-        "lmarenaRank": 160,
+        "lmarenaRank": 162,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2,
@@ -2666,7 +2664,7 @@
     {
       "id": "claude-3-sonnet",
       "name": "Anthropicclaude-3-sonnet-20240229",
-      "provider": "159◄─►176",
+      "provider": "161◄─►178",
       "releaseDate": "2024-03-04",
       "benchmarks": {
         "MMLU Pro": 57.9,
@@ -2680,17 +2678,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1282,
+        "LMArena-Text": 1280,
         "LMArena-Text-Creative-Writing": 1244,
         "LMArean-Text-Math": 1255,
         "LMArena-Text-Coding": 1314,
-        "LMArena-Text-Expert": 1265,
-        "LMArena-Text-Hard-Prompts": 1279,
+        "LMArena-Text-Expert": 1264,
+        "LMArena-Text-Hard-Prompts": 1280,
         "LMArena-Text-Longer-Query": 1282,
         "LMArena-Text-Multi-Turn": 1276
       },
       "metadata": {
-        "lmarenaRank": 168,
+        "lmarenaRank": 169,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
@@ -2707,7 +2705,7 @@
     {
       "id": "qwen2-5-coder-32b-instruct",
       "name": "qwen2.5-coder-32b-instruct",
-      "provider": "167◄─►186",
+      "provider": "167◄─►187",
       "releaseDate": "2024-11-11",
       "benchmarks": {
         "MMLU Pro": 63.5,
@@ -2721,25 +2719,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1270,
-        "LMArena-Text-Creative-Writing": 1203,
-        "LMArean-Text-Math": 1273,
+        "LMArena-Text": 1269,
+        "LMArena-Text-Creative-Writing": 1202,
+        "LMArean-Text-Math": 1272,
         "LMArena-Text-Coding": 1340,
-        "LMArena-Text-Expert": 1273,
-        "LMArena-Text-Hard-Prompts": 1300,
-        "LMArena-Text-Longer-Query": 1283,
+        "LMArena-Text-Expert": 1272,
+        "LMArena-Text-Hard-Prompts": 1301,
+        "LMArena-Text-Longer-Query": 1284,
         "LMArena-Text-Multi-Turn": 1247
       },
       "metadata": {
-        "lmarenaRank": 177,
+        "lmarenaRank": 178,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.13,
           "output": 0.175
         },
         "performance": {
-          "outputTokensPerSecond": 49.568,
-          "timeToFirstToken": 1.497
+          "outputTokensPerSecond": 43.205,
+          "timeToFirstToken": 1.581
         }
       },
       "tags": [],
@@ -2748,7 +2746,7 @@
     {
       "id": "deepseek-coder-v2",
       "name": "deepseek-coder-v2",
-      "provider": "174◄─►188",
+      "provider": "175◄─►189",
       "releaseDate": "2024-06-17",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2762,17 +2760,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1265,
+        "LMArena-Text": 1263,
         "LMArena-Text-Creative-Writing": 1202,
-        "LMArean-Text-Math": 1272,
+        "LMArean-Text-Math": 1271,
         "LMArena-Text-Coding": 1339,
         "LMArena-Text-Expert": 1260,
-        "LMArena-Text-Hard-Prompts": 1284,
+        "LMArena-Text-Hard-Prompts": 1285,
         "LMArena-Text-Longer-Query": 1283,
         "LMArena-Text-Multi-Turn": 1233
       },
       "metadata": {
-        "lmarenaRank": 180,
+        "lmarenaRank": 181,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2789,7 +2787,7 @@
     {
       "id": "qwen2-72b-instruct",
       "name": "qwen2-72b-instruct",
-      "provider": "175◄─►188",
+      "provider": "176◄─►189",
       "releaseDate": "2024-06-07",
       "benchmarks": {
         "MMLU Pro": 62.2,
@@ -2803,17 +2801,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1263,
-        "LMArena-Text-Creative-Writing": 1223,
+        "LMArena-Text": 1261,
+        "LMArena-Text-Creative-Writing": 1222,
         "LMArean-Text-Math": 1275,
         "LMArena-Text-Coding": 1292,
-        "LMArena-Text-Expert": 1254,
+        "LMArena-Text-Expert": 1253,
         "LMArena-Text-Hard-Prompts": 1270,
         "LMArena-Text-Longer-Query": 1257,
         "LMArena-Text-Multi-Turn": 1241
       },
       "metadata": {
-        "lmarenaRank": 182,
+        "lmarenaRank": 183,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2830,7 +2828,7 @@
     {
       "id": "claude-3-haiku",
       "name": "Anthropicclaude-3-haiku-20240307",
-      "provider": "177◄─►188",
+      "provider": "178◄─►189",
       "releaseDate": "2024-03-04",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2844,25 +2842,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1262,
-        "LMArena-Text-Creative-Writing": 1214,
-        "LMArean-Text-Math": 1232,
+        "LMArena-Text": 1260,
+        "LMArena-Text-Creative-Writing": 1213,
+        "LMArean-Text-Math": 1231,
         "LMArena-Text-Coding": 1297,
-        "LMArena-Text-Expert": 1245,
-        "LMArena-Text-Hard-Prompts": 1262,
+        "LMArena-Text-Expert": 1244,
+        "LMArena-Text-Hard-Prompts": 1263,
         "LMArena-Text-Longer-Query": 1262,
         "LMArena-Text-Multi-Turn": 1243
       },
       "metadata": {
-        "lmarenaRank": 183,
+        "lmarenaRank": 184,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.25,
           "output": 1.25
         },
         "performance": {
-          "outputTokensPerSecond": 116.669,
-          "timeToFirstToken": 0.427
+          "outputTokensPerSecond": 105.003,
+          "timeToFirstToken": 0.436
         }
       },
       "tags": [],
@@ -2871,7 +2869,7 @@
     {
       "id": "phi-4",
       "name": "Azurephi-4",
-      "provider": "180◄─►188",
+      "provider": "181◄─►189",
       "releaseDate": "2024-12-12",
       "benchmarks": {
         "MMLU Pro": 71.39999999999999,
@@ -2887,23 +2885,23 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1255,
         "LMArena-Text-Creative-Writing": 1209,
-        "LMArean-Text-Math": 1268,
+        "LMArean-Text-Math": 1267,
         "LMArena-Text-Coding": 1304,
-        "LMArena-Text-Expert": 1263,
+        "LMArena-Text-Expert": 1262,
         "LMArena-Text-Hard-Prompts": 1275,
         "LMArena-Text-Longer-Query": 1264,
         "LMArena-Text-Multi-Turn": 1239
       },
       "metadata": {
-        "lmarenaRank": 186,
+        "lmarenaRank": 187,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.125,
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 18.788,
-          "timeToFirstToken": 0.515
+          "outputTokensPerSecond": 9.533,
+          "timeToFirstToken": 0.55
         }
       },
       "tags": [],
@@ -2912,7 +2910,7 @@
     {
       "id": "jamba-1-5-mini",
       "name": "jamba-1.5-mini",
-      "provider": "187◄─►202",
+      "provider": "188◄─►203",
       "releaseDate": "2024-08-22",
       "benchmarks": {
         "MMLU Pro": 37.1,
@@ -2926,17 +2924,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1240,
+        "LMArena-Text": 1238,
         "LMArena-Text-Creative-Writing": 1209,
         "LMArean-Text-Math": 1188,
         "LMArena-Text-Coding": 1263,
-        "LMArena-Text-Expert": 1206,
+        "LMArena-Text-Expert": 1205,
         "LMArena-Text-Hard-Prompts": 1234,
         "LMArena-Text-Longer-Query": 1214,
         "LMArena-Text-Multi-Turn": 1203
       },
       "metadata": {
-        "lmarenaRank": 191,
+        "lmarenaRank": 192,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
@@ -2953,7 +2951,7 @@
     {
       "id": "gemini-1-0-pro",
       "name": "gemini-pro-dev-api",
-      "provider": "188◄─►205",
+      "provider": "190◄─►207",
       "releaseDate": "2023-12-06",
       "benchmarks": {
         "MMLU Pro": 43.1,
@@ -2967,17 +2965,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1236,
-        "LMArena-Text-Creative-Writing": 1201,
+        "LMArena-Text": 1233,
+        "LMArena-Text-Creative-Writing": 1200,
         "LMArean-Text-Math": 1192,
-        "LMArena-Text-Coding": 1235,
-        "LMArena-Text-Expert": 1171,
-        "LMArena-Text-Hard-Prompts": 1227,
+        "LMArena-Text-Coding": 1236,
+        "LMArena-Text-Expert": 1170,
+        "LMArena-Text-Hard-Prompts": 1229,
         "LMArena-Text-Longer-Query": 1219,
         "LMArena-Text-Multi-Turn": 1184
       },
       "metadata": {
-        "lmarenaRank": 193,
+        "lmarenaRank": 195,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2994,7 +2992,7 @@
     {
       "id": "mistral-medium",
       "name": "mistral-medium",
-      "provider": "192◄─►208",
+      "provider": "194◄─►210",
       "releaseDate": "2023-12-11",
       "benchmarks": {
         "MMLU Pro": 49.1,
@@ -3008,25 +3006,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1225,
+        "LMArena-Text": 1222,
         "LMArena-Text-Creative-Writing": 1193,
         "LMArean-Text-Math": 1222,
         "LMArena-Text-Coding": 1257,
-        "LMArena-Text-Expert": 1220,
-        "LMArena-Text-Hard-Prompts": 1232,
-        "LMArena-Text-Longer-Query": 1216,
+        "LMArena-Text-Expert": 1219,
+        "LMArena-Text-Hard-Prompts": 1233,
+        "LMArena-Text-Longer-Query": 1217,
         "LMArena-Text-Multi-Turn": 1194
       },
       "metadata": {
-        "lmarenaRank": 202,
+        "lmarenaRank": 205,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2.75,
           "output": 8.1
         },
         "performance": {
-          "outputTokensPerSecond": 72.458,
-          "timeToFirstToken": 0.502
+          "outputTokensPerSecond": 76.194,
+          "timeToFirstToken": 0.409
         }
       },
       "tags": [],
@@ -3035,7 +3033,7 @@
     {
       "id": "gemini-1-0-pro",
       "name": "gemini-pro",
-      "provider": "191◄─►212",
+      "provider": "192◄─►213",
       "releaseDate": "2023-12-06",
       "benchmarks": {
         "MMLU Pro": 43.1,
@@ -3049,17 +3047,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1223,
+        "LMArena-Text": 1220,
         "LMArena-Text-Creative-Writing": 1181,
         "LMArean-Text-Math": 1196,
-        "LMArena-Text-Coding": 1244,
+        "LMArena-Text-Coding": 1245,
         "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1225,
+        "LMArena-Text-Hard-Prompts": 1226,
         "LMArena-Text-Longer-Query": 0,
         "LMArena-Text-Multi-Turn": 1198
       },
       "metadata": {
-        "lmarenaRank": 205,
+        "lmarenaRank": 207,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -3076,7 +3074,7 @@
     {
       "id": "deepseek-llm-67b-chat",
       "name": "deepseek-llm-67b-chat",
-      "provider": "212◄─►236",
+      "provider": "213◄─►237",
       "releaseDate": "2023-11-29",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -3090,17 +3088,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1186,
+        "LMArena-Text": 1182,
         "LMArena-Text-Creative-Writing": 1131,
         "LMArean-Text-Math": 1156,
         "LMArena-Text-Coding": 1213,
         "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1172,
-        "LMArena-Text-Longer-Query": 1177,
+        "LMArena-Text-Hard-Prompts": 1173,
+        "LMArena-Text-Longer-Query": 1178,
         "LMArena-Text-Multi-Turn": 1150
       },
       "metadata": {
-        "lmarenaRank": 220,
+        "lmarenaRank": 223,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -3117,7 +3115,7 @@
     {
       "id": "qwq-32b-preview",
       "name": "qwq-32b-preview",
-      "provider": "227◄─►250",
+      "provider": "228◄─►251",
       "releaseDate": "2024-11-27",
       "benchmarks": {
         "MMLU Pro": 64.8,
@@ -3131,25 +3129,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1160,
+        "LMArena-Text": 1158,
         "LMArena-Text-Creative-Writing": 1107,
-        "LMArean-Text-Math": 1221,
+        "LMArean-Text-Math": 1220,
         "LMArena-Text-Coding": 1171,
         "LMArena-Text-Expert": 1151,
         "LMArena-Text-Hard-Prompts": 1167,
-        "LMArena-Text-Longer-Query": 1177,
+        "LMArena-Text-Longer-Query": 1178,
         "LMArena-Text-Multi-Turn": 1146
       },
       "metadata": {
-        "lmarenaRank": 237,
+        "lmarenaRank": 238,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.12,
           "output": 0.18
         },
         "performance": {
-          "outputTokensPerSecond": 103.719,
-          "timeToFirstToken": 0.236
+          "outputTokensPerSecond": 100.132,
+          "timeToFirstToken": 0.235
         }
       },
       "tags": [],
@@ -3158,7 +3156,7 @@
     {
       "id": "palm-2",
       "name": "palm-2",
-      "provider": "239◄─►261",
+      "provider": "240◄─►262",
       "releaseDate": "2023-05-10",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -3172,17 +3170,17 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1139,
-        "LMArena-Text-Creative-Writing": 1086,
+        "LMArena-Text": 1135,
+        "LMArena-Text-Creative-Writing": 1085,
         "LMArean-Text-Math": 1113,
-        "LMArena-Text-Coding": 1146,
+        "LMArena-Text-Coding": 1149,
         "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1141,
-        "LMArena-Text-Longer-Query": 1130,
+        "LMArena-Text-Hard-Prompts": 1142,
+        "LMArena-Text-Longer-Query": 1131,
         "LMArena-Text-Multi-Turn": 1088
       },
       "metadata": {
-        "lmarenaRank": 251,
+        "lmarenaRank": 253,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -3199,7 +3197,7 @@
     {
       "id": "mistral-7b-instruct",
       "name": "mistral-7b-instruct",
-      "provider": "257◄─►267",
+      "provider": "258◄─►268",
       "releaseDate": "2023-09-27",
       "benchmarks": {
         "MMLU Pro": 24.5,
@@ -3213,25 +3211,25 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1112,
-        "LMArena-Text-Creative-Writing": 1092,
+        "LMArena-Text": 1109,
+        "LMArena-Text-Creative-Writing": 1091,
         "LMArean-Text-Math": 1082,
-        "LMArena-Text-Coding": 1139,
-        "LMArena-Text-Expert": 1076,
-        "LMArena-Text-Hard-Prompts": 1110,
-        "LMArena-Text-Longer-Query": 1091,
+        "LMArena-Text-Coding": 1140,
+        "LMArena-Text-Expert": 1074,
+        "LMArena-Text-Hard-Prompts": 1111,
+        "LMArena-Text-Longer-Query": 1092,
         "LMArena-Text-Multi-Turn": 1080
       },
       "metadata": {
-        "lmarenaRank": 265,
+        "lmarenaRank": 266,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.25,
           "output": 0.25
         },
         "performance": {
-          "outputTokensPerSecond": 125.471,
-          "timeToFirstToken": 0.353
+          "outputTokensPerSecond": 125.067,
+          "timeToFirstToken": 0.346
         }
       },
       "tags": [],
