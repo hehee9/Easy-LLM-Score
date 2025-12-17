@@ -32,9 +32,9 @@
         "price_1m_input_tokens": 0.07,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 313.01,
-      "median_time_to_first_token_seconds": 0.478,
-      "median_time_to_first_answer_token": 6.868
+      "median_output_tokens_per_second": 297.748,
+      "median_time_to_first_token_seconds": 0.492,
+      "median_time_to_first_answer_token": 7.209
     },
     {
       "id": "c3738fb0-3408-4430-a699-760ae4b70c93",
@@ -68,9 +68,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 77.151,
-      "median_time_to_first_token_seconds": 0.996,
-      "median_time_to_first_answer_token": 0.996
+      "median_output_tokens_per_second": 72.958,
+      "median_time_to_first_token_seconds": 0.913,
+      "median_time_to_first_answer_token": 0.913
     },
     {
       "id": "498862c3-f9ac-49d2-852f-16a02bb0c38f",
@@ -104,9 +104,9 @@
         "price_1m_input_tokens": 1.75,
         "price_1m_output_tokens": 14
       },
-      "median_output_tokens_per_second": 91.941,
-      "median_time_to_first_token_seconds": 0.589,
-      "median_time_to_first_answer_token": 0.589
+      "median_output_tokens_per_second": 103.335,
+      "median_time_to_first_token_seconds": 1.607,
+      "median_time_to_first_answer_token": 1.607
     },
     {
       "id": "05e45a36-b5c6-47a1-8adb-9ddc19add5b3",
@@ -141,8 +141,8 @@
         "price_1m_output_tokens": 0.4
       },
       "median_output_tokens_per_second": 119.911,
-      "median_time_to_first_token_seconds": 0.723,
-      "median_time_to_first_answer_token": 0.723
+      "median_time_to_first_token_seconds": 0.751,
+      "median_time_to_first_answer_token": 0.751
     },
     {
       "id": "c99f3bde-7c08-4de8-bd5c-8ee9123ebffa",
@@ -176,9 +176,9 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.595
       },
-      "median_output_tokens_per_second": 282.64,
-      "median_time_to_first_token_seconds": 0.555,
-      "median_time_to_first_answer_token": 7.631
+      "median_output_tokens_per_second": 285.711,
+      "median_time_to_first_token_seconds": 0.57,
+      "median_time_to_first_answer_token": 7.571
     },
     {
       "id": "5e965af0-ca5c-4f47-9ba9-06000508b84a",
@@ -213,8 +213,8 @@
         "price_1m_output_tokens": 10
       },
       "median_output_tokens_per_second": 123.393,
-      "median_time_to_first_token_seconds": 49.793,
-      "median_time_to_first_answer_token": 49.793
+      "median_time_to_first_token_seconds": 52.386,
+      "median_time_to_first_answer_token": 52.386
     },
     {
       "id": "16149b9c-a1e9-4669-a5cb-ff3c00d78f89",
@@ -248,9 +248,9 @@
         "price_1m_input_tokens": 0.07,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 270.944,
-      "median_time_to_first_token_seconds": 0.537,
-      "median_time_to_first_answer_token": 7.918
+      "median_output_tokens_per_second": 251.915,
+      "median_time_to_first_token_seconds": 0.581,
+      "median_time_to_first_answer_token": 8.52
     },
     {
       "id": "4dc12a38-b18f-4c43-8e1b-678f8434b5b1",
@@ -284,9 +284,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 111.41,
-      "median_time_to_first_token_seconds": 30.516,
-      "median_time_to_first_answer_token": 30.516
+      "median_output_tokens_per_second": 113.597,
+      "median_time_to_first_token_seconds": 35.076,
+      "median_time_to_first_answer_token": 35.076
     },
     {
       "id": "f0083258-8646-45b8-8082-7aaf6c2ea82a",
@@ -320,9 +320,9 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 321.427,
-      "median_time_to_first_token_seconds": 0.494,
-      "median_time_to_first_answer_token": 6.716
+      "median_output_tokens_per_second": 320.241,
+      "median_time_to_first_token_seconds": 0.465,
+      "median_time_to_first_answer_token": 6.711
     },
     {
       "id": "4c111fbc-d13a-42b4-858c-1dc17fe3c1d1",
@@ -392,9 +392,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 66.744,
-      "median_time_to_first_token_seconds": 36.855,
-      "median_time_to_first_answer_token": 36.855
+      "median_output_tokens_per_second": 69.818,
+      "median_time_to_first_token_seconds": 34.371,
+      "median_time_to_first_answer_token": 34.371
     },
     {
       "id": "29855680-7469-43eb-8b88-cd3fb1d99da3",
@@ -428,9 +428,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 71.154,
-      "median_time_to_first_token_seconds": 108.592,
-      "median_time_to_first_answer_token": 108.592
+      "median_output_tokens_per_second": 70.283,
+      "median_time_to_first_token_seconds": 100.618,
+      "median_time_to_first_answer_token": 100.618
     },
     {
       "id": "16c5b637-8bce-4252-81f2-1b87a36a4e4c",
@@ -464,9 +464,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 8
       },
-      "median_output_tokens_per_second": 305.395,
-      "median_time_to_first_token_seconds": 12.264,
-      "median_time_to_first_answer_token": 12.264
+      "median_output_tokens_per_second": 299.284,
+      "median_time_to_first_token_seconds": 12.453,
+      "median_time_to_first_answer_token": 12.453
     },
     {
       "id": "d0b3d47e-aec6-425e-9de7-168dcc6d1e28",
@@ -500,7 +500,7 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 75.96,
+      "median_output_tokens_per_second": 85.143,
       "median_time_to_first_token_seconds": 0.853,
       "median_time_to_first_answer_token": 0.853
     },
@@ -536,9 +536,9 @@
         "price_1m_input_tokens": 0.05,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 127.927,
-      "median_time_to_first_token_seconds": 104.016,
-      "median_time_to_first_answer_token": 104.016
+      "median_output_tokens_per_second": 133.719,
+      "median_time_to_first_token_seconds": 110.325,
+      "median_time_to_first_answer_token": 110.325
     },
     {
       "id": "eab1492c-b853-4852-aa71-06b0ec2481c1",
@@ -572,9 +572,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 172.892,
-      "median_time_to_first_token_seconds": 0.597,
-      "median_time_to_first_answer_token": 0.597
+      "median_output_tokens_per_second": 147.343,
+      "median_time_to_first_token_seconds": 0.651,
+      "median_time_to_first_answer_token": 0.651
     },
     {
       "id": "04d023f3-025c-4d78-9571-53edda3eaf2a",
@@ -608,9 +608,45 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 179.872,
-      "median_time_to_first_token_seconds": 13.502,
-      "median_time_to_first_answer_token": 13.502
+      "median_output_tokens_per_second": 119.443,
+      "median_time_to_first_token_seconds": 15.356,
+      "median_time_to_first_answer_token": 15.356
+    },
+    {
+      "id": "6dd8ba55-5680-44a9-b309-82928165d5f0",
+      "name": "GPT-5.2 (Non-reasoning)",
+      "slug": "gpt-5-2-non-reasoning",
+      "release_date": "2025-12-11",
+      "model_creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI",
+        "slug": "openai"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 48,
+        "artificial_analysis_coding_index": 45.7,
+        "artificial_analysis_math_index": 51,
+        "mmlu_pro": 0.814,
+        "gpqa": 0.712,
+        "hle": 0.073,
+        "livecodebench": 0.669,
+        "scicode": 0.404,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.51,
+        "ifbench": 0.474,
+        "lcr": 0.38,
+        "terminalbench_hard": 0.298,
+        "tau2": 0.465
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 4.813,
+        "price_1m_input_tokens": 1.75,
+        "price_1m_output_tokens": 14
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
       "id": "bc26bfdb-4923-4442-a6ca-e77392923581",
@@ -644,9 +680,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 68.924,
-      "median_time_to_first_token_seconds": 0.833,
-      "median_time_to_first_answer_token": 0.833
+      "median_output_tokens_per_second": 67.811,
+      "median_time_to_first_token_seconds": 0.84,
+      "median_time_to_first_answer_token": 0.84
     },
     {
       "id": "8eb02396-f231-4189-ae15-05f7facebd9b",
@@ -680,9 +716,9 @@
         "price_1m_input_tokens": 0.05,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 133.434,
-      "median_time_to_first_token_seconds": 50.674,
-      "median_time_to_first_answer_token": 50.674
+      "median_output_tokens_per_second": 130.212,
+      "median_time_to_first_token_seconds": 50.938,
+      "median_time_to_first_answer_token": 50.938
     },
     {
       "id": "48e50f00-1fd1-4acc-b337-61078aa341e6",
@@ -716,9 +752,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 114.823,
-      "median_time_to_first_token_seconds": 101.819,
-      "median_time_to_first_answer_token": 101.819
+      "median_output_tokens_per_second": 102.466,
+      "median_time_to_first_token_seconds": 98.171,
+      "median_time_to_first_answer_token": 98.171
     },
     {
       "id": "7f3c9423-3ee3-4369-a6d9-3f2a40aff00e",
@@ -752,9 +788,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 105.178,
-      "median_time_to_first_token_seconds": 24.521,
-      "median_time_to_first_answer_token": 24.521
+      "median_output_tokens_per_second": 103.91,
+      "median_time_to_first_token_seconds": 24.864,
+      "median_time_to_first_answer_token": 24.864
     },
     {
       "id": "fd4454ff-e703-46c0-a7f5-fa69af09486d",
@@ -788,9 +824,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 157.859,
-      "median_time_to_first_token_seconds": 10.162,
-      "median_time_to_first_answer_token": 10.162
+      "median_output_tokens_per_second": 158.799,
+      "median_time_to_first_token_seconds": 10.673,
+      "median_time_to_first_answer_token": 10.673
     },
     {
       "id": "976cc8ad-7904-4056-83c5-960181f47d5f",
@@ -824,9 +860,9 @@
         "price_1m_input_tokens": 0.58,
         "price_1m_output_tokens": 0.71
       },
-      "median_output_tokens_per_second": 106.441,
-      "median_time_to_first_token_seconds": 0.469,
-      "median_time_to_first_answer_token": 0.469
+      "median_output_tokens_per_second": 99.868,
+      "median_time_to_first_token_seconds": 0.479,
+      "median_time_to_first_answer_token": 0.479
     },
     {
       "id": "45c87531-2d57-48e0-8012-202cd636189e",
@@ -860,9 +896,9 @@
         "price_1m_input_tokens": 3.75,
         "price_1m_output_tokens": 6.75
       },
-      "median_output_tokens_per_second": 25.072,
-      "median_time_to_first_token_seconds": 0.776,
-      "median_time_to_first_answer_token": 0.776
+      "median_output_tokens_per_second": 24.779,
+      "median_time_to_first_token_seconds": 0.778,
+      "median_time_to_first_answer_token": 0.778
     },
     {
       "id": "9ca71ac4-41c8-42c0-87dd-5704a9e5b94d",
@@ -896,9 +932,9 @@
         "price_1m_input_tokens": 0.72,
         "price_1m_output_tokens": 0.72
       },
-      "median_output_tokens_per_second": 35.829,
-      "median_time_to_first_token_seconds": 0.381,
-      "median_time_to_first_answer_token": 0.381
+      "median_output_tokens_per_second": 34.883,
+      "median_time_to_first_token_seconds": 0.386,
+      "median_time_to_first_answer_token": 0.386
     },
     {
       "id": "5fb47ff6-a30e-4c2c-96f2-55e95a13390f",
@@ -932,9 +968,9 @@
         "price_1m_input_tokens": 0.16,
         "price_1m_output_tokens": 0.16
       },
-      "median_output_tokens_per_second": 65.555,
-      "median_time_to_first_token_seconds": 0.384,
-      "median_time_to_first_answer_token": 0.384
+      "median_output_tokens_per_second": 57.94,
+      "median_time_to_first_token_seconds": 0.392,
+      "median_time_to_first_answer_token": 0.392
     },
     {
       "id": "922c69c7-9037-43c6-8bcf-a1c555e7f3eb",
@@ -968,9 +1004,9 @@
         "price_1m_input_tokens": 0.27,
         "price_1m_output_tokens": 0.85
       },
-      "median_output_tokens_per_second": 129.619,
-      "median_time_to_first_token_seconds": 0.44,
-      "median_time_to_first_answer_token": 0.44
+      "median_output_tokens_per_second": 128.986,
+      "median_time_to_first_token_seconds": 0.483,
+      "median_time_to_first_answer_token": 0.483
     },
     {
       "id": "adf9a85e-abc3-4f28-937b-db6655cc5238",
@@ -1004,9 +1040,9 @@
         "price_1m_input_tokens": 0.14,
         "price_1m_output_tokens": 0.545
       },
-      "median_output_tokens_per_second": 138.201,
-      "median_time_to_first_token_seconds": 0.529,
-      "median_time_to_first_answer_token": 0.529
+      "median_output_tokens_per_second": 137.55,
+      "median_time_to_first_token_seconds": 0.527,
+      "median_time_to_first_answer_token": 0.527
     },
     {
       "id": "d1720545-d0a8-4c15-a53e-ef5ca99ac7ea",
@@ -1040,9 +1076,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 47.15,
-      "median_time_to_first_token_seconds": 0.519,
-      "median_time_to_first_answer_token": 0.519
+      "median_output_tokens_per_second": 47.351,
+      "median_time_to_first_token_seconds": 0.503,
+      "median_time_to_first_answer_token": 0.503
     },
     {
       "id": "a797eaf3-6d75-4f29-86a8-e1243ce52d43",
@@ -1076,9 +1112,9 @@
         "price_1m_input_tokens": 0.02,
         "price_1m_output_tokens": 0.04
       },
-      "median_output_tokens_per_second": 38.927,
-      "median_time_to_first_token_seconds": 0.393,
-      "median_time_to_first_answer_token": 0.393
+      "median_output_tokens_per_second": 39.241,
+      "median_time_to_first_token_seconds": 0.404,
+      "median_time_to_first_answer_token": 0.404
     },
     {
       "id": "222fb320-6e55-4672-846a-b6d5a24a45f4",
@@ -1112,9 +1148,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 51.08,
-      "median_time_to_first_token_seconds": 0.959,
-      "median_time_to_first_answer_token": 0.959
+      "median_output_tokens_per_second": 50.8,
+      "median_time_to_first_token_seconds": 0.977,
+      "median_time_to_first_answer_token": 0.977
     },
     {
       "id": "2e6400f5-85ca-4ebc-ba8f-c2811a631138",
@@ -1148,7 +1184,7 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 52.846,
+      "median_output_tokens_per_second": 52.509,
       "median_time_to_first_token_seconds": 4.698,
       "median_time_to_first_answer_token": 4.698
     },
@@ -1184,9 +1220,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 12
       },
-      "median_output_tokens_per_second": 128.147,
-      "median_time_to_first_token_seconds": 4.28,
-      "median_time_to_first_answer_token": 4.28
+      "median_output_tokens_per_second": 131.481,
+      "median_time_to_first_token_seconds": 4.316,
+      "median_time_to_first_answer_token": 4.316
     },
     {
       "id": "2bfdd17a-e027-4068-a54e-b0e90a6df118",
@@ -1220,7 +1256,7 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 50.684,
+      "median_output_tokens_per_second": 50.905,
       "median_time_to_first_token_seconds": 0.675,
       "median_time_to_first_answer_token": 0.675
     },
@@ -1256,9 +1292,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 280.053,
-      "median_time_to_first_token_seconds": 11.538,
-      "median_time_to_first_answer_token": 11.538
+      "median_output_tokens_per_second": 281.021,
+      "median_time_to_first_token_seconds": 11.307,
+      "median_time_to_first_answer_token": 11.307
     },
     {
       "id": "a8c67863-9d66-44dd-8d27-f58654ecde03",
@@ -1292,9 +1328,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 52.81,
-      "median_time_to_first_token_seconds": 0.369,
-      "median_time_to_first_answer_token": 0.369
+      "median_output_tokens_per_second": 51.775,
+      "median_time_to_first_token_seconds": 0.355,
+      "median_time_to_first_answer_token": 0.355
     },
     {
       "id": "27202e5f-c82d-4710-92e9-4317877d4883",
@@ -1328,9 +1364,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 152.105,
-      "median_time_to_first_token_seconds": 35.309,
-      "median_time_to_first_answer_token": 35.309
+      "median_output_tokens_per_second": 150.087,
+      "median_time_to_first_token_seconds": 35.026,
+      "median_time_to_first_answer_token": 35.026
     },
     {
       "id": "04781a0e-40f0-4e2a-a4e5-18e389364a79",
@@ -1400,9 +1436,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 12
       },
-      "median_output_tokens_per_second": 118.708,
-      "median_time_to_first_token_seconds": 33.902,
-      "median_time_to_first_answer_token": 33.902
+      "median_output_tokens_per_second": 120.204,
+      "median_time_to_first_token_seconds": 34.099,
+      "median_time_to_first_answer_token": 34.099
     },
     {
       "id": "84922739-425f-46e1-87ac-bb4268dcacbb",
@@ -1436,9 +1472,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 719.001,
-      "median_time_to_first_token_seconds": 5.529,
-      "median_time_to_first_answer_token": 5.529
+      "median_output_tokens_per_second": 717.033,
+      "median_time_to_first_token_seconds": 5.569,
+      "median_time_to_first_answer_token": 5.569
     },
     {
       "id": "877fdfc9-2026-477a-af96-e4fd602c0131",
@@ -1472,9 +1508,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 240.266,
-      "median_time_to_first_token_seconds": 0.362,
-      "median_time_to_first_answer_token": 0.362
+      "median_output_tokens_per_second": 236.997,
+      "median_time_to_first_token_seconds": 0.294,
+      "median_time_to_first_answer_token": 0.294
     },
     {
       "id": "71f51ea9-94fe-4635-a80d-4cfffbb685f4",
@@ -1508,9 +1544,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 478.271,
-      "median_time_to_first_token_seconds": 0.244,
-      "median_time_to_first_answer_token": 0.244
+      "median_output_tokens_per_second": 469.516,
+      "median_time_to_first_token_seconds": 0.25,
+      "median_time_to_first_answer_token": 0.25
     },
     {
       "id": "c2b1e769-7aee-4669-8076-73918bdebf6c",
@@ -1544,9 +1580,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 5
       },
-      "median_output_tokens_per_second": 109.756,
-      "median_time_to_first_token_seconds": 0.491,
-      "median_time_to_first_answer_token": 0.491
+      "median_output_tokens_per_second": 106.64,
+      "median_time_to_first_token_seconds": 0.534,
+      "median_time_to_first_answer_token": 0.534
     },
     {
       "id": "a6340098-d7ae-462d-b372-0a0a67fc44b4",
@@ -1580,9 +1616,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 5
       },
-      "median_output_tokens_per_second": 54.832,
-      "median_time_to_first_token_seconds": 0.528,
-      "median_time_to_first_answer_token": 37.003
+      "median_output_tokens_per_second": 58.566,
+      "median_time_to_first_token_seconds": 0.595,
+      "median_time_to_first_answer_token": 34.745
     },
     {
       "id": "91cb6144-4937-4e4e-aeda-b4341d355c10",
@@ -1616,9 +1652,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 72.232,
-      "median_time_to_first_token_seconds": 1.928,
-      "median_time_to_first_answer_token": 1.928
+      "median_output_tokens_per_second": 72.867,
+      "median_time_to_first_token_seconds": 1.976,
+      "median_time_to_first_answer_token": 1.976
     },
     {
       "id": "4077490a-bbfb-404e-979a-a97a20e3b5de",
@@ -1652,9 +1688,9 @@
         "price_1m_input_tokens": 5,
         "price_1m_output_tokens": 25
       },
-      "median_output_tokens_per_second": 78.419,
-      "median_time_to_first_token_seconds": 2.384,
-      "median_time_to_first_answer_token": 2.384
+      "median_output_tokens_per_second": 78.584,
+      "median_time_to_first_token_seconds": 2.424,
+      "median_time_to_first_answer_token": 2.424
     },
     {
       "id": "90e078f2-051b-4c63-8919-76618971cb3f",
@@ -1688,9 +1724,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 60.054,
-      "median_time_to_first_token_seconds": 1.915,
-      "median_time_to_first_answer_token": 35.218
+      "median_output_tokens_per_second": 61.012,
+      "median_time_to_first_token_seconds": 2.002,
+      "median_time_to_first_answer_token": 34.783
     },
     {
       "id": "2660d74f-ce79-48a8-8b53-6e668e2071a2",
@@ -1724,9 +1760,9 @@
         "price_1m_input_tokens": 5,
         "price_1m_output_tokens": 25
       },
-      "median_output_tokens_per_second": 60.43,
-      "median_time_to_first_token_seconds": 2.025,
-      "median_time_to_first_answer_token": 35.122
+      "median_output_tokens_per_second": 63.328,
+      "median_time_to_first_token_seconds": 2.069,
+      "median_time_to_first_answer_token": 33.651
     },
     {
       "id": "66f4ce73-9a9b-4b49-9c6e-bedb9bfdc720",
@@ -1760,7 +1796,7 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.1
       },
-      "median_output_tokens_per_second": 305.249,
+      "median_output_tokens_per_second": 299.313,
       "median_time_to_first_token_seconds": 0.274,
       "median_time_to_first_answer_token": 0.274
     },
@@ -1796,9 +1832,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 146.221,
-      "median_time_to_first_token_seconds": 0.295,
-      "median_time_to_first_answer_token": 0.295
+      "median_output_tokens_per_second": 148.123,
+      "median_time_to_first_token_seconds": 0.296,
+      "median_time_to_first_answer_token": 0.296
     },
     {
       "id": "4928e950-7f37-4475-b0dc-c5bad781a321",
@@ -1832,9 +1868,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 1.5
       },
-      "median_output_tokens_per_second": 53.027,
-      "median_time_to_first_token_seconds": 0.526,
-      "median_time_to_first_answer_token": 0.526
+      "median_output_tokens_per_second": 51.307,
+      "median_time_to_first_token_seconds": 0.529,
+      "median_time_to_first_answer_token": 0.529
     },
     {
       "id": "9eae4ec4-61b8-48bc-9843-3edd506ae933",
@@ -1868,9 +1904,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 239.516,
-      "median_time_to_first_token_seconds": 0.371,
-      "median_time_to_first_answer_token": 0.371
+      "median_output_tokens_per_second": 235.183,
+      "median_time_to_first_token_seconds": 0.365,
+      "median_time_to_first_answer_token": 0.365
     },
     {
       "id": "43da3718-3d6e-40dd-901a-05664179ff7f",
@@ -1905,8 +1941,8 @@
         "price_1m_output_tokens": 0.3
       },
       "median_output_tokens_per_second": 118.025,
-      "median_time_to_first_token_seconds": 0.314,
-      "median_time_to_first_answer_token": 0.314
+      "median_time_to_first_token_seconds": 0.289,
+      "median_time_to_first_answer_token": 0.289
     },
     {
       "id": "70152cb0-fb36-4732-a925-89ef40994be1",
@@ -1940,9 +1976,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 1.5
       },
-      "median_output_tokens_per_second": 213.522,
-      "median_time_to_first_token_seconds": 0.324,
-      "median_time_to_first_answer_token": 9.691
+      "median_output_tokens_per_second": 208.879,
+      "median_time_to_first_token_seconds": 0.326,
+      "median_time_to_first_answer_token": 9.901
     },
     {
       "id": "9741f3c2-cbb1-4a3f-99ee-7bd7384d9038",
@@ -1976,7 +2012,7 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.15
       },
-      "median_output_tokens_per_second": 195.352,
+      "median_output_tokens_per_second": 194.229,
       "median_time_to_first_token_seconds": 0.27,
       "median_time_to_first_answer_token": 0.27
     },
@@ -2012,9 +2048,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 191.366,
-      "median_time_to_first_token_seconds": 0.35,
-      "median_time_to_first_answer_token": 0.35
+      "median_output_tokens_per_second": 189.064,
+      "median_time_to_first_token_seconds": 0.356,
+      "median_time_to_first_answer_token": 0.356
     },
     {
       "id": "aba82268-2bb7-4a0f-80be-9b7722e2145b",
@@ -2048,9 +2084,9 @@
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 108.299,
-      "median_time_to_first_token_seconds": 0.436,
-      "median_time_to_first_answer_token": 0.436
+      "median_output_tokens_per_second": 109.836,
+      "median_time_to_first_token_seconds": 0.437,
+      "median_time_to_first_answer_token": 0.437
     },
     {
       "id": "05a32e26-e609-4377-951b-8fa23d329926",
@@ -2084,9 +2120,9 @@
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 63.997,
-      "median_time_to_first_token_seconds": 0.398,
-      "median_time_to_first_answer_token": 0.398
+      "median_output_tokens_per_second": 67.352,
+      "median_time_to_first_token_seconds": 0.392,
+      "median_time_to_first_answer_token": 0.392
     },
     {
       "id": "864da2a5-156c-45fd-873c-8923be91914f",
@@ -2120,9 +2156,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 5
       },
-      "median_output_tokens_per_second": 38.357,
-      "median_time_to_first_token_seconds": 0.483,
-      "median_time_to_first_answer_token": 52.625
+      "median_output_tokens_per_second": 38.352,
+      "median_time_to_first_token_seconds": 0.491,
+      "median_time_to_first_answer_token": 52.64
     },
     {
       "id": "09f43999-b67b-4c1b-b050-44df41ed7e62",
@@ -2156,7 +2192,7 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 58.52,
+      "median_output_tokens_per_second": 58.281,
       "median_time_to_first_token_seconds": 0.422,
       "median_time_to_first_answer_token": 0.422
     },
@@ -2192,9 +2228,9 @@
         "price_1m_input_tokens": 0.8,
         "price_1m_output_tokens": 1.05
       },
-      "median_output_tokens_per_second": 100.885,
-      "median_time_to_first_token_seconds": 0.84,
-      "median_time_to_first_answer_token": 20.665
+      "median_output_tokens_per_second": 99.517,
+      "median_time_to_first_token_seconds": 0.818,
+      "median_time_to_first_answer_token": 20.915
     },
     {
       "id": "a83f84b3-473a-4276-9ae1-8909da723159",
@@ -2336,9 +2372,9 @@
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 29.635,
-      "median_time_to_first_token_seconds": 1.258,
-      "median_time_to_first_answer_token": 68.745
+      "median_output_tokens_per_second": 29.403,
+      "median_time_to_first_token_seconds": 1.23,
+      "median_time_to_first_answer_token": 69.25
     },
     {
       "id": "6d9a176d-feb8-4dac-8872-afe32b31897f",
@@ -2372,9 +2408,9 @@
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 29.051,
-      "median_time_to_first_token_seconds": 1.226,
-      "median_time_to_first_answer_token": 1.226
+      "median_output_tokens_per_second": 28.414,
+      "median_time_to_first_token_seconds": 1.249,
+      "median_time_to_first_answer_token": 1.249
     },
     {
       "id": "5bebf309-45f9-4711-9dbd-b4502c813e62",
@@ -2408,9 +2444,9 @@
         "price_1m_input_tokens": 0.03,
         "price_1m_output_tokens": 0.1
       },
-      "median_output_tokens_per_second": 322.165,
-      "median_time_to_first_token_seconds": 0.215,
-      "median_time_to_first_answer_token": 0.215
+      "median_output_tokens_per_second": 320.53,
+      "median_time_to_first_token_seconds": 0.224,
+      "median_time_to_first_answer_token": 0.224
     },
     {
       "id": "6000145b-0e3d-4fef-a55f-bcaac84803b2",
@@ -2444,9 +2480,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.09
       },
-      "median_output_tokens_per_second": 62.241,
-      "median_time_to_first_token_seconds": 0.876,
-      "median_time_to_first_answer_token": 33.009
+      "median_output_tokens_per_second": 58.342,
+      "median_time_to_first_token_seconds": 0.873,
+      "median_time_to_first_answer_token": 35.153
     },
     {
       "id": "527e943a-adc6-4e69-93af-d1608e1b5fed",
@@ -2552,9 +2588,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 236.125,
-      "median_time_to_first_token_seconds": 3.686,
-      "median_time_to_first_answer_token": 3.686
+      "median_output_tokens_per_second": 198.724,
+      "median_time_to_first_token_seconds": 3.991,
+      "median_time_to_first_answer_token": 3.991
     },
     {
       "id": "ff9bc5e5-a02f-4270-983e-4b3f834f3363",
@@ -2588,9 +2624,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 177.057,
-      "median_time_to_first_token_seconds": 0.562,
-      "median_time_to_first_answer_token": 11.858
+      "median_output_tokens_per_second": 177.299,
+      "median_time_to_first_token_seconds": 0.583,
+      "median_time_to_first_answer_token": 11.864
     },
     {
       "id": "2dbb6dc7-8c40-4b6d-af9c-cf805f83b79a",
@@ -2624,9 +2660,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 148.204,
-      "median_time_to_first_token_seconds": 0.499,
-      "median_time_to_first_answer_token": 0.499
+      "median_output_tokens_per_second": 150.327,
+      "median_time_to_first_token_seconds": 0.526,
+      "median_time_to_first_answer_token": 0.526
     },
     {
       "id": "5ea94a4a-55ac-4ea1-8898-2b3971e94af6",
@@ -2660,9 +2696,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 32.943,
-      "median_time_to_first_token_seconds": 19.515,
-      "median_time_to_first_answer_token": 19.515
+      "median_output_tokens_per_second": 32.689,
+      "median_time_to_first_token_seconds": 16.954,
+      "median_time_to_first_answer_token": 16.954
     },
     {
       "id": "a06bd3fc-86db-4a8e-ae6d-7459444d08c9",
@@ -2696,9 +2732,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 1.5
       },
-      "median_output_tokens_per_second": 196.955,
-      "median_time_to_first_token_seconds": 10.419,
-      "median_time_to_first_answer_token": 10.419
+      "median_output_tokens_per_second": 195.036,
+      "median_time_to_first_token_seconds": 9.671,
+      "median_time_to_first_answer_token": 9.671
     },
     {
       "id": "23149f9b-c904-43e2-9ec4-afa2bf843941",
@@ -2732,9 +2768,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 167.984,
-      "median_time_to_first_token_seconds": 13.739,
-      "median_time_to_first_answer_token": 13.739
+      "median_output_tokens_per_second": 158.472,
+      "median_time_to_first_token_seconds": 13.754,
+      "median_time_to_first_answer_token": 13.754
     },
     {
       "id": "49fd01f9-887d-4479-b8ce-771a81ecef4e",
@@ -2768,9 +2804,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 118.775,
-      "median_time_to_first_token_seconds": 0.541,
-      "median_time_to_first_answer_token": 0.541
+      "median_output_tokens_per_second": 102.939,
+      "median_time_to_first_token_seconds": 0.581,
+      "median_time_to_first_answer_token": 0.581
     },
     {
       "id": "344c6718-c573-41d4-9556-10287a3fa1fc",
@@ -2804,9 +2840,9 @@
         "price_1m_input_tokens": 0.035,
         "price_1m_output_tokens": 0.14
       },
-      "median_output_tokens_per_second": 435.301,
-      "median_time_to_first_token_seconds": 0.343,
-      "median_time_to_first_answer_token": 0.343
+      "median_output_tokens_per_second": 434.219,
+      "median_time_to_first_token_seconds": 0.349,
+      "median_time_to_first_answer_token": 0.349
     },
     {
       "id": "1f6478c9-3e22-4586-adbe-841782859677",
@@ -2840,9 +2876,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 224.752,
-      "median_time_to_first_token_seconds": 0.647,
-      "median_time_to_first_answer_token": 0.647
+      "median_output_tokens_per_second": 226.369,
+      "median_time_to_first_token_seconds": 0.686,
+      "median_time_to_first_answer_token": 0.686
     },
     {
       "id": "018c60e8-e908-431a-ba57-c840b1df3987",
@@ -2984,9 +3020,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 135.622,
+      "median_output_tokens_per_second": 131.05,
       "median_time_to_first_token_seconds": 21.977,
-      "median_time_to_first_answer_token": 36.724
+      "median_time_to_first_answer_token": 37.238
     },
     {
       "id": "a20ae33a-46e1-41e6-81a0-fe8b00d2e538",
@@ -3020,9 +3056,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 155.6,
-      "median_time_to_first_token_seconds": 0.482,
-      "median_time_to_first_answer_token": 0.482
+      "median_output_tokens_per_second": 157.436,
+      "median_time_to_first_token_seconds": 0.48,
+      "median_time_to_first_answer_token": 0.48
     },
     {
       "id": "f4274721-ef28-4121-aa88-8e97267a5a82",
@@ -3056,9 +3092,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 136.344,
-      "median_time_to_first_token_seconds": 12.439,
-      "median_time_to_first_answer_token": 27.107
+      "median_output_tokens_per_second": 136.198,
+      "median_time_to_first_token_seconds": 12.062,
+      "median_time_to_first_answer_token": 26.746
     },
     {
       "id": "b36ff8f3-0323-49d1-a063-ab09704fdb0c",
@@ -3164,9 +3200,9 @@
         "price_1m_input_tokens": 2.5,
         "price_1m_output_tokens": 12.5
       },
-      "median_output_tokens_per_second": 78.17,
-      "median_time_to_first_token_seconds": 0.816,
-      "median_time_to_first_answer_token": 0.816
+      "median_output_tokens_per_second": 78.001,
+      "median_time_to_first_token_seconds": 0.811,
+      "median_time_to_first_answer_token": 0.811
     },
     {
       "id": "ee708f92-374e-4123-b900-e22d7b2afc19",
@@ -3200,9 +3236,9 @@
         "price_1m_input_tokens": 0.125,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 9.533,
-      "median_time_to_first_token_seconds": 0.55,
-      "median_time_to_first_answer_token": 0.55
+      "median_output_tokens_per_second": 9.438,
+      "median_time_to_first_token_seconds": 0.568,
+      "median_time_to_first_answer_token": 0.568
     },
     {
       "id": "9f873c2f-2c2d-4ccb-9e1b-71bf61b052be",
@@ -3236,9 +3272,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 44.769,
-      "median_time_to_first_token_seconds": 0.312,
-      "median_time_to_first_answer_token": 0.312
+      "median_output_tokens_per_second": 44.004,
+      "median_time_to_first_token_seconds": 0.318,
+      "median_time_to_first_answer_token": 0.318
     },
     {
       "id": "2cd04201-2b6e-47ef-853e-7601f705f2a8",
@@ -3272,9 +3308,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 16.573,
-      "median_time_to_first_token_seconds": 0.342,
-      "median_time_to_first_answer_token": 0.342
+      "median_output_tokens_per_second": 16.5,
+      "median_time_to_first_token_seconds": 0.348,
+      "median_time_to_first_answer_token": 0.348
     },
     {
       "id": "739e531a-eb0a-478f-bb67-5845b79ce65d",
@@ -3416,9 +3452,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 125.671,
-      "median_time_to_first_token_seconds": 1.145,
-      "median_time_to_first_answer_token": 17.059
+      "median_output_tokens_per_second": 114.34,
+      "median_time_to_first_token_seconds": 1.045,
+      "median_time_to_first_answer_token": 18.537
     },
     {
       "id": "44db6283-aa82-4799-af4a-679fe0530845",
@@ -3452,9 +3488,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 0.5
       },
-      "median_output_tokens_per_second": 113.781,
-      "median_time_to_first_token_seconds": 1.013,
-      "median_time_to_first_answer_token": 1.013
+      "median_output_tokens_per_second": 114.133,
+      "median_time_to_first_token_seconds": 1.024,
+      "median_time_to_first_answer_token": 1.024
     },
     {
       "id": "f74ea286-cd29-4eb4-af14-1389b19c21e5",
@@ -3488,9 +3524,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 1.2
       },
-      "median_output_tokens_per_second": 118.287,
-      "median_time_to_first_token_seconds": 1.476,
-      "median_time_to_first_answer_token": 18.384
+      "median_output_tokens_per_second": 116.506,
+      "median_time_to_first_token_seconds": 1.469,
+      "median_time_to_first_answer_token": 18.636
     },
     {
       "id": "7393c56a-ec31-48e9-b804-c04f2d2cb641",
@@ -3524,9 +3560,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 40.295,
-      "median_time_to_first_token_seconds": 0.361,
-      "median_time_to_first_answer_token": 0.361
+      "median_output_tokens_per_second": 39.372,
+      "median_time_to_first_token_seconds": 0.335,
+      "median_time_to_first_answer_token": 0.335
     },
     {
       "id": "c4c3b42f-e0f0-48ca-b6f9-b296e7697806",
@@ -3596,9 +3632,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 125.394,
-      "median_time_to_first_token_seconds": 0.562,
-      "median_time_to_first_answer_token": 0.562
+      "median_output_tokens_per_second": 126.021,
+      "median_time_to_first_token_seconds": 0.564,
+      "median_time_to_first_answer_token": 0.564
     },
     {
       "id": "e1cfa926-9e2b-4a0d-8c31-48366a5041c5",
@@ -3632,9 +3668,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 74.631,
+      "median_output_tokens_per_second": 73.576,
       "median_time_to_first_token_seconds": 0.251,
-      "median_time_to_first_answer_token": 27.049
+      "median_time_to_first_answer_token": 27.434
     },
     {
       "id": "76dcf6ef-39ea-4be0-b693-b88da25b4caf",
@@ -3668,9 +3704,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.24
       },
-      "median_output_tokens_per_second": 379.686,
+      "median_output_tokens_per_second": 379.447,
       "median_time_to_first_token_seconds": 0.221,
-      "median_time_to_first_answer_token": 5.489
+      "median_time_to_first_answer_token": 5.492
     },
     {
       "id": "f1d52583-9d20-4099-99ac-b5df9430c3b6",
@@ -3704,9 +3740,9 @@
         "price_1m_input_tokens": 0.04,
         "price_1m_output_tokens": 0.16
       },
-      "median_output_tokens_per_second": 91.536,
+      "median_output_tokens_per_second": 94.197,
       "median_time_to_first_token_seconds": 0.241,
-      "median_time_to_first_answer_token": 22.091
+      "median_time_to_first_answer_token": 21.473
     },
     {
       "id": "1a8ba535-df18-459b-ad40-3199191296d7",
@@ -3776,9 +3812,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.23
       },
-      "median_output_tokens_per_second": 79.818,
-      "median_time_to_first_token_seconds": 0.292,
-      "median_time_to_first_answer_token": 0.292
+      "median_output_tokens_per_second": 81.159,
+      "median_time_to_first_token_seconds": 0.308,
+      "median_time_to_first_answer_token": 0.308
     },
     {
       "id": "6e6e02fd-9cbd-417f-9bfc-673df89c313d",
@@ -3812,9 +3848,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 127.718,
-      "median_time_to_first_token_seconds": 0.226,
-      "median_time_to_first_answer_token": 15.886
+      "median_output_tokens_per_second": 127.416,
+      "median_time_to_first_token_seconds": 0.232,
+      "median_time_to_first_answer_token": 15.929
     },
     {
       "id": "26c0b5df-efa7-470f-a65e-2d883329e493",
@@ -3848,9 +3884,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 67.326,
-      "median_time_to_first_token_seconds": 0.248,
-      "median_time_to_first_answer_token": 0.248
+      "median_output_tokens_per_second": 69.183,
+      "median_time_to_first_token_seconds": 0.244,
+      "median_time_to_first_answer_token": 0.244
     },
     {
       "id": "cf095603-72b6-47f8-8ee1-09a42890f92a",
@@ -3884,9 +3920,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1.8
       },
-      "median_output_tokens_per_second": 37.065,
-      "median_time_to_first_token_seconds": 0.758,
-      "median_time_to_first_answer_token": 54.717
+      "median_output_tokens_per_second": 37.024,
+      "median_time_to_first_token_seconds": 0.763,
+      "median_time_to_first_answer_token": 54.783
     },
     {
       "id": "23b379f7-18df-492a-9fc1-a56c5a5b9cfc",
@@ -3920,9 +3956,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.24
       },
-      "median_output_tokens_per_second": 378.053,
-      "median_time_to_first_token_seconds": 0.221,
-      "median_time_to_first_answer_token": 0.221
+      "median_output_tokens_per_second": 373.166,
+      "median_time_to_first_token_seconds": 0.222,
+      "median_time_to_first_answer_token": 0.222
     },
     {
       "id": "b1fa84f8-1ed3-4124-b403-4655dafa4267",
@@ -3992,9 +4028,9 @@
         "price_1m_input_tokens": 0.99,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 60.18,
-      "median_time_to_first_token_seconds": 0.594,
-      "median_time_to_first_answer_token": 0.594
+      "median_output_tokens_per_second": 61.964,
+      "median_time_to_first_token_seconds": 0.603,
+      "median_time_to_first_answer_token": 0.603
     },
     {
       "id": "bddebfd3-0a8d-47f5-b722-bc4c2ca5a5dc",
@@ -4028,9 +4064,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 81.668,
-      "median_time_to_first_token_seconds": 0.645,
-      "median_time_to_first_answer_token": 25.134
+      "median_output_tokens_per_second": 81.089,
+      "median_time_to_first_token_seconds": 0.652,
+      "median_time_to_first_answer_token": 25.316
     },
     {
       "id": "598de97d-029e-47b6-96ec-dbc1e0f9045a",
@@ -4100,7 +4136,7 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 36.529,
+      "median_output_tokens_per_second": 36.456,
       "median_time_to_first_token_seconds": 0.637,
       "median_time_to_first_answer_token": 0.637
     },
@@ -4136,9 +4172,9 @@
         "price_1m_input_tokens": 0.12,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 104.895,
-      "median_time_to_first_token_seconds": 0.427,
-      "median_time_to_first_answer_token": 19.494
+      "median_output_tokens_per_second": 105.392,
+      "median_time_to_first_token_seconds": 0.412,
+      "median_time_to_first_answer_token": 19.389
     },
     {
       "id": "af74f222-05c7-422d-a653-b9c0707c9c72",
@@ -4208,9 +4244,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.35
       },
-      "median_output_tokens_per_second": 53.402,
-      "median_time_to_first_token_seconds": 0.45,
-      "median_time_to_first_answer_token": 37.901
+      "median_output_tokens_per_second": 51.572,
+      "median_time_to_first_token_seconds": 0.444,
+      "median_time_to_first_answer_token": 39.224
     },
     {
       "id": "a2c8e7b2-57bf-4d1e-96ea-7944d786d94d",
@@ -4388,7 +4424,7 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.25
       },
-      "median_output_tokens_per_second": 408.258,
+      "median_output_tokens_per_second": 409.089,
       "median_time_to_first_token_seconds": 8.846,
       "median_time_to_first_answer_token": 8.846
     },
@@ -4460,9 +4496,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
       },
-      "median_output_tokens_per_second": 49.521,
-      "median_time_to_first_token_seconds": 1.371,
-      "median_time_to_first_answer_token": 41.758
+      "median_output_tokens_per_second": 49.64,
+      "median_time_to_first_token_seconds": 1.311,
+      "median_time_to_first_answer_token": 41.601
     },
     {
       "id": "b7726745-9c77-40c3-8452-974cb53d6fbc",
@@ -4532,9 +4568,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 3
       },
-      "median_output_tokens_per_second": 32.98,
-      "median_time_to_first_token_seconds": 0.711,
-      "median_time_to_first_answer_token": 0.711
+      "median_output_tokens_per_second": 33.055,
+      "median_time_to_first_token_seconds": 0.725,
+      "median_time_to_first_answer_token": 0.725
     },
     {
       "id": "235060f4-057d-4bd1-8b8e-4a92908c770e",
@@ -4568,9 +4604,9 @@
         "price_1m_input_tokens": 0.13,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 75.071,
-      "median_time_to_first_token_seconds": 0.611,
-      "median_time_to_first_answer_token": 0.611
+      "median_output_tokens_per_second": 74.813,
+      "median_time_to_first_token_seconds": 0.606,
+      "median_time_to_first_answer_token": 0.606
     },
     {
       "id": "a8efb564-9d17-4d7f-8f43-e9110657ce21",
@@ -4640,9 +4676,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 3
       },
-      "median_output_tokens_per_second": 35.293,
-      "median_time_to_first_token_seconds": 0.75,
-      "median_time_to_first_answer_token": 57.419
+      "median_output_tokens_per_second": 33.958,
+      "median_time_to_first_token_seconds": 0.76,
+      "median_time_to_first_answer_token": 59.656
     },
     {
       "id": "6ba9e8eb-8124-436d-842f-dbe36df80c27",
@@ -4676,9 +4712,9 @@
         "price_1m_input_tokens": 0.13,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 82.414,
-      "median_time_to_first_token_seconds": 0.601,
-      "median_time_to_first_answer_token": 24.869
+      "median_output_tokens_per_second": 78.806,
+      "median_time_to_first_token_seconds": 0.643,
+      "median_time_to_first_answer_token": 26.021
     },
     {
       "id": "2f60d80d-c3d3-4a43-bded-0557898c4618",
@@ -4712,9 +4748,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1
       },
-      "median_output_tokens_per_second": 88.382,
-      "median_time_to_first_token_seconds": 0.389,
-      "median_time_to_first_answer_token": 0.389
+      "median_output_tokens_per_second": 88.4,
+      "median_time_to_first_token_seconds": 0.375,
+      "median_time_to_first_answer_token": 0.375
     },
     {
       "id": "44b19b51-5367-4ef9-a2ff-2f90b89a0867",
@@ -4748,9 +4784,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1
       },
-      "median_output_tokens_per_second": 93.572,
-      "median_time_to_first_token_seconds": 0.368,
-      "median_time_to_first_answer_token": 21.742
+      "median_output_tokens_per_second": 94.45,
+      "median_time_to_first_token_seconds": 0.363,
+      "median_time_to_first_answer_token": 21.538
     },
     {
       "id": "d734e2ce-5cf8-467f-8148-586d02671333",
@@ -4856,9 +4892,9 @@
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 1.1
       },
-      "median_output_tokens_per_second": 27.286,
-      "median_time_to_first_token_seconds": 1.234,
-      "median_time_to_first_answer_token": 1.234
+      "median_output_tokens_per_second": 26.139,
+      "median_time_to_first_token_seconds": 1.109,
+      "median_time_to_first_answer_token": 1.109
     },
     {
       "id": "a518a64b-e337-48f3-85a1-ba7dc0e8f961",
@@ -4892,9 +4928,9 @@
         "price_1m_input_tokens": 0.84,
         "price_1m_output_tokens": 3.37
       },
-      "median_output_tokens_per_second": 15.351,
-      "median_time_to_first_token_seconds": 3.752,
-      "median_time_to_first_answer_token": 134.036
+      "median_output_tokens_per_second": 15.401,
+      "median_time_to_first_token_seconds": 3.88,
+      "median_time_to_first_answer_token": 133.742
     },
     {
       "id": "ea5d2c10-1051-437d-95c2-18d5e4d14ff3",
@@ -4928,9 +4964,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 1.25
       },
-      "median_output_tokens_per_second": 72.756,
-      "median_time_to_first_token_seconds": 0.347,
-      "median_time_to_first_answer_token": 27.836
+      "median_output_tokens_per_second": 73.056,
+      "median_time_to_first_token_seconds": 0.335,
+      "median_time_to_first_answer_token": 27.711
     },
     {
       "id": "fb112343-c82c-4b43-afea-996bd5101d62",
@@ -4964,9 +5000,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 51.863,
-      "median_time_to_first_token_seconds": 0.949,
-      "median_time_to_first_answer_token": 0.949
+      "median_output_tokens_per_second": 53.687,
+      "median_time_to_first_token_seconds": 0.941,
+      "median_time_to_first_answer_token": 0.941
     },
     {
       "id": "fe11ab6c-a4dd-4c28-9fef-07da76d5ed14",
@@ -5072,7 +5108,7 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.2
       },
-      "median_output_tokens_per_second": 36.33,
+      "median_output_tokens_per_second": 35.654,
       "median_time_to_first_token_seconds": 0.597,
       "median_time_to_first_answer_token": 0.597
     },
@@ -5108,9 +5144,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 0.9
       },
-      "median_output_tokens_per_second": 120.001,
-      "median_time_to_first_token_seconds": 24.566,
-      "median_time_to_first_answer_token": 24.566
+      "median_output_tokens_per_second": 121.71,
+      "median_time_to_first_token_seconds": 23.974,
+      "median_time_to_first_answer_token": 23.974
     },
     {
       "id": "d2d7dd95-770f-4cb0-9bbc-d275ac19c265",
@@ -5144,9 +5180,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 0.9
       },
-      "median_output_tokens_per_second": 115.617,
-      "median_time_to_first_token_seconds": 2.503,
-      "median_time_to_first_answer_token": 19.801
+      "median_output_tokens_per_second": 124.713,
+      "median_time_to_first_token_seconds": 2.201,
+      "median_time_to_first_answer_token": 18.238
     },
     {
       "id": "6a5d56e1-bb68-4205-8d9b-26b97888bc84",
@@ -5180,9 +5216,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.2
       },
-      "median_output_tokens_per_second": 85.743,
-      "median_time_to_first_token_seconds": 0.629,
-      "median_time_to_first_answer_token": 23.954
+      "median_output_tokens_per_second": 85.038,
+      "median_time_to_first_token_seconds": 0.633,
+      "median_time_to_first_answer_token": 24.152
     },
     {
       "id": "5d303dc9-c027-401f-9803-4e9aa3331007",
@@ -5216,9 +5252,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 1.1
       },
-      "median_output_tokens_per_second": 104.588,
-      "median_time_to_first_token_seconds": 0.553,
-      "median_time_to_first_answer_token": 19.675
+      "median_output_tokens_per_second": 105.987,
+      "median_time_to_first_token_seconds": 0.56,
+      "median_time_to_first_answer_token": 19.43
     },
     {
       "id": "3068def4-7270-4c06-a320-6f6a5623d564",
@@ -5252,9 +5288,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1.8
       },
-      "median_output_tokens_per_second": 35.435,
-      "median_time_to_first_token_seconds": 0.678,
-      "median_time_to_first_answer_token": 57.12
+      "median_output_tokens_per_second": 35.494,
+      "median_time_to_first_token_seconds": 0.691,
+      "median_time_to_first_answer_token": 57.038
     },
     {
       "id": "0081ab31-d10a-44a0-a10d-eee5533fec65",
@@ -5288,9 +5324,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1.8
       },
-      "median_output_tokens_per_second": 27.344,
-      "median_time_to_first_token_seconds": 0.643,
-      "median_time_to_first_answer_token": 0.643
+      "median_output_tokens_per_second": 30.022,
+      "median_time_to_first_token_seconds": 0.641,
+      "median_time_to_first_answer_token": 0.641
     },
     {
       "id": "3bc32f13-5afa-4e28-bce1-10e57376686b",
@@ -5324,9 +5360,9 @@
         "price_1m_input_tokens": 2.5,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 68.679,
-      "median_time_to_first_token_seconds": 0.246,
-      "median_time_to_first_answer_token": 0.246
+      "median_output_tokens_per_second": 68.344,
+      "median_time_to_first_token_seconds": 0.254,
+      "median_time_to_first_answer_token": 0.254
     },
     {
       "id": "ac1031bc-c53e-4af7-9c6e-2005e0ff44fa",
@@ -5360,9 +5396,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 142.85,
-      "median_time_to_first_token_seconds": 0.168,
-      "median_time_to_first_answer_token": 14.169
+      "median_output_tokens_per_second": 144.385,
+      "median_time_to_first_token_seconds": 0.164,
+      "median_time_to_first_answer_token": 14.016
     },
     {
       "id": "a71c1a35-ccc8-43f0-a5a2-070a690b9a00",
@@ -5396,9 +5432,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 148.811,
-      "median_time_to_first_token_seconds": 0.257,
-      "median_time_to_first_answer_token": 13.697
+      "median_output_tokens_per_second": 149.33,
+      "median_time_to_first_token_seconds": 0.268,
+      "median_time_to_first_answer_token": 13.661
     },
     {
       "id": "f78138d6-2e04-4a84-919a-20d177cb6ff1",
@@ -5468,9 +5504,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 128.409,
-      "median_time_to_first_token_seconds": 0.676,
-      "median_time_to_first_answer_token": 0.676
+      "median_output_tokens_per_second": 126.79,
+      "median_time_to_first_token_seconds": 0.652,
+      "median_time_to_first_answer_token": 0.652
     },
     {
       "id": "78452c64-7303-4192-bca5-2d9ec5c623d4",
@@ -5504,7 +5540,7 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 8
       },
-      "median_output_tokens_per_second": 46.898,
+      "median_output_tokens_per_second": 46.447,
       "median_time_to_first_token_seconds": 0.805,
       "median_time_to_first_answer_token": 0.805
     },
@@ -5576,9 +5612,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 2.4
       },
-      "median_output_tokens_per_second": 104.53,
-      "median_time_to_first_token_seconds": 1.1,
-      "median_time_to_first_answer_token": 20.233
+      "median_output_tokens_per_second": 103.908,
+      "median_time_to_first_token_seconds": 1.11,
+      "median_time_to_first_answer_token": 20.358
     },
     {
       "id": "7ec1065a-c90e-41e4-bd17-abb7042eed76",
@@ -5612,9 +5648,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
       },
-      "median_output_tokens_per_second": 66.597,
-      "median_time_to_first_token_seconds": 1.101,
-      "median_time_to_first_answer_token": 1.101
+      "median_output_tokens_per_second": 65.649,
+      "median_time_to_first_token_seconds": 1.103,
+      "median_time_to_first_answer_token": 1.103
     },
     {
       "id": "3cf875b8-b6b5-42c0-ad70-617d5be59d00",
@@ -5648,9 +5684,9 @@
         "price_1m_input_tokens": 0.18,
         "price_1m_output_tokens": 0.7
       },
-      "median_output_tokens_per_second": 107.4,
-      "median_time_to_first_token_seconds": 1.041,
-      "median_time_to_first_answer_token": 1.041
+      "median_output_tokens_per_second": 107.528,
+      "median_time_to_first_token_seconds": 1.065,
+      "median_time_to_first_answer_token": 1.065
     },
     {
       "id": "3373245b-e6dc-4b66-a7b0-3f06f9b7bd46",
@@ -5684,7 +5720,7 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 2.8
       },
-      "median_output_tokens_per_second": 41.92,
+      "median_output_tokens_per_second": 43.137,
       "median_time_to_first_token_seconds": 1.211,
       "median_time_to_first_answer_token": 1.211
     },
@@ -5720,9 +5756,9 @@
         "price_1m_input_tokens": 1.5,
         "price_1m_output_tokens": 7.5
       },
-      "median_output_tokens_per_second": 45.172,
-      "median_time_to_first_token_seconds": 1.681,
-      "median_time_to_first_answer_token": 1.681
+      "median_output_tokens_per_second": 45.073,
+      "median_time_to_first_token_seconds": 1.715,
+      "median_time_to_first_answer_token": 1.715
     },
     {
       "id": "0b226b82-1462-4860-bf1a-f8aed7024791",
@@ -5756,9 +5792,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 0.97
       },
-      "median_output_tokens_per_second": 89.987,
-      "median_time_to_first_token_seconds": 1.066,
-      "median_time_to_first_answer_token": 1.066
+      "median_output_tokens_per_second": 86.753,
+      "median_time_to_first_token_seconds": 1.11,
+      "median_time_to_first_answer_token": 1.11
     },
     {
       "id": "da9fe224-8af3-46d7-a8c4-6220779c3f35",
@@ -5792,9 +5828,9 @@
         "price_1m_input_tokens": 0.45,
         "price_1m_output_tokens": 2.25
       },
-      "median_output_tokens_per_second": 99.765,
-      "median_time_to_first_token_seconds": 1.506,
-      "median_time_to_first_answer_token": 1.506
+      "median_output_tokens_per_second": 99.9,
+      "median_time_to_first_token_seconds": 1.596,
+      "median_time_to_first_answer_token": 1.596
     },
     {
       "id": "51d0b717-953d-4b44-af61-406c6b7dff39",
@@ -5828,9 +5864,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
       },
-      "median_output_tokens_per_second": 97.515,
-      "median_time_to_first_token_seconds": 1.019,
-      "median_time_to_first_answer_token": 1.019
+      "median_output_tokens_per_second": 96.365,
+      "median_time_to_first_token_seconds": 1.095,
+      "median_time_to_first_answer_token": 1.095
     },
     {
       "id": "c8a79180-7d16-4474-8701-9a77c0baa56a",
@@ -5900,9 +5936,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 2.8
       },
-      "median_output_tokens_per_second": 37.114,
-      "median_time_to_first_token_seconds": 1.206,
-      "median_time_to_first_answer_token": 1.206
+      "median_output_tokens_per_second": 36.654,
+      "median_time_to_first_token_seconds": 1.228,
+      "median_time_to_first_answer_token": 1.228
     },
     {
       "id": "2698f6c6-e436-47ce-a583-dbc25596c571",
@@ -5936,9 +5972,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 179.091,
-      "median_time_to_first_token_seconds": 1.186,
-      "median_time_to_first_answer_token": 1.186
+      "median_output_tokens_per_second": 177.14,
+      "median_time_to_first_token_seconds": 1.213,
+      "median_time_to_first_answer_token": 1.213
     },
     {
       "id": "f6ccbe1d-bd7e-484b-9795-18cc9f91552d",
@@ -5972,9 +6008,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
       },
-      "median_output_tokens_per_second": 75.226,
-      "median_time_to_first_token_seconds": 1.185,
-      "median_time_to_first_answer_token": 27.771
+      "median_output_tokens_per_second": 74.38,
+      "median_time_to_first_token_seconds": 1.262,
+      "median_time_to_first_answer_token": 28.151
     },
     {
       "id": "b0249961-b8b2-479d-8325-a29ea17c7b89",
@@ -6044,9 +6080,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 2.8
       },
-      "median_output_tokens_per_second": 47.24,
-      "median_time_to_first_token_seconds": 1.089,
-      "median_time_to_first_answer_token": 1.089
+      "median_output_tokens_per_second": 46.437,
+      "median_time_to_first_token_seconds": 1.164,
+      "median_time_to_first_answer_token": 1.164
     },
     {
       "id": "7ae943a9-9310-4472-a834-c61f0ab68485",
@@ -6081,8 +6117,8 @@
         "price_1m_output_tokens": 6
       },
       "median_output_tokens_per_second": 28.338,
-      "median_time_to_first_token_seconds": 1.684,
-      "median_time_to_first_answer_token": 1.684
+      "median_time_to_first_token_seconds": 1.851,
+      "median_time_to_first_answer_token": 1.851
     },
     {
       "id": "b97ef678-2d31-4375-9416-67ea97f87204",
@@ -6116,9 +6152,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 0.97
       },
-      "median_output_tokens_per_second": 99.329,
+      "median_output_tokens_per_second": 99.24,
       "median_time_to_first_token_seconds": 1.096,
-      "median_time_to_first_answer_token": 21.231
+      "median_time_to_first_answer_token": 21.249
     },
     {
       "id": "f93d0750-b659-4ceb-a123-7e657904ef2b",
@@ -6224,9 +6260,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 2.4
       },
-      "median_output_tokens_per_second": 179.5,
-      "median_time_to_first_token_seconds": 1.061,
-      "median_time_to_first_answer_token": 12.203
+      "median_output_tokens_per_second": 181.029,
+      "median_time_to_first_token_seconds": 1.062,
+      "median_time_to_first_answer_token": 12.11
     },
     {
       "id": "f5d83128-047f-496d-ba49-8a428abe8345",
@@ -6297,8 +6333,8 @@
         "price_1m_output_tokens": 2.1
       },
       "median_output_tokens_per_second": 63.171,
-      "median_time_to_first_token_seconds": 1.051,
-      "median_time_to_first_answer_token": 32.711
+      "median_time_to_first_token_seconds": 1.091,
+      "median_time_to_first_answer_token": 32.751
     },
     {
       "id": "d370fcbf-c4a1-41a2-abc4-d204fcc3fcbf",
@@ -6332,9 +6368,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
       },
-      "median_output_tokens_per_second": 51.837,
-      "median_time_to_first_token_seconds": 1.04,
-      "median_time_to_first_answer_token": 39.622
+      "median_output_tokens_per_second": 51.743,
+      "median_time_to_first_token_seconds": 1.073,
+      "median_time_to_first_answer_token": 39.725
     },
     {
       "id": "a803d3d0-d22e-49a0-ac2c-b9c6f1141065",
@@ -6368,9 +6404,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
       },
-      "median_output_tokens_per_second": 43.925,
-      "median_time_to_first_token_seconds": 1.173,
-      "median_time_to_first_answer_token": 46.705
+      "median_output_tokens_per_second": 43.951,
+      "median_time_to_first_token_seconds": 1.188,
+      "median_time_to_first_answer_token": 46.693
     },
     {
       "id": "cbac8c35-e069-4c73-823e-0953e6ed0e85",
@@ -6404,9 +6440,9 @@
         "price_1m_input_tokens": 1.2,
         "price_1m_output_tokens": 6
       },
-      "median_output_tokens_per_second": 36.794,
-      "median_time_to_first_token_seconds": 1.837,
-      "median_time_to_first_answer_token": 56.194
+      "median_output_tokens_per_second": 36.811,
+      "median_time_to_first_token_seconds": 1.795,
+      "median_time_to_first_answer_token": 56.128
     },
     {
       "id": "47b7df55-5804-40de-ba11-317de786710a",
@@ -6440,9 +6476,9 @@
         "price_1m_input_tokens": 0.14,
         "price_1m_output_tokens": 0.57
       },
-      "median_output_tokens_per_second": 78.495,
-      "median_time_to_first_token_seconds": 1.565,
-      "median_time_to_first_answer_token": 27.044
+      "median_output_tokens_per_second": 79.514,
+      "median_time_to_first_token_seconds": 1.521,
+      "median_time_to_first_answer_token": 26.674
     },
     {
       "id": "882a5da3-94ca-4602-8693-c45970df17e2",
@@ -6476,9 +6512,9 @@
         "price_1m_input_tokens": 0.14,
         "price_1m_output_tokens": 0.57
       },
-      "median_output_tokens_per_second": 49.706,
-      "median_time_to_first_token_seconds": 1.575,
-      "median_time_to_first_answer_token": 1.575
+      "median_output_tokens_per_second": 54.205,
+      "median_time_to_first_token_seconds": 1.614,
+      "median_time_to_first_answer_token": 1.614
     },
     {
       "id": "a29e66d6-1c3c-456a-8770-59ee3845b35d",
@@ -6512,9 +6548,9 @@
         "price_1m_input_tokens": 0.565,
         "price_1m_output_tokens": 2.26
       },
-      "median_output_tokens_per_second": 40.988,
-      "median_time_to_first_token_seconds": 1.801,
-      "median_time_to_first_answer_token": 50.596
+      "median_output_tokens_per_second": 42.57,
+      "median_time_to_first_token_seconds": 1.893,
+      "median_time_to_first_answer_token": 48.874
     },
     {
       "id": "15b56b8e-7b93-4ed9-ac06-75c922e3b86e",
@@ -6584,9 +6620,9 @@
         "price_1m_input_tokens": 0.07,
         "price_1m_output_tokens": 0.28
       },
-      "median_output_tokens_per_second": 176.562,
-      "median_time_to_first_token_seconds": 1.59,
-      "median_time_to_first_answer_token": 1.59
+      "median_output_tokens_per_second": 183.971,
+      "median_time_to_first_token_seconds": 1.623,
+      "median_time_to_first_answer_token": 1.623
     },
     {
       "id": "4d6dd5ce-08cb-4e87-9288-1dd2f022aa35",
@@ -6620,9 +6656,9 @@
         "price_1m_input_tokens": 0.17,
         "price_1m_output_tokens": 1.12
       },
-      "median_output_tokens_per_second": 52.365,
-      "median_time_to_first_token_seconds": 2.041,
-      "median_time_to_first_answer_token": 40.234
+      "median_output_tokens_per_second": 52.214,
+      "median_time_to_first_token_seconds": 2.061,
+      "median_time_to_first_answer_token": 40.365
     },
     {
       "id": "5c6533f3-75a2-4109-b9a9-3623afc6b86a",
@@ -6656,9 +6692,9 @@
         "price_1m_input_tokens": 0.21,
         "price_1m_output_tokens": 0.57
       },
-      "median_output_tokens_per_second": 31.752,
-      "median_time_to_first_token_seconds": 1.903,
-      "median_time_to_first_answer_token": 64.891
+      "median_output_tokens_per_second": 32.328,
+      "median_time_to_first_token_seconds": 1.72,
+      "median_time_to_first_answer_token": 63.586
     },
     {
       "id": "5ad2f60f-ee05-49fd-85a0-cef69aa7cb7b",
@@ -6692,9 +6728,9 @@
         "price_1m_input_tokens": 15,
         "price_1m_output_tokens": 60
       },
-      "median_output_tokens_per_second": 184.696,
-      "median_time_to_first_token_seconds": 19.237,
-      "median_time_to_first_answer_token": 19.237
+      "median_output_tokens_per_second": 178.627,
+      "median_time_to_first_token_seconds": 19.385,
+      "median_time_to_first_answer_token": 19.385
     },
     {
       "id": "078f4dc8-5350-40a2-a5ea-e8359f795b70",
@@ -6800,9 +6836,9 @@
         "price_1m_input_tokens": 2.5,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 121.814,
-      "median_time_to_first_token_seconds": 0.591,
-      "median_time_to_first_answer_token": 0.591
+      "median_output_tokens_per_second": 111.799,
+      "median_time_to_first_token_seconds": 0.605,
+      "median_time_to_first_answer_token": 0.605
     },
     {
       "id": "e98e911e-9fb2-4a9a-826e-3d681d0cdca8",
@@ -6836,9 +6872,9 @@
         "price_1m_input_tokens": 5,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 118.14,
-      "median_time_to_first_token_seconds": 0.581,
-      "median_time_to_first_answer_token": 0.581
+      "median_output_tokens_per_second": 105.637,
+      "median_time_to_first_token_seconds": 0.623,
+      "median_time_to_first_answer_token": 0.623
     },
     {
       "id": "76aa6af5-fdc6-4739-a300-983f14e74a67",
@@ -6872,9 +6908,9 @@
         "price_1m_input_tokens": 10,
         "price_1m_output_tokens": 30
       },
-      "median_output_tokens_per_second": 37.193,
-      "median_time_to_first_token_seconds": 0.789,
-      "median_time_to_first_answer_token": 0.789
+      "median_output_tokens_per_second": 30.966,
+      "median_time_to_first_token_seconds": 0.792,
+      "median_time_to_first_answer_token": 0.792
     },
     {
       "id": "c1045dc0-4fd3-4adb-9548-18763e0d051f",
@@ -6908,9 +6944,9 @@
         "price_1m_input_tokens": 2.5,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 146.607,
-      "median_time_to_first_token_seconds": 0.419,
-      "median_time_to_first_answer_token": 0.419
+      "median_output_tokens_per_second": 117.516,
+      "median_time_to_first_token_seconds": 0.43,
+      "median_time_to_first_answer_token": 0.43
     },
     {
       "id": "b5c1c91a-7474-4409-9a9c-9c2ac45d9eb6",
@@ -6944,9 +6980,9 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 50.102,
-      "median_time_to_first_token_seconds": 0.656,
-      "median_time_to_first_answer_token": 0.656
+      "median_output_tokens_per_second": 52.212,
+      "median_time_to_first_token_seconds": 0.603,
+      "median_time_to_first_answer_token": 0.603
     },
     {
       "id": "037dec2f-51e8-4127-a1f1-85155dae7a1d",
@@ -6980,9 +7016,9 @@
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 1.5
       },
-      "median_output_tokens_per_second": 130.538,
-      "median_time_to_first_token_seconds": 0.415,
-      "median_time_to_first_answer_token": 0.415
+      "median_output_tokens_per_second": 115.169,
+      "median_time_to_first_token_seconds": 0.446,
+      "median_time_to_first_answer_token": 0.446
     },
     {
       "id": "72c358fd-7d45-4d68-89aa-699743710924",
@@ -7016,9 +7052,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 140.379,
-      "median_time_to_first_token_seconds": 0.418,
-      "median_time_to_first_answer_token": 0.418
+      "median_output_tokens_per_second": 107.983,
+      "median_time_to_first_token_seconds": 0.41,
+      "median_time_to_first_answer_token": 0.41
     },
     {
       "id": "4343afb1-c928-44c9-92e2-68fa1195b6f5",
@@ -7088,9 +7124,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 8
       },
-      "median_output_tokens_per_second": 94.327,
-      "median_time_to_first_token_seconds": 0.572,
-      "median_time_to_first_answer_token": 0.572
+      "median_output_tokens_per_second": 80.227,
+      "median_time_to_first_token_seconds": 0.598,
+      "median_time_to_first_answer_token": 0.598
     },
     {
       "id": "e8d4100e-165b-4c5d-ac11-ac553590a334",
@@ -7160,9 +7196,9 @@
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 1.6
       },
-      "median_output_tokens_per_second": 80.873,
-      "median_time_to_first_token_seconds": 0.438,
-      "median_time_to_first_answer_token": 0.438
+      "median_output_tokens_per_second": 70.435,
+      "median_time_to_first_token_seconds": 0.458,
+      "median_time_to_first_answer_token": 0.458
     },
     {
       "id": "84b49308-6b93-47aa-a4f6-776ee1a1e8cd",
@@ -7196,9 +7232,9 @@
         "price_1m_input_tokens": 1.1,
         "price_1m_output_tokens": 4.4
       },
-      "median_output_tokens_per_second": 124.201,
-      "median_time_to_first_token_seconds": 59.397,
-      "median_time_to_first_answer_token": 59.397
+      "median_output_tokens_per_second": 113.212,
+      "median_time_to_first_token_seconds": 59.804,
+      "median_time_to_first_answer_token": 59.804
     },
     {
       "id": "2dad8957-4c16-4e74-bf2d-8b21514e0ae9",
@@ -7232,9 +7268,9 @@
         "price_1m_input_tokens": 1.1,
         "price_1m_output_tokens": 4.4
       },
-      "median_output_tokens_per_second": 149.286,
-      "median_time_to_first_token_seconds": 16.271,
-      "median_time_to_first_answer_token": 16.271
+      "median_output_tokens_per_second": 145.943,
+      "median_time_to_first_token_seconds": 17.289,
+      "median_time_to_first_answer_token": 17.289
     },
     {
       "id": "076f2674-bc4b-4925-be59-50832eb8c090",
@@ -7268,9 +7304,9 @@
         "price_1m_input_tokens": 1.1,
         "price_1m_output_tokens": 4.4
       },
-      "median_output_tokens_per_second": 146.831,
-      "median_time_to_first_token_seconds": 64.935,
-      "median_time_to_first_answer_token": 64.935
+      "median_output_tokens_per_second": 144.138,
+      "median_time_to_first_token_seconds": 57.417,
+      "median_time_to_first_answer_token": 57.417
     },
     {
       "id": "ca04852c-eaae-4881-a208-f9b2ca3b7cd6",
@@ -7304,9 +7340,9 @@
         "price_1m_input_tokens": 20,
         "price_1m_output_tokens": 80
       },
-      "median_output_tokens_per_second": 40.826,
-      "median_time_to_first_token_seconds": 68.552,
-      "median_time_to_first_answer_token": 68.552
+      "median_output_tokens_per_second": 38.173,
+      "median_time_to_first_token_seconds": 71.209,
+      "median_time_to_first_answer_token": 71.209
     },
     {
       "id": "6a7c0e25-1dcb-4b15-8495-a8536a9da051",
@@ -7340,9 +7376,9 @@
         "price_1m_input_tokens": 30,
         "price_1m_output_tokens": 60
       },
-      "median_output_tokens_per_second": 27.625,
-      "median_time_to_first_token_seconds": 1.076,
-      "median_time_to_first_answer_token": 1.076
+      "median_output_tokens_per_second": 25.221,
+      "median_time_to_first_token_seconds": 1.104,
+      "median_time_to_first_answer_token": 1.104
     },
     {
       "id": "5d11e7a1-4f70-4e5a-9364-e193761d6757",
@@ -7376,9 +7412,9 @@
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
       },
-      "median_output_tokens_per_second": 257.028,
-      "median_time_to_first_token_seconds": 17.159,
-      "median_time_to_first_answer_token": 17.159
+      "median_output_tokens_per_second": 230.276,
+      "median_time_to_first_token_seconds": 17.214,
+      "median_time_to_first_answer_token": 17.214
     },
     {
       "id": "575498d6-60ec-466b-9372-fea19911fd07",
@@ -7412,9 +7448,9 @@
         "price_1m_input_tokens": 5,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 232.97,
-      "median_time_to_first_token_seconds": 0.5,
-      "median_time_to_first_answer_token": 0.5
+      "median_output_tokens_per_second": 218.251,
+      "median_time_to_first_token_seconds": 0.495,
+      "median_time_to_first_answer_token": 0.495
     },
     {
       "id": "5ce30d25-5353-45bb-bef9-6b87480ba3a2",
@@ -7484,9 +7520,9 @@
         "price_1m_input_tokens": 5,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 235.714,
-      "median_time_to_first_token_seconds": 0.525,
-      "median_time_to_first_answer_token": 0.525
+      "median_output_tokens_per_second": 221.442,
+      "median_time_to_first_token_seconds": 0.526,
+      "median_time_to_first_answer_token": 0.526
     },
     {
       "id": "e2e9ddc3-8c2d-4bf5-a60a-83a1afe61034",
@@ -7592,9 +7628,9 @@
         "price_1m_input_tokens": 0.56,
         "price_1m_output_tokens": 0.56
       },
-      "median_output_tokens_per_second": 56.904,
-      "median_time_to_first_token_seconds": 0.456,
-      "median_time_to_first_answer_token": 0.456
+      "median_output_tokens_per_second": 57.679,
+      "median_time_to_first_token_seconds": 0.451,
+      "median_time_to_first_answer_token": 0.451
     },
     {
       "id": "739684ba-0f63-4e2a-b4ee-30741c9e9320",
@@ -7628,7 +7664,7 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.1
       },
-      "median_output_tokens_per_second": 156.285,
+      "median_output_tokens_per_second": 156.728,
       "median_time_to_first_token_seconds": 0.336,
       "median_time_to_first_answer_token": 0.336
     },
@@ -7664,9 +7700,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.06
       },
-      "median_output_tokens_per_second": 94.455,
-      "median_time_to_first_token_seconds": 0.575,
-      "median_time_to_first_answer_token": 0.575
+      "median_output_tokens_per_second": 97.048,
+      "median_time_to_first_token_seconds": 0.578,
+      "median_time_to_first_answer_token": 0.578
     },
     {
       "id": "aa83359a-d804-4f0b-b5bf-dc637711c26f",
@@ -7700,9 +7736,9 @@
         "price_1m_input_tokens": 0.65,
         "price_1m_output_tokens": 0.88
       },
-      "median_output_tokens_per_second": 42.197,
-      "median_time_to_first_token_seconds": 0.428,
-      "median_time_to_first_answer_token": 0.428
+      "median_output_tokens_per_second": 42.193,
+      "median_time_to_first_token_seconds": 0.439,
+      "median_time_to_first_answer_token": 0.439
     },
     {
       "id": "82879bb8-89fb-4adc-b519-315b8ef30b77",
@@ -7736,9 +7772,9 @@
         "price_1m_input_tokens": 0.045,
         "price_1m_output_tokens": 0.155
       },
-      "median_output_tokens_per_second": 69.348,
-      "median_time_to_first_token_seconds": 0.379,
-      "median_time_to_first_answer_token": 0.379
+      "median_output_tokens_per_second": 69.923,
+      "median_time_to_first_token_seconds": 0.389,
+      "median_time_to_first_answer_token": 0.389
     },
     {
       "id": "80f7860a-7665-4658-9f05-15bccf5f832f",
@@ -7772,9 +7808,9 @@
         "price_1m_input_tokens": 0.053,
         "price_1m_output_tokens": 0.055
       },
-      "median_output_tokens_per_second": 79.947,
-      "median_time_to_first_token_seconds": 0.449,
-      "median_time_to_first_answer_token": 0.449
+      "median_output_tokens_per_second": 78.361,
+      "median_time_to_first_token_seconds": 0.444,
+      "median_time_to_first_answer_token": 0.444
     },
     {
       "id": "599da8e0-bd9c-4b38-a127-b50e371fbcf8",
@@ -7880,9 +7916,9 @@
         "price_1m_input_tokens": 0.05,
         "price_1m_output_tokens": 0.25
       },
-      "median_output_tokens_per_second": 113.175,
-      "median_time_to_first_token_seconds": 0.56,
-      "median_time_to_first_answer_token": 0.56
+      "median_output_tokens_per_second": 113.517,
+      "median_time_to_first_token_seconds": 0.554,
+      "median_time_to_first_answer_token": 0.554
     },
     {
       "id": "c6a47d8a-7517-46e2-8383-329fe7241725",
@@ -7952,9 +7988,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 172.212,
-      "median_time_to_first_token_seconds": 0.32,
-      "median_time_to_first_answer_token": 0.32
+      "median_output_tokens_per_second": 148.831,
+      "median_time_to_first_token_seconds": 0.331,
+      "median_time_to_first_answer_token": 0.331
     },
     {
       "id": "2ac96b67-f4f8-4c8c-ac08-c7510faa7bb9",
@@ -8024,9 +8060,9 @@
         "price_1m_input_tokens": 0.075,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 173.301,
-      "median_time_to_first_token_seconds": 0.28,
-      "median_time_to_first_answer_token": 0.28
+      "median_output_tokens_per_second": 171.125,
+      "median_time_to_first_token_seconds": 0.278,
+      "median_time_to_first_answer_token": 0.278
     },
     {
       "id": "bcca0e70-7e80-4c07-b1fa-b33bcfb19e51",
@@ -8060,9 +8096,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 173.743,
-      "median_time_to_first_token_seconds": 0.367,
-      "median_time_to_first_answer_token": 0.367
+      "median_output_tokens_per_second": 171.411,
+      "median_time_to_first_token_seconds": 0.37,
+      "median_time_to_first_answer_token": 0.37
     },
     {
       "id": "41faf421-118b-465b-b170-d200776580d1",
@@ -8348,9 +8384,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 238.639,
-      "median_time_to_first_token_seconds": 0.378,
-      "median_time_to_first_answer_token": 0.378
+      "median_output_tokens_per_second": 230.138,
+      "median_time_to_first_token_seconds": 0.374,
+      "median_time_to_first_answer_token": 0.374
     },
     {
       "id": "7b269763-ecc0-41ef-aa29-47ef632ac065",
@@ -8384,9 +8420,9 @@
         "price_1m_input_tokens": 0.075,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 167.443,
-      "median_time_to_first_token_seconds": 0.264,
-      "median_time_to_first_answer_token": 0.264
+      "median_output_tokens_per_second": 167.293,
+      "median_time_to_first_token_seconds": 0.28,
+      "median_time_to_first_answer_token": 0.28
     },
     {
       "id": "8ddacd41-bf43-411b-aa30-43ebf0567dd8",
@@ -8636,9 +8672,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 325.075,
-      "median_time_to_first_token_seconds": 17.718,
-      "median_time_to_first_answer_token": 17.718
+      "median_output_tokens_per_second": 311.207,
+      "median_time_to_first_token_seconds": 19.601,
+      "median_time_to_first_answer_token": 19.601
     },
     {
       "id": "62de31e8-a1a3-429c-b634-a2afccfd9363",
@@ -8708,9 +8744,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 214.493,
-      "median_time_to_first_token_seconds": 0.328,
-      "median_time_to_first_answer_token": 0.328
+      "median_output_tokens_per_second": 215.439,
+      "median_time_to_first_token_seconds": 0.333,
+      "median_time_to_first_answer_token": 0.333
     },
     {
       "id": "219ed587-60c5-4a48-9517-8480e08d0ca1",
@@ -8744,9 +8780,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 273.102,
-      "median_time_to_first_token_seconds": 16.841,
-      "median_time_to_first_answer_token": 16.841
+      "median_output_tokens_per_second": 269.185,
+      "median_time_to_first_token_seconds": 16.925,
+      "median_time_to_first_answer_token": 16.925
     },
     {
       "id": "0a603978-03b9-4f47-a273-2f7fd969be85",
@@ -8888,9 +8924,9 @@
         "price_1m_input_tokens": 0.8,
         "price_1m_output_tokens": 4
       },
-      "median_output_tokens_per_second": 49.021,
-      "median_time_to_first_token_seconds": 0.721,
-      "median_time_to_first_answer_token": 0.721
+      "median_output_tokens_per_second": 48.262,
+      "median_time_to_first_token_seconds": 0.763,
+      "median_time_to_first_answer_token": 0.763
     },
     {
       "id": "b2e68f0a-8f66-4e4c-9821-2b786cea601b",
@@ -8960,9 +8996,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 1.25
       },
-      "median_output_tokens_per_second": 105.003,
-      "median_time_to_first_token_seconds": 0.436,
-      "median_time_to_first_answer_token": 0.436
+      "median_output_tokens_per_second": 108.868,
+      "median_time_to_first_token_seconds": 0.448,
+      "median_time_to_first_answer_token": 0.448
     },
     {
       "id": "83cb898e-05d9-4e4b-9de3-2d305014d923",
@@ -9032,9 +9068,9 @@
         "price_1m_input_tokens": 15,
         "price_1m_output_tokens": 75
       },
-      "median_output_tokens_per_second": 39.559,
-      "median_time_to_first_token_seconds": 1.484,
-      "median_time_to_first_answer_token": 1.484
+      "median_output_tokens_per_second": 39.563,
+      "median_time_to_first_token_seconds": 1.482,
+      "median_time_to_first_answer_token": 1.482
     },
     {
       "id": "8a4a5ead-7789-4389-8400-30e9d20370b7",
@@ -9068,9 +9104,9 @@
         "price_1m_input_tokens": 15,
         "price_1m_output_tokens": 75
       },
-      "median_output_tokens_per_second": 46.383,
-      "median_time_to_first_token_seconds": 1.247,
-      "median_time_to_first_answer_token": 44.367
+      "median_output_tokens_per_second": 45.889,
+      "median_time_to_first_token_seconds": 1.241,
+      "median_time_to_first_answer_token": 44.824
     },
     {
       "id": "d925845d-39ad-4de3-8495-f176b79828c0",
@@ -9140,9 +9176,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 60.879,
-      "median_time_to_first_token_seconds": 1.206,
-      "median_time_to_first_answer_token": 1.206
+      "median_output_tokens_per_second": 61.898,
+      "median_time_to_first_token_seconds": 1.336,
+      "median_time_to_first_answer_token": 1.336
     },
     {
       "id": "a7564055-f8ba-4c4b-9e2d-060f61263645",
@@ -9176,9 +9212,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 49.033,
-      "median_time_to_first_token_seconds": 0.868,
-      "median_time_to_first_answer_token": 41.658
+      "median_output_tokens_per_second": 50.336,
+      "median_time_to_first_token_seconds": 1.74,
+      "median_time_to_first_answer_token": 41.473
     },
     {
       "id": "13358187-4584-479c-ab43-5bcdf8f297a4",
@@ -9284,9 +9320,9 @@
         "price_1m_input_tokens": 15,
         "price_1m_output_tokens": 75
       },
-      "median_output_tokens_per_second": 39.133,
-      "median_time_to_first_token_seconds": 1.396,
-      "median_time_to_first_answer_token": 1.396
+      "median_output_tokens_per_second": 39.261,
+      "median_time_to_first_token_seconds": 1.35,
+      "median_time_to_first_answer_token": 1.35
     },
     {
       "id": "ccbfa8c3-a762-480b-aade-34fb9697f98c",
@@ -9392,9 +9428,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 6
       },
-      "median_output_tokens_per_second": 45.06,
-      "median_time_to_first_token_seconds": 0.452,
-      "median_time_to_first_answer_token": 0.452
+      "median_output_tokens_per_second": 44.442,
+      "median_time_to_first_token_seconds": 0.456,
+      "median_time_to_first_answer_token": 0.456
     },
     {
       "id": "1b05e346-e86a-4a20-8feb-7da8c65a99aa",
@@ -9464,9 +9500,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 6
       },
-      "median_output_tokens_per_second": 28.464,
-      "median_time_to_first_token_seconds": 0.566,
-      "median_time_to_first_answer_token": 0.566
+      "median_output_tokens_per_second": 28.11,
+      "median_time_to_first_token_seconds": 0.546,
+      "median_time_to_first_answer_token": 0.546
     },
     {
       "id": "e5dd499f-c330-45ec-9ff0-a99209c82af7",
@@ -9500,7 +9536,7 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 226.068,
+      "median_output_tokens_per_second": 228.056,
       "median_time_to_first_token_seconds": 0.373,
       "median_time_to_first_answer_token": 0.373
     },
@@ -9536,9 +9572,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 131.618,
-      "median_time_to_first_token_seconds": 0.281,
-      "median_time_to_first_answer_token": 0.281
+      "median_output_tokens_per_second": 130.716,
+      "median_time_to_first_token_seconds": 0.283,
+      "median_time_to_first_answer_token": 0.283
     },
     {
       "id": "ca6c1412-f3c1-4391-9231-f83a702aa7af",
@@ -9608,9 +9644,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 3
       },
-      "median_output_tokens_per_second": 128.586,
-      "median_time_to_first_token_seconds": 0.284,
-      "median_time_to_first_answer_token": 0.284
+      "median_output_tokens_per_second": 122.194,
+      "median_time_to_first_token_seconds": 0.285,
+      "median_time_to_first_answer_token": 0.285
     },
     {
       "id": "5e4e4590-a77e-4b66-95f8-f3960a1a7c68",
@@ -9716,9 +9752,9 @@
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 0.25
       },
-      "median_output_tokens_per_second": 125.067,
-      "median_time_to_first_token_seconds": 0.346,
-      "median_time_to_first_answer_token": 0.346
+      "median_output_tokens_per_second": 124.391,
+      "median_time_to_first_token_seconds": 0.344,
+      "median_time_to_first_answer_token": 0.344
     },
     {
       "id": "7a7b52f6-fdef-4dae-9203-58c710ccc81d",
@@ -9860,9 +9896,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 120.526,
-      "median_time_to_first_token_seconds": 0.298,
-      "median_time_to_first_answer_token": 0.298
+      "median_output_tokens_per_second": 119.451,
+      "median_time_to_first_token_seconds": 0.304,
+      "median_time_to_first_answer_token": 0.304
     },
     {
       "id": "cc1fa238-1a76-486d-a997-22309275eadd",
@@ -9896,9 +9932,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 190.926,
-      "median_time_to_first_token_seconds": 0.365,
-      "median_time_to_first_answer_token": 0.365
+      "median_output_tokens_per_second": 190.293,
+      "median_time_to_first_token_seconds": 0.354,
+      "median_time_to_first_answer_token": 0.354
     },
     {
       "id": "59e22326-1bca-4432-a5fa-147fbe8854e7",
@@ -9932,9 +9968,9 @@
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 2
       },
-      "median_output_tokens_per_second": 87.57,
-      "median_time_to_first_token_seconds": 0.362,
-      "median_time_to_first_answer_token": 0.362
+      "median_output_tokens_per_second": 78.577,
+      "median_time_to_first_token_seconds": 0.363,
+      "median_time_to_first_answer_token": 0.363
     },
     {
       "id": "1f05af98-1ec6-4506-a0b8-57a8c9b63878",
@@ -9968,9 +10004,9 @@
         "price_1m_input_tokens": 2.75,
         "price_1m_output_tokens": 8.1
       },
-      "median_output_tokens_per_second": 76.194,
-      "median_time_to_first_token_seconds": 0.409,
-      "median_time_to_first_answer_token": 0.409
+      "median_output_tokens_per_second": 77.581,
+      "median_time_to_first_token_seconds": 0.401,
+      "median_time_to_first_answer_token": 0.401
     },
     {
       "id": "df95f83f-5ebb-466a-9d2d-b95efc8c012c",
@@ -10004,9 +10040,9 @@
         "price_1m_input_tokens": 0.285,
         "price_1m_output_tokens": 0.285
       },
-      "median_output_tokens_per_second": 72.532,
-      "median_time_to_first_token_seconds": 0.265,
-      "median_time_to_first_answer_token": 27.839
+      "median_output_tokens_per_second": 71.085,
+      "median_time_to_first_token_seconds": 0.444,
+      "median_time_to_first_answer_token": 28.58
     },
     {
       "id": "43fc5506-c5ed-4dee-9b85-962bf7ae3986",
@@ -10076,9 +10112,9 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.15
       },
-      "median_output_tokens_per_second": 61.981,
-      "median_time_to_first_token_seconds": 0.99,
-      "median_time_to_first_answer_token": 33.258
+      "median_output_tokens_per_second": 62.064,
+      "median_time_to_first_token_seconds": 1.011,
+      "median_time_to_first_answer_token": 33.236
     },
     {
       "id": "bc4579d2-9c46-46c3-ace0-454039bf21bb",
@@ -10472,9 +10508,9 @@
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 29.845,
-      "median_time_to_first_token_seconds": 1.219,
-      "median_time_to_first_answer_token": 1.219
+      "median_output_tokens_per_second": 27.82,
+      "median_time_to_first_token_seconds": 1.273,
+      "median_time_to_first_answer_token": 1.273
     },
     {
       "id": "2d19c2d1-062d-436e-b2c2-3d3ecad34acc",
@@ -10580,9 +10616,9 @@
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 29.605,
-      "median_time_to_first_token_seconds": 1.153,
-      "median_time_to_first_answer_token": 68.709
+      "median_output_tokens_per_second": 28.862,
+      "median_time_to_first_token_seconds": 1.157,
+      "median_time_to_first_answer_token": 70.453
     },
     {
       "id": "3435db18-9227-45a5-8e79-9546b14b5aaa",
@@ -10616,9 +10652,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 87.615,
-      "median_time_to_first_token_seconds": 1.517,
-      "median_time_to_first_answer_token": 1.517
+      "median_output_tokens_per_second": 87.963,
+      "median_time_to_first_token_seconds": 1.622,
+      "median_time_to_first_answer_token": 1.622
     },
     {
       "id": "5ec4a0db-da66-4e46-9682-fceeed755ef8",
@@ -10652,9 +10688,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 1
       },
-      "median_output_tokens_per_second": 107.157,
-      "median_time_to_first_token_seconds": 1.696,
-      "median_time_to_first_answer_token": 1.696
+      "median_output_tokens_per_second": 106.055,
+      "median_time_to_first_token_seconds": 1.719,
+      "median_time_to_first_answer_token": 1.719
     },
     {
       "id": "04751bd4-0c5d-416b-a5f2-83727c5bfcda",
@@ -10688,9 +10724,9 @@
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 5
       },
-      "median_output_tokens_per_second": 74.089,
-      "median_time_to_first_token_seconds": 1.382,
-      "median_time_to_first_answer_token": 28.376
+      "median_output_tokens_per_second": 73.913,
+      "median_time_to_first_token_seconds": 1.428,
+      "median_time_to_first_answer_token": 28.486
     },
     {
       "id": "1edc272c-d799-44d6-909a-bf3c1909a3a0",
@@ -10832,9 +10868,9 @@
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
       },
-      "median_output_tokens_per_second": 31.572,
-      "median_time_to_first_token_seconds": 0.894,
-      "median_time_to_first_answer_token": 0.894
+      "median_output_tokens_per_second": 26.397,
+      "median_time_to_first_token_seconds": 0.961,
+      "median_time_to_first_answer_token": 0.961
     },
     {
       "id": "ec3b22e6-48ac-416a-b4ae-55565a4f3046",
@@ -10976,9 +11012,9 @@
         "price_1m_input_tokens": 0.06,
         "price_1m_output_tokens": 0.24
       },
-      "median_output_tokens_per_second": 181.111,
-      "median_time_to_first_token_seconds": 0.405,
-      "median_time_to_first_answer_token": 0.405
+      "median_output_tokens_per_second": 180.544,
+      "median_time_to_first_token_seconds": 0.407,
+      "median_time_to_first_answer_token": 0.407
     },
     {
       "id": "865bca06-85ad-41e0-a657-7e64f2475bcf",
@@ -11048,9 +11084,9 @@
         "price_1m_input_tokens": 0.13,
         "price_1m_output_tokens": 0.52
       },
-      "median_output_tokens_per_second": 69.992,
-      "median_time_to_first_token_seconds": 0.348,
-      "median_time_to_first_answer_token": 0.348
+      "median_output_tokens_per_second": 68.93,
+      "median_time_to_first_token_seconds": 0.362,
+      "median_time_to_first_answer_token": 0.362
     },
     {
       "id": "1299b9a8-af50-4742-a58b-24ff7eb48f9f",
@@ -11120,7 +11156,7 @@
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.15
       },
-      "median_output_tokens_per_second": 75.635,
+      "median_output_tokens_per_second": 73.889,
       "median_time_to_first_token_seconds": 0.992,
       "median_time_to_first_answer_token": 0.992
     },
@@ -11336,9 +11372,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.5
       },
-      "median_output_tokens_per_second": 56.115,
-      "median_time_to_first_token_seconds": 0.767,
-      "median_time_to_first_answer_token": 0.767
+      "median_output_tokens_per_second": 54.722,
+      "median_time_to_first_token_seconds": 0.785,
+      "median_time_to_first_answer_token": 0.785
     },
     {
       "id": "f73f4711-9c61-40a7-a258-b71c14727f53",
@@ -11480,7 +11516,7 @@
         "price_1m_input_tokens": 0.03,
         "price_1m_output_tokens": 0.25
       },
-      "median_output_tokens_per_second": 363.281,
+      "median_output_tokens_per_second": 5.768,
       "median_time_to_first_token_seconds": 7.891,
       "median_time_to_first_answer_token": 7.891
     },
@@ -11516,9 +11552,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
       },
-      "median_output_tokens_per_second": 70.68,
-      "median_time_to_first_token_seconds": 1.314,
-      "median_time_to_first_answer_token": 1.314
+      "median_output_tokens_per_second": 70.033,
+      "median_time_to_first_token_seconds": 1.302,
+      "median_time_to_first_answer_token": 1.302
     },
     {
       "id": "1dcea4f7-7e8b-49f8-abe2-5860ff9f349e",
@@ -11552,9 +11588,9 @@
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 0.3
       },
-      "median_output_tokens_per_second": 39.255,
-      "median_time_to_first_token_seconds": 0.397,
-      "median_time_to_first_answer_token": 0.397
+      "median_output_tokens_per_second": 39.739,
+      "median_time_to_first_token_seconds": 0.401,
+      "median_time_to_first_answer_token": 0.401
     },
     {
       "id": "1cf439b8-0cfd-47b2-9de2-9a2157e6762b",
@@ -11588,9 +11624,9 @@
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.2
       },
-      "median_output_tokens_per_second": 39.679,
-      "median_time_to_first_token_seconds": 0.79,
-      "median_time_to_first_answer_token": 51.194
+      "median_output_tokens_per_second": 39.215,
+      "median_time_to_first_token_seconds": 0.793,
+      "median_time_to_first_answer_token": 51.794
     },
     {
       "id": "76361085-f5dc-49ec-b069-fe56ca885933",
@@ -11696,9 +11732,9 @@
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 8
       },
-      "median_output_tokens_per_second": 46.554,
-      "median_time_to_first_token_seconds": 0.9,
-      "median_time_to_first_answer_token": 0.9
+      "median_output_tokens_per_second": 43.481,
+      "median_time_to_first_token_seconds": 0.816,
+      "median_time_to_first_answer_token": 0.816
     },
     {
       "id": "540ebc58-a2d8-4dc9-ba6b-973efa52fab1",
@@ -11768,9 +11804,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.4
       },
-      "median_output_tokens_per_second": 130.174,
-      "median_time_to_first_token_seconds": 0.672,
-      "median_time_to_first_answer_token": 0.672
+      "median_output_tokens_per_second": 128.291,
+      "median_time_to_first_token_seconds": 0.679,
+      "median_time_to_first_answer_token": 0.679
     },
     {
       "id": "b4ddb4c8-1400-44ab-8c2b-e2472088e7ff",
@@ -11876,9 +11912,9 @@
         "price_1m_input_tokens": 1.6,
         "price_1m_output_tokens": 6.4
       },
-      "median_output_tokens_per_second": 27.345,
-      "median_time_to_first_token_seconds": 1.205,
-      "median_time_to_first_answer_token": 1.205
+      "median_output_tokens_per_second": 27.819,
+      "median_time_to_first_token_seconds": 1.204,
+      "median_time_to_first_answer_token": 1.204
     },
     {
       "id": "b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd",
@@ -11912,9 +11948,9 @@
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
-      "median_output_tokens_per_second": 45.699,
-      "median_time_to_first_token_seconds": 1.174,
-      "median_time_to_first_answer_token": 1.174
+      "median_output_tokens_per_second": 46.066,
+      "median_time_to_first_token_seconds": 1.204,
+      "median_time_to_first_answer_token": 1.204
     },
     {
       "id": "04586102-6a28-48f8-a82e-85775d7ed779",
@@ -11948,9 +11984,9 @@
         "price_1m_input_tokens": 0.13,
         "price_1m_output_tokens": 0.175
       },
-      "median_output_tokens_per_second": 43.205,
-      "median_time_to_first_token_seconds": 1.581,
-      "median_time_to_first_answer_token": 1.581
+      "median_output_tokens_per_second": 43.343,
+      "median_time_to_first_token_seconds": 1.528,
+      "median_time_to_first_answer_token": 1.528
     },
     {
       "id": "352f834f-a03c-4117-8a29-c3ccd8a568ce",
@@ -11984,9 +12020,9 @@
         "price_1m_input_tokens": 0.05,
         "price_1m_output_tokens": 0.2
       },
-      "median_output_tokens_per_second": 85.024,
-      "median_time_to_first_token_seconds": 1.07,
-      "median_time_to_first_answer_token": 1.07
+      "median_output_tokens_per_second": 83.206,
+      "median_time_to_first_token_seconds": 1.107,
+      "median_time_to_first_answer_token": 1.107
     },
     {
       "id": "7656c62b-5345-435b-bf12-b6ce2ca0d58d",
@@ -12056,9 +12092,9 @@
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 187.769,
-      "median_time_to_first_token_seconds": 1.098,
-      "median_time_to_first_answer_token": 1.098
+      "median_output_tokens_per_second": 187.82,
+      "median_time_to_first_token_seconds": 1.108,
+      "median_time_to_first_answer_token": 1.108
     },
     {
       "id": "bf60740e-6aa5-422f-ba49-ef6e9d171205",
@@ -12092,9 +12128,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 2.8
       },
-      "median_output_tokens_per_second": 90.582,
-      "median_time_to_first_token_seconds": 1.117,
-      "median_time_to_first_answer_token": 1.117
+      "median_output_tokens_per_second": 89.554,
+      "median_time_to_first_token_seconds": 1.159,
+      "median_time_to_first_answer_token": 1.159
     },
     {
       "id": "bbe6d782-e630-48d5-b11c-3ce37f373f1e",
@@ -12128,9 +12164,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
       },
-      "median_output_tokens_per_second": 62.579,
-      "median_time_to_first_token_seconds": 1.184,
-      "median_time_to_first_answer_token": 33.144
+      "median_output_tokens_per_second": 62.459,
+      "median_time_to_first_token_seconds": 1.183,
+      "median_time_to_first_answer_token": 33.204
     },
     {
       "id": "3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5",
@@ -12165,8 +12201,8 @@
         "price_1m_output_tokens": 2.4
       },
       "median_output_tokens_per_second": 88.14,
-      "median_time_to_first_token_seconds": 1.138,
-      "median_time_to_first_answer_token": 23.829
+      "median_time_to_first_token_seconds": 1.153,
+      "median_time_to_first_answer_token": 23.844
     },
     {
       "id": "b00ecd62-a53f-4aed-b833-3e9d6b0170ba",
@@ -12200,9 +12236,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
       },
-      "median_output_tokens_per_second": 99.167,
-      "median_time_to_first_token_seconds": 1.072,
-      "median_time_to_first_answer_token": 21.24
+      "median_output_tokens_per_second": 99.902,
+      "median_time_to_first_token_seconds": 1.177,
+      "median_time_to_first_answer_token": 21.197
     },
     {
       "id": "1d0db5a3-3132-4213-a94b-c2e395d08283",
@@ -12272,9 +12308,9 @@
         "price_1m_input_tokens": 0.12,
         "price_1m_output_tokens": 0.18
       },
-      "median_output_tokens_per_second": 100.132,
-      "median_time_to_first_token_seconds": 0.235,
-      "median_time_to_first_answer_token": 20.208
+      "median_output_tokens_per_second": 93.514,
+      "median_time_to_first_token_seconds": 0.234,
+      "median_time_to_first_answer_token": 21.621
     },
     {
       "id": "e410e854-104d-4b35-a171-899ff9d974bb",
@@ -12344,9 +12380,9 @@
         "price_1m_input_tokens": 0.18,
         "price_1m_output_tokens": 2.1
       },
-      "median_output_tokens_per_second": 86.867,
-      "median_time_to_first_token_seconds": 1.059,
-      "median_time_to_first_answer_token": 24.082
+      "median_output_tokens_per_second": 86.72,
+      "median_time_to_first_token_seconds": 1.049,
+      "median_time_to_first_answer_token": 24.112
     },
     {
       "id": "b2dd592a-fbc5-458a-b26d-f3964cbab82f",
@@ -12380,9 +12416,9 @@
         "price_1m_input_tokens": 0.18,
         "price_1m_output_tokens": 0.7
       },
-      "median_output_tokens_per_second": 80.314,
-      "median_time_to_first_token_seconds": 1.057,
-      "median_time_to_first_answer_token": 1.057
+      "median_output_tokens_per_second": 79.559,
+      "median_time_to_first_token_seconds": 1.061,
+      "median_time_to_first_answer_token": 1.061
     },
     {
       "id": "5962d643-0a6f-4630-bb08-ab5720d80056",
@@ -12417,8 +12453,8 @@
         "price_1m_output_tokens": 1.26
       },
       "median_output_tokens_per_second": 122.823,
-      "median_time_to_first_token_seconds": 1.022,
-      "median_time_to_first_answer_token": 17.305
+      "median_time_to_first_token_seconds": 1.011,
+      "median_time_to_first_answer_token": 17.295
     },
     {
       "id": "191a2097-cce3-49cf-881e-0c790892059f",
@@ -12452,9 +12488,9 @@
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 1.26
       },
-      "median_output_tokens_per_second": 83.456,
-      "median_time_to_first_token_seconds": 1.08,
-      "median_time_to_first_answer_token": 25.045
+      "median_output_tokens_per_second": 83.632,
+      "median_time_to_first_token_seconds": 1.096,
+      "median_time_to_first_answer_token": 25.011
     },
     {
       "id": "e46198a7-cd29-4afd-933d-cdf180f0f305",
@@ -12488,9 +12524,9 @@
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 76.203,
-      "median_time_to_first_token_seconds": 1.035,
-      "median_time_to_first_answer_token": 1.035
+      "median_output_tokens_per_second": 76.124,
+      "median_time_to_first_token_seconds": 1.105,
+      "median_time_to_first_answer_token": 1.105
     },
     {
       "id": "ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca",
@@ -12524,9 +12560,9 @@
         "price_1m_input_tokens": 0.43,
         "price_1m_output_tokens": 0.6
       },
-      "median_output_tokens_per_second": 30.217,
-      "median_time_to_first_token_seconds": 1.376,
-      "median_time_to_first_answer_token": 83.813
+      "median_output_tokens_per_second": 31.081,
+      "median_time_to_first_token_seconds": 1.407,
+      "median_time_to_first_answer_token": 81.553
     },
     {
       "id": "4ae6c88d-9e4a-4850-89fe-18a1c04a66cc",
@@ -12560,9 +12596,9 @@
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 1.26
       },
-      "median_output_tokens_per_second": 199.509,
-      "median_time_to_first_token_seconds": 0.972,
-      "median_time_to_first_answer_token": 10.997
+      "median_output_tokens_per_second": 201.028,
+      "median_time_to_first_token_seconds": 0.976,
+      "median_time_to_first_answer_token": 10.925
     },
     {
       "id": "4559e9f0-8aad-4681-89fb-68cb915e0f16",
@@ -12596,9 +12632,9 @@
         "price_1m_input_tokens": 0.35,
         "price_1m_output_tokens": 4.2
       },
-      "median_output_tokens_per_second": 58.151,
-      "median_time_to_first_token_seconds": 1.166,
-      "median_time_to_first_answer_token": 35.559
+      "median_output_tokens_per_second": 58.57,
+      "median_time_to_first_token_seconds": 1.156,
+      "median_time_to_first_answer_token": 35.302
     },
     {
       "id": "f3169f25-8c6f-48e4-ae87-0cf872dc0ec1",
@@ -12632,9 +12668,9 @@
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
       },
-      "median_output_tokens_per_second": 86.086,
-      "median_time_to_first_token_seconds": 1.056,
-      "median_time_to_first_answer_token": 1.056
+      "median_output_tokens_per_second": 78.462,
+      "median_time_to_first_token_seconds": 1.075,
+      "median_time_to_first_answer_token": 1.075
     },
     {
       "id": "d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3",
@@ -12704,9 +12740,9 @@
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 2.8
       },
-      "median_output_tokens_per_second": 56.952,
-      "median_time_to_first_token_seconds": 1.182,
-      "median_time_to_first_answer_token": 1.182
+      "median_output_tokens_per_second": 57.164,
+      "median_time_to_first_token_seconds": 1.194,
+      "median_time_to_first_answer_token": 1.194
     },
     {
       "id": "2bb84433-f38e-4edc-9b65-4d7b1f473db9",
@@ -12740,9 +12776,9 @@
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 0.42
       },
-      "median_output_tokens_per_second": 116.027,
-      "median_time_to_first_token_seconds": 1.03,
-      "median_time_to_first_answer_token": 1.03
+      "median_output_tokens_per_second": 115.717,
+      "median_time_to_first_token_seconds": 1.073,
+      "median_time_to_first_answer_token": 1.073
     },
     {
       "id": "ecc6524a-d521-458a-8327-5009e8ce6549",
@@ -12776,9 +12812,9 @@
         "price_1m_input_tokens": 0.35,
         "price_1m_output_tokens": 1.4
       },
-      "median_output_tokens_per_second": 55.155,
-      "median_time_to_first_token_seconds": 1.113,
-      "median_time_to_first_answer_token": 1.113
+      "median_output_tokens_per_second": 54.895,
+      "median_time_to_first_token_seconds": 1.212,
+      "median_time_to_first_answer_token": 1.212
     },
     {
       "id": "41f73c27-880c-4f30-8b07-9999ce89a4ae",
@@ -12849,9 +12885,9 @@
         "price_1m_output_tokens": 6
       },
       "median_output_tokens_per_second": 36.712,
-      "median_time_to_first_token_seconds": 1.765,
-      "median_time_to_first_answer_token": 1.765
+      "median_time_to_first_token_seconds": 1.835,
+      "median_time_to_first_answer_token": 1.835
     }
   ],
-  "fetchedAt": "2025-12-16T05:43:21.709Z"
+  "fetchedAt": "2025-12-17T00:18:45.761Z"
 }
