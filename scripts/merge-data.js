@@ -122,10 +122,18 @@ async function mergeData() {
 
       // 중복 ID 체크 및 처리
       if (usedIds.has(modelId)) {
-        // 원본 LM Arena 모델명으로 고유 ID 생성
-        const originalName = lmModel.model.toLowerCase().replace(/[\s\.]/g, '-');
-        console.warn(`⚠ Duplicate ID detected: ${modelId}, using original name: ${originalName}`);
-        modelId = originalName;
+        // 원본 LM Arena 모델명으로 고유 ID 생성 시도
+        let newId = lmModel.model.toLowerCase().replace(/[\s\.]/g, '-');
+
+        // 원본 이름도 중복이면 숫자 접미사 추가
+        let suffix = 2;
+        while (usedIds.has(newId)) {
+          newId = `${lmModel.model.toLowerCase().replace(/[\s\.]/g, '-')}-${suffix}`;
+          suffix++;
+        }
+
+        console.warn(`⚠ Duplicate ID detected: ${modelId}, using: ${newId}`);
+        modelId = newId;
       }
       usedIds.add(modelId);
 
