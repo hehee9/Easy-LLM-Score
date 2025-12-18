@@ -130,8 +130,8 @@ body {
 
 .chart {
     width: 100%;
-    height: var(--chart-height);
     min-height: 400px;
+    /* height는 JavaScript에서 동적으로 설정 */
 }
 
 /* 차트 컨트롤 (카테고리 탭) */

@@ -6,6 +6,23 @@
 
 import { getActiveCategories, normalizeScore, CHART_COLORS, CHART_CONFIG } from './config.js';
 
+// 레이더 차트 동적 높이 설정
+const RADAR_BASE_HEIGHT = 500;
+const LEGEND_HEIGHT_PER_ROW = 30;  // 범례 줄당 높이 (px)
+const MODELS_PER_ROW = 3;  // 범례 한 줄에 표시되는 모델 수 (추정)
+
+/**
+ * @description 모델 수에 따른 레이더 차트 높이 계산
+ * @param {number} modelCount 모델 수
+ * @returns {number} 차트 높이 (px)
+ */
+function calculateRadarChartHeight(modelCount) {
+    const legendRows = Math.ceil(modelCount / MODELS_PER_ROW);
+    // 3줄 이상일 때부터 추가 높이 적용
+    const extraHeight = Math.max(0, legendRows - 3) * LEGEND_HEIGHT_PER_ROW;
+    return RADAR_BASE_HEIGHT + extraHeight;
+}
+
 /**
  * @description 레이더 차트 렌더링
  * @param {string} containerId 차트를 렌더링할 DOM 요소 ID
@@ -19,6 +36,10 @@ export function renderRadarChart(containerId, models) {
         console.error(`컨테이너를 찾을 수 없습니다: ${containerId}`);
         return null;
     }
+
+    // 동적 높이 설정
+    const chartHeight = calculateRadarChartHeight(models.length);
+    container.style.height = `${chartHeight}px`;
 
     // ECharts 인스턴스 초기화
     const chart = echarts.init(container);

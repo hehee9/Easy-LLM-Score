@@ -6,6 +6,23 @@
 
 import { CATEGORIES, CHART_CONFIG, getModelColor } from './config.js';
 
+// 바 차트 동적 높이 설정
+const BAR_HEIGHT_PER_MODEL = 35;  // 모델당 높이 (px)
+const MIN_BAR_CHART_HEIGHT = 400;
+const MAX_BAR_CHART_HEIGHT = 1500;
+
+/**
+ * @description 모델 수에 따른 바 차트 높이 계산
+ * @param {number} modelCount 모델 수
+ * @returns {number} 차트 높이 (px)
+ */
+function calculateBarChartHeight(modelCount) {
+    return Math.min(
+        MAX_BAR_CHART_HEIGHT,
+        Math.max(MIN_BAR_CHART_HEIGHT, modelCount * BAR_HEIGHT_PER_MODEL)
+    );
+}
+
 /**
  * @description 막대 그래프 렌더링
  * @param {string} containerId 차트를 렌더링할 DOM 요소 ID
@@ -20,6 +37,10 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
       console.error(`컨테이너를 찾을 수 없습니다: ${containerId}`);
       return null;
     }
+
+    // 동적 높이 설정
+    const chartHeight = calculateBarChartHeight(models.length);
+    container.style.height = `${chartHeight}px`;
 
     // ECharts 인스턴스 초기화
     const chart = echarts.init(container);
@@ -168,6 +189,14 @@ function sortModelsByCategory(models, categoryId) {
  */
 export function updateBarChart(chart, models, categoryId) {
     if (!chart) return;
+
+    // 동적 높이 업데이트
+    const container = chart.getDom();
+    if (container) {
+        const chartHeight = calculateBarChartHeight(models.length);
+        container.style.height = `${chartHeight}px`;
+        chart.resize();
+    }
 
     // 카테고리 정보
     const category = CATEGORIES.find(cat => cat.id === categoryId);
