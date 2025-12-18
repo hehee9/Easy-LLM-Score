@@ -36,6 +36,7 @@
     "deepseek-v2.5-1210",
     "Stepfunstep-1o-turbo-202506",
     "glm-4-plus",
+    "qwen-max-0919",
     "qwen2.5-plus-1127",
     "athene-v2-chat",
     "gpt-4-1106-preview",
@@ -132,5 +133,5 @@
     "Stabilitystablelm-tuned-alpha-7b"
   ],
   "suggestion": "Add these models to scripts/model-mapping.json",
-  "timestamp": "2025-12-18T18:16:26.400Z"
+  "timestamp": "2025-12-18T20:02:30.784Z"
 }

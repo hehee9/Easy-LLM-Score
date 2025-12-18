@@ -45,8 +45,12 @@ export function renderRadarChart(containerId, models) {
         itemStyle: {
             color: getModelColor(model)  // 개발사(provider) 기반 색상
         },
+        lineStyle: {
+            opacity: 0.4,
+            width: 1.5
+        },
         areaStyle: {
-            opacity: 0.3
+            opacity: 0.1
         }
     }));
 
@@ -99,8 +103,27 @@ export function renderRadarChart(containerId, models) {
             type: 'radar',
             data: seriesData,
             emphasis: {
+                focus: 'self',  // 호버한 시리즈만 강조
                 lineStyle: {
-                    width: 4
+                    width: 3,
+                    opacity: 1
+                },
+                areaStyle: {
+                    opacity: 0.4
+                },
+                itemStyle: {
+                    opacity: 1
+                }
+            },
+            blur: {
+                lineStyle: {
+                    opacity: 0.15
+                },
+                areaStyle: {
+                    opacity: 0.03
+                },
+                itemStyle: {
+                    opacity: 0.15
                 }
             }
         }]
@@ -140,14 +163,42 @@ export function updateRadarChart(chart, models) {
         itemStyle: {
             color: getModelColor(model)  // 개발사(provider) 기반 색상
         },
+        lineStyle: {
+            opacity: 0.4,
+            width: 1.5
+        },
         areaStyle: {
-            opacity: 0.3
+            opacity: 0.1
         }
     }));
 
     chart.setOption({
         series: [{
-            data: seriesData
+            data: seriesData,
+            emphasis: {
+                focus: 'self',
+                lineStyle: {
+                    width: 3,
+                    opacity: 1
+                },
+                areaStyle: {
+                    opacity: 0.4
+                },
+                itemStyle: {
+                    opacity: 1
+                }
+            },
+            blur: {
+                lineStyle: {
+                    opacity: 0.15
+                },
+                areaStyle: {
+                    opacity: 0.03
+                },
+                itemStyle: {
+                    opacity: 0.15
+                }
+            }
         }]
     });
 }

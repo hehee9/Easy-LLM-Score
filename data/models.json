@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-18",
     "description": "LLM 벤치마크 통합 데이터",
-    "totalModels": 102,
+    "totalModels": 101,
     "defaultModelIds": [
       "gemini-3-pro",
       "gemini-3-flash-reasoning",
@@ -628,18 +628,18 @@
       "description": ""
     },
     {
-      "id": "gpt-5-1-2",
-      "name": "GPT-5.1 (high)",
+      "id": "gpt-5-1-non-reasoning",
+      "name": "GPT-5.1 (Non-reasoning)",
       "provider": "OpenAI",
       "releaseDate": "2025-11-13",
       "benchmarks": {
-        "MMLU Pro": 87,
-        "GPQA Diamond": 87.3,
-        "Humanity's Last Exam": 26.5,
-        "AA-LCR": 75,
-        "LiveCodeBench": 86.8,
-        "SciCode": 43.3,
-        "AIME 2025": 94,
+        "MMLU Pro": 80.10000000000001,
+        "GPQA Diamond": 64.3,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 44,
+        "LiveCodeBench": 49.4,
+        "SciCode": 36.5,
+        "AIME 2025": 38,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
@@ -661,8 +661,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 104.155,
-          "timeToFirstToken": 41.918
+          "outputTokensPerSecond": 89.676,
+          "timeToFirstToken": 0.844
         }
       },
       "tags": [],
@@ -3089,16 +3089,16 @@
     },
     {
       "id": "o3-mini",
-      "name": "o3-mini (high)",
+      "name": "o3-mini",
       "provider": "OpenAI",
       "releaseDate": "2025-01-31",
       "benchmarks": {
-        "MMLU Pro": 80.2,
-        "GPQA Diamond": 77.3,
-        "Humanity's Last Exam": 12.3,
+        "MMLU Pro": 79.10000000000001,
+        "GPQA Diamond": 74.8,
+        "Humanity's Last Exam": 8.7,
         "AA-LCR": 0,
-        "LiveCodeBench": 73.4,
-        "SciCode": 39.800000000000004,
+        "LiveCodeBench": 71.7,
+        "SciCode": 39.900000000000006,
         "AIME 2025": 0,
         "MMMU Pro": 0,
         "AA-Omniscience": 0,
@@ -3121,8 +3121,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 136.614,
-          "timeToFirstToken": 51.963
+          "outputTokensPerSecond": 133.758,
+          "timeToFirstToken": 18.673
         }
       },
       "tags": [],
@@ -3820,47 +3820,6 @@
         "performance": {
           "outputTokensPerSecond": 238.071,
           "timeToFirstToken": 0.615
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "qwen-max-0919",
-      "name": "Qwen2.5 Max",
-      "provider": "Alibaba",
-      "releaseDate": "2025-01-28",
-      "benchmarks": {
-        "MMLU Pro": 76.2,
-        "GPQA Diamond": 58.699999999999996,
-        "Humanity's Last Exam": 4.5,
-        "AA-LCR": 0,
-        "LiveCodeBench": 35.9,
-        "SciCode": 33.7,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1317,
-        "LMArena-Text-Creative-Writing": 1284,
-        "LMArean-Text-Math": 1294,
-        "LMArena-Text-Coding": 1350,
-        "LMArena-Text-Expert": 1295,
-        "LMArena-Text-Hard-Prompts": 1315,
-        "LMArena-Text-Longer-Query": 1324,
-        "LMArena-Text-Multi-Turn": 1302
-      },
-      "metadata": {
-        "lmarenaRank": 142,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 1.6,
-          "output": 6.4
-        },
-        "performance": {
-          "outputTokensPerSecond": 30.759,
-          "timeToFirstToken": 1.176
         }
       },
       "tags": [],

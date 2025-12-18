@@ -5,6 +5,7 @@ scripts/node_modules/
 # Environment variables
 .env
 .env.local
+.claude/
 
 # Build outputs
 dist/

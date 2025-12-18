@@ -20,7 +20,7 @@
   "Anthropicclaude-3-7-sonnet-20250219": "claude-3-7-sonnet",
 
   "gpt-5.1-high": "gpt-5-1",
-  "gpt-5.1": "gpt-5-1",
+  "gpt-5.1": "gpt-5-1-non-reasoning",
   "gpt-5.2-high": "gpt-5-2",
   "gpt-5-high": "gpt-5",
   "gpt-5-chat": "gpt-5-chatgpt",
@@ -51,6 +51,8 @@
   "o1-2024-12-17": "o1",
   "o3-2025-04-16": "o3",
   "o4-mini-2025-04-16": "o4-mini",
+  "o3-mini": "o3-mini",
+  "o3-mini-high": "o3-mini-high",
 
   "gemma-3-27b-it": "gemma-3-27b",
   "gemma-3-12b-it": "gemma-3-12b",
@@ -79,7 +81,7 @@
   "mixtral-8x7b-instruct-v0.1": "mixtral-8x7b-instruct",
   "mistral-7b-instruct-v0.2": "mistral-7b-instruct",
 
-  "qwen-max-0919": "qwen-2-5-max",
+  "qwen2.5-max": "qwen-2-5-max",
   "qwen3-max-2025-09-23": "qwen3-max",
   "qwen3-235b-a22b-thinking-2507": "qwen3-235b-a22b-instruct-2507-reasoning",
   "qwen3-vl-235b-a22b-thinking": "qwen3-vl-235b-a22b-reasoning",
