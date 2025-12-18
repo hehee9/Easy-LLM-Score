@@ -43,6 +43,10 @@
   "gemini-1.5-flash-8b-001": "gemini-1-5-flash-8b",
   "gemini-pro": "gemini-1-0-pro",
   "gemini-pro-dev-api": "gemini-1-0-pro",
+  "gemini-2.5-flash-lite-preview-06-17-thinking": "gemini-2-5-flash-lite-reasoning",
+  "gemini-2.5-flash-lite-preview-09-2025-no-thinking": "gemini-2-5-flash-lite-preview-09-2025",
+  "gemini-3-flash": "gemini-3-flash-reasoning",
+  "gemini-3-flash (thinking-minimal)": "gemini-3-flash",
 
   "o1-2024-12-17": "o1",
   "o3-2025-04-16": "o3",
@@ -83,6 +87,8 @@
   "qwen3-30b-a3b-instruct-2507": "qwen3-30b-a3b-2507",
   "qwen1.5-110b-chat": "qwen1.5-110b-chat",
   "qwen-14b-chat": "qwen-chat-14b",
+
+  "deepseek-r1": "deepseek-r1-0120",
 
   "deepseek-v3.2": "deepseek-v3-2",
   "deepseek-v3.2-thinking": "deepseek-v3-2-reasoning",

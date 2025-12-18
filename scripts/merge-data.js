@@ -139,7 +139,7 @@ async function mergeData() {
 
       mergedModels.push({
         id: modelId,
-        name: lmModel.model,
+        name: aaMatch.name || lmModel.model,
         provider: aaMatch.model_creator?.name || 'Unknown',  // AA의 model_creator.name만 사용
         releaseDate: aaMatch.release_date || '',
         benchmarks: {

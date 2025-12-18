@@ -1,5 +1,11 @@
 {
   "models": {
+    "gpt-5-2": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -4,
+      "AA-Omniscience Accuracy": 41.35,
+      "AA-Omniscience Hallucination Rate": 77.86
+    },
     "gpt-5-1": {
       "MMMU Pro": 76,
       "AA-Omniscience": 2,
@@ -40,6 +46,18 @@
       "AA-Omniscience Accuracy": 53.65,
       "AA-Omniscience Hallucination Rate": 87.99
     },
+    "gemini-3-flash": {
+      "MMMU Pro": 79,
+      "AA-Omniscience": -1,
+      "AA-Omniscience Accuracy": 47.15,
+      "AA-Omniscience Hallucination Rate": 90.95
+    },
+    "gemini-3-flash-reasoning": {
+      "MMMU Pro": 80,
+      "AA-Omniscience": 13,
+      "AA-Omniscience Accuracy": 54.50,
+      "AA-Omniscience Hallucination Rate": 91.21
+    },
     "gemini-2-5-pro": {
       "MMMU Pro": 75,
       "AA-Omniscience": -18,
@@ -52,6 +70,24 @@
       "AA-Omniscience Accuracy": 25.77,
       "AA-Omniscience Hallucination Rate": 90.37
     },
+    "gemini-2-5-flash": {
+      "MMMU Pro": 66,
+      "AA-Omniscience": -44,
+      "AA-Omniscience Accuracy": 25.35,
+      "AA-Omniscience Hallucination Rate": 92.57
+    },
+    "gemini-2-5-flash-lite-reasoning": {
+      "MMMU Pro": 58,
+      "AA-Omniscience": -47,
+      "AA-Omniscience Accuracy": 17.13,
+      "AA-Omniscience Hallucination Rate": 77.37
+    },
+    "gemini-2-5-flash-lite-preview-09-2025": {
+      "MMMU Pro": 63,
+      "AA-Omniscience": -44,
+      "AA-Omniscience Accuracy": 13.35,
+      "AA-Omniscience Hallucination Rate": 65.86
+    },
 
 
 
@@ -61,11 +97,35 @@
       "AA-Omniscience Accuracy": 13.42,
       "AA-Omniscience Hallucination Rate": 24.68
     },
+    "claude-4-sonnet": {
+      "MMMU Pro": 62,
+      "AA-Omniscience": -11,
+      "AA-Omniscience Accuracy": 21.45,
+      "AA-Omniscience Hallucination Rate": 40.50
+    },
+    "claude-4-sonnet-thinking": {
+      "MMMU Pro": 62,
+      "AA-Omniscience": -2,
+      "AA-Omniscience Accuracy": 21.05,
+      "AA-Omniscience Hallucination Rate": 28.90
+    },
     "claude-4-5-sonnet": {
       "MMMU Pro": 65,
       "AA-Omniscience": -11,
       "AA-Omniscience Accuracy": 26.93,
       "AA-Omniscience Hallucination Rate": 51.44
+    },
+    "claude-4-5-sonnet-thinking": {
+      "MMMU Pro": 69,
+      "AA-Omniscience": -2,
+      "AA-Omniscience Accuracy": 30.90,
+      "AA-Omniscience Hallucination Rate": 47.73
+    },
+    "claude-4-1-opus-thinking": {
+      "MMMU Pro": 68,
+      "AA-Omniscience": 5,
+      "AA-Omniscience Accuracy": 35.93,
+      "AA-Omniscience Hallucination Rate": 48.39
     },
     "claude-opus-4-5": {
       "MMMU Pro": 71,
@@ -73,14 +133,27 @@
       "AA-Omniscience Accuracy": 38.90,
       "AA-Omniscience Hallucination Rate": 74.22
     },
+    "claude-opus-4-5-thinking": {
+      "MMMU Pro": 74,
+      "AA-Omniscience": 10,
+      "AA-Omniscience Accuracy": 43.12,
+      "AA-Omniscience Hallucination Rate": 57.81
+    },
 
 
 
-    "qwen3-max-preview": {
+    "qwen3-max": {
       "MMMU Pro": 0,
       "AA-Omniscience": -45,
       "AA-Omniscience Accuracy": 23.35,
       "AA-Omniscience Hallucination Rate": 89.04
+    },
+
+    "qwen3-235b-a22b-instruct": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -54,
+      "AA-Omniscience Accuracy": 17.30,
+      "AA-Omniscience Hallucination Rate": 86.62
     },
     "qwen3-235b-a22b-instruct-2507": {
       "MMMU Pro": 0,
@@ -88,18 +161,53 @@
       "AA-Omniscience Accuracy": 17.58,
       "AA-Omniscience Hallucination Rate": 76.40
     },
+    "qwen3-235b-a22b-instruct-2507-reasoning": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -48,
+      "AA-Omniscience Accuracy": 22.12,
+      "AA-Omniscience Hallucination Rate": 89.64
+    },
+
+    "qwen3-30b-a3b-2507": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -67,
+      "AA-Omniscience Accuracy": 14.30,
+      "AA-Omniscience Hallucination Rate": 94.63
+    },
+    "qwen3-30b-a3b-instruct-reasoning": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -52,
+      "AA-Omniscience Accuracy": 15.35,
+      "AA-Omniscience Hallucination Rate": 79.96
+    },
+
     "qwen3-vl-235b-a22b-instruct": {
       "MMMU Pro": 68,
       "AA-Omniscience": -54,
       "AA-Omniscience Accuracy": 19.22,
       "AA-Omniscience Hallucination Rate": 90.47
     },
+    "qwen3-vl-235b-a22b-reasoning": {
+      "MMMU Pro": 69,
+      "AA-Omniscience": -47,
+      "AA-Omniscience Accuracy": 20.45,
+      "AA-Omniscience Hallucination Rate": 84.24
+    },
+
     "qwen3-next-80b-a3b-instruct": {
       "MMMU Pro": 0,
       "AA-Omniscience": -60,
       "AA-Omniscience Accuracy": 16.72,
       "AA-Omniscience Hallucination Rate": 92.70
     },
+    "qwen3-next-80b-a3b-reasoning": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -53,
+      "AA-Omniscience Accuracy": 18.22,
+      "AA-Omniscience Hallucination Rate": 86.81
+    },
+
+
 
     "deepseek-v3-2": {
       "MMMU Pro": 0,
