@@ -6,23 +6,6 @@
 
 import { getActiveCategories, normalizeScore, CHART_COLORS, CHART_CONFIG } from './config.js';
 
-// 레이더 차트 동적 높이 설정
-const RADAR_BASE_HEIGHT = 500;
-const LEGEND_HEIGHT_PER_ROW = 30;  // 범례 줄당 높이 (px)
-const MODELS_PER_ROW = 3;  // 범례 한 줄에 표시되는 모델 수 (추정)
-
-/**
- * @description 모델 수에 따른 레이더 차트 높이 계산
- * @param {number} modelCount 모델 수
- * @returns {number} 차트 높이 (px)
- */
-function calculateRadarChartHeight(modelCount) {
-    const legendRows = Math.ceil(modelCount / MODELS_PER_ROW);
-    // 3줄 이상일 때부터 추가 높이 적용
-    const extraHeight = Math.max(0, legendRows - 3) * LEGEND_HEIGHT_PER_ROW;
-    return RADAR_BASE_HEIGHT + extraHeight;
-}
-
 /**
  * @description 레이더 차트 렌더링
  * @param {string} containerId 차트를 렌더링할 DOM 요소 ID
@@ -37,9 +20,8 @@ export function renderRadarChart(containerId, models) {
         return null;
     }
 
-    // 동적 높이 설정
-    const chartHeight = calculateRadarChartHeight(models.length);
-    container.style.height = `${chartHeight}px`;
+    // 화면 비율 기반 높이 설정 (뷰포트 높이의 80%)
+    container.style.height = '80vh';
 
     // ECharts 인스턴스 초기화
     const chart = echarts.init(container);
@@ -76,14 +58,24 @@ export function renderRadarChart(containerId, models) {
             left: 'center'
         },
         legend: {
+            type: 'scroll',  // 스크롤 가능한 범례
             data: models.map(m => m.name),
-            bottom: 10,
+            bottom: 0,
+            left: 'center',
+            width: '90%',
             textStyle: {
-                fontSize: 14
+                fontSize: 13
+            },
+            pageButtonItemGap: 5,
+            pageButtonGap: 10,
+            pageTextStyle: {
+                color: '#333'
             }
         },
         radar: {
             indicator: indicator,
+            center: ['50%', '40%'],  // 차트를 위쪽에 배치 (세로 40% 위치)
+            radius: '35%',           // 차트 크기를 줄여서 범례 공간 확보
             shape: 'polygon',
             splitNumber: 5,
             name: {
