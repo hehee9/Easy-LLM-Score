@@ -59,6 +59,38 @@ function fillMissingOmniscience(models, fallbackValues) {
 }
 
 /**
+ * @description 기본 표시 모델 선택 (상위 20개, 개발사당 최대 4개)
+ * @param {Array} models 점수가 계산된 모델 배열
+ * @param {number} maxModels 최대 선택 모델 수
+ * @param {number} maxPerProvider 개발사당 최대 모델 수
+ * @returns {Set} 선택된 모델 ID Set
+ */
+function selectDefaultModels(models, maxModels = 20, maxPerProvider = 4) {
+    // 종합 점수 내림차순 정렬
+    const sorted = [...models].sort((a, b) =>
+        (b.scores?.overall || 0) - (a.scores?.overall || 0)
+    );
+
+    const selected = [];
+    const providerCount = {};
+
+    for (const model of sorted) {
+        if (selected.length >= maxModels) break;
+
+        const provider = model.provider || 'Unknown';
+        providerCount[provider] = providerCount[provider] || 0;
+
+        if (providerCount[provider] < maxPerProvider) {
+            selected.push(model.id);
+            providerCount[provider]++;
+        }
+    }
+
+    console.log(`기본 모델 선택: ${selected.length}개 (개발사별 최대 ${maxPerProvider}개)`);
+    return new Set(selected);
+}
+
+/**
  * @description models.json 파일 로드
  * @returns {Promise<Object>} 로드된 데이터
  */
@@ -92,6 +124,7 @@ export function getDefaultModels(data) {
  * @description 모델 데이터만 추출 (하위 호환성 유지)
  * - benchmarks를 scores로 변환
  * - AA-Omniscience 결측값을 하위 30% 백분위수로 대체
+ * - 기본 모델은 종합 점수 기준 상위 20개 (개발사당 최대 4개)
  * @param {boolean} [defaultOnly=false] true면 기본 모델만, false면 모든 모델
  * @returns {Promise<Array>} 모델 배열 (scores 포함)
  */
@@ -99,21 +132,34 @@ export async function loadModels(defaultOnly = false) {
     try {
         const data = await loadData();
 
-        // 모든 모델 또는 기본 모델만 선택
-        const models = defaultOnly ? getDefaultModels(data) : data.models;
+        // 모든 모델 로드 (기본 모델 선택을 위해)
+        const allModels = data.models;
 
         // AA-Omniscience 하위 30% 값 계산 및 결측값 대체
-        const fallbackValues = calculateFallbackValues(models);
-        const filledModels = fillMissingOmniscience(models, fallbackValues);
+        const fallbackValues = calculateFallbackValues(allModels);
+        const filledModels = fillMissingOmniscience(allModels, fallbackValues);
 
         console.log(`AA-Omniscience fallback 값: Accuracy=${fallbackValues.accuracy.toFixed(2)}, HallRate=${fallbackValues.hallRate.toFixed(2)}`);
 
-        // 각 모델의 benchmarks에서 scores 계산 (LM Arena 정규화를 위해 전체 모델 배열 전달)
-        return filledModels.map(model => ({
+        // 각 모델의 benchmarks에서 scores 계산
+        const modelsWithScores = filledModels.map(model => ({
             ...model,
-            scores: calculateScores(model, filledModels),
-            isDefault: data.metadata?.defaultModelIds?.includes(model.id) || false
+            scores: calculateScores(model, filledModels)
         }));
+
+        // 기본 모델 동적 선택 (상위 20개, 개발사당 최대 4개)
+        const defaultModelIds = selectDefaultModels(modelsWithScores);
+
+        // isDefault 플래그 설정
+        const finalModels = modelsWithScores.map(model => ({
+            ...model,
+            isDefault: defaultModelIds.has(model.id)
+        }));
+
+        // defaultOnly가 true면 기본 모델만 반환
+        return defaultOnly
+            ? finalModels.filter(m => m.isDefault)
+            : finalModels;
     } catch (error) {
         console.error('모델 로드 실패:', error);
         return [];

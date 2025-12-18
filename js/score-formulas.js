@@ -4,6 +4,13 @@
  * - 각 카테고리별로 원본 벤치마크 점수를 조합하여 0-100 점수로 변환
  */
 
+// 종합 점수 계산에 포함할 카테고리 (overall 제외)
+const SCORE_CATEGORIES = [
+    'general_knowledge', 'expert_knowledge', 'general_reasoning',
+    'math_reasoning', 'coding', 'vision', 'long_context',
+    'hallucination', 'natural_speech'
+];
+
 /**
  * @description LM Arena 점수를 0-100으로 정규화 (Bradley-Terry 기반)
  *
@@ -180,6 +187,16 @@ export function calculateScores(model, allModels = []) {
             { value: getLMArena('LMArena-Text-Multi-Turn'), weight: 2 }
         ])
     };
+
+    // 종합 점수: 모든 카테고리의 평균 (시각 미지원 모델은 vision 제외)
+    const categoriesToAverage = model.supportsVision !== false
+        ? SCORE_CATEGORIES
+        : SCORE_CATEGORIES.filter(c => c !== 'vision');
+
+    const categoryScores = categoriesToAverage.map(c => scores[c] || 0);
+    scores.overall = categoryScores.length > 0
+        ? Math.round((categoryScores.reduce((a, b) => a + b, 0) / categoryScores.length) * 100) / 100
+        : 0;
 
     return scores;
 }

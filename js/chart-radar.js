@@ -26,8 +26,8 @@ export function renderRadarChart(containerId, models) {
     // ECharts 인스턴스 초기화
     const chart = echarts.init(container);
 
-    // 활성화된 카테고리만 사용 (음성/동영상 제외)
-    const activeCategories = getActiveCategories();
+    // 활성화된 카테고리만 사용 (음성/동영상/종합 제외)
+    const activeCategories = getActiveCategories().filter(cat => cat.id !== 'overall');
 
     // 레이더 차트 indicator 설정 (활성화된 카테고리만)
     const indicator = activeCategories.map(cat => ({
@@ -153,7 +153,7 @@ export function renderRadarChart(containerId, models) {
 export function updateRadarChart(chart, models) {
     if (!chart) return;
 
-    const activeCategories = getActiveCategories();
+    const activeCategories = getActiveCategories().filter(cat => cat.id !== 'overall');
 
     const seriesData = models.map((model) => ({
         name: model.name,

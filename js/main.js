@@ -14,7 +14,7 @@ let allModels = [];
 let selectedModelIds = new Set();  // 선택된 모델 ID
 let radarChart = null;
 let barChart = null;
-let currentCategory = 'general_knowledge';  // 기본 카테고리
+let currentCategory = 'overall';  // 기본 카테고리 (종합)
 
 /** @description 앱 초기화 */
 async function init() {

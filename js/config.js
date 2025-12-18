@@ -14,6 +14,12 @@
  */
 export const CATEGORIES = [
     {
+        id: 'overall',
+        name: '종합',
+        enabled: true,
+        reversed: false
+    },
+    {
         id: 'general_knowledge',
         name: '일반 지식',
         enabled: true,
@@ -156,6 +162,13 @@ export function getModelColor(model) {
 export function getActiveCategories() {
     return CATEGORIES.filter(cat => cat.enabled);
 }
+
+/**
+ * @description 활성화된 카테고리 ID 목록
+ */
+export const ACTIVE_CATEGORY_IDS = CATEGORIES
+    .filter(c => c.enabled)
+    .map(c => c.id);
 
 /**
  * @description 점수 정규화 (역방향 지표 처리)
