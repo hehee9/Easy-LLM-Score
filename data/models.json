@@ -3,17 +3,29 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-18",
     "description": "LLM 벤치마크 통합 데이터",
+<<<<<<< HEAD
     "totalModels": 72,
+=======
+    "totalModels": 80,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
     "defaultModelIds": [
       "gemini-3-pro",
       "claude-opus-4-5",
       "gemini-2-5-pro",
       "claude-4-5-sonnet",
+<<<<<<< HEAD
       "gpt-5-1",
+=======
+      "gpt-5",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "o3",
       "qwen3-max-preview",
       "qwen3-235b-a22b-instruct-2507",
       "deepseek-v3-2",
+<<<<<<< HEAD
+=======
+      "deepseek-r1",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "deepseek-v3-1-terminus",
       "qwen3-vl-235b-a22b-instruct",
       "gemini-2-5-flash-preview-09-2025",
@@ -23,11 +35,19 @@
     ],
     "dataSources": {
       "lmarena": {
+<<<<<<< HEAD
         "lastFetched": "2025-12-17T19:07:40.348Z",
         "totalModels": 286
       },
       "artificialanalysis": {
         "lastFetched": "2025-12-18T15:23:00.308Z",
+=======
+        "lastFetched": "2025-12-18T00:16:21.804Z",
+        "totalModels": 287
+      },
+      "artificialanalysis": {
+        "lastFetched": "2025-12-18T00:16:38.813Z",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "totalModels": 360
       }
     }
@@ -67,8 +87,13 @@
           "output": 12
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 126.812,
           "timeToFirstToken": 31.928
+=======
+          "outputTokensPerSecond": 124.917,
+          "timeToFirstToken": 33.626
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -77,7 +102,11 @@
     {
       "id": "gemini-3-flash",
       "name": "gemini-3-flash",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "1◄─►7",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-12-17",
       "benchmarks": {
         "MMLU Pro": 88.2,
@@ -108,8 +137,13 @@
           "output": 3
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 186.773,
           "timeToFirstToken": 0.699
+=======
+          "outputTokensPerSecond": 193.906,
+          "timeToFirstToken": 0.703
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -118,7 +152,11 @@
     {
       "id": "claude-opus-4-5",
       "name": "Anthropicclaude-opus-4-5-20251101",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "3◄─►8",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-11-24",
       "benchmarks": {
         "MMLU Pro": 88.9,
@@ -149,17 +187,21 @@
           "output": 25
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 76.687,
           "timeToFirstToken": 2.602
+=======
+          "outputTokensPerSecond": 78.904,
+          "timeToFirstToken": 2.46
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "gemini-3-flash-(thinking-minimal)",
+      "id": "gemini-3-flash",
       "name": "gemini-3-flash (thinking-minimal)",
-      "provider": "Google",
+      "provider": "3◄─►10",
       "releaseDate": "2025-12-17",
       "benchmarks": {
         "MMLU Pro": 88.2,
@@ -190,8 +232,85 @@
           "output": 3
         },
         "performance": {
+          "outputTokensPerSecond": 193.906,
+          "timeToFirstToken": 0.703
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+<<<<<<< HEAD
+      "id": "gemini-3-flash-(thinking-minimal)",
+      "name": "gemini-3-flash (thinking-minimal)",
+      "provider": "Google",
+      "releaseDate": "2025-12-17",
+      "benchmarks": {
+        "MMLU Pro": 88.2,
+        "GPQA Diamond": 81.2,
+        "Humanity's Last Exam": 14.099999999999998,
+        "AA-LCR": 48,
+        "LiveCodeBench": 79.7,
+        "SciCode": 49.9,
+        "AIME 2025": 55.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1460,
+        "LMArena-Text-Creative-Writing": 1438,
+        "LMArean-Text-Math": 1467,
+        "LMArena-Text-Coding": 1495,
+        "LMArena-Text-Expert": 1460,
+        "LMArena-Text-Hard-Prompts": 1476,
+        "LMArena-Text-Longer-Query": 1465,
+        "LMArena-Text-Multi-Turn": 1493
+      },
+      "metadata": {
+        "lmarenaRank": 7,
+=======
+      "id": "gpt-5-1",
+      "name": "gpt-5.1-high",
+      "provider": "4◄─►10",
+      "releaseDate": "2025-11-13",
+      "benchmarks": {
+        "MMLU Pro": 87,
+        "GPQA Diamond": 87.3,
+        "Humanity's Last Exam": 26.5,
+        "AA-LCR": 75,
+        "LiveCodeBench": 86.8,
+        "SciCode": 43.3,
+        "AIME 2025": 94,
+        "MMMU Pro": 76,
+        "AA-Omniscience": 2,
+        "AA-Omniscience Accuracy": 35.3,
+        "AA-Omniscience Hallucination Rate": 51.16,
+        "LMArena-Text": 1458,
+        "LMArena-Text-Creative-Writing": 1437,
+        "LMArean-Text-Math": 1474,
+        "LMArena-Text-Coding": 1490,
+        "LMArena-Text-Expert": 1485,
+        "LMArena-Text-Hard-Prompts": 1472,
+        "LMArena-Text-Longer-Query": 1465,
+        "LMArena-Text-Multi-Turn": 1472
+      },
+      "metadata": {
+        "lmarenaRank": 8,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.5,
+          "output": 3
+        },
+        "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 186.773,
           "timeToFirstToken": 0.699
+=======
+          "outputTokensPerSecond": 109.222,
+          "timeToFirstToken": 40.081
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -200,7 +319,11 @@
     {
       "id": "gemini-2-5-pro",
       "name": "gemini-2.5-pro",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "7◄─►14",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-06-05",
       "benchmarks": {
         "MMLU Pro": 86.2,
@@ -231,8 +354,13 @@
           "output": 10
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 152.572,
           "timeToFirstToken": 34.831
+=======
+          "outputTokensPerSecond": 150.732,
+          "timeToFirstToken": 35.062
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -241,7 +369,11 @@
     {
       "id": "claude-4-5-sonnet",
       "name": "Anthropicclaude-sonnet-4-5-20250929",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "9◄─►17",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-29",
       "benchmarks": {
         "MMLU Pro": 86,
@@ -272,16 +404,22 @@
           "output": 15
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 71.323,
           "timeToFirstToken": 1.999
+=======
+          "outputTokensPerSecond": 71.958,
+          "timeToFirstToken": 2.086
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "gpt-5-1",
+      "id": "gpt-5-1-non-reasoning",
       "name": "gpt-5.1",
+<<<<<<< HEAD
       "provider": "OpenAI",
       "releaseDate": "2025-11-13",
       "benchmarks": {
@@ -296,6 +434,22 @@
         "AA-Omniscience": 2,
         "AA-Omniscience Accuracy": 35.3,
         "AA-Omniscience Hallucination Rate": 51.16,
+=======
+      "provider": "12◄─►23",
+      "releaseDate": "2025-11-13",
+      "benchmarks": {
+        "MMLU Pro": 80.10000000000001,
+        "GPQA Diamond": 64.3,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 44,
+        "LiveCodeBench": 49.4,
+        "SciCode": 36.5,
+        "AIME 2025": 38,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "LMArena-Text": 1437,
         "LMArena-Text-Creative-Writing": 1409,
         "LMArean-Text-Math": 1417,
@@ -313,8 +467,54 @@
           "output": 10
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 104.155,
           "timeToFirstToken": 41.918
+=======
+          "outputTokensPerSecond": 89.367,
+          "timeToFirstToken": 0.853
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5",
+      "name": "gpt-5-high",
+      "provider": "13◄─►23",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 87.1,
+        "GPQA Diamond": 85.39999999999999,
+        "Humanity's Last Exam": 26.5,
+        "AA-LCR": 75.6,
+        "LiveCodeBench": 84.6,
+        "SciCode": 42.9,
+        "AIME 2025": 94.3,
+        "MMMU Pro": 74,
+        "AA-Omniscience": -11,
+        "AA-Omniscience Accuracy": 38.62,
+        "AA-Omniscience Hallucination Rate": 80.99,
+        "LMArena-Text": 1436,
+        "LMArena-Text-Creative-Writing": 1381,
+        "LMArean-Text-Math": 1438,
+        "LMArena-Text-Coding": 1470,
+        "LMArena-Text-Expert": 1458,
+        "LMArena-Text-Hard-Prompts": 1448,
+        "LMArena-Text-Longer-Query": 1417,
+        "LMArena-Text-Multi-Turn": 1424
+      },
+      "metadata": {
+        "lmarenaRank": 18,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "performance": {
+          "outputTokensPerSecond": 99.68,
+          "timeToFirstToken": 108.072
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -323,7 +523,11 @@
     {
       "id": "o3",
       "name": "o3-2025-04-16",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "14◄─►25",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-16",
       "benchmarks": {
         "MMLU Pro": 85.3,
@@ -354,8 +558,13 @@
           "output": 8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 250.98,
           "timeToFirstToken": 12.925
+=======
+          "outputTokensPerSecond": 278.886,
+          "timeToFirstToken": 12.934
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -364,7 +573,11 @@
     {
       "id": "qwen3-max-preview",
       "name": "qwen3-max-preview",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "13◄─►28",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-05",
       "benchmarks": {
         "MMLU Pro": 83.8,
@@ -395,8 +608,13 @@
           "output": 6
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 39.28,
           "timeToFirstToken": 1.926
+=======
+          "outputTokensPerSecond": 39.487,
+          "timeToFirstToken": 1.882
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -405,7 +623,11 @@
     {
       "id": "grok-4-1-fast-reasoning",
       "name": "grok-4-1-fast-reasoning",
+<<<<<<< HEAD
       "provider": "xAI",
+=======
+      "provider": "14◄─►35",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-11-19",
       "benchmarks": {
         "MMLU Pro": 85.39999999999999,
@@ -436,8 +658,13 @@
           "output": 0.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 115.94,
           "timeToFirstToken": 8.47
+=======
+          "outputTokensPerSecond": 115.081,
+          "timeToFirstToken": 12.043
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -446,7 +673,11 @@
     {
       "id": "glm-4-6",
       "name": "glm-4.6",
+<<<<<<< HEAD
       "provider": "Z AI",
+=======
+      "provider": "19◄─►41",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-30",
       "benchmarks": {
         "MMLU Pro": 78.4,
@@ -477,8 +708,95 @@
           "output": 2.2
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 38.689,
           "timeToFirstToken": 0.514
+=======
+          "outputTokensPerSecond": 36.513,
+          "timeToFirstToken": 0.534
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5",
+      "name": "gpt-5-chat",
+      "provider": "20◄─►42",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 87.1,
+        "GPQA Diamond": 85.39999999999999,
+        "Humanity's Last Exam": 26.5,
+        "AA-LCR": 75.6,
+        "LiveCodeBench": 84.6,
+        "SciCode": 42.9,
+        "AIME 2025": 94.3,
+        "MMMU Pro": 74,
+        "AA-Omniscience": -11,
+        "AA-Omniscience Accuracy": 38.62,
+        "AA-Omniscience Hallucination Rate": 80.99,
+        "LMArena-Text": 1425,
+        "LMArena-Text-Creative-Writing": 1388,
+        "LMArean-Text-Math": 1414,
+        "LMArena-Text-Coding": 1459,
+        "LMArena-Text-Expert": 1442,
+        "LMArena-Text-Hard-Prompts": 1446,
+        "LMArena-Text-Longer-Query": 1436,
+        "LMArena-Text-Multi-Turn": 1445
+      },
+      "metadata": {
+        "lmarenaRank": 25,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "performance": {
+          "outputTokensPerSecond": 99.68,
+          "timeToFirstToken": 108.072
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v3-2-reasoning-0925",
+      "name": "deepseek-v3.2-exp",
+      "provider": "20◄─►42",
+      "releaseDate": "2025-09-29",
+      "benchmarks": {
+        "MMLU Pro": 85,
+        "GPQA Diamond": 79.7,
+        "Humanity's Last Exam": 13.8,
+        "AA-LCR": 69,
+        "LiveCodeBench": 78.9,
+        "SciCode": 37.7,
+        "AIME 2025": 87.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1423,
+        "LMArena-Text-Creative-Writing": 1400,
+        "LMArean-Text-Math": 1419,
+        "LMArena-Text-Coding": 1469,
+        "LMArena-Text-Expert": 1425,
+        "LMArena-Text-Hard-Prompts": 1446,
+        "LMArena-Text-Longer-Query": 1441,
+        "LMArena-Text-Multi-Turn": 1428
+      },
+      "metadata": {
+        "lmarenaRank": 27,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.28,
+          "output": 0.42
+        },
+        "performance": {
+          "outputTokensPerSecond": 27.677,
+          "timeToFirstToken": 1.179
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -487,7 +805,11 @@
     {
       "id": "qwen3-235b-a22b-instruct-2507",
       "name": "qwen3-235b-a22b-instruct-2507",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "21◄─►42",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-07-21",
       "benchmarks": {
         "MMLU Pro": 82.8,
@@ -518,8 +840,12 @@
           "output": 2.8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 46.029,
           "timeToFirstToken": 1.18
+=======
+          "outputTokensPerSecond": 45.424,
+          "timeToFirstToken": 1.205
         }
       },
       "tags": [],
@@ -528,7 +854,7 @@
     {
       "id": "deepseek-v3-2",
       "name": "deepseek-v3.2",
-      "provider": "DeepSeek",
+      "provider": "21◄─►48",
       "releaseDate": "2025-12-01",
       "benchmarks": {
         "MMLU Pro": 83.7,
@@ -559,6 +885,72 @@
           "output": 0.42
         },
         "performance": {
+          "outputTokensPerSecond": 27.792,
+          "timeToFirstToken": 1.371
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+<<<<<<< HEAD
+      "id": "deepseek-v3-2",
+      "name": "deepseek-v3.2",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-12-01",
+=======
+      "id": "deepseek-r1",
+      "name": "deepseek-r1-0528",
+      "provider": "22◄─►48",
+      "releaseDate": "2025-05-28",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
+      "benchmarks": {
+        "MMLU Pro": 83.7,
+        "GPQA Diamond": 75.1,
+        "Humanity's Last Exam": 10.5,
+        "AA-LCR": 39,
+        "LiveCodeBench": 59.3,
+        "SciCode": 38.7,
+        "AIME 2025": 59,
+        "MMMU Pro": 0,
+<<<<<<< HEAD
+        "AA-Omniscience": -49,
+        "AA-Omniscience Accuracy": 22.77,
+        "AA-Omniscience Hallucination Rate": 92.51,
+        "LMArena-Text": 1419,
+        "LMArena-Text-Creative-Writing": 1389,
+        "LMArean-Text-Math": 1428,
+        "LMArena-Text-Coding": 1457,
+        "LMArena-Text-Expert": 1424,
+        "LMArena-Text-Hard-Prompts": 1441,
+        "LMArena-Text-Longer-Query": 1437,
+        "LMArena-Text-Multi-Turn": 1427
+      },
+      "metadata": {
+        "lmarenaRank": 33,
+=======
+        "AA-Omniscience": -30,
+        "AA-Omniscience Accuracy": 29.28,
+        "AA-Omniscience Hallucination Rate": 83.36,
+        "LMArena-Text": 1418,
+        "LMArena-Text-Creative-Writing": 1388,
+        "LMArean-Text-Math": 1398,
+        "LMArena-Text-Coding": 1462,
+        "LMArena-Text-Expert": 1412,
+        "LMArena-Text-Hard-Prompts": 1432,
+        "LMArena-Text-Longer-Query": 1408,
+        "LMArena-Text-Multi-Turn": 1405
+      },
+      "metadata": {
+        "lmarenaRank": 34,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.28,
+          "output": 0.42
+        },
+        "performance": {
           "outputTokensPerSecond": 27.962,
           "timeToFirstToken": 1.374
         }
@@ -569,7 +961,11 @@
     {
       "id": "deepseek-v3-1",
       "name": "deepseek-v3.1",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "23◄─►49",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-08-21",
       "benchmarks": {
         "MMLU Pro": 83.3,
@@ -610,7 +1006,11 @@
     {
       "id": "mistral-large-3",
       "name": "mistral-large-3",
+<<<<<<< HEAD
       "provider": "Mistral",
+=======
+      "provider": "22◄─►50",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-12-02",
       "benchmarks": {
         "MMLU Pro": 80.7,
@@ -641,8 +1041,13 @@
           "output": 1.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 48.044,
           "timeToFirstToken": 0.537
+=======
+          "outputTokensPerSecond": 48.803,
+          "timeToFirstToken": 0.52
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -651,7 +1056,11 @@
     {
       "id": "deepseek-v3-1-terminus",
       "name": "deepseek-v3.1-terminus",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "21◄─►53",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-22",
       "benchmarks": {
         "MMLU Pro": 83.6,
@@ -692,7 +1101,11 @@
     {
       "id": "qwen3-vl-235b-a22b-instruct",
       "name": "qwen3-vl-235b-a22b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "23◄─►50",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-23",
       "benchmarks": {
         "MMLU Pro": 82.3,
@@ -723,8 +1136,13 @@
           "output": 2.8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 36.968,
           "timeToFirstToken": 1.277
+=======
+          "outputTokensPerSecond": 36.34,
+          "timeToFirstToken": 1.237
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -733,7 +1151,11 @@
     {
       "id": "gpt-4-1",
       "name": "gpt-4.1-2025-04-14",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "30◄─►50",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-14",
       "benchmarks": {
         "MMLU Pro": 80.60000000000001,
@@ -764,8 +1186,13 @@
           "output": 8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 76.576,
           "timeToFirstToken": 0.538
+=======
+          "outputTokensPerSecond": 78.02,
+          "timeToFirstToken": 0.568
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -774,7 +1201,11 @@
     {
       "id": "glm-4.5",
       "name": "glm-4.5",
+<<<<<<< HEAD
       "provider": "Z AI",
+=======
+      "provider": "32◄─►56",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-07-28",
       "benchmarks": {
         "MMLU Pro": 83.5,
@@ -805,8 +1236,13 @@
           "output": 2.2
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 39.564,
           "timeToFirstToken": 0.821
+=======
+          "outputTokensPerSecond": 42.065,
+          "timeToFirstToken": 0.812
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -815,7 +1251,11 @@
     {
       "id": "gemini-2-5-flash",
       "name": "gemini-2.5-flash",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "36◄─►55",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-05-20",
       "benchmarks": {
         "MMLU Pro": 80.9,
@@ -846,8 +1286,13 @@
           "output": 2.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 220.255,
           "timeToFirstToken": 0.374
+=======
+          "outputTokensPerSecond": 223.784,
+          "timeToFirstToken": 0.379
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -856,7 +1301,11 @@
     {
       "id": "gemini-2-5-flash-preview-09-2025",
       "name": "gemini-2.5-flash-preview-09-2025",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "39◄─►60",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-25",
       "benchmarks": {
         "MMLU Pro": 83.6,
@@ -887,8 +1336,13 @@
           "output": 2.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 246.855,
           "timeToFirstToken": 0.282
+=======
+          "outputTokensPerSecond": 240.262,
+          "timeToFirstToken": 0.284
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -897,7 +1351,11 @@
     {
       "id": "claude-4-5-haiku",
       "name": "Anthropicclaude-haiku-4-5-20251001",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "44◄─►61",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-10-15",
       "benchmarks": {
         "MMLU Pro": 80,
@@ -928,8 +1386,13 @@
           "output": 5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 89.121,
           "timeToFirstToken": 0.845
+=======
+          "outputTokensPerSecond": 106.102,
+          "timeToFirstToken": 0.62
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -938,7 +1401,11 @@
     {
       "id": "grok-4-fast-reasoning",
       "name": "grok-4-fast-reasoning",
+<<<<<<< HEAD
       "provider": "xAI",
+=======
+      "provider": "44◄─►61",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-19",
       "benchmarks": {
         "MMLU Pro": 85,
@@ -969,8 +1436,13 @@
           "output": 0.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 165.678,
           "timeToFirstToken": 4.077
+=======
+          "outputTokensPerSecond": 177.171,
+          "timeToFirstToken": 4.096
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -979,7 +1451,11 @@
     {
       "id": "qwen3-next-80b-a3b-instruct",
       "name": "qwen3-next-80b-a3b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "46◄─►64",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-11",
       "benchmarks": {
         "MMLU Pro": 81.89999999999999,
@@ -1010,8 +1486,13 @@
           "output": 2
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 175.117,
           "timeToFirstToken": 1.22
+=======
+          "outputTokensPerSecond": 174.92,
+          "timeToFirstToken": 1.211
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1020,7 +1501,11 @@
     {
       "id": "o1",
       "name": "o1-2024-12-17",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "46◄─►62",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-12-05",
       "benchmarks": {
         "MMLU Pro": 84.1,
@@ -1051,8 +1536,13 @@
           "output": 60
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 161.683,
           "timeToFirstToken": 19.434
+=======
+          "outputTokensPerSecond": 163.612,
+          "timeToFirstToken": 19.374
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1061,7 +1551,11 @@
     {
       "id": "deepseek-r1",
       "name": "deepseek-r1",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "51◄─►69",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-05-28",
       "benchmarks": {
         "MMLU Pro": 84.89999999999999,
@@ -1100,9 +1594,56 @@
       "description": ""
     },
     {
+<<<<<<< HEAD
       "id": "deepseek-v3-0324",
       "name": "deepseek-v3-0324",
       "provider": "DeepSeek",
+=======
+      "id": "gpt-5-mini",
+      "name": "gpt-5-mini-high",
+      "provider": "53◄─►71",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 83.7,
+        "GPQA Diamond": 82.8,
+        "Humanity's Last Exam": 19.7,
+        "AA-LCR": 68,
+        "LiveCodeBench": 83.8,
+        "SciCode": 39.2,
+        "AIME 2025": 90.7,
+        "MMMU Pro": 70,
+        "AA-Omniscience": -20,
+        "AA-Omniscience Accuracy": 22.97,
+        "AA-Omniscience Hallucination Rate": 55.28,
+        "LMArena-Text": 1392,
+        "LMArena-Text-Creative-Writing": 1329,
+        "LMArean-Text-Math": 1415,
+        "LMArena-Text-Coding": 1429,
+        "LMArena-Text-Expert": 1404,
+        "LMArena-Text-Hard-Prompts": 1405,
+        "LMArena-Text-Longer-Query": 1375,
+        "LMArena-Text-Multi-Turn": 1374
+      },
+      "metadata": {
+        "lmarenaRank": 61,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.25,
+          "output": 2
+        },
+        "performance": {
+          "outputTokensPerSecond": 70.808,
+          "timeToFirstToken": 92.76
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v3-0324",
+      "name": "deepseek-v3-0324",
+      "provider": "54◄─►70",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-03-25",
       "benchmarks": {
         "MMLU Pro": 81.89999999999999,
@@ -1143,7 +1684,11 @@
     {
       "id": "o4-mini",
       "name": "o4-mini-2025-04-16",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "56◄─►71",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-16",
       "benchmarks": {
         "MMLU Pro": 83.2,
@@ -1174,8 +1719,13 @@
           "output": 4.4
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 119.197,
           "timeToFirstToken": 59.02
+=======
+          "outputTokensPerSecond": 113.212,
+          "timeToFirstToken": 59.397
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1184,7 +1734,11 @@
     {
       "id": "o1-preview",
       "name": "o1-preview",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "58◄─►75",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-09-12",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -1225,7 +1779,11 @@
     {
       "id": "qwen3-coder-480b-a35b-instruct",
       "name": "qwen3-coder-480b-a35b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "60◄─►75",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-07-22",
       "benchmarks": {
         "MMLU Pro": 78.8,
@@ -1256,8 +1814,13 @@
           "output": 7.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 43.667,
           "timeToFirstToken": 1.807
+=======
+          "outputTokensPerSecond": 40.748,
+          "timeToFirstToken": 1.801
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1266,7 +1829,11 @@
     {
       "id": "gpt-4-1-mini",
       "name": "gpt-4.1-mini-2025-04-14",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "65◄─►78",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-14",
       "benchmarks": {
         "MMLU Pro": 78.10000000000001,
@@ -1297,8 +1864,13 @@
           "output": 1.6
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 64.673,
           "timeToFirstToken": 0.503
+=======
+          "outputTokensPerSecond": 68.957,
+          "timeToFirstToken": 0.486
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1307,7 +1879,11 @@
     {
       "id": "qwen3-235b-a22b-instruct",
       "name": "qwen3-235b-a22b",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "69◄─►83",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-28",
       "benchmarks": {
         "MMLU Pro": 76.2,
@@ -1338,8 +1914,13 @@
           "output": 2.8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 55.339,
           "timeToFirstToken": 1.218
+=======
+          "outputTokensPerSecond": 56.125,
+          "timeToFirstToken": 1.236
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1348,7 +1929,11 @@
     {
       "id": "qwen-2-5-max",
       "name": "qwen2.5-max",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "72◄─►83",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-01-28",
       "benchmarks": {
         "MMLU Pro": 76.2,
@@ -1379,8 +1964,13 @@
           "output": 6.4
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 30.759,
           "timeToFirstToken": 1.176
+=======
+          "outputTokensPerSecond": 30.066,
+          "timeToFirstToken": 1.172
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1389,7 +1979,11 @@
     {
       "id": "glm-4-5-air",
       "name": "glm-4.5-air",
+<<<<<<< HEAD
       "provider": "Z AI",
+=======
+      "provider": "74◄─►86",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-07-28",
       "benchmarks": {
         "MMLU Pro": 81.5,
@@ -1420,8 +2014,13 @@
           "output": 1.1
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 106.095,
           "timeToFirstToken": 0.573
+=======
+          "outputTokensPerSecond": 104.309,
+          "timeToFirstToken": 0.593
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1430,7 +2029,11 @@
     {
       "id": "o3-mini-high",
       "name": "o3-mini-high",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "80◄─►94",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-01-31",
       "benchmarks": {
         "MMLU Pro": 80.2,
@@ -1462,7 +2065,11 @@
         },
         "performance": {
           "outputTokensPerSecond": 136.614,
+<<<<<<< HEAD
           "timeToFirstToken": 51.963
+=======
+          "timeToFirstToken": 56.76
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1471,7 +2078,11 @@
     {
       "id": "deepseek-v3",
       "name": "deepseek-v3",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "83◄─►105",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-12-26",
       "benchmarks": {
         "MMLU Pro": 75.2,
@@ -1512,7 +2123,11 @@
     {
       "id": "gpt-oss-120b",
       "name": "gpt-oss-120b",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "87◄─►110",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-08-05",
       "benchmarks": {
         "MMLU Pro": 80.80000000000001,
@@ -1543,8 +2158,13 @@
           "output": 0.6
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 326.268,
           "timeToFirstToken": 0.449
+=======
+          "outputTokensPerSecond": 321.355,
+          "timeToFirstToken": 0.461
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1553,7 +2173,11 @@
     {
       "id": "glm-4-5v-reasoning",
       "name": "glm-4.5v",
+<<<<<<< HEAD
       "provider": "Z AI",
+=======
+      "provider": "85◄─►114",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-08-11",
       "benchmarks": {
         "MMLU Pro": 78.8,
@@ -1584,17 +2208,26 @@
           "output": 1.8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 40.757,
           "timeToFirstToken": 0.861
+=======
+          "outputTokensPerSecond": 36.322,
+          "timeToFirstToken": 0.725
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
       "description": ""
     },
     {
-      "id": "o3-mini",
+      "id": "o3-mini-high",
       "name": "o3-mini",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "90◄─►114",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-01-31",
       "benchmarks": {
         "MMLU Pro": 80.2,
@@ -1626,7 +2259,11 @@
         },
         "performance": {
           "outputTokensPerSecond": 136.614,
+<<<<<<< HEAD
           "timeToFirstToken": 51.963
+=======
+          "timeToFirstToken": 56.76
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1635,7 +2272,11 @@
     {
       "id": "ling-flash-2-0",
       "name": "ling-flash-2.0",
+<<<<<<< HEAD
       "provider": "InclusionAI",
+=======
+      "provider": "88◄─►116",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-17",
       "benchmarks": {
         "MMLU Pro": 77.7,
@@ -1666,7 +2307,11 @@
           "output": 0.57
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 54.896,
+=======
+          "outputTokensPerSecond": 52.529,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
           "timeToFirstToken": 1.563
         }
       },
@@ -1676,7 +2321,11 @@
     {
       "id": "qwen3-32b-instruct",
       "name": "qwen3-32b",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "88◄─►124",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-28",
       "benchmarks": {
         "MMLU Pro": 72.7,
@@ -1707,8 +2356,13 @@
           "output": 2.8
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 88.71,
           "timeToFirstToken": 1.16
+=======
+          "outputTokensPerSecond": 87.821,
+          "timeToFirstToken": 1.172
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1717,7 +2371,11 @@
     {
       "id": "gpt-4o-2024-05-13",
       "name": "gpt-4o-2024-05-13",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "94◄─►114",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-05-13",
       "benchmarks": {
         "MMLU Pro": 74,
@@ -1748,8 +2406,54 @@
           "output": 15
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 76.027,
           "timeToFirstToken": 0.663
+=======
+          "outputTokensPerSecond": 85.665,
+          "timeToFirstToken": 0.651
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "gpt-5-nano-high",
+      "provider": "95◄─►126",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 78,
+        "GPQA Diamond": 67.60000000000001,
+        "Humanity's Last Exam": 8.200000000000001,
+        "AA-LCR": 41.699999999999996,
+        "LiveCodeBench": 78.9,
+        "SciCode": 36.6,
+        "AIME 2025": 83.7,
+        "MMMU Pro": 61,
+        "AA-Omniscience": -30,
+        "AA-Omniscience Accuracy": 18.28,
+        "AA-Omniscience Hallucination Rate": 58.66,
+        "LMArena-Text": 1339,
+        "LMArena-Text-Creative-Writing": 1252,
+        "LMArean-Text-Math": 1356,
+        "LMArena-Text-Coding": 1381,
+        "LMArena-Text-Expert": 1358,
+        "LMArena-Text-Hard-Prompts": 1353,
+        "LMArena-Text-Longer-Query": 1332,
+        "LMArena-Text-Multi-Turn": 1328
+      },
+      "metadata": {
+        "lmarenaRank": 113,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "performance": {
+          "outputTokensPerSecond": 122.741,
+          "timeToFirstToken": 140.913
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1758,7 +2462,11 @@
     {
       "id": "o1-mini",
       "name": "o1-mini",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "101◄─►126",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-09-12",
       "benchmarks": {
         "MMLU Pro": 74.2,
@@ -1799,7 +2507,11 @@
     {
       "id": "gpt-4o-2024-08-06",
       "name": "gpt-4o-2024-08-06",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "104◄─►129",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-08-06",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -1830,8 +2542,13 @@
           "output": 10
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 84.622,
           "timeToFirstToken": 0.638
+=======
+          "outputTokensPerSecond": 87.16,
+          "timeToFirstToken": 0.628
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1840,7 +2557,11 @@
     {
       "id": "qwq-32b",
       "name": "qwq-32b",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "104◄─►129",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-03-05",
       "benchmarks": {
         "MMLU Pro": 76.4,
@@ -1871,8 +2592,13 @@
           "output": 0.6
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 31.358,
           "timeToFirstToken": 1.108
+=======
+          "outputTokensPerSecond": 31.418,
+          "timeToFirstToken": 1.376
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1881,7 +2607,11 @@
     {
       "id": "qwen3-30b-a3b-instruct-reasoning",
       "name": "qwen3-30b-a3b",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "115◄─►144",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-28",
       "benchmarks": {
         "MMLU Pro": 77.7,
@@ -1905,15 +2635,24 @@
         "LMArena-Text-Multi-Turn": 1318
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 125,
+=======
+        "lmarenaRank": 126,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
           "output": 2.4
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 89.42,
           "timeToFirstToken": 1.232
+=======
+          "outputTokensPerSecond": 90.646,
+          "timeToFirstToken": 1.225
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1922,7 +2661,11 @@
     {
       "id": "gpt-4-turbo",
       "name": "gpt-4-turbo-2024-04-09",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "122◄─►147",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-11-06",
       "benchmarks": {
         "MMLU Pro": 69.39999999999999,
@@ -1946,15 +2689,24 @@
         "LMArena-Text-Multi-Turn": 1309
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 128,
+=======
+        "lmarenaRank": 129,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 10,
           "output": 30
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 27.452,
           "timeToFirstToken": 0.882
+=======
+          "outputTokensPerSecond": 27.148,
+          "timeToFirstToken": 0.917
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -1963,7 +2715,11 @@
     {
       "id": "claude-3-5-haiku",
       "name": "Anthropicclaude-3-5-haiku-20241022",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "122◄─►147",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-10-22",
       "benchmarks": {
         "MMLU Pro": 63.4,
@@ -1987,15 +2743,65 @@
         "LMArena-Text-Multi-Turn": 1323
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 130,
+=======
+        "lmarenaRank": 131,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.8,
           "output": 4
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 46.385,
           "timeToFirstToken": 0.727
+=======
+          "outputTokensPerSecond": 46.945,
+          "timeToFirstToken": 0.719
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v2-5",
+      "name": "deepseek-v2.5-1210",
+      "provider": "115◄─►152",
+      "releaseDate": "2024-12-10",
+      "benchmarks": {
+        "MMLU Pro": 0,
+        "GPQA Diamond": 0,
+        "Humanity's Last Exam": 0,
+        "AA-LCR": 0,
+        "LiveCodeBench": 0,
+        "SciCode": 0,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1322,
+        "LMArena-Text-Creative-Writing": 1308,
+        "LMArean-Text-Math": 1296,
+        "LMArena-Text-Coding": 1372,
+        "LMArena-Text-Expert": 1302,
+        "LMArena-Text-Hard-Prompts": 1326,
+        "LMArena-Text-Longer-Query": 1335,
+        "LMArena-Text-Multi-Turn": 1319
+      },
+      "metadata": {
+        "lmarenaRank": 132,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2004,7 +2810,11 @@
     {
       "id": "claude-3-opus",
       "name": "Anthropicclaude-3-opus-20240229",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "122◄─►147",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-03-04",
       "benchmarks": {
         "MMLU Pro": 69.6,
@@ -2028,7 +2838,11 @@
         "LMArena-Text-Multi-Turn": 1320
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 132,
+=======
+        "lmarenaRank": 133,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 15,
@@ -2045,7 +2859,11 @@
     {
       "id": "gpt-4-1-nano",
       "name": "gpt-4.1-nano-2025-04-14",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "120◄─►152",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-04-14",
       "benchmarks": {
         "MMLU Pro": 65.7,
@@ -2069,15 +2887,24 @@
         "LMArena-Text-Multi-Turn": 1311
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 134,
+=======
+        "lmarenaRank": 135,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
           "output": 0.4
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 95.478,
           "timeToFirstToken": 0.406
+=======
+          "outputTokensPerSecond": 93.62,
+          "timeToFirstToken": 0.417
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2086,7 +2913,11 @@
     {
       "id": "ring-flash-2-0",
       "name": "ring-flash-2.0",
+<<<<<<< HEAD
       "provider": "InclusionAI",
+=======
+      "provider": "122◄─►152",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-09-19",
       "benchmarks": {
         "MMLU Pro": 79.3,
@@ -2110,15 +2941,24 @@
         "LMArena-Text-Multi-Turn": 1282
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 135,
+=======
+        "lmarenaRank": 136,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
           "output": 0.57
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 69.794,
           "timeToFirstToken": 1.493
+=======
+          "outputTokensPerSecond": 74.131,
+          "timeToFirstToken": 1.482
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2127,7 +2967,11 @@
     {
       "id": "gpt-oss-20b-low",
       "name": "gpt-oss-20b",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "122◄─►153",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-08-05",
       "benchmarks": {
         "MMLU Pro": 71.8,
@@ -2151,15 +2995,24 @@
         "LMArena-Text-Multi-Turn": 1288
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 139,
+=======
+        "lmarenaRank": 140,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.07,
           "output": 0.2
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 238.071,
           "timeToFirstToken": 0.615
+=======
+          "outputTokensPerSecond": 242.634,
+          "timeToFirstToken": 0.582
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2168,7 +3021,11 @@
     {
       "id": "gpt-4o-mini",
       "name": "gpt-4o-mini-2024-07-18",
+<<<<<<< HEAD
       "provider": "OpenAI",
+=======
+      "provider": "126◄─►152",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-07-18",
       "benchmarks": {
         "MMLU Pro": 64.8,
@@ -2192,7 +3049,11 @@
         "LMArena-Text-Multi-Turn": 1307
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 142,
+=======
+        "lmarenaRank": 143,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.15,
@@ -2209,7 +3070,11 @@
     {
       "id": "mistral-large-2407",
       "name": "mistral-large-2407",
+<<<<<<< HEAD
       "provider": "Mistral",
+=======
+      "provider": "132◄─►157",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-07-24",
       "benchmarks": {
         "MMLU Pro": 68.30000000000001,
@@ -2233,7 +3098,11 @@
         "LMArena-Text-Multi-Turn": 1294
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 145,
+=======
+        "lmarenaRank": 146,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2,
@@ -2250,7 +3119,11 @@
     {
       "id": "olmo-3-32b-think",
       "name": "olmo-3-32b-think",
+<<<<<<< HEAD
       "provider": "Allen Institute for AI",
+=======
+      "provider": "125◄─►162",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2025-11-20",
       "benchmarks": {
         "MMLU Pro": 75.9,
@@ -2281,7 +3154,11 @@
           "output": 0.35
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 49.337,
+=======
+          "outputTokensPerSecond": 51.489,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
           "timeToFirstToken": 0.45
         }
       },
@@ -2291,7 +3168,11 @@
     {
       "id": "deepseek-v2-5",
       "name": "deepseek-v2.5",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "144◄─►162",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-12-10",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2315,7 +3196,11 @@
         "LMArena-Text-Multi-Turn": 1289
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 153,
+=======
+        "lmarenaRank": 154,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2332,7 +3217,11 @@
     {
       "id": "qwen2-5-72b-instruct",
       "name": "qwen2.5-72b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "150◄─►162",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-09-19",
       "benchmarks": {
         "MMLU Pro": 72,
@@ -2356,15 +3245,24 @@
         "LMArena-Text-Multi-Turn": 1295
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 159,
+=======
+        "lmarenaRank": 160,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
           "output": 0
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 45.73,
           "timeToFirstToken": 1.213
+=======
+          "outputTokensPerSecond": 46.003,
+          "timeToFirstToken": 1.204
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2373,7 +3271,11 @@
     {
       "id": "jamba-1-5-large",
       "name": "jamba-1.5-large",
+<<<<<<< HEAD
       "provider": "AI21 Labs",
+=======
+      "provider": "160◄─►176",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-08-22",
       "benchmarks": {
         "MMLU Pro": 57.199999999999996,
@@ -2397,7 +3299,11 @@
         "LMArena-Text-Multi-Turn": 1264
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 164,
+=======
+        "lmarenaRank": 165,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2,
@@ -2414,7 +3320,11 @@
     {
       "id": "claude-3-sonnet",
       "name": "Anthropicclaude-3-sonnet-20240229",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "164◄─►182",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-03-04",
       "benchmarks": {
         "MMLU Pro": 57.9,
@@ -2438,7 +3348,11 @@
         "LMArena-Text-Multi-Turn": 1277
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 172,
+=======
+        "lmarenaRank": 173,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
@@ -2455,7 +3369,11 @@
     {
       "id": "qwen2-5-coder-32b-instruct",
       "name": "qwen2.5-coder-32b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "171◄─►191",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-11-11",
       "benchmarks": {
         "MMLU Pro": 63.5,
@@ -2479,15 +3397,24 @@
         "LMArena-Text-Multi-Turn": 1247
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 181,
+=======
+        "lmarenaRank": 182,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.13,
           "output": 0.175
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 47.521,
           "timeToFirstToken": 1.39
+=======
+          "outputTokensPerSecond": 47.406,
+          "timeToFirstToken": 1.456
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2496,7 +3423,11 @@
     {
       "id": "deepseek-coder-v2",
       "name": "deepseek-coder-v2",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "179◄─►193",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-06-17",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2520,7 +3451,11 @@
         "LMArena-Text-Multi-Turn": 1233
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 184,
+=======
+        "lmarenaRank": 185,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2537,7 +3472,11 @@
     {
       "id": "qwen2-72b-instruct",
       "name": "qwen2-72b-instruct",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "180◄─►193",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-06-07",
       "benchmarks": {
         "MMLU Pro": 62.2,
@@ -2561,7 +3500,11 @@
         "LMArena-Text-Multi-Turn": 1241
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 186,
+=======
+        "lmarenaRank": 187,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2578,7 +3521,11 @@
     {
       "id": "claude-3-haiku",
       "name": "Anthropicclaude-3-haiku-20240307",
+<<<<<<< HEAD
       "provider": "Anthropic",
+=======
+      "provider": "182◄─►193",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-03-04",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2602,14 +3549,22 @@
         "LMArena-Text-Multi-Turn": 1243
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 187,
+=======
+        "lmarenaRank": 188,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.25,
           "output": 1.25
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 109.773,
+=======
+          "outputTokensPerSecond": 108.868,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
           "timeToFirstToken": 0.536
         }
       },
@@ -2619,7 +3574,11 @@
     {
       "id": "phi-4",
       "name": "Azurephi-4",
+<<<<<<< HEAD
       "provider": "Microsoft Azure",
+=======
+      "provider": "185◄─►193",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-12-12",
       "benchmarks": {
         "MMLU Pro": 71.39999999999999,
@@ -2643,15 +3602,24 @@
         "LMArena-Text-Multi-Turn": 1239
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 190,
+=======
+        "lmarenaRank": 191,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.125,
           "output": 0.5
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 8.371,
           "timeToFirstToken": 2.988
+=======
+          "outputTokensPerSecond": 8.311,
+          "timeToFirstToken": 0.687
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2660,7 +3628,11 @@
     {
       "id": "jamba-1-5-mini",
       "name": "jamba-1.5-mini",
+<<<<<<< HEAD
       "provider": "AI21 Labs",
+=======
+      "provider": "192◄─►207",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-08-22",
       "benchmarks": {
         "MMLU Pro": 37.1,
@@ -2684,7 +3656,11 @@
         "LMArena-Text-Multi-Turn": 1203
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 195,
+=======
+        "lmarenaRank": 196,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
@@ -2701,7 +3677,11 @@
     {
       "id": "gemini-1-0-pro",
       "name": "gemini-pro-dev-api",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "194◄─►211",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-12-06",
       "benchmarks": {
         "MMLU Pro": 43.1,
@@ -2725,7 +3705,11 @@
         "LMArena-Text-Multi-Turn": 1185
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 198,
+=======
+        "lmarenaRank": 199,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2742,7 +3726,11 @@
     {
       "id": "mistral-medium",
       "name": "mistral-medium",
+<<<<<<< HEAD
       "provider": "Mistral",
+=======
+      "provider": "198◄─►214",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-12-11",
       "benchmarks": {
         "MMLU Pro": 49.1,
@@ -2766,15 +3754,24 @@
         "LMArena-Text-Multi-Turn": 1195
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 208,
+=======
+        "lmarenaRank": 209,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2.75,
           "output": 8.1
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 75.652,
           "timeToFirstToken": 0.394
+=======
+          "outputTokensPerSecond": 76.918,
+          "timeToFirstToken": 0.406
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
@@ -2783,7 +3780,11 @@
     {
       "id": "gemini-pro",
       "name": "gemini-pro",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "196◄─►217",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-12-06",
       "benchmarks": {
         "MMLU Pro": 43.1,
@@ -2807,7 +3808,11 @@
         "LMArena-Text-Multi-Turn": 1199
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 210,
+=======
+        "lmarenaRank": 211,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2824,7 +3829,11 @@
     {
       "id": "deepseek-llm-67b-chat",
       "name": "deepseek-llm-67b-chat",
+<<<<<<< HEAD
       "provider": "DeepSeek",
+=======
+      "provider": "217◄─►241",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-11-29",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2848,7 +3857,11 @@
         "LMArena-Text-Multi-Turn": 1151
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 226,
+=======
+        "lmarenaRank": 227,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2865,7 +3878,11 @@
     {
       "id": "qwq-32b-preview",
       "name": "qwq-32b-preview",
+<<<<<<< HEAD
       "provider": "Alibaba",
+=======
+      "provider": "232◄─►255",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2024-11-27",
       "benchmarks": {
         "MMLU Pro": 64.8,
@@ -2889,14 +3906,22 @@
         "LMArena-Text-Multi-Turn": 1146
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 241,
+=======
+        "lmarenaRank": 242,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.12,
           "output": 0.18
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 98.845,
+=======
+          "outputTokensPerSecond": 93.124,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
           "timeToFirstToken": 0.234
         }
       },
@@ -2906,7 +3931,11 @@
     {
       "id": "palm-2",
       "name": "palm-2",
+<<<<<<< HEAD
       "provider": "Google",
+=======
+      "provider": "244◄─►266",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-05-10",
       "benchmarks": {
         "MMLU Pro": 0,
@@ -2930,7 +3959,11 @@
         "LMArena-Text-Multi-Turn": 1090
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 256,
+=======
+        "lmarenaRank": 257,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -2947,7 +3980,11 @@
     {
       "id": "mistral-7b-instruct",
       "name": "mistral-7b-instruct",
+<<<<<<< HEAD
       "provider": "Mistral",
+=======
+      "provider": "262◄─►272",
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
       "releaseDate": "2023-09-27",
       "benchmarks": {
         "MMLU Pro": 24.5,
@@ -2971,15 +4008,24 @@
         "LMArena-Text-Multi-Turn": 1081
       },
       "metadata": {
+<<<<<<< HEAD
         "lmarenaRank": 269,
+=======
+        "lmarenaRank": 270,
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.25,
           "output": 0.25
         },
         "performance": {
+<<<<<<< HEAD
           "outputTokensPerSecond": 121.837,
           "timeToFirstToken": 0.346
+=======
+          "outputTokensPerSecond": 122.246,
+          "timeToFirstToken": 0.343
+>>>>>>> 5bba1f4769f032887f1e6314a6d87ad08342f647
         }
       },
       "tags": [],
