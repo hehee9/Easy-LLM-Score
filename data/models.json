@@ -3,23 +3,26 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-18",
     "description": "LLM 벤치마크 통합 데이터",
-    "totalModels": 82,
+    "totalModels": 100,
     "defaultModelIds": [
       "gemini-3-pro",
       "claude-opus-4-5",
+      "gpt-5-1",
       "gemini-2-5-pro",
       "claude-4-5-sonnet",
-      "gpt-5-1",
+      "gpt-5",
       "o3",
       "qwen3-max-preview",
       "qwen3-235b-a22b-instruct-2507",
       "deepseek-v3-2",
+      "deepseek-r1",
       "deepseek-v3-1-terminus",
       "qwen3-vl-235b-a22b-instruct",
       "gemini-2-5-flash-preview-09-2025",
       "claude-4-5-haiku",
       "qwen3-next-80b-a3b-instruct",
-      "deepseek-r1"
+      "gpt-5-mini",
+      "gpt-5-nano"
     ],
     "dataSources": {
       "lmarena": {
@@ -69,47 +72,6 @@
         "performance": {
           "outputTokensPerSecond": 126.812,
           "timeToFirstToken": 31.928
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "grok-4-1-fast-reasoning",
-      "name": "grok-4.1-thinking",
-      "provider": "xAI",
-      "releaseDate": "2025-11-19",
-      "benchmarks": {
-        "MMLU Pro": 85.39999999999999,
-        "GPQA Diamond": 85.3,
-        "Humanity's Last Exam": 17.599999999999998,
-        "AA-LCR": 68,
-        "LiveCodeBench": 82.19999999999999,
-        "SciCode": 44.2,
-        "AIME 2025": 89.3,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1478,
-        "LMArena-Text-Creative-Writing": 1440,
-        "LMArean-Text-Math": 1453,
-        "LMArena-Text-Coding": 1507,
-        "LMArena-Text-Expert": 1484,
-        "LMArena-Text-Hard-Prompts": 1492,
-        "LMArena-Text-Longer-Query": 1452,
-        "LMArena-Text-Multi-Turn": 1464
-      },
-      "metadata": {
-        "lmarenaRank": 2,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.2,
-          "output": 0.5
-        },
-        "performance": {
-          "outputTokensPerSecond": 115.94,
-          "timeToFirstToken": 8.47
         }
       },
       "tags": [],
@@ -239,47 +201,6 @@
       "description": ""
     },
     {
-      "id": "grok-4-1-fast",
-      "name": "grok-4.1",
-      "provider": "xAI",
-      "releaseDate": "2025-11-19",
-      "benchmarks": {
-        "MMLU Pro": 74.3,
-        "GPQA Diamond": 63.7,
-        "Humanity's Last Exam": 5,
-        "AA-LCR": 22,
-        "LiveCodeBench": 39.900000000000006,
-        "SciCode": 29.599999999999998,
-        "AIME 2025": 34.300000000000004,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1465,
-        "LMArena-Text-Creative-Writing": 1422,
-        "LMArean-Text-Math": 1434,
-        "LMArena-Text-Coding": 1492,
-        "LMArena-Text-Expert": 1453,
-        "LMArena-Text-Hard-Prompts": 1476,
-        "LMArena-Text-Longer-Query": 1454,
-        "LMArena-Text-Multi-Turn": 1465
-      },
-      "metadata": {
-        "lmarenaRank": 6,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.2,
-          "output": 0.5
-        },
-        "performance": {
-          "outputTokensPerSecond": 98.719,
-          "timeToFirstToken": 0.66
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
       "id": "gemini-3-flash-(thinking-minimal)",
       "name": "gemini-3-flash (thinking-minimal)",
       "provider": "Google",
@@ -315,6 +236,47 @@
         "performance": {
           "outputTokensPerSecond": 186.773,
           "timeToFirstToken": 0.699
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5-1",
+      "name": "gpt-5.1-high",
+      "provider": "OpenAI",
+      "releaseDate": "2025-11-13",
+      "benchmarks": {
+        "MMLU Pro": 87,
+        "GPQA Diamond": 87.3,
+        "Humanity's Last Exam": 26.5,
+        "AA-LCR": 75,
+        "LiveCodeBench": 86.8,
+        "SciCode": 43.3,
+        "AIME 2025": 94,
+        "MMMU Pro": 76,
+        "AA-Omniscience": 2,
+        "AA-Omniscience Accuracy": 35.3,
+        "AA-Omniscience Hallucination Rate": 51.16,
+        "LMArena-Text": 1458,
+        "LMArena-Text-Creative-Writing": 1437,
+        "LMArean-Text-Math": 1474,
+        "LMArena-Text-Coding": 1490,
+        "LMArena-Text-Expert": 1485,
+        "LMArena-Text-Hard-Prompts": 1472,
+        "LMArena-Text-Longer-Query": 1465,
+        "LMArena-Text-Multi-Turn": 1472
+      },
+      "metadata": {
+        "lmarenaRank": 8,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "performance": {
+          "outputTokensPerSecond": 104.155,
+          "timeToFirstToken": 41.918
         }
       },
       "tags": [],
@@ -485,6 +447,47 @@
       "description": ""
     },
     {
+      "id": "gpt-4-5",
+      "name": "gpt-4.5-preview-2025-02-27",
+      "provider": "OpenAI",
+      "releaseDate": "2025-02-27",
+      "benchmarks": {
+        "MMLU Pro": 0,
+        "GPQA Diamond": 0,
+        "Humanity's Last Exam": 0,
+        "AA-LCR": 0,
+        "LiveCodeBench": 0,
+        "SciCode": 0,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1443,
+        "LMArena-Text-Creative-Writing": 1433,
+        "LMArean-Text-Math": 1413,
+        "LMArena-Text-Coding": 1456,
+        "LMArena-Text-Expert": 1426,
+        "LMArena-Text-Hard-Prompts": 1437,
+        "LMArena-Text-Longer-Query": 1443,
+        "LMArena-Text-Multi-Turn": 1462
+      },
+      "metadata": {
+        "lmarenaRank": 13,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "claude-4-1-opus",
       "name": "Anthropicclaude-opus-4-1-20250805",
       "provider": "Anthropic",
@@ -526,7 +529,89 @@
       "description": ""
     },
     {
-      "id": "gpt-5-1",
+      "id": "gpt-5-2",
+      "name": "gpt-5.2-high",
+      "provider": "OpenAI",
+      "releaseDate": "2025-12-11",
+      "benchmarks": {
+        "MMLU Pro": 87.4,
+        "GPQA Diamond": 90.3,
+        "Humanity's Last Exam": 31.4,
+        "AA-LCR": 72.7,
+        "LiveCodeBench": 89.2,
+        "SciCode": 52.1,
+        "AIME 2025": 98.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1441,
+        "LMArena-Text-Creative-Writing": 1384,
+        "LMArean-Text-Math": 1506,
+        "LMArena-Text-Coding": 1495,
+        "LMArena-Text-Expert": 1498,
+        "LMArena-Text-Hard-Prompts": 1460,
+        "LMArena-Text-Longer-Query": 1442,
+        "LMArena-Text-Multi-Turn": 1441
+      },
+      "metadata": {
+        "lmarenaRank": 15,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.75,
+          "output": 14
+        },
+        "performance": {
+          "outputTokensPerSecond": 140.326,
+          "timeToFirstToken": 32.242
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-4o-chatgpt-03-25",
+      "name": "chatgpt-4o-latest-20250326",
+      "provider": "OpenAI",
+      "releaseDate": "2025-03-27",
+      "benchmarks": {
+        "MMLU Pro": 80.30000000000001,
+        "GPQA Diamond": 65.5,
+        "Humanity's Last Exam": 5,
+        "AA-LCR": 0,
+        "LiveCodeBench": 42.5,
+        "SciCode": 36.6,
+        "AIME 2025": 25.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1439,
+        "LMArena-Text-Creative-Writing": 1418,
+        "LMArean-Text-Math": 1403,
+        "LMArena-Text-Coding": 1464,
+        "LMArena-Text-Expert": 1422,
+        "LMArena-Text-Hard-Prompts": 1450,
+        "LMArena-Text-Longer-Query": 1436,
+        "LMArena-Text-Multi-Turn": 1464
+      },
+      "metadata": {
+        "lmarenaRank": 16,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 5,
+          "output": 15
+        },
+        "performance": {
+          "outputTokensPerSecond": 183.032,
+          "timeToFirstToken": 0.534
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5-1-2",
       "name": "gpt-5.1",
       "provider": "OpenAI",
       "releaseDate": "2025-11-13",
@@ -538,10 +623,10 @@
         "LiveCodeBench": 86.8,
         "SciCode": 43.3,
         "AIME 2025": 94,
-        "MMMU Pro": 76,
-        "AA-Omniscience": 2,
-        "AA-Omniscience Accuracy": 35.3,
-        "AA-Omniscience Hallucination Rate": 51.16,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1437,
         "LMArena-Text-Creative-Writing": 1409,
         "LMArean-Text-Math": 1417,
@@ -561,6 +646,47 @@
         "performance": {
           "outputTokensPerSecond": 104.155,
           "timeToFirstToken": 41.918
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5",
+      "name": "gpt-5-high",
+      "provider": "OpenAI",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 87.1,
+        "GPQA Diamond": 85.39999999999999,
+        "Humanity's Last Exam": 26.5,
+        "AA-LCR": 75.6,
+        "LiveCodeBench": 84.6,
+        "SciCode": 42.9,
+        "AIME 2025": 94.3,
+        "MMMU Pro": 74,
+        "AA-Omniscience": -11,
+        "AA-Omniscience Accuracy": 38.62,
+        "AA-Omniscience Hallucination Rate": 80.99,
+        "LMArena-Text": 1436,
+        "LMArena-Text-Creative-Writing": 1381,
+        "LMArean-Text-Math": 1438,
+        "LMArena-Text-Coding": 1470,
+        "LMArena-Text-Expert": 1458,
+        "LMArena-Text-Hard-Prompts": 1448,
+        "LMArena-Text-Longer-Query": 1417,
+        "LMArena-Text-Multi-Turn": 1424
+      },
+      "metadata": {
+        "lmarenaRank": 18,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "performance": {
+          "outputTokensPerSecond": 104.725,
+          "timeToFirstToken": 98.171
         }
       },
       "tags": [],
@@ -649,7 +775,7 @@
       "description": ""
     },
     {
-      "id": "grok-4-1-fast-reasoning-2",
+      "id": "grok-4-1-fast-reasoning",
       "name": "grok-4-1-fast-reasoning",
       "provider": "xAI",
       "releaseDate": "2025-11-19",
@@ -684,47 +810,6 @@
         "performance": {
           "outputTokensPerSecond": 115.94,
           "timeToFirstToken": 8.47
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "kimi-k2-thinking",
-      "name": "MoonshotAIkimi-k2-thinking-turbo",
-      "provider": "Kimi",
-      "releaseDate": "2025-11-06",
-      "benchmarks": {
-        "MMLU Pro": 84.8,
-        "GPQA Diamond": 83.8,
-        "Humanity's Last Exam": 22.3,
-        "AA-LCR": 66.3,
-        "LiveCodeBench": 85.3,
-        "SciCode": 42.4,
-        "AIME 2025": 94.69999999999999,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1428,
-        "LMArena-Text-Creative-Writing": 1398,
-        "LMArean-Text-Math": 1429,
-        "LMArena-Text-Coding": 1479,
-        "LMArena-Text-Expert": 1444,
-        "LMArena-Text-Hard-Prompts": 1448,
-        "LMArena-Text-Longer-Query": 1432,
-        "LMArena-Text-Multi-Turn": 1429
-      },
-      "metadata": {
-        "lmarenaRank": 23,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.6,
-          "output": 2.5
-        },
-        "performance": {
-          "outputTokensPerSecond": 82.191,
-          "timeToFirstToken": 0.675
         }
       },
       "tags": [],
@@ -772,6 +857,47 @@
       "description": ""
     },
     {
+      "id": "gpt-5-chatgpt",
+      "name": "gpt-5-chat",
+      "provider": "OpenAI",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 82,
+        "GPQA Diamond": 68.60000000000001,
+        "Humanity's Last Exam": 5.800000000000001,
+        "AA-LCR": 63.7,
+        "LiveCodeBench": 54.300000000000004,
+        "SciCode": 37.8,
+        "AIME 2025": 48.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1425,
+        "LMArena-Text-Creative-Writing": 1388,
+        "LMArean-Text-Math": 1414,
+        "LMArena-Text-Coding": 1459,
+        "LMArena-Text-Expert": 1442,
+        "LMArena-Text-Hard-Prompts": 1446,
+        "LMArena-Text-Longer-Query": 1436,
+        "LMArena-Text-Multi-Turn": 1445
+      },
+      "metadata": {
+        "lmarenaRank": 25,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "performance": {
+          "outputTokensPerSecond": 135.09,
+          "timeToFirstToken": 0.727
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "qwen3-max",
       "name": "qwen3-max-2025-09-23",
       "provider": "Alibaba",
@@ -807,6 +933,47 @@
         "performance": {
           "outputTokensPerSecond": 30.034,
           "timeToFirstToken": 1.888
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v3-2-reasoning-0925",
+      "name": "deepseek-v3.2-exp",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-09-29",
+      "benchmarks": {
+        "MMLU Pro": 85,
+        "GPQA Diamond": 79.7,
+        "Humanity's Last Exam": 13.8,
+        "AA-LCR": 69,
+        "LiveCodeBench": 78.9,
+        "SciCode": 37.7,
+        "AIME 2025": 87.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1423,
+        "LMArena-Text-Creative-Writing": 1400,
+        "LMArean-Text-Math": 1419,
+        "LMArena-Text-Coding": 1469,
+        "LMArena-Text-Expert": 1425,
+        "LMArena-Text-Hard-Prompts": 1446,
+        "LMArena-Text-Longer-Query": 1441,
+        "LMArena-Text-Multi-Turn": 1428
+      },
+      "metadata": {
+        "lmarenaRank": 27,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.28,
+          "output": 0.42
+        },
+        "performance": {
+          "outputTokensPerSecond": 27.521,
+          "timeToFirstToken": 1.178
         }
       },
       "tags": [],
@@ -895,6 +1062,47 @@
       "description": ""
     },
     {
+      "id": "deepseek-v3-2-reasoning",
+      "name": "deepseek-v3.2-thinking",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-12-01",
+      "benchmarks": {
+        "MMLU Pro": 86.2,
+        "GPQA Diamond": 84,
+        "Humanity's Last Exam": 22.2,
+        "AA-LCR": 65,
+        "LiveCodeBench": 86.2,
+        "SciCode": 38.9,
+        "AIME 2025": 92,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1421,
+        "LMArena-Text-Creative-Writing": 1408,
+        "LMArean-Text-Math": 1426,
+        "LMArena-Text-Coding": 1469,
+        "LMArena-Text-Expert": 1417,
+        "LMArena-Text-Hard-Prompts": 1440,
+        "LMArena-Text-Longer-Query": 1432,
+        "LMArena-Text-Multi-Turn": 1418
+      },
+      "metadata": {
+        "lmarenaRank": 30,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.28,
+          "output": 0.42
+        },
+        "performance": {
+          "outputTokensPerSecond": 28.138,
+          "timeToFirstToken": 1.221
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "grok-4-fast",
       "name": "grok-4-fast-chat",
       "provider": "xAI",
@@ -971,6 +1179,47 @@
         "performance": {
           "outputTokensPerSecond": 27.962,
           "timeToFirstToken": 1.374
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "deepseek-r1-0528",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-05-28",
+      "benchmarks": {
+        "MMLU Pro": 84.89999999999999,
+        "GPQA Diamond": 81.3,
+        "Humanity's Last Exam": 14.899999999999999,
+        "AA-LCR": 54.7,
+        "LiveCodeBench": 77,
+        "SciCode": 40.300000000000004,
+        "AIME 2025": 76,
+        "MMMU Pro": 0,
+        "AA-Omniscience": -30,
+        "AA-Omniscience Accuracy": 29.28,
+        "AA-Omniscience Hallucination Rate": 83.36,
+        "LMArena-Text": 1418,
+        "LMArena-Text-Creative-Writing": 1388,
+        "LMArean-Text-Math": 1398,
+        "LMArena-Text-Coding": 1462,
+        "LMArena-Text-Expert": 1412,
+        "LMArena-Text-Hard-Prompts": 1432,
+        "LMArena-Text-Longer-Query": 1408,
+        "LMArena-Text-Multi-Turn": 1405
+      },
+      "metadata": {
+        "lmarenaRank": 34,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.075,
+          "output": 3.5
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1100,6 +1349,47 @@
       "description": ""
     },
     {
+      "id": "deepseek-v3-1-reasoning",
+      "name": "deepseek-v3.1-thinking",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-08-21",
+      "benchmarks": {
+        "MMLU Pro": 85.1,
+        "GPQA Diamond": 77.9,
+        "Humanity's Last Exam": 13,
+        "AA-LCR": 53.300000000000004,
+        "LiveCodeBench": 78.4,
+        "SciCode": 39.1,
+        "AIME 2025": 89.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1416,
+        "LMArena-Text-Creative-Writing": 1404,
+        "LMArean-Text-Math": 1423,
+        "LMArena-Text-Coding": 1456,
+        "LMArena-Text-Expert": 1430,
+        "LMArena-Text-Hard-Prompts": 1435,
+        "LMArena-Text-Longer-Query": 1447,
+        "LMArena-Text-Multi-Turn": 1413
+      },
+      "metadata": {
+        "lmarenaRank": 39,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.58,
+          "output": 1.68
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "deepseek-v3-1-terminus",
       "name": "deepseek-v3.1-terminus",
       "provider": "DeepSeek",
@@ -1176,6 +1466,47 @@
         "performance": {
           "outputTokensPerSecond": 36.968,
           "timeToFirstToken": 1.277
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "deepseek-v3-1-terminus-reasoning",
+      "name": "deepseek-v3.1-terminus-thinking",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-09-22",
+      "benchmarks": {
+        "MMLU Pro": 85.1,
+        "GPQA Diamond": 79.2,
+        "Humanity's Last Exam": 15.2,
+        "AA-LCR": 65,
+        "LiveCodeBench": 79.80000000000001,
+        "SciCode": 40.6,
+        "AIME 2025": 89.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1414,
+        "LMArena-Text-Creative-Writing": 1377,
+        "LMArean-Text-Math": 1415,
+        "LMArena-Text-Coding": 1458,
+        "LMArena-Text-Expert": 0,
+        "LMArena-Text-Hard-Prompts": 1441,
+        "LMArena-Text-Longer-Query": 1438,
+        "LMArena-Text-Multi-Turn": 1416
+      },
+      "metadata": {
+        "lmarenaRank": 42,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.4,
+          "output": 2
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1715,7 +2046,7 @@
       "description": ""
     },
     {
-      "id": "deepseek-r1",
+      "id": "deepseek-r1-2",
       "name": "deepseek-r1",
       "provider": "DeepSeek",
       "releaseDate": "2025-05-28",
@@ -1728,9 +2059,9 @@
         "SciCode": 40.300000000000004,
         "AIME 2025": 76,
         "MMMU Pro": 0,
-        "AA-Omniscience": -30,
-        "AA-Omniscience Accuracy": 29.28,
-        "AA-Omniscience Hallucination Rate": 83.36,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1396,
         "LMArena-Text-Creative-Writing": 1372,
         "LMArean-Text-Math": 1413,
@@ -1791,6 +2122,47 @@
         "performance": {
           "outputTokensPerSecond": 44.057,
           "timeToFirstToken": 1.357
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "gpt-5-mini-high",
+      "provider": "OpenAI",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 83.7,
+        "GPQA Diamond": 82.8,
+        "Humanity's Last Exam": 19.7,
+        "AA-LCR": 68,
+        "LiveCodeBench": 83.8,
+        "SciCode": 39.2,
+        "AIME 2025": 90.7,
+        "MMMU Pro": 70,
+        "AA-Omniscience": -20,
+        "AA-Omniscience Accuracy": 22.97,
+        "AA-Omniscience Hallucination Rate": 55.28,
+        "LMArena-Text": 1392,
+        "LMArena-Text-Creative-Writing": 1329,
+        "LMArean-Text-Math": 1415,
+        "LMArena-Text-Coding": 1429,
+        "LMArena-Text-Expert": 1404,
+        "LMArena-Text-Hard-Prompts": 1405,
+        "LMArena-Text-Longer-Query": 1375,
+        "LMArena-Text-Multi-Turn": 1374
+      },
+      "metadata": {
+        "lmarenaRank": 61,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.25,
+          "output": 2
+        },
+        "performance": {
+          "outputTokensPerSecond": 70.238,
+          "timeToFirstToken": 98.441
         }
       },
       "tags": [],
@@ -2289,6 +2661,47 @@
       "description": ""
     },
     {
+      "id": "gemma-3-27b",
+      "name": "gemma-3-27b-it",
+      "provider": "Google",
+      "releaseDate": "2025-03-12",
+      "benchmarks": {
+        "MMLU Pro": 66.9,
+        "GPQA Diamond": 42.8,
+        "Humanity's Last Exam": 4.7,
+        "AA-LCR": 5.7,
+        "LiveCodeBench": 13.700000000000001,
+        "SciCode": 21.2,
+        "AIME 2025": 20.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1364,
+        "LMArena-Text-Creative-Writing": 1347,
+        "LMArean-Text-Math": 1325,
+        "LMArena-Text-Coding": 1359,
+        "LMArena-Text-Expert": 1332,
+        "LMArena-Text-Hard-Prompts": 1363,
+        "LMArena-Text-Longer-Query": 1364,
+        "LMArena-Text-Multi-Turn": 1357
+      },
+      "metadata": {
+        "lmarenaRank": 84,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "performance": {
+          "outputTokensPerSecond": 49.329,
+          "timeToFirstToken": 0.827
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "o3-mini-high",
       "name": "o3-mini-high",
       "provider": "OpenAI",
@@ -2324,47 +2737,6 @@
         "performance": {
           "outputTokensPerSecond": 136.614,
           "timeToFirstToken": 51.963
-        }
-      },
-      "tags": [],
-      "description": ""
-    },
-    {
-      "id": "grok-3-mini-reasoning",
-      "name": "grok-3-mini-high",
-      "provider": "xAI",
-      "releaseDate": "2025-02-19",
-      "benchmarks": {
-        "MMLU Pro": 82.8,
-        "GPQA Diamond": 79.10000000000001,
-        "Humanity's Last Exam": 11.1,
-        "AA-LCR": 50.3,
-        "LiveCodeBench": 69.6,
-        "SciCode": 40.6,
-        "AIME 2025": 84.7,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1362,
-        "LMArena-Text-Creative-Writing": 1330,
-        "LMArean-Text-Math": 1395,
-        "LMArena-Text-Coding": 1387,
-        "LMArena-Text-Expert": 1399,
-        "LMArena-Text-Hard-Prompts": 1375,
-        "LMArena-Text-Longer-Query": 1378,
-        "LMArena-Text-Multi-Turn": 1348
-      },
-      "metadata": {
-        "lmarenaRank": 86,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.3,
-          "output": 0.5
-        },
-        "performance": {
-          "outputTokensPerSecond": 135.793,
-          "timeToFirstToken": 0.62
         }
       },
       "tags": [],
@@ -2781,6 +3153,47 @@
       "description": ""
     },
     {
+      "id": "gemma-3-12b",
+      "name": "gemma-3-12b-it",
+      "provider": "Google",
+      "releaseDate": "2025-03-12",
+      "benchmarks": {
+        "MMLU Pro": 59.5,
+        "GPQA Diamond": 34.9,
+        "Humanity's Last Exam": 4.8,
+        "AA-LCR": 6.7,
+        "LiveCodeBench": 13.700000000000001,
+        "SciCode": 17.4,
+        "AIME 2025": 18.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1340,
+        "LMArena-Text-Creative-Writing": 1331,
+        "LMArean-Text-Math": 1322,
+        "LMArena-Text-Coding": 1316,
+        "LMArena-Text-Expert": 1269,
+        "LMArena-Text-Hard-Prompts": 1330,
+        "LMArena-Text-Longer-Query": 1347,
+        "LMArena-Text-Multi-Turn": 1343
+      },
+      "metadata": {
+        "lmarenaRank": 110,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "performance": {
+          "outputTokensPerSecond": 53.436,
+          "timeToFirstToken": 3.578
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "llama-nemotron-super-49b-v1-5",
       "name": "Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5",
       "provider": "NVIDIA",
@@ -2816,6 +3229,47 @@
         "performance": {
           "outputTokensPerSecond": 70.564,
           "timeToFirstToken": 0.241
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "gpt-5-nano-high",
+      "provider": "OpenAI",
+      "releaseDate": "2025-08-07",
+      "benchmarks": {
+        "MMLU Pro": 78,
+        "GPQA Diamond": 67.60000000000001,
+        "Humanity's Last Exam": 8.200000000000001,
+        "AA-LCR": 41.699999999999996,
+        "LiveCodeBench": 78.9,
+        "SciCode": 36.6,
+        "AIME 2025": 83.7,
+        "MMMU Pro": 61,
+        "AA-Omniscience": -30,
+        "AA-Omniscience Accuracy": 18.28,
+        "AA-Omniscience Hallucination Rate": 58.66,
+        "LMArena-Text": 1339,
+        "LMArena-Text-Creative-Writing": 1252,
+        "LMArean-Text-Math": 1356,
+        "LMArena-Text-Coding": 1381,
+        "LMArena-Text-Expert": 1358,
+        "LMArena-Text-Hard-Prompts": 1353,
+        "LMArena-Text-Longer-Query": 1332,
+        "LMArena-Text-Multi-Turn": 1328
+      },
+      "metadata": {
+        "lmarenaRank": 113,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "performance": {
+          "outputTokensPerSecond": 122.712,
+          "timeToFirstToken": 131.53
         }
       },
       "tags": [],
@@ -3150,6 +3604,47 @@
       "description": ""
     },
     {
+      "id": "llama-3-3-instruct-70b",
+      "name": "Metallama-3.3-70b-instruct",
+      "provider": "Meta",
+      "releaseDate": "2024-12-06",
+      "benchmarks": {
+        "MMLU Pro": 71.3,
+        "GPQA Diamond": 49.8,
+        "Humanity's Last Exam": 4,
+        "AA-LCR": 15,
+        "LiveCodeBench": 28.799999999999997,
+        "SciCode": 26,
+        "AIME 2025": 7.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1319,
+        "LMArena-Text-Creative-Writing": 1285,
+        "LMArean-Text-Math": 1299,
+        "LMArena-Text-Coding": 1343,
+        "LMArena-Text-Expert": 1291,
+        "LMArena-Text-Hard-Prompts": 1319,
+        "LMArena-Text-Longer-Query": 1310,
+        "LMArena-Text-Multi-Turn": 1316
+      },
+      "metadata": {
+        "lmarenaRank": 138,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.58,
+          "output": 0.71
+        },
+        "performance": {
+          "outputTokensPerSecond": 95.362,
+          "timeToFirstToken": 0.499
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "gemma-3n-e4b",
       "name": "gemma-3n-e4b-it",
       "provider": "Google",
@@ -3226,6 +3721,47 @@
         "performance": {
           "outputTokensPerSecond": 238.071,
           "timeToFirstToken": 0.615
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "qwen-max-0919",
+      "name": "qwen-max-0919",
+      "provider": "Alibaba",
+      "releaseDate": "2025-01-28",
+      "benchmarks": {
+        "MMLU Pro": 76.2,
+        "GPQA Diamond": 58.699999999999996,
+        "Humanity's Last Exam": 4.5,
+        "AA-LCR": 0,
+        "LiveCodeBench": 35.9,
+        "SciCode": 33.7,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1317,
+        "LMArena-Text-Creative-Writing": 1284,
+        "LMArean-Text-Math": 1294,
+        "LMArena-Text-Coding": 1350,
+        "LMArena-Text-Expert": 1295,
+        "LMArena-Text-Hard-Prompts": 1315,
+        "LMArena-Text-Longer-Query": 1324,
+        "LMArena-Text-Multi-Turn": 1302
+      },
+      "metadata": {
+        "lmarenaRank": 142,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.6,
+          "output": 6.4
+        },
+        "performance": {
+          "outputTokensPerSecond": 30.759,
+          "timeToFirstToken": 1.176
         }
       },
       "tags": [],
@@ -3314,6 +3850,170 @@
       "description": ""
     },
     {
+      "id": "mistral-small-3-1",
+      "name": "mistral-small-3.1-24b-instruct-2503",
+      "provider": "Mistral",
+      "releaseDate": "2025-03-17",
+      "benchmarks": {
+        "MMLU Pro": 65.9,
+        "GPQA Diamond": 45.4,
+        "Humanity's Last Exam": 4.8,
+        "AA-LCR": 19.7,
+        "LiveCodeBench": 21.2,
+        "SciCode": 26.5,
+        "AIME 2025": 3.6999999999999997,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1303,
+        "LMArena-Text-Creative-Writing": 1271,
+        "LMArean-Text-Math": 1282,
+        "LMArena-Text-Coding": 1359,
+        "LMArena-Text-Expert": 1306,
+        "LMArena-Text-Hard-Prompts": 1318,
+        "LMArena-Text-Longer-Query": 1325,
+        "LMArena-Text-Multi-Turn": 1290
+      },
+      "metadata": {
+        "lmarenaRank": 158,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "performance": {
+          "outputTokensPerSecond": 118.878,
+          "timeToFirstToken": 0.317
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "gemma-3-4b",
+      "name": "gemma-3-4b-it",
+      "provider": "Google",
+      "releaseDate": "2025-03-12",
+      "benchmarks": {
+        "MMLU Pro": 41.699999999999996,
+        "GPQA Diamond": 29.099999999999998,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 5.7,
+        "LiveCodeBench": 11.200000000000001,
+        "SciCode": 7.3,
+        "AIME 2025": 12.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1302,
+        "LMArena-Text-Creative-Writing": 1276,
+        "LMArean-Text-Math": 1257,
+        "LMArena-Text-Coding": 1273,
+        "LMArena-Text-Expert": 1254,
+        "LMArena-Text-Hard-Prompts": 1282,
+        "LMArena-Text-Longer-Query": 1312,
+        "LMArena-Text-Multi-Turn": 1271
+      },
+      "metadata": {
+        "lmarenaRank": 159,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "performance": {
+          "outputTokensPerSecond": 48.798,
+          "timeToFirstToken": 1.016
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "nova-pro",
+      "name": "amazon-nova-pro-v1.0",
+      "provider": "Amazon",
+      "releaseDate": "2024-12-03",
+      "benchmarks": {
+        "MMLU Pro": 69.1,
+        "GPQA Diamond": 49.9,
+        "Humanity's Last Exam": 3.4000000000000004,
+        "AA-LCR": 19,
+        "LiveCodeBench": 23.3,
+        "SciCode": 20.8,
+        "AIME 2025": 7.000000000000001,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1288,
+        "LMArena-Text-Creative-Writing": 1235,
+        "LMArean-Text-Math": 1272,
+        "LMArena-Text-Coding": 1340,
+        "LMArena-Text-Expert": 1268,
+        "LMArena-Text-Hard-Prompts": 1299,
+        "LMArena-Text-Longer-Query": 1298,
+        "LMArena-Text-Multi-Turn": 1274
+      },
+      "metadata": {
+        "lmarenaRank": 164,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.8,
+          "output": 3.2
+        },
+        "performance": {
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "nova-lite",
+      "name": "amazon-nova-lite-v1.0",
+      "provider": "Amazon",
+      "releaseDate": "2024-12-03",
+      "benchmarks": {
+        "MMLU Pro": 59,
+        "GPQA Diamond": 43.3,
+        "Humanity's Last Exam": 4.6,
+        "AA-LCR": 17.7,
+        "LiveCodeBench": 16.7,
+        "SciCode": 13.900000000000002,
+        "AIME 2025": 7.000000000000001,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1259,
+        "LMArena-Text-Creative-Writing": 1220,
+        "LMArean-Text-Math": 1248,
+        "LMArena-Text-Coding": 1303,
+        "LMArena-Text-Expert": 1257,
+        "LMArena-Text-Hard-Prompts": 1269,
+        "LMArena-Text-Longer-Query": 1273,
+        "LMArena-Text-Multi-Turn": 1226
+      },
+      "metadata": {
+        "lmarenaRank": 189,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.06,
+          "output": 0.24
+        },
+        "performance": {
+          "outputTokensPerSecond": 195.192,
+          "timeToFirstToken": 0.395
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
       "id": "phi-4",
       "name": "Azurephi-4",
       "provider": "Microsoft Azure",
@@ -3390,6 +4090,47 @@
         "performance": {
           "outputTokensPerSecond": 426.187,
           "timeToFirstToken": 0.352
+        }
+      },
+      "tags": [],
+      "description": ""
+    },
+    {
+      "id": "ministral-8b",
+      "name": "ministral-8b-2410",
+      "provider": "Mistral",
+      "releaseDate": "2025-12-02",
+      "benchmarks": {
+        "MMLU Pro": 64.2,
+        "GPQA Diamond": 47.099999999999994,
+        "Humanity's Last Exam": 4.3,
+        "AA-LCR": 24,
+        "LiveCodeBench": 30.3,
+        "SciCode": 20.8,
+        "AIME 2025": 31.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1237,
+        "LMArena-Text-Creative-Writing": 1219,
+        "LMArean-Text-Math": 1215,
+        "LMArena-Text-Coding": 1272,
+        "LMArena-Text-Expert": 1232,
+        "LMArena-Text-Hard-Prompts": 1248,
+        "LMArena-Text-Longer-Query": 1256,
+        "LMArena-Text-Multi-Turn": 1204
+      },
+      "metadata": {
+        "lmarenaRank": 197,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.15,
+          "output": 0.15
+        },
+        "performance": {
+          "outputTokensPerSecond": 189.415,
+          "timeToFirstToken": 0.284
         }
       },
       "tags": [],
