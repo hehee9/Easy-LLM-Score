@@ -43,6 +43,17 @@ function getManualValue(modelId, benchmarkName, manualData) {
   return manualData.models?.[modelId]?.[benchmarkName] || 0;
 }
 
+// 모델이 1년 이상 오래되었는지 확인
+function isModelTooOld(releaseDate, maxAgeMonths = 12) {
+  if (!releaseDate) return false;  // 출시일 없으면 포함
+
+  const release = new Date(releaseDate);
+  const now = new Date();
+  const monthsDiff = (now.getFullYear() - release.getFullYear()) * 12 + (now.getMonth() - release.getMonth());
+
+  return monthsDiff > maxAgeMonths;
+}
+
 async function mergeData() {
   console.log('Starting data merge...\n');
 
@@ -93,6 +104,7 @@ async function mergeData() {
   const baseModels = lmarenaData['lmarena-text'].models || [];
   const mergedModels = [];
   const unmatchedModels = [];
+  const skippedOldModels = [];  // 1년 이상 된 모델
   const usedIds = new Set();  // 중복 ID 체크용
 
   for (const lmModel of baseModels) {
@@ -100,6 +112,11 @@ async function mergeData() {
     const aaMatch = matchModels(lmModel.model, aaModels, modelMapping);
 
     if (aaMatch) {
+      // 1년 이상 된 모델 제외
+      if (isModelTooOld(aaMatch.release_date)) {
+        skippedOldModels.push({ name: lmModel.model, releaseDate: aaMatch.release_date });
+        continue;
+      }
       // 매칭 성공
       let modelId = (aaMatch.slug || aaMatch.id || lmModel.model).toLowerCase().replace(/[\s\-]/g, '-');
 
@@ -208,6 +225,7 @@ async function mergeData() {
   console.log(`\n✅ Merge complete!`);
   console.log(`  - Total models: ${mergedModels.length}`);
   console.log(`  - Default models: ${defaultModelIds.length}`);
+  console.log(`  - Skipped old models (>1 year): ${skippedOldModels.length}`);
   console.log(`  - Unmatched models: ${unmatchedModels.length}`);
 
   // 6. 매칭 실패 모델 저장 (디버깅용)
