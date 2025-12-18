@@ -93,6 +93,7 @@ async function mergeData() {
   const baseModels = lmarenaData['lmarena-text'].models || [];
   const mergedModels = [];
   const unmatchedModels = [];
+  const usedIds = new Set();  // 중복 ID 체크용
 
   for (const lmModel of baseModels) {
     // AA 모델 매칭
@@ -100,12 +101,21 @@ async function mergeData() {
 
     if (aaMatch) {
       // 매칭 성공
-      const modelId = (aaMatch.slug || aaMatch.id || lmModel.model).toLowerCase().replace(/[\s\-]/g, '-');
+      let modelId = (aaMatch.slug || aaMatch.id || lmModel.model).toLowerCase().replace(/[\s\-]/g, '-');
+
+      // 중복 ID 체크 및 처리
+      if (usedIds.has(modelId)) {
+        // 원본 LM Arena 모델명으로 고유 ID 생성
+        const originalName = lmModel.model.toLowerCase().replace(/[\s\.]/g, '-');
+        console.warn(`⚠ Duplicate ID detected: ${modelId}, using original name: ${originalName}`);
+        modelId = originalName;
+      }
+      usedIds.add(modelId);
 
       mergedModels.push({
         id: modelId,
         name: lmModel.model,
-        provider: lmModel.organization || aaMatch.model_creator?.name || 'Unknown',
+        provider: aaMatch.model_creator?.name || 'Unknown',  // AA의 model_creator.name만 사용
         releaseDate: aaMatch.release_date || '',
         benchmarks: {
           // Artificial Analysis 점수 (0-1 → 0-100 변환)

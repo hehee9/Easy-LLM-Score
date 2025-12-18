@@ -12,7 +12,6 @@
 
 ### Bug Fix
 - lmarena fetch 데이터에서, 순위 범위가 개발사로 표시되는 문제 (e.g. `"organization": "1◄─►2"`)
-- 카테고리별 성능 선택 시 모든 모델이 로드되는 문제 (선택하지 않은 모델의 데이터가 나옴)
-- 일부 모델의 id 중복 (e.g. gpt-5-1, gpt-5-1-high의 id가 "gpt-5-1"로 같음)
+- 일부 모델의 id 중복 (e.g. gpt-5-1, gpt-5-1-high의 id가 "gpt-5-1"로 같음) 및 누락
 
 ### Remove

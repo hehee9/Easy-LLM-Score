@@ -76,14 +76,14 @@ async function fetchLMArena(category) {
       if (td.length === 0) return;
 
       const rank = parseInt(td.eq(0).text().trim());
+      const rankRange = td.eq(1).text().trim();  // 순위 범위 (예: "1◄─►2")
       const model = td.eq(2).text().trim();
       const score = parseFloat(td.eq(3).text().trim());
-      const organization = td.eq(1).text().trim();
       const votesText = td.eq(4).text().trim().replace(/,/g, '');
       const votes = parseInt(votesText) || 0;
 
       if (model && !isNaN(score)) {
-        models.push({ rank, model, score, organization, votes });
+        models.push({ rank, rankRange, model, score, votes });
       }
     });
 
