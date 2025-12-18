@@ -13,21 +13,13 @@ const MAX_BAR_CHART_HEIGHT = 1500;
 
 /**
  * @description 카테고리별 모델 필터링
- * - 환각 저항: AA-Omniscience 데이터가 없는 모델 제외
  * - 시각 이해: 시각 입력을 지원하지 않는 모델 제외
+ * - 환각 저항: 필터링 없음 (결측값은 하위 30% 백분위수로 대체됨)
  * @param {Array} models 모델 배열
  * @param {string} categoryId 카테고리 ID
  * @returns {Array} 필터링된 모델 배열
  */
 function filterModelsForCategory(models, categoryId) {
-    if (categoryId === 'hallucination') {
-        // AA-Omniscience 관련 벤치마크가 모두 0이면 제외
-        return models.filter(model => {
-            const accuracy = model.benchmarks?.['AA-Omniscience Accuracy'] || 0;
-            const hallRate = model.benchmarks?.['AA-Omniscience Hallucination Rate'] || 0;
-            return accuracy > 0 || hallRate > 0;
-        });
-    }
     if (categoryId === 'vision') {
         // 시각 입력을 지원하지 않는 모델 제외 (기본값: true)
         return models.filter(model => model.supportsVision !== false);
