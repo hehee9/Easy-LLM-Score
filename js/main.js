@@ -102,6 +102,24 @@ function createModelSelector() {
 
     container.innerHTML = '<h3>모델 선택</h3>';
 
+    // 전체 선택/취소 버튼
+    const selectAllControls = document.createElement('div');
+    selectAllControls.className = 'select-all-controls';
+
+    const selectAllBtn = document.createElement('button');
+    selectAllBtn.className = 'select-all-btn';
+    selectAllBtn.textContent = '모두 선택';
+    selectAllBtn.addEventListener('click', () => selectAllModels(true));
+
+    const deselectAllBtn = document.createElement('button');
+    deselectAllBtn.className = 'select-all-btn';
+    deselectAllBtn.textContent = '모두 취소';
+    deselectAllBtn.addEventListener('click', () => selectAllModels(false));
+
+    selectAllControls.appendChild(selectAllBtn);
+    selectAllControls.appendChild(deselectAllBtn);
+    container.appendChild(selectAllControls);
+
     // 검색창 생성
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
@@ -115,8 +133,12 @@ function createModelSelector() {
     // 개발사별 그룹화
     const grouped = groupModelsByProvider(allModels);
 
-    // 개발사 이름순 정렬
-    const sortedProviders = Object.keys(grouped).sort((a, b) => a.localeCompare(b, 'ko'));
+    // 개발사 정렬: 모델 수 내림차순, 같으면 가나다순
+    const sortedProviders = Object.keys(grouped).sort((a, b) => {
+        const countDiff = grouped[b].length - grouped[a].length;
+        if (countDiff !== 0) return countDiff;
+        return a.localeCompare(b, 'ko');
+    });
 
     // 그룹 컨테이너
     const groupsContainer = document.createElement('div');
@@ -131,15 +153,38 @@ function createModelSelector() {
         group.className = `provider-group${isExpanded ? '' : ' collapsed'}`;
         group.dataset.provider = provider;
 
-        // 개발사 헤더 (클릭으로 접기/펼치기)
+        // 개발사 헤더
         const header = document.createElement('div');
         header.className = 'provider-header';
-        header.innerHTML = `
-            <span class="provider-name">${provider} (${models.length})</span>
-            <span class="toggle-icon">▼</span>
-        `;
-        header.addEventListener('click', () => {
-            group.classList.toggle('collapsed');
+
+        // 개발사 체크박스
+        const providerCheckbox = document.createElement('input');
+        providerCheckbox.type = 'checkbox';
+        providerCheckbox.className = 'provider-checkbox';
+        providerCheckbox.checked = models.every(m => selectedModelIds.has(m.id));
+        providerCheckbox.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+        providerCheckbox.addEventListener('change', (e) => {
+            selectProviderModels(provider, e.target.checked);
+        });
+
+        const providerName = document.createElement('span');
+        providerName.className = 'provider-name';
+        providerName.textContent = `${provider} (${models.length})`;
+
+        const toggleIcon = document.createElement('span');
+        toggleIcon.className = 'toggle-icon';
+        toggleIcon.textContent = '▼';
+
+        header.appendChild(providerCheckbox);
+        header.appendChild(providerName);
+        header.appendChild(toggleIcon);
+
+        header.addEventListener('click', (e) => {
+            if (e.target !== providerCheckbox) {
+                group.classList.toggle('collapsed');
+            }
         });
 
         // 모델 목록
@@ -158,6 +203,7 @@ function createModelSelector() {
 
             checkbox.addEventListener('change', (e) => {
                 handleModelToggle(model.id, e.target.checked);
+                updateProviderCheckbox(provider);
             });
 
             const name = document.createElement('span');
@@ -177,6 +223,66 @@ function createModelSelector() {
     });
 
     container.appendChild(groupsContainer);
+}
+
+/** @description 모든 모델 선택/취소 */
+function selectAllModels(select) {
+    allModels.forEach(model => {
+        if (select) {
+            selectedModelIds.add(model.id);
+        } else {
+            selectedModelIds.delete(model.id);
+        }
+    });
+
+    // UI 업데이트
+    document.querySelectorAll('.model-item input[type="checkbox"]').forEach(cb => {
+        cb.checked = select;
+    });
+    document.querySelectorAll('.provider-checkbox').forEach(cb => {
+        cb.checked = select;
+    });
+
+    updateCharts();
+}
+
+/** @description 개발사별 모델 선택/취소 */
+function selectProviderModels(provider, select) {
+    const grouped = groupModelsByProvider(allModels);
+    const models = grouped[provider] || [];
+
+    models.forEach(model => {
+        if (select) {
+            selectedModelIds.add(model.id);
+        } else {
+            selectedModelIds.delete(model.id);
+        }
+    });
+
+    // 해당 개발사의 체크박스 UI 업데이트
+    const group = document.querySelector(`.provider-group[data-provider="${provider}"]`);
+    if (group) {
+        group.querySelectorAll('.model-item input[type="checkbox"]').forEach(cb => {
+            cb.checked = select;
+        });
+    }
+
+    updateCharts();
+}
+
+/** @description 개발사 체크박스 상태 업데이트 */
+function updateProviderCheckbox(provider) {
+    const grouped = groupModelsByProvider(allModels);
+    const models = grouped[provider] || [];
+    const allSelected = models.every(m => selectedModelIds.has(m.id));
+
+    const group = document.querySelector(`.provider-group[data-provider="${provider}"]`);
+    if (group) {
+        const providerCheckbox = group.querySelector('.provider-checkbox');
+        if (providerCheckbox) {
+            providerCheckbox.checked = allSelected;
+        }
+    }
 }
 
 /** @description 검색어로 모델 필터링 */
