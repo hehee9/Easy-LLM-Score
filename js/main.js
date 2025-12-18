@@ -102,24 +102,6 @@ function createModelSelector() {
 
     container.innerHTML = '<h3>모델 선택</h3>';
 
-    // 전체 선택/취소 버튼
-    const selectAllControls = document.createElement('div');
-    selectAllControls.className = 'select-all-controls';
-
-    const selectAllBtn = document.createElement('button');
-    selectAllBtn.className = 'select-all-btn';
-    selectAllBtn.textContent = '모두 선택';
-    selectAllBtn.addEventListener('click', () => selectAllModels(true));
-
-    const deselectAllBtn = document.createElement('button');
-    deselectAllBtn.className = 'select-all-btn';
-    deselectAllBtn.textContent = '모두 취소';
-    deselectAllBtn.addEventListener('click', () => selectAllModels(false));
-
-    selectAllControls.appendChild(selectAllBtn);
-    selectAllControls.appendChild(deselectAllBtn);
-    container.appendChild(selectAllControls);
-
     // 검색창 생성
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
@@ -129,6 +111,27 @@ function createModelSelector() {
         filterModels(e.target.value);
     });
     container.appendChild(searchInput);
+
+    // 전체 선택 체크박스 (개발사 헤더와 동일한 스타일)
+    const selectAllRow = document.createElement('div');
+    selectAllRow.className = 'provider-header select-all-header';
+
+    const selectAllCheckbox = document.createElement('input');
+    selectAllCheckbox.type = 'checkbox';
+    selectAllCheckbox.className = 'provider-checkbox';
+    selectAllCheckbox.id = 'select-all-checkbox';
+    selectAllCheckbox.checked = allModels.every(m => selectedModelIds.has(m.id));
+    selectAllCheckbox.addEventListener('change', (e) => {
+        selectAllModels(e.target.checked);
+    });
+
+    const selectAllLabel = document.createElement('span');
+    selectAllLabel.className = 'provider-name';
+    selectAllLabel.textContent = `전체 (${allModels.length})`;
+
+    selectAllRow.appendChild(selectAllCheckbox);
+    selectAllRow.appendChild(selectAllLabel);
+    container.appendChild(selectAllRow);
 
     // 개발사별 그룹화
     const grouped = groupModelsByProvider(allModels);
@@ -246,6 +249,14 @@ function selectAllModels(select) {
     updateCharts();
 }
 
+/** @description 전체 선택 체크박스 상태 업데이트 */
+function updateSelectAllCheckbox() {
+    const selectAllCheckbox = document.getElementById('select-all-checkbox');
+    if (selectAllCheckbox) {
+        selectAllCheckbox.checked = allModels.length > 0 && allModels.every(m => selectedModelIds.has(m.id));
+    }
+}
+
 /** @description 개발사별 모델 선택/취소 */
 function selectProviderModels(provider, select) {
     const grouped = groupModelsByProvider(allModels);
@@ -266,6 +277,9 @@ function selectProviderModels(provider, select) {
             cb.checked = select;
         });
     }
+
+    // 전체 선택 체크박스 상태 업데이트
+    updateSelectAllCheckbox();
 
     updateCharts();
 }
@@ -321,6 +335,9 @@ function handleModelToggle(modelId, isChecked) {
         selectedModelIds.delete(modelId);
     }
 
+    // 전체 선택 체크박스 상태 업데이트
+    updateSelectAllCheckbox();
+
     // 차트 업데이트
     updateCharts();
 
@@ -331,12 +348,7 @@ function handleModelToggle(modelId, isChecked) {
 function updateCharts() {
     const selectedModels = getSelectedModels();
 
-    if (selectedModels.length === 0) {
-        console.warn('선택된 모델이 없습니다.');
-        return;
-    }
-
-    // 레이더 차트 업데이트
+    // 레이더 차트 업데이트 (0개여도 빈 차트 표시)
     if (radarChart) {
         radarChart = renderRadarChart('radar-chart', selectedModels);
     }

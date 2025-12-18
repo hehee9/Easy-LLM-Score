@@ -169,6 +169,16 @@ body {
     padding: var(--spacing-sm);
 }
 
+/* 전체 선택 헤더 */
+.select-all-header {
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.select-all-header .provider-name {
+    font-weight: 700;
+}
+
 .provider-checkbox {
     cursor: pointer;
 }
