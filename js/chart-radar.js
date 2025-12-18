@@ -20,8 +20,8 @@ export function renderRadarChart(containerId, models) {
         return null;
     }
 
-    // 화면 비율 기반 높이 설정 (뷰포트 높이의 80%)
-    container.style.height = '80vh';
+    // 화면 비율 기반 높이 설정 (범례 없으니 60vh로 충분)
+    container.style.height = '60vh';
 
     // ECharts 인스턴스 초기화
     const chart = echarts.init(container);
@@ -58,24 +58,18 @@ export function renderRadarChart(containerId, models) {
             left: 'center'
         },
         legend: {
-            type: 'scroll',  // 스크롤 가능한 범례
-            data: models.map(m => m.name),
-            bottom: 0,
-            left: 'center',
-            width: '90%',
-            textStyle: {
-                fontSize: 13
-            },
-            pageButtonItemGap: 5,
-            pageButtonGap: 10,
-            pageTextStyle: {
-                color: '#333'
+            show: false  // 범례 제거 (마우스 호버 툴팁으로 대체)
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: (params) => {
+                return `<strong>${params.name}</strong>`;
             }
         },
         radar: {
             indicator: indicator,
-            center: ['50%', '40%'],  // 차트를 위쪽에 배치 (세로 40% 위치)
-            radius: '35%',           // 차트 크기를 줄여서 범례 공간 확보
+            center: ['50%', '50%'],  // 중앙에 배치
+            radius: '65%',           // 범례 없으니 크게
             shape: 'polygon',
             splitNumber: 5,
             name: {
@@ -152,9 +146,6 @@ export function updateRadarChart(chart, models) {
     }));
 
     chart.setOption({
-        legend: {
-            data: models.map(m => m.name)
-        },
         series: [{
             data: seriesData
         }]
