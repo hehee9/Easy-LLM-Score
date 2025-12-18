@@ -4,7 +4,7 @@
  * - ECharts를 사용하여 모델들의 종합 성능을 시각화
  */
 
-import { getActiveCategories, normalizeScore, CHART_COLORS, CHART_CONFIG } from './config.js';
+import { getActiveCategories, normalizeScore, getModelColor, CHART_CONFIG } from './config.js';
 
 /**
  * @description 레이더 차트 렌더링
@@ -36,14 +36,14 @@ export function renderRadarChart(containerId, models) {
     }));
 
     // 각 모델의 데이터 시리즈 생성
-    const seriesData = models.map((model, index) => ({
+    const seriesData = models.map((model) => ({
         name: model.name,
         // normalizeScore로 환각 점수 자동 반전
         value: activeCategories.map(cat =>
             normalizeScore(model.scores[cat.id] || 0, cat.id)
         ),
         itemStyle: {
-            color: CHART_COLORS[index % CHART_COLORS.length]
+            color: getModelColor(model)  // 개발사(provider) 기반 색상
         },
         areaStyle: {
             opacity: 0.3
@@ -132,13 +132,13 @@ export function updateRadarChart(chart, models) {
 
     const activeCategories = getActiveCategories();
 
-    const seriesData = models.map((model, index) => ({
+    const seriesData = models.map((model) => ({
         name: model.name,
         value: activeCategories.map(cat =>
             normalizeScore(model.scores[cat.id] || 0, cat.id)
         ),
         itemStyle: {
-            color: CHART_COLORS[index % CHART_COLORS.length]
+            color: getModelColor(model)  // 개발사(provider) 기반 색상
         },
         areaStyle: {
             opacity: 0.3

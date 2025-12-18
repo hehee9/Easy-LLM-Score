@@ -57,9 +57,8 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
     const modelNames = sortedModels.map(m => m.name);
     const scores = sortedModels.map(m => m.scores[categoryId] || 0);
     const colors = sortedModels.map((model) => {
-      // 원래 모델 배열에서의 인덱스를 찾아서 일관된 색상 사용
-      const originalIndex = models.findIndex(m => m.id === model.id);
-      return getModelColor(originalIndex);
+      // 개발사(provider) 기반 색상 사용
+      return getModelColor(model);
     });
 
     // 차트 옵션 설정
@@ -70,8 +69,8 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
             left: 'center'
         },
         grid: {
-            left: '15%',
-            right: '10%',
+            left: '22%',
+            right: '8%',
             top: '3%',
             bottom: '3%'
         },
@@ -210,8 +209,8 @@ export function updateBarChart(chart, models, categoryId) {
     const modelNames = sortedModels.map(m => m.name);
     const scores = sortedModels.map(m => m.scores[categoryId] || 0);
     const colors = sortedModels.map((model) => {
-        const originalIndex = models.findIndex(m => m.id === model.id);
-        return getModelColor(originalIndex);
+        // 개발사(provider) 기반 색상 사용
+        return getModelColor(model);
     });
 
     // 차트 업데이트

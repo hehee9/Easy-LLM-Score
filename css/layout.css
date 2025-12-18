@@ -98,6 +98,78 @@ body {
     color: var(--text-primary);
 }
 
+/* 모델 검색창 */
+.model-search {
+    width: 100%;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.model-search:focus {
+    outline: none;
+    border-color: var(--chart-color-1);
+    box-shadow: 0 0 0 2px rgba(84, 112, 198, 0.2);
+}
+
+/* 개발사별 그룹 */
+.provider-groups {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.provider-group {
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.provider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    background: var(--bg-secondary);
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    color: var(--text-primary);
+    user-select: none;
+}
+
+.provider-header:hover {
+    background: var(--bg-hover);
+}
+
+.provider-name {
+    flex: 1;
+}
+
+.toggle-icon {
+    font-size: var(--font-size-xs);
+    transition: transform var(--transition-fast);
+}
+
+.provider-group.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.provider-models {
+    padding: var(--spacing-sm);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.provider-group.collapsed .provider-models {
+    display: none;
+}
+
 /* 차트 컨테이너 */
 .chart-container {
     flex: 1;

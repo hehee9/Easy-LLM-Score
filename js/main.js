@@ -69,7 +69,29 @@ function getSelectedModels() {
     return allModels.filter(model => selectedModelIds.has(model.id));
 }
 
-/** @description 모델 선택 UI 생성 */
+/** @description 개발사별로 모델 그룹화 */
+function groupModelsByProvider(models) {
+    const grouped = {};
+    models.forEach(model => {
+        const provider = model.provider || 'Unknown';
+        if (!grouped[provider]) {
+            grouped[provider] = [];
+        }
+        grouped[provider].push(model);
+    });
+    // 각 그룹 내 이름 역순 정렬 (최신 모델이 위로)
+    Object.values(grouped).forEach(group => {
+        group.sort((a, b) => b.name.localeCompare(a.name, 'ko'));
+    });
+    return grouped;
+}
+
+/** @description 개발사에 기본 선택 모델이 있는지 확인 */
+function hasDefaultModel(models) {
+    return models.some(m => m.isDefault);
+}
+
+/** @description 모델 선택 UI 생성 (개발사별 그룹핑) */
 function createModelSelector() {
     const container = document.getElementById('model-selector');
 
@@ -80,34 +102,109 @@ function createModelSelector() {
 
     container.innerHTML = '<h3>모델 선택</h3>';
 
-    const list = document.createElement('div');
-    list.className = 'model-list';
+    // 검색창 생성
+    const searchInput = document.createElement('input');
+    searchInput.type = 'text';
+    searchInput.placeholder = '모델 검색...';
+    searchInput.className = 'model-search';
+    searchInput.addEventListener('input', (e) => {
+        filterModels(e.target.value);
+    });
+    container.appendChild(searchInput);
 
-    allModels.forEach(model => {
-        const item = document.createElement('label');
-        item.className = 'model-item';
+    // 개발사별 그룹화
+    const grouped = groupModelsByProvider(allModels);
 
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.checked = selectedModelIds.has(model.id);
-        checkbox.dataset.modelId = model.id;
+    // 개발사 이름순 정렬
+    const sortedProviders = Object.keys(grouped).sort((a, b) => a.localeCompare(b, 'ko'));
 
-        checkbox.addEventListener('change', (e) => {
-            handleModelToggle(model.id, e.target.checked);
+    // 그룹 컨테이너
+    const groupsContainer = document.createElement('div');
+    groupsContainer.className = 'provider-groups';
+
+    sortedProviders.forEach(provider => {
+        const models = grouped[provider];
+        const isExpanded = hasDefaultModel(models);
+
+        // 개발사 그룹
+        const group = document.createElement('div');
+        group.className = `provider-group${isExpanded ? '' : ' collapsed'}`;
+        group.dataset.provider = provider;
+
+        // 개발사 헤더 (클릭으로 접기/펼치기)
+        const header = document.createElement('div');
+        header.className = 'provider-header';
+        header.innerHTML = `
+            <span class="provider-name">${provider} (${models.length})</span>
+            <span class="toggle-icon">▼</span>
+        `;
+        header.addEventListener('click', () => {
+            group.classList.toggle('collapsed');
         });
 
-        const name = document.createElement('span');
-        name.textContent = model.name;
-        if (model.isDefault) {
-            name.style.fontWeight = 'bold';
-        }
+        // 모델 목록
+        const modelList = document.createElement('div');
+        modelList.className = 'provider-models';
 
-        item.appendChild(checkbox);
-        item.appendChild(name);
-        list.appendChild(item);
+        models.forEach(model => {
+            const item = document.createElement('label');
+            item.className = 'model-item';
+            item.dataset.modelName = model.name.toLowerCase();
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.checked = selectedModelIds.has(model.id);
+            checkbox.dataset.modelId = model.id;
+
+            checkbox.addEventListener('change', (e) => {
+                handleModelToggle(model.id, e.target.checked);
+            });
+
+            const name = document.createElement('span');
+            name.textContent = model.name;
+            if (model.isDefault) {
+                name.style.fontWeight = 'bold';
+            }
+
+            item.appendChild(checkbox);
+            item.appendChild(name);
+            modelList.appendChild(item);
+        });
+
+        group.appendChild(header);
+        group.appendChild(modelList);
+        groupsContainer.appendChild(group);
     });
 
-    container.appendChild(list);
+    container.appendChild(groupsContainer);
+}
+
+/** @description 검색어로 모델 필터링 */
+function filterModels(query) {
+    const searchTerm = query.toLowerCase().trim();
+    const groups = document.querySelectorAll('.provider-group');
+
+    groups.forEach(group => {
+        const items = group.querySelectorAll('.model-item');
+        let visibleCount = 0;
+
+        items.forEach(item => {
+            const modelName = item.dataset.modelName || '';
+            const isMatch = !searchTerm || modelName.includes(searchTerm);
+            item.style.display = isMatch ? '' : 'none';
+            if (isMatch) visibleCount++;
+        });
+
+        // 검색 결과가 있으면 그룹 펼침, 없으면 숨김
+        if (searchTerm) {
+            group.style.display = visibleCount > 0 ? '' : 'none';
+            if (visibleCount > 0) {
+                group.classList.remove('collapsed');
+            }
+        } else {
+            group.style.display = '';
+        }
+    });
 }
 
 /** @description 모델 선택/해제 처리 */

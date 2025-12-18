@@ -81,7 +81,29 @@ export const CATEGORIES = [
     }
 ];
 
-// 차트 색상 팔레트 (모델 구분용)
+// 개발사별 브랜드 색상
+export const PROVIDER_COLORS = {
+    'Google': '#4285F4',           // Google Blue
+    'Anthropic': '#da7756',        // Anthropic Terra Cotta
+    'OpenAI': '#10A37F',           // OpenAI Green
+    'Alibaba': '#FF6A00',          // Alibaba Orange
+    'DeepSeek': '#3c5dff',         // DeepSeek Blue
+    'Meta': '#0668E1',             // Meta Blue
+    'xAI': '#1a1a1a',              // xAI Black (조금 밝게)
+    'Mistral': '#FA520F',          // Mistral Orange
+    'Cohere': '#FF7759',           // Cohere Coral
+    'NVIDIA': '#76B900',           // NVIDIA Green
+    'Amazon': '#FF9900',           // Amazon Orange
+    'Microsoft Azure': '#0078D4',  // Azure Blue
+    'Kimi': '#5B21B6',             // Purple
+    'Z AI': '#6366F1',             // Indigo
+    'MiniMax': '#EC4899',          // Pink
+    'InclusionAI': '#14B8A6',      // Teal
+    'Allen Institute for AI': '#8B5CF6', // Violet
+    'default': '#6B7280'           // Gray
+};
+
+// 차트 색상 팔레트 (레거시 호환용)
 export const CHART_COLORS = [
     '#5470c6',  // 파란색
     '#91cc75',  // 녹색
@@ -116,12 +138,15 @@ export const CHART_CONFIG = {
 export const DATA_PATH = 'data/models.json';
 
 /**
- * @description 모델 인덱스에 따른 색상 반환
- * @param {number} index 모델 인덱스
+ * @description 모델의 개발사(provider)에 따른 색상 반환
+ * @param {Object} model 모델 객체 (provider 필드 필요)
  * @returns {string} 색상 코드
  */
-export function getModelColor(index) {
-    return CHART_COLORS[index % CHART_COLORS.length];
+export function getModelColor(model) {
+    if (!model || !model.provider) {
+        return PROVIDER_COLORS['default'];
+    }
+    return PROVIDER_COLORS[model.provider] || PROVIDER_COLORS['default'];
 }
 
 /**
