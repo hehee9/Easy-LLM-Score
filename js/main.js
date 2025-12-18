@@ -127,7 +127,8 @@ function createModelSelector() {
 
     const selectAllLabel = document.createElement('span');
     selectAllLabel.className = 'provider-name';
-    selectAllLabel.textContent = `전체 (${allModels.length})`;
+    selectAllLabel.id = 'select-all-label';
+    selectAllLabel.textContent = `전체 (${selectedModelIds.size}/${allModels.length})`;
 
     selectAllRow.appendChild(selectAllCheckbox);
     selectAllRow.appendChild(selectAllLabel);
@@ -172,9 +173,11 @@ function createModelSelector() {
             selectProviderModels(provider, e.target.checked);
         });
 
+        const selectedCount = models.filter(m => selectedModelIds.has(m.id)).length;
         const providerName = document.createElement('span');
         providerName.className = 'provider-name';
-        providerName.textContent = `${provider} (${models.length})`;
+        providerName.dataset.provider = provider;
+        providerName.textContent = `${provider} (${selectedCount}/${models.length})`;
 
         const toggleIcon = document.createElement('span');
         toggleIcon.className = 'toggle-icon';
@@ -211,9 +214,6 @@ function createModelSelector() {
 
             const name = document.createElement('span');
             name.textContent = model.name;
-            if (model.isDefault) {
-                name.style.fontWeight = 'bold';
-            }
 
             item.appendChild(checkbox);
             item.appendChild(name);
@@ -246,6 +246,7 @@ function selectAllModels(select) {
         cb.checked = select;
     });
 
+    updateSelectionCounts();
     updateCharts();
 }
 
@@ -255,6 +256,26 @@ function updateSelectAllCheckbox() {
     if (selectAllCheckbox) {
         selectAllCheckbox.checked = allModels.length > 0 && allModels.every(m => selectedModelIds.has(m.id));
     }
+}
+
+/** @description 선택된 모델 수 레이블 업데이트 */
+function updateSelectionCounts() {
+    // 전체 선택 레이블 업데이트
+    const selectAllLabel = document.getElementById('select-all-label');
+    if (selectAllLabel) {
+        selectAllLabel.textContent = `전체 (${selectedModelIds.size}/${allModels.length})`;
+    }
+
+    // 개발사별 레이블 업데이트
+    const grouped = groupModelsByProvider(allModels);
+    Object.keys(grouped).forEach(provider => {
+        const models = grouped[provider];
+        const selectedCount = models.filter(m => selectedModelIds.has(m.id)).length;
+        const label = document.querySelector(`.provider-name[data-provider="${provider}"]`);
+        if (label) {
+            label.textContent = `${provider} (${selectedCount}/${models.length})`;
+        }
+    });
 }
 
 /** @description 개발사별 모델 선택/취소 */
@@ -280,6 +301,7 @@ function selectProviderModels(provider, select) {
 
     // 전체 선택 체크박스 상태 업데이트
     updateSelectAllCheckbox();
+    updateSelectionCounts();
 
     updateCharts();
 }
@@ -337,6 +359,7 @@ function handleModelToggle(modelId, isChecked) {
 
     // 전체 선택 체크박스 상태 업데이트
     updateSelectAllCheckbox();
+    updateSelectionCounts();
 
     // 차트 업데이트
     updateCharts();

@@ -12,6 +12,30 @@ const MIN_BAR_CHART_HEIGHT = 400;
 const MAX_BAR_CHART_HEIGHT = 1500;
 
 /**
+ * @description 카테고리별 모델 필터링
+ * - 환각 저항: AA-Omniscience 데이터가 없는 모델 제외
+ * - 시각 이해: 시각 입력을 지원하지 않는 모델 제외
+ * @param {Array} models 모델 배열
+ * @param {string} categoryId 카테고리 ID
+ * @returns {Array} 필터링된 모델 배열
+ */
+function filterModelsForCategory(models, categoryId) {
+    if (categoryId === 'hallucination') {
+        // AA-Omniscience 관련 벤치마크가 모두 0이면 제외
+        return models.filter(model => {
+            const accuracy = model.benchmarks?.['AA-Omniscience Accuracy'] || 0;
+            const hallRate = model.benchmarks?.['AA-Omniscience Hallucination Rate'] || 0;
+            return accuracy > 0 || hallRate > 0;
+        });
+    }
+    if (categoryId === 'vision') {
+        // 시각 입력을 지원하지 않는 모델 제외 (기본값: true)
+        return models.filter(model => model.supportsVision !== false);
+    }
+    return models;
+}
+
+/**
  * @description 모델 수에 따른 바 차트 높이 계산
  * @param {number} modelCount 모델 수
  * @returns {number} 차트 높이 (px)
@@ -38,8 +62,11 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
       return null;
     }
 
+    // 카테고리별 모델 필터링
+    const filteredModels = filterModelsForCategory(models, categoryId);
+
     // 동적 높이 설정
-    const chartHeight = calculateBarChartHeight(models.length);
+    const chartHeight = calculateBarChartHeight(filteredModels.length);
     container.style.height = `${chartHeight}px`;
 
     // ECharts 인스턴스 초기화
@@ -51,7 +78,7 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
     const isReversed = category?.reversed || false;
 
     // 카테고리별로 모델 정렬 (역방향 지표는 오름차순)
-    const sortedModels = sortModelsByCategory(models, categoryId);
+    const sortedModels = sortModelsByCategory(filteredModels, categoryId);
 
     // 데이터 준비
     const modelNames = sortedModels.map(m => m.name);
@@ -189,10 +216,13 @@ function sortModelsByCategory(models, categoryId) {
 export function updateBarChart(chart, models, categoryId) {
     if (!chart) return;
 
+    // 카테고리별 모델 필터링
+    const filteredModels = filterModelsForCategory(models, categoryId);
+
     // 동적 높이 업데이트
     const container = chart.getDom();
     if (container) {
-        const chartHeight = calculateBarChartHeight(models.length);
+        const chartHeight = calculateBarChartHeight(filteredModels.length);
         container.style.height = `${chartHeight}px`;
         chart.resize();
     }
@@ -203,7 +233,7 @@ export function updateBarChart(chart, models, categoryId) {
     const isReversed = category?.reversed || false;
 
     // 카테고리별로 모델 정렬
-    const sortedModels = sortModelsByCategory(models, categoryId);
+    const sortedModels = sortModelsByCategory(filteredModels, categoryId);
 
     // 데이터 준비
     const modelNames = sortedModels.map(m => m.name);
