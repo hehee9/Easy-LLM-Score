@@ -49,9 +49,12 @@ function isModelTooOld(releaseDate, maxAgeMonths = 12) {
 
   const release = new Date(releaseDate);
   const now = new Date();
-  const monthsDiff = (now.getFullYear() - release.getFullYear()) * 12 + (now.getMonth() - release.getMonth());
 
-  return monthsDiff > maxAgeMonths;
+  // 기준일: 현재 날짜에서 maxAgeMonths 전
+  const cutoffDate = new Date(now);
+  cutoffDate.setMonth(cutoffDate.getMonth() - maxAgeMonths);
+
+  return release < cutoffDate;
 }
 
 async function mergeData() {
@@ -106,6 +109,7 @@ async function mergeData() {
   const unmatchedModels = [];
   const skippedOldModels = [];  // 1년 이상 된 모델
   const usedIds = new Set();  // 중복 ID 체크용
+  const usedAAIds = new Set();  // AA 모델 사용 추적
 
   for (const lmModel of baseModels) {
     // AA 모델 매칭
@@ -117,6 +121,8 @@ async function mergeData() {
         skippedOldModels.push({ name: lmModel.model, releaseDate: aaMatch.release_date });
         continue;
       }
+      // 사용된 AA 모델 기록
+      usedAAIds.add(aaMatch.id);
       // 매칭 성공
       let modelId = (aaMatch.slug || aaMatch.id || lmModel.model).toLowerCase().replace(/[\s\-]/g, '-');
 
@@ -199,7 +205,82 @@ async function mergeData() {
     }
   }
 
-  // 4. manual-data.json에 있는 모델들을 기본 선택 모델로 설정
+  // 4. AA에만 있는 모델 추가
+  console.log('\nProcessing AA-only models...');
+  let aaOnlyCount = 0;
+
+  for (const aaModel of aaModels) {
+    // 이미 매칭된 모델 건너뛰기
+    if (usedAAIds.has(aaModel.id)) continue;
+
+    // 1년 이상 된 모델 제외
+    if (isModelTooOld(aaModel.release_date)) {
+      skippedOldModels.push({ name: aaModel.name, releaseDate: aaModel.release_date });
+      continue;
+    }
+
+    // 고유 ID 생성
+    let modelId = (aaModel.slug || aaModel.id).toLowerCase().replace(/[\s\-]/g, '-');
+    if (usedIds.has(modelId)) {
+      let suffix = 2;
+      while (usedIds.has(`${modelId}-${suffix}`)) suffix++;
+      modelId = `${modelId}-${suffix}`;
+    }
+    usedIds.add(modelId);
+
+    mergedModels.push({
+      id: modelId,
+      name: aaModel.name,
+      provider: aaModel.model_creator?.name || 'Unknown',
+      releaseDate: aaModel.release_date || '',
+      benchmarks: {
+        // Artificial Analysis 점수 (0-1 → 0-100 변환)
+        'MMLU Pro': convertScore(aaModel.evaluations?.mmlu_pro),
+        'GPQA Diamond': convertScore(aaModel.evaluations?.gpqa),
+        "Humanity's Last Exam": convertScore(aaModel.evaluations?.hle),
+        'AA-LCR': convertScore(aaModel.evaluations?.lcr),
+        'LiveCodeBench': convertScore(aaModel.evaluations?.livecodebench),
+        'SciCode': convertScore(aaModel.evaluations?.scicode),
+        'AIME 2025': convertScore(aaModel.evaluations?.aime_25),
+        'MMMU Pro': getManualValue(modelId, 'MMMU Pro', manualData),
+        'AA-Omniscience': getManualValue(modelId, 'AA-Omniscience', manualData),
+        'AA-Omniscience Accuracy': getManualValue(modelId, 'AA-Omniscience Accuracy', manualData),
+        'AA-Omniscience Hallucination Rate': getManualValue(modelId, 'AA-Omniscience Hallucination Rate', manualData),
+
+        // LM Arena 점수 (없음 - 0으로 설정)
+        'LMArena-Text': 0,
+        'LMArena-Text-Creative-Writing': 0,
+        'LMArean-Text-Math': 0,
+        'LMArena-Text-Coding': 0,
+        'LMArena-Text-Expert': 0,
+        'LMArena-Text-Hard-Prompts': 0,
+        'LMArena-Text-Longer-Query': 0,
+        'LMArena-Text-Multi-Turn': 0
+      },
+      metadata: {
+        lmarenaRank: null,
+        lmarenaVotes: 0,
+        pricing: {
+          input: aaModel.pricing?.price_1m_input_tokens || 0,
+          output: aaModel.pricing?.price_1m_output_tokens || 0
+        },
+        performance: {
+          outputTokensPerSecond: aaModel.median_output_tokens_per_second || 0,
+          timeToFirstToken: aaModel.median_time_to_first_token_seconds || 0
+        }
+      },
+      tags: ['aa-only'],
+      description: '',
+      supportsVision: manualData.models?.[modelId]?.supportsVision !== false
+    });
+
+    aaOnlyCount++;
+    console.log(` ✓ Added AA-only: ${aaModel.name}`);
+  }
+
+  console.log(`\n✓ Added ${aaOnlyCount} AA-only models`);
+
+  // 5. manual-data.json에 있는 모델들을 기본 선택 모델로 설정
   const manualModelIds = Object.keys(manualData.models || {});
   const defaultModelIds = mergedModels
     .filter(m => manualModelIds.includes(m.id))
@@ -234,6 +315,7 @@ async function mergeData() {
 
   console.log(`\n✅ Merge complete!`);
   console.log(`  - Total models: ${mergedModels.length}`);
+  console.log(`  - AA-only models: ${aaOnlyCount}`);
   console.log(`  - Default models: ${defaultModelIds.length}`);
   console.log(`  - Skipped old models (>1 year): ${skippedOldModels.length}`);
   console.log(`  - Unmatched models: ${unmatchedModels.length}`);
