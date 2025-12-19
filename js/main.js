@@ -7,7 +7,7 @@
 import { loadModels } from './data-loader.js';
 import { renderRadarChart } from './chart-radar.js';
 import { renderBarChart, updateBarChart } from './chart-bar.js';
-import { getActiveCategories } from './config.js';
+import { getActiveCategories, formatModelName } from './config.js';
 
 // 전역 변수
 let allModels = [];
@@ -213,7 +213,7 @@ function createModelSelector() {
             });
 
             const name = document.createElement('span');
-            name.textContent = model.name;
+            name.textContent = formatModelName(model.name);
 
             item.appendChild(checkbox);
             item.appendChild(name);

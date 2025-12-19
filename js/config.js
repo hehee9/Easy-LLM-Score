@@ -186,16 +186,30 @@ export function normalizeScore(score, categoryId) {
 
 /**
  * @description 차트 표시용 모델명 포맷
- * - (Thinking), (Reasoning) → 💡
+ * - (Thinking), (Reasoning) → 💡 (다른 괄호 표기 앞에 배치)
  * - (Non-reasoning), (Non-Thinking) → 제거
  * @param {string} name 원본 모델명
  * @returns {string} 포맷된 모델명
  */
 export function formatModelName(name) {
-    return name
-        // Reasoning/Thinking → 💡
-        .replace(/\s*\((?:Thinking|Reasoning)\)/gi, ' 💡')
-        // Non-reasoning/Non-Thinking → 제거
+    // Reasoning/Thinking 모델인지 확인
+    const isReasoning = /\((?:Thinking|Reasoning)\)/i.test(name);
+
+    let formatted = name
+        // Reasoning/Thinking 태그 제거
+        .replace(/\s*\((?:Thinking|Reasoning)\)/gi, '')
+        // Non-reasoning/Non-Thinking 태그 제거
         .replace(/\s*\(Non-(?:reasoning|Thinking)\)/gi, '')
         .trim();
+
+    if (isReasoning) {
+        // (high), (low) 등의 추론 예산 표기가 있으면 그 앞에 💡 삽입
+        if (/\s*\([^)]+\)\s*$/.test(formatted)) {
+            formatted = formatted.replace(/(\s*\([^)]+\)\s*)$/, ' 💡$1').trim();
+        } else {
+            formatted += ' 💡';
+        }
+    }
+
+    return formatted;
 }
