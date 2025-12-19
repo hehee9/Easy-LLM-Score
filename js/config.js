@@ -199,14 +199,14 @@ export function formatModelName(modelOrName) {
     const name = isModelObject ? modelOrName.name : modelOrName;
     const isReasoningFlag = isModelObject ? modelOrName.isReasoning : false;
 
-    // Reasoning/Thinking 태그가 있는지 확인
-    const hasReasoningTag = /\((?:Thinking|Reasoning)\)/i.test(name);
+    // Reasoning/Thinking/Think 태그가 있는지 확인
+    const hasReasoningTag = /\((?:Think(?:ing)?|Reasoning)\)/i.test(name);
     // 추론 예산 표기가 있는지 확인 (xhigh, high, medium, low)
     const hasReasoningBudget = /\((?:xhigh|high|medium|low)\)/i.test(name);
 
     let formatted = name
-        // Reasoning/Thinking 태그 제거
-        .replace(/\s*\((?:Thinking|Reasoning)\)/gi, '')
+        // Reasoning/Thinking/Think 태그 제거
+        .replace(/\s*\((?:Think(?:ing)?|Reasoning)\)/gi, '')
         // Non-reasoning/Non-Thinking 태그 제거
         .replace(/\s*\(Non-(?:reasoning|Thinking)\)/gi, '')
         .trim();

@@ -82,6 +82,9 @@
       "AA-Omniscience Hallucination Rate": 86.75,
       "isReasoning": true
     },
+    "o3-mini": {
+      "isReasoning": true
+    },
 
 
 
@@ -322,6 +325,9 @@
       "supportsVision": false,
       "isReasoning": true
     },
+    "deepseek-r1-0120": {
+      "isReasoning": true
+    },
 
 
 
@@ -329,17 +335,13 @@
       "MMMU Pro": 62,
       "AA-Omniscience": -43,
       "AA-Omniscience Accuracy": 23.52,
-      "AA-Omniscience Hallucination Rate": 87.58,
-      "supportsVision": false,
-      "isReasoning": true
+      "AA-Omniscience Hallucination Rate": 87.58
     },
     "llama-4-scout": {
       "MMMU Pro": 53,
       "AA-Omniscience": -53,
       "AA-Omniscience Accuracy": 14.35,
-      "AA-Omniscience Hallucination Rate": 78.69,
-      "supportsVision": false,
-      "isReasoning": true
+      "AA-Omniscience Hallucination Rate": 78.69
     },
 
 
