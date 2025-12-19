@@ -204,22 +204,14 @@ async function mergeData() {
     }
   }
 
-  // 4. manual-data.json에 있는 모델들을 기본 선택 모델로 설정
-  const manualModelIds = Object.keys(manualData.models || {});
-  const defaultModelIds = mergedModels
-    .filter(m => manualModelIds.includes(m.id))
-    .map(m => m.id);
-
-  console.log(`\n✓ Default models set from manual-data.json: ${defaultModelIds.length} models`);
-
-  // 5. 최종 JSON 생성
+  // 4. 최종 JSON 생성 (defaultModelIds는 data-loader.js에서 동적으로 선택)
   const output = {
     metadata: {
       version: '2.0.0',
       lastUpdated: new Date().toISOString().split('T')[0],
       description: 'LLM 벤치마크 통합 데이터',
       totalModels: mergedModels.length,
-      defaultModelIds: defaultModelIds,  // manual-data.json에 있는 모델들
+      defaultModelIds: [],  // data-loader.js에서 동적으로 선택
       dataSources: {
         lmarena: {
           lastFetched: lmarenaData['lmarena-text'].fetchedAt,
@@ -239,7 +231,6 @@ async function mergeData() {
 
   console.log(`\n✅ Merge complete!`);
   console.log(`  - Total models: ${mergedModels.length}`);
-  console.log(`  - Default models: ${defaultModelIds.length}`);
   console.log(`  - Skipped old models (>1 year): ${skippedOldModels.length}`);
   console.log(`  - Unmatched models: ${unmatchedModels.length}`);
 

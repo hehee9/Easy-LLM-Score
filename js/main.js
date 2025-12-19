@@ -4,7 +4,7 @@
  * - 데이터 로드 및 차트 렌더링
  */
 
-import { loadModels } from './data-loader.js';
+import { loadModels, loadData } from './data-loader.js';
 import { renderRadarChart } from './chart-radar.js';
 import { renderBarChart, updateBarChart } from './chart-bar.js';
 import { getActiveCategories, formatModelName } from './config.js';
@@ -100,6 +100,13 @@ async function init() {
         }
 
         console.log(`${allModels.length}개 모델 로드 완료:`, allModels.map(m => m.name));
+
+        // 최종 업데이트 날짜 표시
+        const data = await loadData();
+        const lastUpdatedEl = document.getElementById('last-updated');
+        if (lastUpdatedEl && data.metadata?.lastUpdated) {
+            lastUpdatedEl.textContent = data.metadata.lastUpdated;
+        }
 
         // URL에서 상태 읽기
         const urlState = getStateFromURL();
