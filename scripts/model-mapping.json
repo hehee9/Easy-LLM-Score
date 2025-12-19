@@ -19,6 +19,9 @@
   "Anthropicclaude-3-7-sonnet-20250219-thinking-32k": "claude-3-7-sonnet-thinking",
   "Anthropicclaude-3-7-sonnet-20250219": "claude-3-7-sonnet",
 
+  "gpt-oss-120b": "gpt-oss-120b",
+  "gpt-oss-20b": "gpt-oss-20b",
+
   "gpt-5.1-high": "gpt-5-1",
   "gpt-5.1": "gpt-5-1-non-reasoning",
   "gpt-5.2-high": "gpt-5-2",
@@ -111,6 +114,7 @@
   "amazon-nova-pro-v1.0": "nova-pro",
   "amazon-nova-lite-v1.0": "nova-lite",
   "amazon-nova-micro-v1.0": "nova-micro",
+  "nova-2-lite": "nova-2-0-lite",
 
   "Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5": "llama-nemotron-super-49b-v1-5",
   "Nvidiallama-3.3-nemotron-49b-super-v1": "llama-3-3-nemotron-super-49b",

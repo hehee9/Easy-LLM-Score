@@ -191,7 +191,9 @@ async function mergeData() {
         tags: [],
         description: '',
         // 시각 입력 지원 여부 (manual-data.json에서 false로 지정된 모델만 제외, 기본값: true)
-        supportsVision: manualData.models?.[modelId]?.supportsVision !== false
+        supportsVision: manualData.models?.[modelId]?.supportsVision !== false,
+        // 추론 모델 여부 (manual-data.json에서 true로 지정된 모델만)
+        isReasoning: manualData.models?.[modelId]?.isReasoning === true
       });
 
       console.log(` ✓ Merged: ${lmModel.model}`);

@@ -310,7 +310,7 @@ function createModelSelector() {
             });
 
             const name = document.createElement('span');
-            name.textContent = formatModelName(model.name);
+            name.textContent = formatModelName(model);
 
             item.appendChild(checkbox);
             item.appendChild(name);

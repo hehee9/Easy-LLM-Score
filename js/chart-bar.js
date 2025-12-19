@@ -73,7 +73,7 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
     const sortedModels = sortModelsByCategory(filteredModels, categoryId);
 
     // 데이터 준비
-    const modelNames = sortedModels.map(m => formatModelName(m.name));
+    const modelNames = sortedModels.map(m => formatModelName(m));
     const scores = sortedModels.map(m => m.scores[categoryId] || 0);
     const colors = sortedModels.map((model) => {
       // 개발사(provider) 기반 색상 사용
@@ -228,7 +228,7 @@ export function updateBarChart(chart, models, categoryId) {
     const sortedModels = sortModelsByCategory(filteredModels, categoryId);
 
     // 데이터 준비
-    const modelNames = sortedModels.map(m => formatModelName(m.name));
+    const modelNames = sortedModels.map(m => formatModelName(m));
     const scores = sortedModels.map(m => m.scores[categoryId] || 0);
     const colors = sortedModels.map((model) => {
         // 개발사(provider) 기반 색상 사용

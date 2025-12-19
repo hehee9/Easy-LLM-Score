@@ -1,10 +1,22 @@
 {
   "models": {
+    "gpt-5-2-non-reasoning": {
+      "MMMU Pro": 66,
+      "AA-Omniscience": -15,
+      "AA-Omniscience Accuracy": 27.95,
+      "AA-Omniscience Hallucination Rate": 60.17
+    },
     "gpt-5-2": {
       "MMMU Pro": null,
       "AA-Omniscience": -4,
       "AA-Omniscience Accuracy": 41.35,
       "AA-Omniscience Hallucination Rate": 77.86
+    },
+    "gpt-5-1-non-reasoning": {
+      "MMMU Pro": 62,
+      "AA-Omniscience": -37,
+      "AA-Omniscience Accuracy": 27.80,
+      "AA-Omniscience Hallucination Rate": 89.17
     },
     "gpt-5-1": {
       "MMMU Pro": 76,
@@ -31,11 +43,44 @@
       "AA-Omniscience Hallucination Rate": 58.66
     },
 
+    "gpt-4-1": {
+      "MMMU Pro": 61,
+      "AA-Omniscience": -42,
+      "AA-Omniscience Accuracy": 26.08,
+      "AA-Omniscience Hallucination Rate": 92.29
+    },
+    "gpt-4-1-mini": {
+      "MMMU Pro": 59,
+      "AA-Omniscience": -56,
+      "AA-Omniscience Accuracy": 18.73,
+      "AA-Omniscience Hallucination Rate": 91.59
+    },
+    "gpt-4-1-nano": {
+      "MMMU Pro": 40,
+      "AA-Omniscience": -59,
+      "AA-Omniscience Accuracy": 12.78,
+      "AA-Omniscience Hallucination Rate": 82.25
+    },
+
+    "gpt-oss-120b": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -52,
+      "AA-Omniscience Accuracy": 20.02,
+      "AA-Omniscience Hallucination Rate": 89.96
+    },
+    "gpt-oss-20b": {
+      "MMMU Pro": 0,
+      "AA-Omniscience": -65,
+      "AA-Omniscience Accuracy": 14.65,
+      "AA-Omniscience Hallucination Rate": 93.20
+    },
+
     "o3": {
       "MMMU Pro": 70,
       "AA-Omniscience": -17,
       "AA-Omniscience Accuracy": 37.25,
-      "AA-Omniscience Hallucination Rate": 86.75
+      "AA-Omniscience Hallucination Rate": 86.75,
+      "isReasoning": true
     },
 
 
@@ -44,7 +89,8 @@
       "MMMU Pro": 80,
       "AA-Omniscience": 13,
       "AA-Omniscience Accuracy": 53.65,
-      "AA-Omniscience Hallucination Rate": 87.99
+      "AA-Omniscience Hallucination Rate": 87.99,
+      "isReasoning": true
     },
     "gemini-3-flash": {
       "MMMU Pro": 79,
@@ -62,7 +108,8 @@
       "MMMU Pro": 75,
       "AA-Omniscience": -18,
       "AA-Omniscience Accuracy": 37.48,
-      "AA-Omniscience Hallucination Rate": 88.67
+      "AA-Omniscience Hallucination Rate": 88.67,
+      "isReasoning": true
     },
     "gemini-2-5-flash-preview-09-2025": {
       "MMMU Pro": 70,
@@ -87,6 +134,13 @@
       "AA-Omniscience": -44,
       "AA-Omniscience Accuracy": 13.35,
       "AA-Omniscience Hallucination Rate": 65.86
+    },
+
+    "gemma-3n-e4b": {
+      "MMMU Pro": 26,
+      "AA-Omniscience": -82,
+      "AA-Omniscience Accuracy": 7.42,
+      "AA-Omniscience Hallucination Rate": 96.56
     },
 
 
@@ -138,6 +192,35 @@
       "AA-Omniscience": 10,
       "AA-Omniscience Accuracy": 43.12,
       "AA-Omniscience Hallucination Rate": 57.81
+    },
+
+
+
+    "grok-4-1-fast-reasoning": {
+      "MMMU Pro": 63,
+      "AA-Omniscience": -31,
+      "AA-Omniscience Accuracy": 23.50,
+      "AA-Omniscience Hallucination Rate": 71.74
+    },
+    "grok-4-fast-reasoning": {
+      "MMMU Pro": 62,
+      "AA-Omniscience": -31,
+      "AA-Omniscience Accuracy": 22.03,
+      "AA-Omniscience Hallucination Rate": 67.38,
+      "isReasoning": true
+    },
+    "grok-4-fast": {
+      "MMMU Pro": 48,
+      "AA-Omniscience": -56,
+      "AA-Omniscience Accuracy": 16.48,
+      "AA-Omniscience Hallucination Rate": 86.41
+    },
+    "grok-4": {
+      "MMMU Pro": 69,
+      "AA-Omniscience": 1,
+      "AA-Omniscience Accuracy": 39.57,
+      "AA-Omniscience Hallucination Rate": 63.90,
+      "isReasoning": true
     },
 
 
@@ -236,7 +319,162 @@
       "AA-Omniscience": -30,
       "AA-Omniscience Accuracy": 29.28,
       "AA-Omniscience Hallucination Rate": 83.36,
+      "supportsVision": false,
+      "isReasoning": true
+    },
+
+
+
+    "llama-4-maverick": {
+      "MMMU Pro": 62,
+      "AA-Omniscience": -43,
+      "AA-Omniscience Accuracy": 23.52,
+      "AA-Omniscience Hallucination Rate": 87.58,
+      "supportsVision": false,
+      "isReasoning": true
+    },
+    "llama-4-scout": {
+      "MMMU Pro": 53,
+      "AA-Omniscience": -53,
+      "AA-Omniscience Accuracy": 14.35,
+      "AA-Omniscience Hallucination Rate": 78.69,
+      "supportsVision": false,
+      "isReasoning": true
+    },
+
+
+
+    "nvidia-nemotron-3-nano-30b-a3b": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -65,
+      "AA-Omniscience Accuracy": 12.97,
+      "AA-Omniscience Hallucination Rate": 89.81
+    },
+    "llama-3-3-nemotron-super-49b": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -51,
+      "AA-Omniscience Accuracy": 12.92,
+      "AA-Omniscience Hallucination Rate": 73.42
+    },
+
+
+
+    "mistral-large-3": {
+      "MMMU Pro": 56,
+      "AA-Omniscience": -41,
+      "AA-Omniscience Accuracy": 23.68,
+      "AA-Omniscience Hallucination Rate": 84.73
+    },
+    "mistral-medium-3-1": {
+      "MMMU Pro": 54,
+      "AA-Omniscience": -48,
+      "AA-Omniscience Accuracy": 18.95,
+      "AA-Omniscience Hallucination Rate": 82.48
+    },
+    "mistral-small-3-1": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -52,
+      "AA-Omniscience Accuracy": 14.32,
+      "AA-Omniscience Hallucination Rate": 77.61
+    },
+    "ministral-8b": {
+      "MMMU Pro": 46,
+      "AA-Omniscience": -70,
+      "AA-Omniscience Accuracy": 11.82,
+      "AA-Omniscience Hallucination Rate": 92.76
+    },
+
+
+
+    "nova-2-0-lite": {
+      "MMMU Pro": 49,
+      "AA-Omniscience": -60,
+      "AA-Omniscience Accuracy": 13.28,
+      "AA-Omniscience Hallucination Rate": 85.07
+    },
+
+
+
+    "minimax-m2": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -50,
+      "AA-Omniscience Accuracy": 20.83,
+      "AA-Omniscience Hallucination Rate": 88.88,
+      "isReasoning": true
+    },
+
+
+
+    "kimi-k2-0905": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -28,
+      "AA-Omniscience Accuracy": 24.03,
+      "AA-Omniscience Hallucination Rate": 68.96
+    },
+
+
+
+    "olmo-3-32b-think": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -60,
+      "AA-Omniscience Accuracy": 13.98,
+      "AA-Omniscience Hallucination Rate": 86.30
+    },
+
+
+
+    "glm-4-6": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -33,
+      "AA-Omniscience Accuracy": 20.27,
+      "AA-Omniscience Hallucination Rate": 67.12,
       "supportsVision": false
+    },
+    "glm-4.5": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -29,
+      "AA-Omniscience Accuracy": 23.87,
+      "AA-Omniscience Hallucination Rate": 69.46,
+      "supportsVision": false
+    },
+    "glm-4-5-air": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -63,
+      "AA-Omniscience Accuracy": 15.05,
+      "AA-Omniscience Hallucination Rate": 92.05,
+      "supportsVision": false,
+      "isReasoning": true
+    },
+    "glm-4-5v": {
+      "MMMU Pro": 43,
+      "AA-Omniscience": -57,
+      "AA-Omniscience Accuracy": 17.30,
+      "AA-Omniscience Hallucination Rate": 89.68
+    },
+
+
+
+    "command-a": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -50,
+      "AA-Omniscience Accuracy": 15.07,
+      "AA-Omniscience Hallucination Rate": 76.12
+    },
+
+
+
+    "ling-flash-2-0": {
+      "MMMU Pro": null,
+      "AA-Omniscience": -67,
+      "AA-Omniscience Accuracy": 13.73,
+      "AA-Omniscience Hallucination Rate": 94.11
+    },
+    "ring-flash-2-0": {
+      "MMMU Pro": null,
+      "AA-Omniscience": null,
+      "AA-Omniscience Accuracy": 6.98,
+      "AA-Omniscience Hallucination Rate": 38.70,
+      "isReasoning": true
     }
   },
   "metadata": {

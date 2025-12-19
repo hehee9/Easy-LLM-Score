@@ -37,7 +37,7 @@ export function renderRadarChart(containerId, models) {
 
     // 각 모델의 데이터 시리즈 생성
     const seriesData = models.map((model) => ({
-        name: formatModelName(model.name),
+        name: formatModelName(model),
         // normalizeScore로 환각 점수 자동 반전
         value: activeCategories.map(cat =>
             normalizeScore(model.scores[cat.id] || 0, cat.id)
@@ -156,7 +156,7 @@ export function updateRadarChart(chart, models) {
     const activeCategories = getActiveCategories().filter(cat => cat.id !== 'overall');
 
     const seriesData = models.map((model) => ({
-        name: formatModelName(model.name),
+        name: formatModelName(model),
         value: activeCategories.map(cat =>
             normalizeScore(model.scores[cat.id] || 0, cat.id)
         ),
