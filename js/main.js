@@ -16,6 +16,77 @@ let radarChart = null;
 let barChart = null;
 let currentCategory = 'overall';  // 기본 카테고리 (종합)
 
+// ============================================================
+// URL 쿼리 파라미터 관련 함수
+// ============================================================
+
+/**
+ * @description URL 쿼리 파라미터에서 상태 읽기
+ * @returns {{ models: string[]|null, category: string|null }}
+ */
+function getStateFromURL() {
+    const params = new URLSearchParams(window.location.search);
+
+    const modelsParam = params.get('models');
+    const models = modelsParam ? modelsParam.split(',').filter(Boolean) : null;
+
+    const category = params.get('category');
+
+    return { models, category };
+}
+
+/**
+ * @description 현재 상태를 URL 쿼리 파라미터에 반영 (페이지 새로고침 없이)
+ */
+function updateURL() {
+    const params = new URLSearchParams();
+
+    // 모델 ID 목록 (선택된 것만)
+    if (selectedModelIds.size > 0) {
+        params.set('models', Array.from(selectedModelIds).join(','));
+    }
+
+    // 카테고리 (기본값 'overall'이 아닐 때만)
+    if (currentCategory && currentCategory !== 'overall') {
+        params.set('category', currentCategory);
+    }
+
+    // URL 업데이트 (히스토리에 추가하지 않고 교체)
+    const newURL = params.toString()
+        ? `${window.location.pathname}?${params.toString()}`
+        : window.location.pathname;
+
+    history.replaceState(null, '', newURL);
+}
+
+/*
+// ============================================================
+// 공유 버튼 (디자인 작업 후 주석 해제)
+// ============================================================
+
+function createShareButton() {
+    const container = document.getElementById('share-button-container');
+    if (!container) return;
+
+    const button = document.createElement('button');
+    button.className = 'share-button';
+    button.textContent = '🔗 공유 링크 복사';
+    button.addEventListener('click', copyShareLink);
+
+    container.appendChild(button);
+}
+
+async function copyShareLink() {
+    try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert('링크가 클립보드에 복사되었습니다.');
+    } catch (err) {
+        // 클립보드 API 실패 시 fallback
+        prompt('아래 링크를 복사하세요:', window.location.href);
+    }
+}
+*/
+
 /** @description 앱 초기화 */
 async function init() {
     try {
@@ -30,14 +101,37 @@ async function init() {
 
         console.log(`${allModels.length}개 모델 로드 완료:`, allModels.map(m => m.name));
 
-        // 기본 모델 선택
-        allModels.forEach(model => {
-            if (model.isDefault) {
-                selectedModelIds.add(model.id);
-            }
-        });
+        // URL에서 상태 읽기
+        const urlState = getStateFromURL();
 
-        console.log(`기본 선택 모델: ${selectedModelIds.size}개`);
+        // 모델 선택: URL 파라미터 > 기본값
+        if (urlState.models && urlState.models.length > 0) {
+            // URL에 지정된 모델만 선택 (유효한 ID만)
+            const validIds = new Set(allModels.map(m => m.id));
+            urlState.models.forEach(id => {
+                if (validIds.has(id)) {
+                    selectedModelIds.add(id);
+                }
+            });
+            console.log(`URL에서 모델 로드: ${selectedModelIds.size}개`);
+        } else {
+            // 기본 모델 선택
+            allModels.forEach(model => {
+                if (model.isDefault) {
+                    selectedModelIds.add(model.id);
+                }
+            });
+            console.log(`기본 선택 모델: ${selectedModelIds.size}개`);
+        }
+
+        // 카테고리: URL 파라미터 > 기본값
+        if (urlState.category) {
+            const validCategories = getActiveCategories().map(c => c.id);
+            if (validCategories.includes(urlState.category)) {
+                currentCategory = urlState.category;
+                console.log(`URL에서 카테고리 로드: ${currentCategory}`);
+            }
+        }
 
         // 모델 선택 UI 생성
         createModelSelector();
@@ -58,6 +152,9 @@ async function init() {
         if (barChart) {
             console.log('막대 그래프 렌더링 완료');
         }
+
+        // 초기 URL 상태 동기화 (URL이 없었던 경우 현재 상태로 설정)
+        updateURL();
     } catch (error) {
         console.error('초기화 실패:', error);
         showError('데이터를 불러오는 중 오류가 발생했습니다.');
@@ -380,6 +477,9 @@ function updateCharts() {
     if (barChart) {
         updateBarChart(barChart, selectedModels, currentCategory);
     }
+
+    // URL 업데이트
+    updateURL();
 }
 
 /** @description 카테고리 탭 버튼 생성 */
@@ -433,6 +533,9 @@ function handleCategoryChange(categoryId) {
 
     // 막대 그래프 업데이트 (선택된 모델만)
     updateBarChart(barChart, getSelectedModels(), categoryId);
+
+    // URL 업데이트
+    updateURL();
 }
 
 /**
