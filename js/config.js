@@ -183,3 +183,19 @@ export function normalizeScore(score, categoryId) {
     // 역방향 지표는 점수 반전 (레이더 차트용)
     return category.reversed ? (100 - score) : score;
 }
+
+/**
+ * @description 차트 표시용 모델명 포맷
+ * - (Thinking), (Reasoning) → 💡
+ * - (Non-reasoning), (Non-Thinking) → 제거
+ * @param {string} name 원본 모델명
+ * @returns {string} 포맷된 모델명
+ */
+export function formatModelName(name) {
+    return name
+        // Reasoning/Thinking → 💡
+        .replace(/\s*\((?:Thinking|Reasoning)\)/gi, ' 💡')
+        // Non-reasoning/Non-Thinking → 제거
+        .replace(/\s*\(Non-(?:reasoning|Thinking)\)/gi, '')
+        .trim();
+}
