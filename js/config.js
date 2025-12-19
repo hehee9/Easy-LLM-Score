@@ -187,13 +187,16 @@ export function normalizeScore(score, categoryId) {
 /**
  * @description 차트 표시용 모델명 포맷
  * - (Thinking), (Reasoning) → 💡 (다른 괄호 표기 앞에 배치)
+ * - (high), (low), (medium) 추론 예산 표기 → 💡 추가
  * - (Non-reasoning), (Non-Thinking) → 제거
  * @param {string} name 원본 모델명
  * @returns {string} 포맷된 모델명
  */
 export function formatModelName(name) {
-    // Reasoning/Thinking 모델인지 확인
-    const isReasoning = /\((?:Thinking|Reasoning)\)/i.test(name);
+    // Reasoning/Thinking 태그가 있는지 확인
+    const hasReasoningTag = /\((?:Thinking|Reasoning)\)/i.test(name);
+    // 추론 예산 표기가 있는지 확인 (high, low, medium 등)
+    const hasReasoningBudget = /\((?:high|low|medium)\)/i.test(name);
 
     let formatted = name
         // Reasoning/Thinking 태그 제거
@@ -202,10 +205,11 @@ export function formatModelName(name) {
         .replace(/\s*\(Non-(?:reasoning|Thinking)\)/gi, '')
         .trim();
 
-    if (isReasoning) {
+    // 추론 모델이면 💡 추가
+    if (hasReasoningTag || hasReasoningBudget) {
         // (high), (low) 등의 추론 예산 표기가 있으면 그 앞에 💡 삽입
-        if (/\s*\([^)]+\)\s*$/.test(formatted)) {
-            formatted = formatted.replace(/(\s*\([^)]+\)\s*)$/, ' 💡$1').trim();
+        if (/\s*\((?:high|low|medium)\)\s*$/i.test(formatted)) {
+            formatted = formatted.replace(/(\s*\((?:high|low|medium)\)\s*)$/i, ' 💡$1').trim();
         } else {
             formatted += ' 💡';
         }
