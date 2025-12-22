@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "lastUpdated": "2025-12-21",
+    "lastUpdated": "2025-12-22",
     "description": "LLM 벤치마크 통합 데이터",
     "totalModels": 96,
     "defaultModelIds": [],
@@ -11,7 +11,7 @@
         "totalModels": 289
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-21T00:20:55.409Z",
+        "lastFetched": "2025-12-22T00:20:24.746Z",
         "totalModels": 365
       }
     }
@@ -51,8 +51,8 @@
           "output": 12
         },
         "performance": {
-          "outputTokensPerSecond": 134.065,
-          "timeToFirstToken": 31.172
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -95,7 +95,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 203.914,
-          "timeToFirstToken": 11.777
+          "timeToFirstToken": 15.943
         }
       },
       "tags": [],
@@ -137,8 +137,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 64.473,
-          "timeToFirstToken": 1.946
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -180,8 +180,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 64.271,
-          "timeToFirstToken": 2.738
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -223,8 +223,8 @@
           "output": 3
         },
         "performance": {
-          "outputTokensPerSecond": 186.856,
-          "timeToFirstToken": 0.76
+          "outputTokensPerSecond": 200.805,
+          "timeToFirstToken": 0.658
         }
       },
       "tags": [],
@@ -266,8 +266,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 82.939,
-          "timeToFirstToken": 37.283
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -309,8 +309,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 160.416,
-          "timeToFirstToken": 34.836
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -352,8 +352,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 76.384,
-          "timeToFirstToken": 1.981
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -395,8 +395,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 45.378,
-          "timeToFirstToken": 1.301
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -438,8 +438,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 71.192,
-          "timeToFirstToken": 1.879
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -491,22 +491,22 @@
       "isReasoning": false
     },
     {
-      "id": "gpt-5-2-non-reasoning",
-      "name": "GPT-5.2 (Non-reasoning)",
+      "id": "gpt-5-2",
+      "name": "GPT-5.2 (xhigh)",
       "provider": "OpenAI",
       "releaseDate": "2025-12-11",
       "benchmarks": {
-        "MMLU Pro": 81.39999999999999,
-        "GPQA Diamond": 71.2,
-        "Humanity's Last Exam": 7.3,
-        "AA-LCR": 38,
-        "LiveCodeBench": 66.9,
-        "SciCode": 40.400000000000006,
-        "AIME 2025": 51,
-        "MMMU Pro": 66,
-        "AA-Omniscience": -15,
-        "AA-Omniscience Accuracy": 27.95,
-        "AA-Omniscience Hallucination Rate": 60.17,
+        "MMLU Pro": 87.4,
+        "GPQA Diamond": 90.3,
+        "Humanity's Last Exam": 31.4,
+        "AA-LCR": 72.7,
+        "LiveCodeBench": 89.2,
+        "SciCode": 52.1,
+        "AIME 2025": 98.7,
+        "MMMU Pro": 0,
+        "AA-Omniscience": -4,
+        "AA-Omniscience Accuracy": 41.35,
+        "AA-Omniscience Hallucination Rate": 77.86,
         "LMArena-Text": 1442,
         "LMArena-Text-Creative-Writing": 1405,
         "LMArean-Text-Math": 0,
@@ -567,8 +567,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 36.604,
-          "timeToFirstToken": 1.418
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -610,7 +610,7 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 181.022,
+          "outputTokensPerSecond": 241.62,
           "timeToFirstToken": 0.393
         }
       },
@@ -620,7 +620,7 @@
       "isReasoning": false
     },
     {
-      "id": "gpt-5-2",
+      "id": "gpt-5-2-high",
       "name": "GPT-5.2 (xhigh)",
       "provider": "OpenAI",
       "releaseDate": "2025-12-11",
@@ -633,9 +633,9 @@
         "SciCode": 52.1,
         "AIME 2025": 98.7,
         "MMMU Pro": 0,
-        "AA-Omniscience": -4,
-        "AA-Omniscience Accuracy": 41.35,
-        "AA-Omniscience Hallucination Rate": 77.86,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1440,
         "LMArena-Text-Creative-Writing": 1386,
         "LMArean-Text-Math": 1506,
@@ -653,8 +653,8 @@
           "output": 14
         },
         "performance": {
-          "outputTokensPerSecond": 168.727,
-          "timeToFirstToken": 50.513
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -696,8 +696,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 80.702,
-          "timeToFirstToken": 0.832
+          "outputTokensPerSecond": 140.833,
+          "timeToFirstToken": 0.583
         }
       },
       "tags": [],
@@ -739,8 +739,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 139.272,
-          "timeToFirstToken": 91.175
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -782,8 +782,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 224.496,
-          "timeToFirstToken": 13.907
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -825,8 +825,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 39.28,
-          "timeToFirstToken": 1.938
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -868,8 +868,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 121.952,
-          "timeToFirstToken": 8.095
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -878,22 +878,22 @@
       "isReasoning": false
     },
     {
-      "id": "glm-4-6-reasoning",
-      "name": "GLM-4.6 (Reasoning)",
+      "id": "glm-4-6",
+      "name": "GLM-4.6 (Non-reasoning)",
       "provider": "Z AI",
       "releaseDate": "2025-09-30",
       "benchmarks": {
-        "MMLU Pro": 82.89999999999999,
-        "GPQA Diamond": 78,
-        "Humanity's Last Exam": 13.3,
-        "AA-LCR": 54.300000000000004,
-        "LiveCodeBench": 69.5,
-        "SciCode": 38.4,
-        "AIME 2025": 86,
+        "MMLU Pro": 78.4,
+        "GPQA Diamond": 63.2,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 26.3,
+        "LiveCodeBench": 56.10000000000001,
+        "SciCode": 33.1,
+        "AIME 2025": 44.3,
         "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
+        "AA-Omniscience": -33,
+        "AA-Omniscience Accuracy": 20.27,
+        "AA-Omniscience Hallucination Rate": 67.12,
         "LMArena-Text": 1425,
         "LMArena-Text-Creative-Writing": 1399,
         "LMArean-Text-Math": 1429,
@@ -911,13 +911,13 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 110.143,
-          "timeToFirstToken": 0.541
+          "outputTokensPerSecond": 61.061,
+          "timeToFirstToken": 0.587
         }
       },
       "tags": [],
       "description": "",
-      "supportsVision": true,
+      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -954,8 +954,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 143.454,
-          "timeToFirstToken": 0.733
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -997,8 +997,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 30.034,
-          "timeToFirstToken": 1.933
+          "outputTokensPerSecond": 27.224,
+          "timeToFirstToken": 1.581
         }
       },
       "tags": [],
@@ -1040,8 +1040,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 26.5,
-          "timeToFirstToken": 1.215
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1083,8 +1083,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 44.725,
-          "timeToFirstToken": 1.203
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1126,8 +1126,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 27.466,
-          "timeToFirstToken": 1.648
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1169,8 +1169,8 @@
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 51.015,
-          "timeToFirstToken": 1.09
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1212,8 +1212,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 134.465,
-          "timeToFirstToken": 0.6
+          "outputTokensPerSecond": 142.572,
+          "timeToFirstToken": 0.701
         }
       },
       "tags": [],
@@ -1255,8 +1255,8 @@
           "output": 1.5
         },
         "performance": {
-          "outputTokensPerSecond": 45.464,
-          "timeToFirstToken": 0.559
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1298,8 +1298,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 72.582,
-          "timeToFirstToken": 0.667
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1470,8 +1470,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 28.376,
-          "timeToFirstToken": 1.226
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1556,8 +1556,8 @@
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 38.411,
-          "timeToFirstToken": 1.283
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1642,8 +1642,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 74.883,
-          "timeToFirstToken": 0.509
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1685,8 +1685,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 39.725,
-          "timeToFirstToken": 1.738
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1728,8 +1728,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 51.479,
-          "timeToFirstToken": 0.518
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1771,8 +1771,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 27.901,
-          "timeToFirstToken": 24.465
+          "outputTokensPerSecond": 30.008,
+          "timeToFirstToken": 5.834
         }
       },
       "tags": [],
@@ -1814,8 +1814,8 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 38.609,
-          "timeToFirstToken": 0.85
+          "outputTokensPerSecond": 34.025,
+          "timeToFirstToken": 0.625
         }
       },
       "tags": [],
@@ -1857,8 +1857,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 227.217,
-          "timeToFirstToken": 0.374
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1900,8 +1900,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 273.377,
-          "timeToFirstToken": 0.26
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1943,8 +1943,8 @@
           "output": 5
         },
         "performance": {
-          "outputTokensPerSecond": 89.121,
-          "timeToFirstToken": 1.12
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -1986,8 +1986,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 185.195,
-          "timeToFirstToken": 4.631
+          "outputTokensPerSecond": 200.802,
+          "timeToFirstToken": 12.82
         }
       },
       "tags": [],
@@ -2029,8 +2029,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 174.187,
-          "timeToFirstToken": 1.214
+          "outputTokensPerSecond": 180.024,
+          "timeToFirstToken": 1.393
         }
       },
       "tags": [],
@@ -2072,8 +2072,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 58.726,
-          "timeToFirstToken": 0.842
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2115,8 +2115,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 75.516,
-          "timeToFirstToken": 1.146
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2201,8 +2201,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 43.731,
-          "timeToFirstToken": 1.401
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2244,8 +2244,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 68.143,
-          "timeToFirstToken": 141.213
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2330,8 +2330,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 131.057,
-          "timeToFirstToken": 54.761
+          "outputTokensPerSecond": 155.031,
+          "timeToFirstToken": 63.088
         }
       },
       "tags": [],
@@ -2373,8 +2373,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 62.059,
-          "timeToFirstToken": 2.053
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2459,8 +2459,8 @@
           "output": 7.5
         },
         "performance": {
-          "outputTokensPerSecond": 43.667,
-          "timeToFirstToken": 1.796
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2502,8 +2502,8 @@
           "output": 0.8
         },
         "performance": {
-          "outputTokensPerSecond": 63.793,
-          "timeToFirstToken": 1.092
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2545,7 +2545,7 @@
           "output": 1.6
         },
         "performance": {
-          "outputTokensPerSecond": 58.181,
+          "outputTokensPerSecond": 52.743,
           "timeToFirstToken": 0.532
         }
       },
@@ -2588,8 +2588,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 506.502,
-          "timeToFirstToken": 0.235
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2631,8 +2631,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 326.513,
-          "timeToFirstToken": 12.783
+          "outputTokensPerSecond": 320.64,
+          "timeToFirstToken": 14.567
         }
       },
       "tags": [],
@@ -2641,22 +2641,22 @@
       "isReasoning": false
     },
     {
-      "id": "qwen3-235b-a22b-instruct-reasoning",
-      "name": "Qwen3 235B A22B (Reasoning)",
+      "id": "qwen3-235b-a22b-instruct",
+      "name": "Qwen3 235B A22B (Non-reasoning)",
       "provider": "Alibaba",
       "releaseDate": "2025-04-28",
       "benchmarks": {
-        "MMLU Pro": 82.8,
-        "GPQA Diamond": 70,
-        "Humanity's Last Exam": 11.700000000000001,
+        "MMLU Pro": 76.2,
+        "GPQA Diamond": 61.3,
+        "Humanity's Last Exam": 4.7,
         "AA-LCR": 0,
-        "LiveCodeBench": 62.2,
-        "SciCode": 39.900000000000006,
-        "AIME 2025": 82,
+        "LiveCodeBench": 34.300000000000004,
+        "SciCode": 29.9,
+        "AIME 2025": 23.7,
         "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
+        "AA-Omniscience": -54,
+        "AA-Omniscience Accuracy": 17.3,
+        "AA-Omniscience Hallucination Rate": 86.62,
         "LMArena-Text": 1374,
         "LMArena-Text-Creative-Writing": 1328,
         "LMArean-Text-Math": 1401,
@@ -2671,16 +2671,16 @@
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
-          "output": 8.4
+          "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 60.906,
-          "timeToFirstToken": 1.099
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
       "description": "",
-      "supportsVision": true,
+      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -2717,8 +2717,8 @@
           "output": 6.4
         },
         "performance": {
-          "outputTokensPerSecond": 34.291,
-          "timeToFirstToken": 1.227
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2803,8 +2803,8 @@
           "output": 1.1
         },
         "performance": {
-          "outputTokensPerSecond": 107.347,
-          "timeToFirstToken": 0.427
+          "outputTokensPerSecond": 164.989,
+          "timeToFirstToken": 0.205
         }
       },
       "tags": [],
@@ -2846,8 +2846,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 184.912,
-          "timeToFirstToken": 1.31
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -2890,7 +2890,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 47.434,
-          "timeToFirstToken": 0.688
+          "timeToFirstToken": 0.621
         }
       },
       "tags": [],
@@ -2933,7 +2933,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 138.351,
-          "timeToFirstToken": 46.324
+          "timeToFirstToken": 65.683
         }
       },
       "tags": [],
@@ -2975,8 +2975,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 194.506,
-          "timeToFirstToken": 0.386
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3061,8 +3061,8 @@
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 355.019,
-          "timeToFirstToken": 0.477
+          "outputTokensPerSecond": 209.906,
+          "timeToFirstToken": 0.586
         }
       },
       "tags": [],
@@ -3104,8 +3104,8 @@
           "output": 0.3
         },
         "performance": {
-          "outputTokensPerSecond": 177.661,
-          "timeToFirstToken": 0.267
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3147,8 +3147,8 @@
           "output": 1.8
         },
         "performance": {
-          "outputTokensPerSecond": 48.619,
-          "timeToFirstToken": 0.788
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3190,8 +3190,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 87.941,
-          "timeToFirstToken": 0.272
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3233,8 +3233,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 144.425,
-          "timeToFirstToken": 17.351
+          "outputTokensPerSecond": 148.634,
+          "timeToFirstToken": 22.882
         }
       },
       "tags": [],
@@ -3276,8 +3276,8 @@
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 55.304,
-          "timeToFirstToken": 1.567
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3319,8 +3319,8 @@
           "output": 1.2
         },
         "performance": {
-          "outputTokensPerSecond": 117.1,
-          "timeToFirstToken": 1.511
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3362,8 +3362,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 98.176,
-          "timeToFirstToken": 1.102
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3405,8 +3405,8 @@
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 48.273,
-          "timeToFirstToken": 3.398
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3448,8 +3448,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 70.896,
-          "timeToFirstToken": 0.241
+          "outputTokensPerSecond": 75.64,
+          "timeToFirstToken": 0.251
         }
       },
       "tags": [],
@@ -3491,8 +3491,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 118.142,
-          "timeToFirstToken": 131.53
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3577,8 +3577,8 @@
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 30.857,
-          "timeToFirstToken": 0.742
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3620,8 +3620,8 @@
           "output": 0.85
         },
         "performance": {
-          "outputTokensPerSecond": 130.851,
-          "timeToFirstToken": 0.422
+          "outputTokensPerSecond": 96.818,
+          "timeToFirstToken": 0.456
         }
       },
       "tags": [],
@@ -3663,8 +3663,8 @@
           "output": 0.24
         },
         "performance": {
-          "outputTokensPerSecond": 116.961,
-          "timeToFirstToken": 0.52
+          "outputTokensPerSecond": 104.624,
+          "timeToFirstToken": 2.781
         }
       },
       "tags": [],
@@ -3706,8 +3706,8 @@
           "output": 0.8
         },
         "performance": {
-          "outputTokensPerSecond": 71.643,
-          "timeToFirstToken": 1.109
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3792,8 +3792,8 @@
           "output": 0.545
         },
         "performance": {
-          "outputTokensPerSecond": 116.897,
-          "timeToFirstToken": 0.428
+          "outputTokensPerSecond": 189.102,
+          "timeToFirstToken": 0.398
         }
       },
       "tags": [],
@@ -3835,8 +3835,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 122.855,
-          "timeToFirstToken": 0.406
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3878,8 +3878,8 @@
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 48.377,
-          "timeToFirstToken": 1.51
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3921,8 +3921,8 @@
           "output": 0.04
         },
         "performance": {
-          "outputTokensPerSecond": 61.866,
-          "timeToFirstToken": 0.31
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
@@ -3964,8 +3964,8 @@
           "output": 0.2
         },
         "performance": {
-          "outputTokensPerSecond": 235.028,
-          "timeToFirstToken": 0.563
+          "outputTokensPerSecond": 433.449,
+          "timeToFirstToken": 0.95
         }
       },
       "tags": [],
@@ -4050,8 +4050,8 @@
           "output": 0.3
         },
         "performance": {
-          "outputTokensPerSecond": 137.665,
-          "timeToFirstToken": 0.303
+          "outputTokensPerSecond": 104.753,
+          "timeToFirstToken": 0.364
         }
       },
       "tags": [],
@@ -4094,7 +4094,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 48.976,
-          "timeToFirstToken": 1.003
+          "timeToFirstToken": 1.112
         }
       },
       "tags": [],
@@ -4136,8 +4136,8 @@
           "output": 0.15
         },
         "performance": {
-          "outputTokensPerSecond": 190.873,
-          "timeToFirstToken": 0.289
+          "outputTokensPerSecond": 0,
+          "timeToFirstToken": 0
         }
       },
       "tags": [],
