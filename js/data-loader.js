@@ -59,13 +59,13 @@ function fillMissingOmniscience(models, fallbackValues) {
 }
 
 /**
- * @description 기본 표시 모델 선택 (상위 20개, 개발사당 최대 4개)
+ * @description 기본 표시 모델 선택 (상위 15개, 개발사당 최대 3개)
  * @param {Array} models 점수가 계산된 모델 배열
  * @param {number} maxModels 최대 선택 모델 수
  * @param {number} maxPerProvider 개발사당 최대 모델 수
  * @returns {Set} 선택된 모델 ID Set
  */
-function selectDefaultModels(models, maxModels = 20, maxPerProvider = 4) {
+function selectDefaultModels(models, maxModels = 15, maxPerProvider = 3) {
     // 종합 점수 내림차순 정렬
     const sorted = [...models].sort((a, b) =>
         (b.scores?.overall || 0) - (a.scores?.overall || 0)

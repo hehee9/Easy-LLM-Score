@@ -25,12 +25,6 @@ jobs:
           cd scripts
           npm ci
 
-      - name: Fetch LM Arena data
-        continue-on-error: true
-        run: |
-          cd scripts
-          npm run fetch-lmarena
-
       - name: Fetch Artificial Analysis data
         continue-on-error: true
         env:
@@ -48,6 +42,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+          git add data/models.json data/raw/aa-models.json
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update benchmark data [$(date +'%Y-%m-%d')]"
           git push
