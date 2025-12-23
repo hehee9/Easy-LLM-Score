@@ -19,7 +19,7 @@
       "rank": 3,
       "rankRange": "1◄─►11",
       "model": "gemini-3-pro",
-      "score": 1478,
+      "score": 1477,
       "votes": 0
     },
     {
@@ -31,23 +31,23 @@
     },
     {
       "rank": 5,
-      "rankRange": "1◄─►29",
+      "rankRange": "1◄─►30",
       "model": "gemini-3-flash (thinking-minimal)",
       "score": 1473,
       "votes": 0
     },
     {
       "rank": 6,
-      "rankRange": "1◄─►21",
-      "model": "Anthropicclaude-opus-4-5-20251101-thinking-32k",
-      "score": 1471,
+      "rankRange": "1◄─►22",
+      "model": "Anthropicclaude-opus-4-5-20251101",
+      "score": 1469,
       "votes": 0
     },
     {
       "rank": 7,
-      "rankRange": "1◄─►21",
-      "model": "Anthropicclaude-opus-4-5-20251101",
-      "score": 1470,
+      "rankRange": "1◄─►25",
+      "model": "Anthropicclaude-opus-4-5-20251101-thinking-32k",
+      "score": 1468,
       "votes": 0
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "rank": 9,
-      "rankRange": "2◄─►27",
+      "rankRange": "2◄─►26",
       "model": "o3-2025-04-16",
       "score": 1455,
       "votes": 0
@@ -68,12 +68,12 @@
       "rank": 10,
       "rankRange": "2◄─►41",
       "model": "grok-4.1-thinking",
-      "score": 1453,
+      "score": 1454,
       "votes": 0
     },
     {
       "rank": 11,
-      "rankRange": "2◄─►29",
+      "rankRange": "2◄─►28",
       "model": "gemini-2.5-pro",
       "score": 1453,
       "votes": 0
@@ -82,82 +82,82 @@
       "rank": 12,
       "rankRange": "3◄─►39",
       "model": "Anthropicclaude-opus-4-1-20250805-thinking-16k",
-      "score": 1447,
+      "score": 1448,
       "votes": 0
     },
     {
       "rank": 13,
-      "rankRange": "3◄─►52",
+      "rankRange": "3◄─►54",
       "model": "qwen3-max-preview",
       "score": 1442,
       "votes": 0
     },
     {
       "rank": 14,
-      "rankRange": "4◄─►53",
+      "rankRange": "4◄─►56",
       "model": "gpt-5-high",
       "score": 1438,
       "votes": 0
     },
     {
       "rank": 15,
-      "rankRange": "5◄─►53",
+      "rankRange": "5◄─►56",
       "model": "grok-4-0709",
       "score": 1437,
       "votes": 0
     },
     {
       "rank": 16,
-      "rankRange": "3◄─►69",
+      "rankRange": "3◄─►71",
       "model": "qwen3-max-2025-09-23",
       "score": 1436,
       "votes": 0
     },
     {
       "rank": 17,
-      "rankRange": "8◄─►53",
+      "rankRange": "9◄─►56",
       "model": "Anthropicclaude-opus-4-1-20250805",
-      "score": 1435,
+      "score": 1434,
       "votes": 0
     },
     {
       "rank": 18,
-      "rankRange": "8◄─►66",
+      "rankRange": "6◄─►71",
+      "model": "MoonshotAIkimi-k2-thinking-turbo",
+      "score": 1431,
+      "votes": 0
+    },
+    {
+      "rank": 19,
+      "rankRange": "7◄─►69",
       "model": "grok-4.1",
       "score": 1430,
       "votes": 0
     },
     {
-      "rank": 19,
-      "rankRange": "8◄─►72",
-      "model": "MoonshotAIkimi-k2-thinking-turbo",
-      "score": 1429,
-      "votes": 0
-    },
-    {
       "rank": 20,
-      "rankRange": "11◄─►60",
+      "rankRange": "11◄─►62",
       "model": "qwen3-235b-a22b-instruct-2507",
       "score": 1429,
       "votes": 0
     },
     {
       "rank": 21,
-      "rankRange": "9◄─►66",
+      "rankRange": "9◄─►68",
       "model": "glm-4.6",
       "score": 1429,
       "votes": 0
     },
     {
       "rank": 22,
-      "rankRange": "5◄─►74",
+      "rankRange": "5◄─►76",
       "model": "longcat-flash-chat",
       "score": 1428,
       "votes": 0
     },
     {
       "rank": 23,
-      "rankRange": "11◄─►68",
+      "rankRange": "10◄─►69",
       "model": "Anthropicclaude-sonnet-4-5-20250929",
       "score": 1428,
       "votes": 0
@@ -165,1802 +165,1816 @@
     {
       "rank": 24,
       "rankRange": "4◄─►76",
-      "model": "deepseek-v3.2-exp-thinking",
+      "model": "deepseek-v3.2-thinking",
       "score": 1428,
       "votes": 0
     },
     {
       "rank": 25,
-      "rankRange": "11◄─►73",
+      "rankRange": "4◄─►78",
+      "model": "deepseek-v3.2-exp-thinking",
+      "score": 1428,
+      "votes": 0
+    },
+    {
+      "rank": 26,
+      "rankRange": "10◄─►75",
       "model": "qwen3-next-80b-a3b-instruct",
       "score": 1426,
       "votes": 0
     },
     {
-      "rank": 26,
-      "rankRange": "4◄─►78",
-      "model": "deepseek-v3.2-thinking",
-      "score": 1426,
-      "votes": 0
-    },
-    {
       "rank": 27,
-      "rankRange": "4◄─►81",
+      "rankRange": "4◄─►83",
       "model": "grok-4-fast-chat",
       "score": 1425,
       "votes": 0
     },
     {
       "rank": 28,
-      "rankRange": "8◄─►76",
-      "model": "deepseek-v3.1-thinking",
+      "rankRange": "7◄─►80",
+      "model": "deepseek-v3.2",
       "score": 1423,
       "votes": 0
     },
     {
       "rank": 29,
-      "rankRange": "8◄─►79",
-      "model": "mistral-large-3",
+      "rankRange": "8◄─►78",
+      "model": "deepseek-v3.1-thinking",
       "score": 1423,
       "votes": 0
     },
     {
       "rank": 30,
-      "rankRange": "8◄─►79",
-      "model": "deepseek-v3.2",
+      "rankRange": "12◄─►75",
+      "model": "gemini-2.5-flash-preview-09-2025",
       "score": 1422,
       "votes": 0
     },
     {
       "rank": 31,
-      "rankRange": "12◄─►74",
-      "model": "gemini-2.5-flash-preview-09-2025",
-      "score": 1421,
+      "rankRange": "7◄─►81",
+      "model": "mistral-large-3",
+      "score": 1422,
       "votes": 0
     },
     {
       "rank": 32,
-      "rankRange": "13◄─►73",
+      "rankRange": "13◄─►75",
       "model": "Anthropicclaude-opus-4-20250514-thinking-16k",
       "score": 1421,
       "votes": 0
     },
     {
       "rank": 33,
-      "rankRange": "12◄─►74",
+      "rankRange": "13◄─►76",
       "model": "glm-4.5",
       "score": 1420,
       "votes": 0
     },
     {
       "rank": 34,
-      "rankRange": "13◄─►73",
+      "rankRange": "13◄─►75",
       "model": "o4-mini-2025-04-16",
-      "score": 1419,
+      "score": 1420,
       "votes": 0
     },
     {
       "rank": 35,
-      "rankRange": "11◄─►81",
+      "rankRange": "11◄─►83",
       "model": "deepseek-v3.2-exp",
-      "score": 1418,
+      "score": 1419,
       "votes": 0
     },
     {
       "rank": 36,
-      "rankRange": "11◄─►78",
+      "rankRange": "12◄─►80",
       "model": "deepseek-v3.1",
       "score": 1418,
       "votes": 0
     },
     {
       "rank": 37,
-      "rankRange": "9◄─►85",
+      "rankRange": "11◄─►84",
+      "model": "MoonshotAIkimi-k2-0905-preview",
+      "score": 1417,
+      "votes": 0
+    },
+    {
+      "rank": 38,
+      "rankRange": "13◄─►81",
+      "model": "gpt-5.1",
+      "score": 1417,
+      "votes": 0
+    },
+    {
+      "rank": 39,
+      "rankRange": "11◄─►87",
       "model": "ernie-5.0-preview-1103",
       "score": 1416,
       "votes": 0
     },
     {
-      "rank": 38,
-      "rankRange": "11◄─►82",
-      "model": "MoonshotAIkimi-k2-0905-preview",
-      "score": 1416,
-      "votes": 0
-    },
-    {
-      "rank": 39,
-      "rankRange": "13◄─►79",
-      "model": "gpt-5.1",
-      "score": 1415,
-      "votes": 0
-    },
-    {
       "rank": 40,
-      "rankRange": "3◄─►96",
+      "rankRange": "3◄─►98",
       "model": "deepseek-v3.1-terminus-thinking",
       "score": 1415,
       "votes": 0
     },
     {
       "rank": 41,
-      "rankRange": "13◄─►76",
-      "model": "gpt-5-chat",
-      "score": 1415,
-      "votes": 0
-    },
-    {
-      "rank": 42,
-      "rankRange": "13◄─►79",
+      "rankRange": "13◄─►81",
       "model": "gpt-5-mini-high",
       "score": 1415,
       "votes": 0
     },
     {
+      "rank": 42,
+      "rankRange": "13◄─►78",
+      "model": "gpt-5-chat",
+      "score": 1415,
+      "votes": 0
+    },
+    {
       "rank": 43,
-      "rankRange": "11◄─►86",
+      "rankRange": "10◄─►88",
       "model": "qwen3-vl-235b-a22b-thinking",
-      "score": 1414,
+      "score": 1415,
       "votes": 0
     },
     {
       "rank": 44,
-      "rankRange": "13◄─►79",
+      "rankRange": "13◄─►81",
       "model": "gpt-4.5-preview-2025-02-27",
       "score": 1413,
       "votes": 0
     },
     {
       "rank": 45,
-      "rankRange": "17◄─►74",
-      "model": "gemini-2.5-flash",
-      "score": 1413,
-      "votes": 0
-    },
-    {
-      "rank": 46,
-      "rankRange": "11◄─►85",
+      "rankRange": "11◄─►87",
       "model": "qwen3-vl-235b-a22b-instruct",
       "score": 1413,
       "votes": 0
     },
     {
+      "rank": 46,
+      "rankRange": "17◄─►76",
+      "model": "gemini-2.5-flash",
+      "score": 1413,
+      "votes": 0
+    },
+    {
       "rank": 47,
-      "rankRange": "14◄─►79",
+      "rankRange": "14◄─►81",
       "model": "deepseek-r1",
       "score": 1413,
       "votes": 0
     },
     {
       "rank": 48,
-      "rankRange": "13◄─►82",
+      "rankRange": "13◄─►85",
       "model": "grok-4-fast-reasoning",
       "score": 1412,
       "votes": 0
     },
     {
       "rank": 49,
-      "rankRange": "17◄─►78",
+      "rankRange": "17◄─►80",
       "model": "o1-2024-12-17",
       "score": 1410,
       "votes": 0
     },
     {
       "rank": 50,
-      "rankRange": "17◄─►82",
+      "rankRange": "17◄─►84",
       "model": "o3-mini-high",
       "score": 1409,
       "votes": 0
     },
     {
       "rank": 51,
-      "rankRange": "18◄─►84",
+      "rankRange": "13◄─►90",
+      "model": "grok-4-1-fast-reasoning",
+      "score": 1407,
+      "votes": 0
+    },
+    {
+      "rank": 52,
+      "rankRange": "18◄─►86",
       "model": "Anthropicclaude-sonnet-4-20250514-thinking-32k",
       "score": 1406,
       "votes": 0
     },
     {
-      "rank": 52,
-      "rankRange": "13◄─►92",
-      "model": "grok-4-1-fast-reasoning",
-      "score": 1405,
-      "votes": 0
-    },
-    {
       "rank": 53,
-      "rankRange": "13◄─►97",
+      "rankRange": "13◄─►99",
       "model": "qwen3-32b",
       "score": 1403,
       "votes": 0
     },
     {
       "rank": 54,
-      "rankRange": "11◄─►104",
+      "rankRange": "11◄─►105",
       "model": "Tencenthunyuan-t1-20250711",
       "score": 1403,
       "votes": 0
     },
     {
       "rank": 55,
-      "rankRange": "13◄─►94",
+      "rankRange": "13◄─►95",
       "model": "qwen3-235b-a22b-thinking-2507",
       "score": 1403,
       "votes": 0
     },
     {
       "rank": 56,
-      "rankRange": "22◄─►84",
+      "rankRange": "23◄─►86",
       "model": "chatgpt-4o-latest-20250326",
-      "score": 1402,
+      "score": 1403,
       "votes": 0
     },
     {
       "rank": 57,
-      "rankRange": "18◄─►84",
+      "rankRange": "19◄─►86",
       "model": "mistral-medium-2508",
-      "score": 1402,
+      "score": 1403,
       "votes": 0
     },
     {
       "rank": 58,
-      "rankRange": "20◄─►84",
+      "rankRange": "21◄─►86",
       "model": "Anthropicclaude-opus-4-20250514",
       "score": 1402,
       "votes": 0
     },
     {
       "rank": 59,
-      "rankRange": "18◄─►85",
-      "model": "Minimaxminimax-m1",
-      "score": 1401,
+      "rankRange": "11◄─►106",
+      "model": "ernie-5.0-preview-1203",
+      "score": 1402,
       "votes": 0
     },
     {
       "rank": 60,
-      "rankRange": "18◄─►85",
+      "rankRange": "18◄─►87",
+      "model": "Minimaxminimax-m1",
+      "score": 1402,
+      "votes": 0
+    },
+    {
+      "rank": 61,
+      "rankRange": "18◄─►87",
       "model": "qwen3-235b-a22b",
       "score": 1401,
       "votes": 0
     },
     {
-      "rank": 61,
-      "rankRange": "17◄─►92",
+      "rank": 62,
+      "rankRange": "17◄─►94",
       "model": "qwen3-next-80b-a3b-thinking",
       "score": 1400,
       "votes": 0
     },
     {
-      "rank": 62,
-      "rankRange": "17◄─►92",
+      "rank": 63,
+      "rankRange": "17◄─►94",
       "model": "mai-1-preview",
       "score": 1400,
       "votes": 0
     },
     {
-      "rank": 63,
-      "rankRange": "11◄─►105",
+      "rank": 64,
+      "rankRange": "11◄─►106",
       "model": "deepseek-v3.1-terminus",
       "score": 1399,
       "votes": 0
     },
     {
-      "rank": 64,
-      "rankRange": "18◄─►93",
+      "rank": 65,
+      "rankRange": "18◄─►95",
       "model": "deepseek-r1-0528",
       "score": 1398,
       "votes": 0
     },
     {
-      "rank": 65,
-      "rankRange": "23◄─►86",
+      "rank": 66,
+      "rankRange": "23◄─►88",
       "model": "qwen3-235b-a22b-no-thinking",
       "score": 1398,
       "votes": 0
     },
     {
-      "rank": 66,
-      "rankRange": "22◄─►92",
-      "model": "Anthropicclaude-haiku-4-5-20251001",
-      "score": 1396,
-      "votes": 0
-    },
-    {
       "rank": 67,
-      "rankRange": "22◄─►92",
+      "rankRange": "23◄─►94",
       "model": "glm-4.5-air",
       "score": 1396,
       "votes": 0
     },
     {
       "rank": 68,
-      "rankRange": "20◄─►96",
+      "rankRange": "23◄─►94",
+      "model": "Anthropicclaude-haiku-4-5-20251001",
+      "score": 1396,
+      "votes": 0
+    },
+    {
+      "rank": 69,
+      "rankRange": "21◄─►97",
       "model": "grok-3-mini-high",
       "score": 1395,
       "votes": 0
     },
     {
-      "rank": 69,
-      "rankRange": "18◄─►97",
-      "model": "amazon-nova-experimental-chat-10-20",
-      "score": 1395,
-      "votes": 0
-    },
-    {
       "rank": 70,
-      "rankRange": "26◄─►93",
+      "rankRange": "27◄─►95",
       "model": "MoonshotAIkimi-k2-0711-preview",
       "score": 1394,
       "votes": 0
     },
     {
       "rank": 71,
-      "rankRange": "13◄─►107",
+      "rankRange": "13◄─►109",
       "model": "Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5",
       "score": 1393,
       "votes": 0
     },
     {
       "rank": 72,
-      "rankRange": "33◄─►96",
+      "rankRange": "18◄─►102",
+      "model": "amazon-nova-experimental-chat-10-20",
+      "score": 1391,
+      "votes": 0
+    },
+    {
+      "rank": 73,
+      "rankRange": "14◄─►108",
+      "model": "intellect-3",
+      "score": 1390,
+      "votes": 0
+    },
+    {
+      "rank": 74,
+      "rankRange": "34◄─►97",
       "model": "Anthropicclaude-sonnet-4-20250514",
       "score": 1389,
       "votes": 0
     },
     {
-      "rank": 73,
-      "rankRange": "44◄─►95",
-      "model": "o1-preview",
-      "score": 1387,
-      "votes": 0
-    },
-    {
-      "rank": 74,
-      "rankRange": "30◄─►97",
-      "model": "qwen3-30b-a3b-instruct-2507",
-      "score": 1387,
-      "votes": 0
-    },
-    {
       "rank": 75,
-      "rankRange": "33◄─►97",
-      "model": "gpt-oss-120b",
+      "rankRange": "13◄─►111",
+      "model": "amazon-nova-experimental-chat-11-10",
       "score": 1387,
       "votes": 0
     },
     {
       "rank": 76,
-      "rankRange": "17◄─►107",
-      "model": "intellect-3",
+      "rankRange": "44◄─►96",
+      "model": "o1-preview",
       "score": 1387,
       "votes": 0
     },
     {
       "rank": 77,
-      "rankRange": "42◄─►96",
+      "rankRange": "31◄─►99",
+      "model": "qwen3-30b-a3b-instruct-2507",
+      "score": 1387,
+      "votes": 0
+    },
+    {
+      "rank": 78,
+      "rankRange": "34◄─►99",
+      "model": "gpt-oss-120b",
+      "score": 1387,
+      "votes": 0
+    },
+    {
+      "rank": 79,
+      "rankRange": "42◄─►98",
       "model": "Anthropicclaude-3-7-sonnet-20250219-thinking-32k",
       "score": 1386,
       "votes": 0
     },
     {
-      "rank": 78,
-      "rankRange": "47◄─►96",
+      "rank": 80,
+      "rankRange": "47◄─►97",
       "model": "o3-mini",
       "score": 1386,
       "votes": 0
     },
     {
-      "rank": 79,
-      "rankRange": "17◄─►111",
+      "rank": 81,
+      "rankRange": "17◄─►113",
       "model": "Nvidiallama-3.1-nemotron-ultra-253b-v1",
       "score": 1382,
       "votes": 0
     },
     {
-      "rank": 80,
-      "rankRange": "51◄─►100",
+      "rank": 82,
+      "rankRange": "18◄─►113",
+      "model": "Nvidianvidia-nemotron-3-nano-30b-a3b-bf16",
+      "score": 1380,
+      "votes": 0
+    },
+    {
+      "rank": 83,
+      "rankRange": "51◄─►102",
       "model": "grok-3-preview-02-24",
       "score": 1380,
       "votes": 0
     },
     {
-      "rank": 81,
-      "rankRange": "47◄─►104",
+      "rank": 84,
+      "rankRange": "46◄─►104",
       "model": "qwen3-coder-480b-a35b-instruct",
-      "score": 1379,
+      "score": 1380,
       "votes": 0
     },
     {
-      "rank": 82,
-      "rankRange": "21◄─►111",
-      "model": "Nvidianvidia-nemotron-3-nano-30b-a3b-bf16",
-      "score": 1378,
-      "votes": 0
-    },
-    {
-      "rank": 83,
-      "rankRange": "57◄─►104",
+      "rank": 85,
+      "rankRange": "57◄─►105",
       "model": "deepseek-v3-0324",
       "score": 1375,
       "votes": 0
     },
     {
-      "rank": 84,
-      "rankRange": "57◄─►104",
+      "rank": 86,
+      "rankRange": "58◄─►105",
       "model": "gpt-4.1-2025-04-14",
       "score": 1374,
       "votes": 0
     },
     {
-      "rank": 85,
-      "rankRange": "55◄─►106",
+      "rank": 87,
+      "rankRange": "55◄─►107",
       "model": "grok-3-mini-beta",
       "score": 1373,
       "votes": 0
     },
     {
-      "rank": 86,
-      "rankRange": "57◄─►106",
+      "rank": 88,
+      "rankRange": "58◄─►107",
       "model": "gemini-2.5-flash-lite-preview-06-17-thinking",
       "score": 1372,
       "votes": 0
     },
     {
-      "rank": 87,
-      "rankRange": "57◄─►106",
+      "rank": 89,
+      "rankRange": "58◄─►108",
       "model": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
       "score": 1371,
       "votes": 0
     },
     {
-      "rank": 88,
-      "rankRange": "30◄─►112",
+      "rank": 90,
+      "rankRange": "31◄─►114",
       "model": "Stepfunstep-3",
       "score": 1370,
       "votes": 0
     },
     {
-      "rank": 89,
-      "rankRange": "66◄─►106",
+      "rank": 91,
+      "rankRange": "66◄─►107",
       "model": "qwen2.5-max",
       "score": 1368,
       "votes": 0
     },
     {
-      "rank": 90,
-      "rankRange": "36◄─►116",
+      "rank": 92,
+      "rankRange": "37◄─►118",
       "model": "glm-4.5v",
       "score": 1365,
       "votes": 0
     },
     {
-      "rank": 91,
-      "rankRange": "65◄─►107",
+      "rank": 93,
+      "rankRange": "65◄─►109",
       "model": "qwq-32b",
       "score": 1365,
       "votes": 0
     },
     {
-      "rank": 92,
-      "rankRange": "75◄─►106",
+      "rank": 94,
+      "rankRange": "74◄─►108",
       "model": "o1-mini",
       "score": 1364,
       "votes": 0
     },
     {
-      "rank": 93,
-      "rankRange": "42◄─►118",
+      "rank": 95,
+      "rankRange": "42◄─►120",
       "model": "Minimaxminimax-m2",
       "score": 1363,
       "votes": 0
     },
     {
-      "rank": 94,
-      "rankRange": "75◄─►107",
+      "rank": 96,
+      "rankRange": "74◄─►109",
       "model": "Anthropicclaude-3-7-sonnet-20250219",
       "score": 1361,
       "votes": 0
     },
     {
-      "rank": 95,
-      "rankRange": "71◄─►109",
+      "rank": 97,
+      "rankRange": "71◄─►111",
       "model": "qwen3-30b-a3b",
       "score": 1360,
       "votes": 0
     },
     {
-      "rank": 96,
-      "rankRange": "57◄─►116",
+      "rank": 98,
+      "rankRange": "57◄─►118",
       "model": "ling-flash-2.0",
-      "score": 1358,
+      "score": 1359,
       "votes": 0
     },
     {
-      "rank": 97,
-      "rankRange": "76◄─►108",
+      "rank": 99,
+      "rankRange": "76◄─►110",
       "model": "gemini-2.0-flash-001",
       "score": 1358,
       "votes": 0
     },
     {
-      "rank": 98,
-      "rankRange": "76◄─►111",
+      "rank": 100,
+      "rankRange": "76◄─►113",
       "model": "gpt-4.1-mini-2025-04-14",
       "score": 1357,
       "votes": 0
     },
     {
-      "rank": 99,
-      "rankRange": "57◄─►117",
+      "rank": 101,
+      "rankRange": "58◄─►119",
       "model": "gpt-5-nano-high",
       "score": 1356,
       "votes": 0
     },
     {
-      "rank": 100,
-      "rankRange": "76◄─►111",
-      "model": "mistral-medium-2505",
-      "score": 1353,
-      "votes": 0
-    },
-    {
-      "rank": 101,
-      "rankRange": "62◄─►119",
+      "rank": 102,
+      "rankRange": "62◄─►121",
       "model": "ring-flash-2.0",
       "score": 1353,
       "votes": 0
     },
     {
-      "rank": 102,
-      "rankRange": "64◄─►118",
-      "model": "nova-2-lite",
+      "rank": 103,
+      "rankRange": "77◄─►113",
+      "model": "mistral-medium-2505",
       "score": 1353,
       "votes": 0
     },
     {
-      "rank": 103,
-      "rankRange": "75◄─►116",
+      "rank": 104,
+      "rankRange": "74◄─►118",
       "model": "Tencenthunyuan-turbos-20250416",
       "score": 1352,
       "votes": 0
     },
     {
-      "rank": 104,
-      "rankRange": "86◄─►111",
+      "rank": 105,
+      "rankRange": "69◄─►122",
+      "model": "nova-2-lite",
+      "score": 1350,
+      "votes": 0
+    },
+    {
+      "rank": 106,
+      "rankRange": "88◄─►113",
       "model": "Anthropicclaude-3-5-sonnet-20241022",
       "score": 1349,
       "votes": 0
     },
     {
-      "rank": 105,
-      "rankRange": "80◄─►117",
+      "rank": 107,
+      "rankRange": "80◄─►119",
       "model": "mistral-small-2506",
       "score": 1346,
       "votes": 0
     },
     {
-      "rank": 106,
-      "rankRange": "90◄─►113",
+      "rank": 108,
+      "rankRange": "91◄─►115",
       "model": "Anthropicclaude-3-5-sonnet-20240620",
       "score": 1342,
       "votes": 0
     },
     {
-      "rank": 107,
-      "rankRange": "92◄─►116",
+      "rank": 109,
+      "rankRange": "94◄─►118",
       "model": "gemini-1.5-pro-002",
       "score": 1340,
       "votes": 0
     },
     {
-      "rank": 108,
-      "rankRange": "81◄─►131",
+      "rank": 110,
+      "rankRange": "82◄─►133",
       "model": "gpt-oss-20b",
       "score": 1338,
       "votes": 0
     },
     {
-      "rank": 109,
-      "rankRange": "97◄─►127",
+      "rank": 111,
+      "rankRange": "99◄─►129",
       "model": "gemini-2.0-flash-lite-preview-02-05",
       "score": 1328,
       "votes": 0
     },
     {
-      "rank": 110,
-      "rankRange": "92◄─►138",
+      "rank": 112,
+      "rankRange": "94◄─►140",
       "model": "qwen-plus-0125",
-      "score": 1327,
+      "score": 1328,
       "votes": 0
     },
     {
-      "rank": 111,
-      "rankRange": "99◄─►131",
+      "rank": 113,
+      "rankRange": "101◄─►133",
       "model": "gemma-3-27b-it",
       "score": 1325,
       "votes": 0
     },
     {
-      "rank": 112,
-      "rankRange": "76◄─►161",
-      "model": "olmo-3-32b-think",
-      "score": 1325,
-      "votes": 0
-    },
-    {
-      "rank": 113,
-      "rankRange": "99◄─►132",
+      "rank": 114,
+      "rankRange": "101◄─►134",
       "model": "Metallama-4-maverick-17b-128e-instruct",
       "score": 1324,
       "votes": 0
     },
     {
-      "rank": 114,
-      "rankRange": "90◄─►151",
+      "rank": 115,
+      "rankRange": "91◄─►153",
       "model": "gemma-3-12b-it",
       "score": 1322,
       "votes": 0
     },
     {
-      "rank": 115,
-      "rankRange": "107◄─►131",
+      "rank": 116,
+      "rankRange": "108◄─►134",
       "model": "Metallama-3.1-405b-instruct-fp8",
       "score": 1320,
       "votes": 0
     },
     {
-      "rank": 116,
-      "rankRange": "108◄─►138",
+      "rank": 117,
+      "rankRange": "85◄─►169",
+      "model": "olmo-3-32b-think",
+      "score": 1320,
+      "votes": 0
+    },
+    {
+      "rank": 118,
+      "rankRange": "110◄─►140",
       "model": "Metallama-3.1-405b-instruct-bf16",
       "score": 1316,
       "votes": 0
     },
     {
-      "rank": 117,
-      "rankRange": "105◄─►144",
+      "rank": 119,
+      "rankRange": "107◄─►146",
       "model": "Metallama-4-scout-17b-16e-instruct",
       "score": 1316,
       "votes": 0
     },
     {
-      "rank": 118,
-      "rankRange": "98◄─►151",
+      "rank": 120,
+      "rankRange": "100◄─►153",
       "model": "Stepfunstep-2-16k-exp-202412",
       "score": 1316,
       "votes": 0
     },
     {
-      "rank": 119,
-      "rankRange": "108◄─►143",
+      "rank": 121,
+      "rankRange": "109◄─►145",
       "model": "deepseek-v3",
       "score": 1315,
       "votes": 0
     },
     {
-      "rank": 120,
-      "rankRange": "108◄─►141",
+      "rank": 122,
+      "rankRange": "110◄─►143",
       "model": "athene-v2-chat",
       "score": 1315,
       "votes": 0
     },
     {
-      "rank": 121,
-      "rankRange": "108◄─►143",
+      "rank": 123,
+      "rankRange": "110◄─►145",
       "model": "Coherecommand-a-03-2025",
       "score": 1314,
       "votes": 0
     },
     {
-      "rank": 122,
-      "rankRange": "109◄─►140",
+      "rank": 124,
+      "rankRange": "111◄─►142",
       "model": "Anthropicclaude-3-opus-20240229",
       "score": 1312,
       "votes": 0
     },
     {
-      "rank": 123,
-      "rankRange": "109◄─►144",
+      "rank": 125,
+      "rankRange": "111◄─►146",
       "model": "gpt-4o-2024-08-06",
       "score": 1310,
       "votes": 0
     },
     {
-      "rank": 124,
-      "rankRange": "108◄─►146",
+      "rank": 126,
+      "rankRange": "110◄─►148",
       "model": "01.AIyi-lightning",
       "score": 1309,
       "votes": 0
     },
     {
-      "rank": 125,
-      "rankRange": "108◄─►151",
+      "rank": 127,
+      "rankRange": "110◄─►153",
       "model": "qwen2.5-plus-1127",
-      "score": 1308,
+      "score": 1309,
       "votes": 0
     },
     {
-      "rank": 126,
-      "rankRange": "103◄─►158",
+      "rank": 128,
+      "rankRange": "105◄─►160",
       "model": "Stepfunstep-1o-turbo-202506",
       "score": 1307,
       "votes": 0
     },
     {
-      "rank": 127,
-      "rankRange": "113◄─►146",
+      "rank": 129,
+      "rankRange": "115◄─►148",
       "model": "gpt-4o-2024-05-13",
       "score": 1307,
       "votes": 0
     },
     {
-      "rank": 128,
-      "rankRange": "113◄─►149",
+      "rank": 130,
+      "rankRange": "115◄─►151",
       "model": "gpt-4-1106-preview",
       "score": 1305,
       "votes": 0
     },
     {
-      "rank": 129,
-      "rankRange": "113◄─►151",
+      "rank": 131,
+      "rankRange": "115◄─►153",
       "model": "gemini-advanced-0514",
       "score": 1304,
       "votes": 0
     },
     {
-      "rank": 130,
-      "rankRange": "99◄─►170",
+      "rank": 132,
+      "rankRange": "101◄─►172",
       "model": "Tencenthunyuan-turbos-20250226",
-      "score": 1303,
+      "score": 1304,
       "votes": 0
     },
     {
-      "rank": 131,
-      "rankRange": "115◄─►153",
+      "rank": 133,
+      "rankRange": "117◄─►155",
       "model": "gpt-4-0125-preview",
       "score": 1301,
       "votes": 0
     },
     {
-      "rank": 132,
-      "rankRange": "108◄─►167",
+      "rank": 134,
+      "rankRange": "110◄─►169",
       "model": "glm-4-plus-0111",
       "score": 1299,
       "votes": 0
     },
     {
-      "rank": 133,
-      "rankRange": "115◄─►156",
+      "rank": 135,
+      "rankRange": "117◄─►158",
       "model": "qwen2.5-72b-instruct",
       "score": 1299,
       "votes": 0
     },
     {
-      "rank": 134,
-      "rankRange": "116◄─►156",
+      "rank": 136,
+      "rankRange": "118◄─►159",
       "model": "Metallama-3.3-70b-instruct",
       "score": 1298,
       "votes": 0
     },
     {
-      "rank": 135,
-      "rankRange": "117◄─►157",
+      "rank": 137,
+      "rankRange": "119◄─►159",
       "model": "gpt-4-turbo-2024-04-09",
       "score": 1298,
       "votes": 0
     },
     {
-      "rank": 136,
-      "rankRange": "119◄─►157",
+      "rank": 138,
+      "rankRange": "121◄─►159",
       "model": "gemini-1.5-pro-001",
       "score": 1297,
       "votes": 0
     },
     {
-      "rank": 137,
-      "rankRange": "108◄─►170",
+      "rank": 139,
+      "rankRange": "110◄─►172",
       "model": "Tencenthunyuan-large-2025-02-10",
       "score": 1296,
       "votes": 0
     },
     {
-      "rank": 138,
-      "rankRange": "113◄─►167",
+      "rank": 140,
+      "rankRange": "115◄─►169",
       "model": "deepseek-v2.5-1210",
       "score": 1295,
       "votes": 0
     },
     {
-      "rank": 139,
-      "rankRange": "121◄─►157",
+      "rank": 141,
+      "rankRange": "123◄─►159",
       "model": "grok-2-2024-08-13",
       "score": 1295,
       "votes": 0
     },
     {
-      "rank": 140,
-      "rankRange": "117◄─►163",
+      "rank": 142,
+      "rankRange": "119◄─►165",
       "model": "qwen-max-0919",
       "score": 1294,
       "votes": 0
     },
     {
-      "rank": 141,
-      "rankRange": "109◄─►171",
+      "rank": 143,
+      "rankRange": "111◄─►173",
       "model": "Tencenthunyuan-standard-2025-02-10",
       "score": 1293,
       "votes": 0
     },
     {
-      "rank": 142,
-      "rankRange": "123◄─►163",
+      "rank": 144,
+      "rankRange": "125◄─►165",
       "model": "gemini-1.5-flash-002",
       "score": 1290,
       "votes": 0
     },
     {
-      "rank": 143,
-      "rankRange": "124◄─►163",
+      "rank": 145,
+      "rankRange": "126◄─►165",
       "model": "mistral-large-2407",
       "score": 1290,
       "votes": 0
     },
     {
-      "rank": 144,
-      "rankRange": "123◄─►167",
+      "rank": 146,
+      "rankRange": "125◄─►169",
       "model": "deepseek-v2.5",
       "score": 1290,
       "votes": 0
     },
     {
-      "rank": 145,
-      "rankRange": "123◄─►167",
+      "rank": 147,
+      "rankRange": "125◄─►169",
       "model": "glm-4-plus",
-      "score": 1289,
+      "score": 1290,
       "votes": 0
     },
     {
-      "rank": 146,
-      "rankRange": "109◄─►178",
+      "rank": 148,
+      "rankRange": "111◄─►180",
       "model": "Tencenthunyuan-large-vision",
       "score": 1288,
       "votes": 0
     },
     {
-      "rank": 147,
-      "rankRange": "113◄─►175",
+      "rank": 149,
+      "rankRange": "115◄─►177",
       "model": "magistral-medium-2506",
       "score": 1287,
       "votes": 0
     },
     {
-      "rank": 148,
-      "rankRange": "129◄─►167",
+      "rank": 150,
+      "rankRange": "131◄─►169",
       "model": "Anthropicclaude-3-5-haiku-20241022",
-      "score": 1285,
+      "score": 1286,
       "votes": 0
     },
     {
-      "rank": 149,
-      "rankRange": "129◄─►170",
+      "rank": 151,
+      "rankRange": "131◄─►172",
       "model": "mistral-large-2411",
       "score": 1284,
       "votes": 0
     },
     {
-      "rank": 150,
-      "rankRange": "129◄─►170",
+      "rank": 152,
+      "rankRange": "131◄─►172",
       "model": "gpt-4-0314",
       "score": 1282,
       "votes": 0
     },
     {
-      "rank": 151,
-      "rankRange": "111◄─►181",
+      "rank": 153,
+      "rankRange": "113◄─►183",
       "model": "ibm-granite-h-small",
       "score": 1282,
       "votes": 0
     },
     {
-      "rank": 152,
-      "rankRange": "128◄─►171",
+      "rank": 154,
+      "rankRange": "130◄─►173",
       "model": "mistral-small-3.1-24b-instruct-2503",
       "score": 1282,
       "votes": 0
     },
     {
-      "rank": 153,
-      "rankRange": "113◄─►181",
+      "rank": 155,
+      "rankRange": "115◄─►183",
       "model": "Tencenthunyuan-turbo-0110",
       "score": 1281,
       "votes": 0
     },
     {
-      "rank": 154,
-      "rankRange": "124◄─►174",
+      "rank": 156,
+      "rankRange": "126◄─►176",
       "model": "Nvidiallama-3.1-nemotron-70b-instruct",
       "score": 1281,
       "votes": 0
     },
     {
-      "rank": 155,
-      "rankRange": "135◄─►170",
+      "rank": 157,
+      "rankRange": "137◄─►172",
       "model": "gpt-4o-mini-2024-07-18",
       "score": 1278,
       "votes": 0
     },
     {
-      "rank": 156,
-      "rankRange": "121◄─►180",
+      "rank": 158,
+      "rankRange": "123◄─►182",
       "model": "gpt-4.1-nano-2025-04-14",
       "score": 1278,
       "votes": 0
     },
     {
-      "rank": 157,
-      "rankRange": "139◄─►171",
+      "rank": 159,
+      "rankRange": "140◄─►173",
       "model": "grok-2-mini-2024-08-13",
       "score": 1274,
       "votes": 0
     },
     {
-      "rank": 158,
-      "rankRange": "136◄─►172",
+      "rank": 160,
+      "rankRange": "137◄─►174",
       "model": "qwen2-72b-instruct",
       "score": 1274,
       "votes": 0
     },
     {
-      "rank": 159,
-      "rankRange": "139◄─►171",
+      "rank": 161,
+      "rankRange": "140◄─►173",
       "model": "gpt-4-0613",
       "score": 1274,
       "votes": 0
     },
     {
-      "rank": 160,
-      "rankRange": "130◄─►181",
+      "rank": 162,
+      "rankRange": "132◄─►183",
       "model": "qwen2.5-coder-32b-instruct",
       "score": 1272,
       "votes": 0
     },
     {
-      "rank": 161,
-      "rankRange": "128◄─►182",
+      "rank": 163,
+      "rankRange": "130◄─►184",
       "model": "Nvidiallama-3.1-nemotron-51b-instruct",
       "score": 1272,
       "votes": 0
     },
     {
-      "rank": 162,
-      "rankRange": "139◄─►175",
+      "rank": 164,
+      "rankRange": "140◄─►177",
       "model": "amazon-nova-pro-v1.0",
       "score": 1271,
       "votes": 0
     },
     {
-      "rank": 163,
-      "rankRange": "135◄─►179",
+      "rank": 165,
+      "rankRange": "137◄─►181",
       "model": "deepseek-coder-v2",
       "score": 1271,
       "votes": 0
     },
     {
-      "rank": 164,
-      "rankRange": "144◄─►174",
+      "rank": 166,
+      "rankRange": "146◄─►176",
       "model": "Metallama-3.1-70b-instruct",
       "score": 1271,
       "votes": 0
     },
     {
-      "rank": 165,
-      "rankRange": "136◄─►180",
+      "rank": 167,
+      "rankRange": "137◄─►182",
       "model": "gemma-3n-e4b-it",
-      "score": 1270,
+      "score": 1269,
       "votes": 0
     },
     {
-      "rank": 166,
-      "rankRange": "144◄─►180",
+      "rank": 168,
+      "rankRange": "146◄─►182",
       "model": "Azurephi-4",
       "score": 1267,
       "votes": 0
     },
     {
-      "rank": 167,
-      "rankRange": "134◄─►186",
+      "rank": 169,
+      "rankRange": "136◄─►188",
       "model": "llama-3.1-tulu-3-70b",
       "score": 1264,
       "votes": 0
     },
     {
-      "rank": 168,
-      "rankRange": "144◄─►181",
+      "rank": 170,
+      "rankRange": "146◄─►183",
       "model": "mistral-small-24b-instruct-2501",
       "score": 1263,
       "votes": 0
     },
     {
-      "rank": 169,
-      "rankRange": "149◄─►181",
+      "rank": 171,
+      "rankRange": "151◄─►183",
       "model": "athene-70b-0725",
       "score": 1261,
       "votes": 0
     },
     {
-      "rank": 170,
-      "rankRange": "154◄─►181",
+      "rank": 172,
+      "rankRange": "156◄─►183",
       "model": "Metallama-3-70b-instruct",
       "score": 1258,
       "votes": 0
     },
     {
-      "rank": 171,
-      "rankRange": "135◄─►194",
+      "rank": 173,
+      "rankRange": "137◄─►196",
       "model": "gemma-3-4b-it",
       "score": 1257,
       "votes": 0
     },
     {
-      "rank": 172,
-      "rankRange": "154◄─►182",
+      "rank": 174,
+      "rankRange": "156◄─►184",
       "model": "gemini-1.5-flash-001",
       "score": 1257,
       "votes": 0
     },
     {
-      "rank": 173,
-      "rankRange": "153◄─►185",
+      "rank": 175,
+      "rankRange": "155◄─►187",
       "model": "Nvidianemotron-4-340b-instruct",
       "score": 1254,
       "votes": 0
     },
     {
-      "rank": 174,
-      "rankRange": "158◄─►182",
+      "rank": 176,
+      "rankRange": "160◄─►184",
       "model": "Anthropicclaude-3-sonnet-20240229",
       "score": 1254,
       "votes": 0
     },
     {
-      "rank": 175,
-      "rankRange": "139◄─►196",
+      "rank": 177,
+      "rankRange": "140◄─►198",
       "model": "Tencenthunyuan-standard-256k",
       "score": 1253,
       "votes": 0
     },
     {
-      "rank": 176,
-      "rankRange": "156◄─►193",
+      "rank": 178,
+      "rankRange": "158◄─►195",
       "model": "glm-4-0520",
       "score": 1248,
       "votes": 0
     },
     {
-      "rank": 177,
-      "rankRange": "158◄─►192",
+      "rank": 179,
+      "rankRange": "160◄─►194",
       "model": "reka-core-20240904",
       "score": 1248,
       "votes": 0
     },
     {
-      "rank": 178,
-      "rankRange": "160◄─►190",
+      "rank": 180,
+      "rankRange": "162◄─►192",
       "model": "amazon-nova-lite-v1.0",
       "score": 1247,
       "votes": 0
     },
     {
-      "rank": 179,
-      "rankRange": "158◄─►194",
+      "rank": 181,
+      "rankRange": "160◄─►196",
       "model": "jamba-1.5-large",
       "score": 1247,
       "votes": 0
     },
     {
-      "rank": 180,
-      "rankRange": "163◄─►190",
+      "rank": 182,
+      "rankRange": "165◄─►192",
       "model": "mistral-large-2402",
       "score": 1245,
       "votes": 0
     },
     {
-      "rank": 181,
-      "rankRange": "169◄─►188",
+      "rank": 183,
+      "rankRange": "171◄─►190",
       "model": "gemma-2-27b-it",
       "score": 1244,
       "votes": 0
     },
     {
-      "rank": 182,
-      "rankRange": "172◄─►204",
+      "rank": 184,
+      "rankRange": "174◄─►206",
       "model": "reka-flash-20240904",
       "score": 1233,
       "votes": 0
     },
     {
-      "rank": 183,
-      "rankRange": "173◄─►200",
+      "rank": 185,
+      "rankRange": "175◄─►202",
       "model": "Coherec4ai-aya-expanse-32b",
       "score": 1232,
       "votes": 0
     },
     {
-      "rank": 184,
-      "rankRange": "159◄─►217",
+      "rank": 186,
+      "rankRange": "161◄─►219",
       "model": "olmo-2-0325-32b-instruct",
       "score": 1231,
       "votes": 0
     },
     {
-      "rank": 185,
-      "rankRange": "174◄─►197",
+      "rank": 187,
+      "rankRange": "176◄─►199",
       "model": "Anthropicclaude-3-haiku-20240307",
       "score": 1231,
       "votes": 0
     },
     {
-      "rank": 186,
-      "rankRange": "172◄─►206",
+      "rank": 188,
+      "rankRange": "174◄─►208",
       "model": "Coherecommand-r-plus-08-2024",
       "score": 1231,
       "votes": 0
     },
     {
-      "rank": 187,
-      "rankRange": "175◄─►200",
+      "rank": 189,
+      "rankRange": "177◄─►202",
       "model": "gemini-1.5-flash-8b-001",
       "score": 1230,
       "votes": 0
     },
     {
-      "rank": 188,
-      "rankRange": "175◄─►202",
+      "rank": 190,
+      "rankRange": "177◄─►204",
       "model": "mixtral-8x22b-instruct-v0.1",
       "score": 1229,
       "votes": 0
     },
     {
-      "rank": 189,
-      "rankRange": "174◄─►206",
+      "rank": 191,
+      "rankRange": "176◄─►208",
       "model": "amazon-nova-micro-v1.0",
       "score": 1228,
       "votes": 0
     },
     {
-      "rank": 190,
-      "rankRange": "178◄─►211",
+      "rank": 192,
+      "rankRange": "180◄─►213",
       "model": "qwen1.5-110b-chat",
       "score": 1222,
       "votes": 0
     },
     {
-      "rank": 191,
-      "rankRange": "179◄─►211",
+      "rank": 193,
+      "rankRange": "181◄─►213",
       "model": "mistral-medium",
       "score": 1222,
       "votes": 0
     },
     {
-      "rank": 192,
-      "rankRange": "172◄─►221",
+      "rank": 194,
+      "rankRange": "174◄─►223",
       "model": "qwq-32b-preview",
       "score": 1220,
       "votes": 0
     },
     {
-      "rank": 193,
-      "rankRange": "181◄─►213",
+      "rank": 195,
+      "rankRange": "183◄─►215",
       "model": "Azurephi-3-medium-4k-instruct",
       "score": 1217,
       "votes": 0
     },
     {
-      "rank": 194,
-      "rankRange": "183◄─►212",
+      "rank": 196,
+      "rankRange": "185◄─►214",
       "model": "gemma-2-9b-it",
       "score": 1216,
       "votes": 0
     },
     {
-      "rank": 195,
-      "rankRange": "177◄─►221",
+      "rank": 197,
+      "rankRange": "179◄─►223",
       "model": "ministral-8b-2410",
       "score": 1215,
       "votes": 0
     },
     {
-      "rank": 196,
-      "rankRange": "182◄─►217",
+      "rank": 198,
+      "rankRange": "184◄─►219",
       "model": "01.AIyi-1.5-34b-chat",
       "score": 1215,
       "votes": 0
     },
     {
-      "rank": 197,
-      "rankRange": "185◄─►217",
+      "rank": 199,
+      "rankRange": "187◄─►219",
       "model": "Coherecommand-r-plus",
       "score": 1213,
       "votes": 0
     },
     {
-      "rank": 198,
-      "rankRange": "181◄─►221",
+      "rank": 200,
+      "rankRange": "183◄─►223",
       "model": "reka-flash-21b-20240226-online",
       "score": 1212,
       "votes": 0
     },
     {
-      "rank": 199,
-      "rankRange": "177◄─►222",
+      "rank": 201,
+      "rankRange": "179◄─►224",
       "model": "llama-3.1-tulu-3-8b",
       "score": 1210,
       "votes": 0
     },
     {
-      "rank": 200,
-      "rankRange": "183◄─►221",
+      "rank": 202,
+      "rankRange": "185◄─►223",
       "model": "InternLMinternlm2_5-20b-chat",
       "score": 1210,
       "votes": 0
     },
     {
-      "rank": 201,
-      "rankRange": "187◄─►221",
+      "rank": 203,
+      "rankRange": "189◄─►223",
       "model": "qwen1.5-72b-chat",
       "score": 1209,
       "votes": 0
     },
     {
-      "rank": 202,
-      "rankRange": "187◄─►221",
+      "rank": 204,
+      "rankRange": "189◄─►223",
       "model": "Coherecommand-r-08-2024",
-      "score": 1205,
+      "score": 1206,
       "votes": 0
     },
     {
-      "rank": 203,
-      "rankRange": "186◄─►221",
+      "rank": 205,
+      "rankRange": "188◄─►223",
       "model": "gemma-2-9b-it-simpo",
       "score": 1204,
       "votes": 0
     },
     {
-      "rank": 204,
-      "rankRange": "189◄─►221",
+      "rank": 206,
+      "rankRange": "191◄─►223",
       "model": "qwen1.5-32b-chat",
       "score": 1201,
       "votes": 0
     },
     {
-      "rank": 205,
-      "rankRange": "189◄─►222",
+      "rank": 207,
+      "rankRange": "191◄─►224",
       "model": "gpt-3.5-turbo-1106",
       "score": 1201,
       "votes": 0
     },
     {
-      "rank": 206,
-      "rankRange": "189◄─►222",
+      "rank": 208,
+      "rankRange": "191◄─►224",
       "model": "Coherec4ai-aya-expanse-8b",
       "score": 1200,
       "votes": 0
     },
     {
-      "rank": 207,
-      "rankRange": "191◄─►221",
+      "rank": 209,
+      "rankRange": "193◄─►223",
       "model": "reka-flash-21b-20240226",
       "score": 1200,
       "votes": 0
     },
     {
-      "rank": 208,
-      "rankRange": "193◄─►221",
+      "rank": 210,
+      "rankRange": "195◄─►223",
       "model": "gpt-3.5-turbo-0125",
       "score": 1198,
       "votes": 0
     },
     {
-      "rank": 209,
-      "rankRange": "183◄─►230",
+      "rank": 211,
+      "rankRange": "185◄─►232",
       "model": "granite-3.1-2b-instruct",
       "score": 1197,
       "votes": 0
     },
     {
-      "rank": 210,
-      "rankRange": "186◄─►228",
+      "rank": 212,
+      "rankRange": "188◄─►230",
       "model": "HuggingFacezephyr-orpo-141b-A35b-v0.1",
       "score": 1197,
       "votes": 0
     },
     {
-      "rank": 211,
-      "rankRange": "189◄─►228",
+      "rank": 213,
+      "rankRange": "191◄─►230",
       "model": "gemini-pro",
       "score": 1196,
       "votes": 0
     },
     {
-      "rank": 212,
-      "rankRange": "189◄─►228",
+      "rank": 214,
+      "rankRange": "191◄─►230",
       "model": "granite-3.0-8b-instruct",
       "score": 1196,
       "votes": 0
     },
     {
-      "rank": 213,
-      "rankRange": "193◄─►223",
+      "rank": 215,
+      "rankRange": "195◄─►225",
       "model": "dbrx-instruct-preview",
-      "score": 1195,
+      "score": 1196,
       "votes": 0
     },
     {
-      "rank": 214,
-      "rankRange": "192◄─►225",
+      "rank": 216,
+      "rankRange": "194◄─►227",
       "model": "Azurephi-3-mini-4k-instruct-june-2024",
       "score": 1194,
       "votes": 0
     },
     {
-      "rank": 215,
-      "rankRange": "193◄─►224",
+      "rank": 217,
+      "rankRange": "195◄─►227",
       "model": "Azurephi-3-small-8k-instruct",
       "score": 1194,
       "votes": 0
     },
     {
-      "rank": 216,
-      "rankRange": "185◄─►234",
+      "rank": 218,
+      "rankRange": "187◄─►236",
       "model": "granite-3.1-8b-instruct",
       "score": 1193,
       "votes": 0
     },
     {
-      "rank": 217,
-      "rankRange": "196◄─►222",
+      "rank": 219,
+      "rankRange": "198◄─►224",
       "model": "Metallama-3-8b-instruct",
       "score": 1193,
       "votes": 0
     },
     {
-      "rank": 218,
-      "rankRange": "196◄─►222",
+      "rank": 220,
+      "rankRange": "198◄─►224",
       "model": "Metallama-3.1-8b-instruct",
       "score": 1193,
       "votes": 0
     },
     {
-      "rank": 219,
-      "rankRange": "196◄─►224",
+      "rank": 221,
+      "rankRange": "198◄─►226",
       "model": "mixtral-8x7b-instruct-v0.1",
       "score": 1192,
       "votes": 0
     },
     {
-      "rank": 220,
-      "rankRange": "193◄─►227",
+      "rank": 222,
+      "rankRange": "195◄─►229",
       "model": "gemini-pro-dev-api",
       "score": 1192,
       "votes": 0
     },
     {
-      "rank": 221,
-      "rankRange": "196◄─►230",
+      "rank": 223,
+      "rankRange": "198◄─►232",
       "model": "jamba-1.5-mini",
       "score": 1187,
       "votes": 0
     },
     {
-      "rank": 222,
-      "rankRange": "212◄─►234",
+      "rank": 224,
+      "rankRange": "214◄─►236",
       "model": "Coherecommand-r",
       "score": 1175,
       "votes": 0
     },
     {
-      "rank": 223,
-      "rankRange": "206◄─►239",
+      "rank": 225,
+      "rankRange": "208◄─►241",
       "model": "granite-3.0-2b-instruct",
       "score": 1169,
       "votes": 0
     },
     {
-      "rank": 224,
-      "rankRange": "215◄─►238",
+      "rank": 226,
+      "rankRange": "217◄─►240",
       "model": "qwen1.5-14b-chat",
       "score": 1167,
       "votes": 0
     },
     {
-      "rank": 225,
-      "rankRange": "214◄─►239",
+      "rank": 227,
+      "rankRange": "215◄─►241",
       "model": "Metallama-3.2-3b-instruct",
       "score": 1166,
       "votes": 0
     },
     {
-      "rank": 226,
-      "rankRange": "219◄─►239",
+      "rank": 228,
+      "rankRange": "221◄─►241",
       "model": "Snowflakesnowflake-arctic-instruct",
       "score": 1162,
       "votes": 0
     },
     {
-      "rank": 227,
-      "rankRange": "221◄─►238",
+      "rank": 229,
+      "rankRange": "223◄─►240",
       "model": "gemma-2-2b-it",
       "score": 1161,
       "votes": 0
     },
     {
-      "rank": 228,
-      "rankRange": "219◄─►241",
+      "rank": 230,
+      "rankRange": "221◄─►243",
       "model": "starling-lm-7b-beta",
       "score": 1160,
       "votes": 0
     },
     {
-      "rank": 229,
-      "rankRange": "216◄─►247",
+      "rank": 231,
+      "rankRange": "218◄─►249",
       "model": "Azurewizardlm-70b",
       "score": 1159,
       "votes": 0
     },
     {
-      "rank": 230,
-      "rankRange": "221◄─►241",
+      "rank": 232,
+      "rankRange": "223◄─►243",
       "model": "OpenChatopenchat-3.5-0106",
       "score": 1157,
       "votes": 0
     },
     {
-      "rank": 231,
-      "rankRange": "221◄─►241",
+      "rank": 233,
+      "rankRange": "223◄─►243",
       "model": "gemma-1.1-7b-it",
       "score": 1156,
       "votes": 0
     },
     {
-      "rank": 232,
-      "rankRange": "215◄─►247",
+      "rank": 234,
+      "rankRange": "217◄─►249",
       "model": "deepseek-llm-67b-chat",
       "score": 1155,
       "votes": 0
     },
     {
-      "rank": 233,
-      "rankRange": "223◄─►247",
+      "rank": 235,
+      "rankRange": "225◄─►249",
       "model": "Azurephi-3-mini-4k-instruct",
       "score": 1153,
       "votes": 0
     },
     {
-      "rank": 234,
-      "rankRange": "211◄─►255",
+      "rank": 236,
+      "rankRange": "213◄─►257",
       "model": "HuggingFacesmollm2-1.7b-instruct",
       "score": 1152,
       "votes": 0
     },
     {
-      "rank": 235,
-      "rankRange": "223◄─►247",
+      "rank": 237,
+      "rankRange": "225◄─►249",
       "model": "01.AIyi-34b-chat",
       "score": 1152,
       "votes": 0
     },
     {
-      "rank": 236,
-      "rankRange": "221◄─►250",
+      "rank": 238,
+      "rankRange": "223◄─►252",
       "model": "openhermes-2.5-mistral-7b",
       "score": 1151,
       "votes": 0
     },
     {
-      "rank": 237,
-      "rankRange": "223◄─►252",
+      "rank": 239,
+      "rankRange": "225◄─►254",
       "model": "tulu-2-dpo-70b",
       "score": 1146,
       "votes": 0
     },
     {
-      "rank": 238,
-      "rankRange": "225◄─►253",
+      "rank": 240,
+      "rankRange": "227◄─►255",
       "model": "Azurephi-3-mini-128k-instruct",
       "score": 1140,
       "votes": 0
     },
     {
-      "rank": 239,
-      "rankRange": "228◄─►253",
+      "rank": 241,
+      "rankRange": "230◄─►255",
       "model": "Metallama-2-70b-chat",
       "score": 1137,
       "votes": 0
     },
     {
-      "rank": 240,
-      "rankRange": "231◄─►255",
+      "rank": 242,
+      "rankRange": "233◄─►257",
       "model": "mistral-7b-instruct-v0.2",
       "score": 1129,
       "votes": 0
     },
     {
-      "rank": 241,
-      "rankRange": "231◄─►257",
+      "rank": 243,
+      "rankRange": "233◄─►259",
       "model": "starling-lm-7b-alpha",
       "score": 1128,
       "votes": 0
     },
     {
-      "rank": 242,
-      "rankRange": "231◄─►257",
+      "rank": 244,
+      "rankRange": "233◄─►259",
       "model": "Metallama-3.2-1b-instruct",
       "score": 1125,
       "votes": 0
     },
     {
-      "rank": 243,
-      "rankRange": "223◄─►263",
+      "rank": 245,
+      "rankRange": "225◄─►265",
       "model": "dolphin-2.2.1-mistral-7b",
       "score": 1125,
       "votes": 0
     },
     {
-      "rank": 244,
-      "rankRange": "228◄─►259",
+      "rank": 246,
+      "rankRange": "230◄─►261",
       "model": "qwen-14b-chat",
       "score": 1125,
       "votes": 0
     },
     {
-      "rank": 245,
-      "rankRange": "231◄─►257",
+      "rank": 247,
+      "rankRange": "233◄─►259",
       "model": "OpenChatopenchat-3.5",
       "score": 1124,
       "votes": 0
     },
     {
-      "rank": 246,
-      "rankRange": "231◄─►259",
+      "rank": 248,
+      "rankRange": "233◄─►261",
       "model": "qwen1.5-7b-chat",
       "score": 1121,
       "votes": 0
     },
     {
-      "rank": 247,
-      "rankRange": "236◄─►258",
+      "rank": 249,
+      "rankRange": "238◄─►260",
       "model": "vicuna-33b",
       "score": 1116,
       "votes": 0
     },
     {
-      "rank": 248,
-      "rankRange": "231◄─►263",
+      "rank": 250,
+      "rankRange": "233◄─►265",
       "model": "Nvidiallama2-70b-steerlm-chat",
       "score": 1116,
       "votes": 0
     },
     {
-      "rank": 249,
-      "rankRange": "235◄─►262",
+      "rank": 251,
+      "rankRange": "237◄─►264",
       "model": "gemma-7b-it",
       "score": 1115,
       "votes": 0
     },
     {
-      "rank": 250,
-      "rankRange": "235◄─►263",
+      "rank": 252,
+      "rankRange": "237◄─►265",
       "model": "palm-2",
       "score": 1112,
       "votes": 0
     },
     {
-      "rank": 251,
-      "rankRange": "239◄─►262",
+      "rank": 253,
+      "rankRange": "241◄─►264",
       "model": "Metallama-2-13b-chat",
       "score": 1111,
       "votes": 0
     },
     {
-      "rank": 252,
-      "rankRange": "235◄─►264",
+      "rank": 254,
+      "rankRange": "237◄─►266",
       "model": "solar-10.7b-instruct-v1.0",
       "score": 1110,
       "votes": 0
     },
     {
-      "rank": 253,
-      "rankRange": "237◄─►264",
+      "rank": 255,
+      "rankRange": "239◄─►266",
       "model": "Metacodellama-34b-instruct",
       "score": 1108,
       "votes": 0
     },
     {
-      "rank": 254,
-      "rankRange": "239◄─►264",
+      "rank": 256,
+      "rankRange": "241◄─►266",
       "model": "gemma-1.1-2b-it",
       "score": 1105,
       "votes": 0
     },
     {
-      "rank": 255,
-      "rankRange": "241◄─►266",
+      "rank": 257,
+      "rankRange": "243◄─►268",
       "model": "nous-hermes-2-mixtral-8x7b-dpo",
       "score": 1096,
       "votes": 0
     },
     {
-      "rank": 256,
-      "rankRange": "236◄─►268",
+      "rank": 258,
+      "rankRange": "238◄─►270",
       "model": "mpt-30b-chat",
       "score": 1094,
       "votes": 0
     },
     {
-      "rank": 257,
-      "rankRange": "247◄─►266",
+      "rank": 259,
+      "rankRange": "249◄─►268",
       "model": "Metallama-2-7b-chat",
       "score": 1087,
       "votes": 0
     },
     {
-      "rank": 258,
-      "rankRange": "244◄─►268",
+      "rank": 260,
+      "rankRange": "246◄─►270",
       "model": "stripedhyena-nous-7b",
       "score": 1084,
       "votes": 0
     },
     {
-      "rank": 259,
-      "rankRange": "245◄─►267",
+      "rank": 261,
+      "rankRange": "247◄─►269",
       "model": "qwen1.5-4b-chat",
       "score": 1084,
       "votes": 0
     },
     {
-      "rank": 260,
-      "rankRange": "247◄─►267",
+      "rank": 262,
+      "rankRange": "249◄─►269",
       "model": "HuggingFacezephyr-7b-beta",
       "score": 1083,
       "votes": 0
     },
     {
-      "rank": 261,
-      "rankRange": "249◄─►267",
+      "rank": 263,
+      "rankRange": "251◄─►269",
       "model": "vicuna-13b",
       "score": 1082,
       "votes": 0
     },
     {
-      "rank": 262,
-      "rankRange": "247◄─►268",
+      "rank": 264,
+      "rankRange": "249◄─►270",
       "model": "mistral-7b-instruct",
-      "score": 1081,
+      "score": 1082,
       "votes": 0
     },
     {
-      "rank": 263,
-      "rankRange": "241◄─►268",
+      "rank": 265,
+      "rankRange": "243◄─►270",
       "model": "guanaco-33b",
       "score": 1080,
       "votes": 0
     },
     {
-      "rank": 264,
-      "rankRange": "252◄─►268",
+      "rank": 266,
+      "rankRange": "254◄─►270",
       "model": "gemma-2b-it",
       "score": 1067,
       "votes": 0
     },
     {
-      "rank": 265,
-      "rankRange": "255◄─►268",
+      "rank": 267,
+      "rankRange": "257◄─►270",
       "model": "Azurewizardlm-13b",
       "score": 1065,
       "votes": 0
     },
     {
-      "rank": 266,
-      "rankRange": "255◄─►268",
+      "rank": 268,
+      "rankRange": "257◄─►270",
       "model": "olmo-7b-instruct",
       "score": 1056,
       "votes": 0
     },
     {
-      "rank": 267,
-      "rankRange": "257◄─►269",
+      "rank": 269,
+      "rankRange": "259◄─►271",
       "model": "vicuna-7b",
       "score": 1048,
       "votes": 0
     },
     {
-      "rank": 268,
-      "rankRange": "260◄─►269",
+      "rank": 270,
+      "rankRange": "262◄─►271",
       "model": "chatglm3-6b",
       "score": 1041,
       "votes": 0
     },
     {
-      "rank": 269,
-      "rankRange": "267◄─►277",
+      "rank": 271,
+      "rankRange": "269◄─►279",
       "model": "gpt4all-13b-snoozy",
       "score": 997,
       "votes": 0
     },
     {
-      "rank": 270,
-      "rankRange": "269◄─►277",
+      "rank": 272,
+      "rankRange": "271◄─►279",
       "model": "alpaca-13b",
       "score": 986,
       "votes": 0
     },
     {
-      "rank": 271,
-      "rankRange": "269◄─►277",
+      "rank": 273,
+      "rankRange": "271◄─►279",
       "model": "mpt-7b-chat",
       "score": 982,
       "votes": 0
     },
     {
-      "rank": 272,
-      "rankRange": "269◄─►277",
+      "rank": 274,
+      "rankRange": "271◄─►279",
       "model": "RWKVRWKV-4-Raven-14B",
       "score": 981,
       "votes": 0
     },
     {
-      "rank": 273,
-      "rankRange": "269◄─►277",
+      "rank": 275,
+      "rankRange": "271◄─►279",
       "model": "koala-13b",
       "score": 980,
       "votes": 0
     },
     {
-      "rank": 274,
-      "rankRange": "269◄─►277",
+      "rank": 276,
+      "rankRange": "271◄─►279",
       "model": "chatglm-6b",
       "score": 976,
       "votes": 0
     },
     {
-      "rank": 275,
-      "rankRange": "269◄─►279",
+      "rank": 277,
+      "rankRange": "271◄─►281",
       "model": "chatglm2-6b",
       "score": 969,
       "votes": 0
     },
     {
-      "rank": 276,
-      "rankRange": "269◄─►279",
+      "rank": 278,
+      "rankRange": "271◄─►281",
       "model": "oasst-pythia-12b",
       "score": 957,
       "votes": 0
     },
     {
-      "rank": 277,
-      "rankRange": "269◄─►280",
+      "rank": 279,
+      "rankRange": "271◄─►282",
       "model": "dolly-v2-12b",
       "score": 946,
       "votes": 0
     },
     {
-      "rank": 278,
-      "rankRange": "275◄─►280",
+      "rank": 280,
+      "rankRange": "277◄─►282",
       "model": "fastchat-t5-3b",
       "score": 918,
       "votes": 0
     },
     {
-      "rank": 279,
-      "rankRange": "275◄─►280",
+      "rank": 281,
+      "rankRange": "277◄─►282",
       "model": "Metallama-13b",
       "score": 913,
       "votes": 0
     },
     {
-      "rank": 280,
-      "rankRange": "277◄─►280",
+      "rank": 282,
+      "rankRange": "279◄─►282",
       "model": "Stabilitystablelm-tuned-alpha-7b",
-      "score": 889,
+      "score": 890,
       "votes": 0
     }
   ],
-  "fetchedAt": "2025-12-21T00:20:45.556Z"
+  "fetchedAt": "2025-12-23T00:19:18.765Z"
 }
