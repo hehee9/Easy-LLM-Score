@@ -91,8 +91,21 @@
         "hle": 0.098,
         "livecodebench": 0.777,
         "scicode": 0.344,
+        "artificial_analysis_intelligence_index": 52.1,
+        "artificial_analysis_coding_index": 40.7,
+        "artificial_analysis_math_index": 89.3,
+        "mmlu_pro": 0.748,
+        "gpqa": 0.688,
+        "hle": 0.098,
+        "livecodebench": 0.777,
+        "scicode": 0.344,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.893,
+        "ifbench": 0.651,
+        "lcr": 0.307,
+        "terminalbench_hard": 0.099,
+        "tau2": 0.602
         "aime_25": 0.893,
         "ifbench": 0.651,
         "lcr": 0.307,
@@ -149,12 +162,24 @@
       "name": "gpt-oss-120B (low)",
       "slug": "gpt-oss-120b-low",
       "release_date": "2025-08-05",
+      "id": "c99f3bde-7c08-4de8-bd5c-8ee9123ebffa",
+      "name": "gpt-oss-120B (low)",
+      "slug": "gpt-oss-120b-low",
+      "release_date": "2025-08-05",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 47.5,
+        "artificial_analysis_coding_index": 37.2,
+        "artificial_analysis_math_index": 66.7,
+        "mmlu_pro": 0.775,
+        "gpqa": 0.672,
+        "hle": 0.052,
+        "livecodebench": 0.707,
+        "scicode": 0.36,
         "artificial_analysis_intelligence_index": 47.5,
         "artificial_analysis_coding_index": 37.2,
         "artificial_analysis_math_index": 66.7,
@@ -170,8 +195,16 @@
         "lcr": 0.437,
         "terminalbench_hard": 0.05,
         "tau2": 0.45
+        "aime_25": 0.667,
+        "ifbench": 0.583,
+        "lcr": 0.437,
+        "terminalbench_hard": 0.05,
+        "tau2": 0.45
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.263,
+        "price_1m_input_tokens": 0.15,
+        "price_1m_output_tokens": 0.595
         "price_1m_blended_3_to_1": 0.263,
         "price_1m_input_tokens": 0.15,
         "price_1m_output_tokens": 0.595
@@ -181,6 +214,10 @@
       "median_time_to_first_answer_token": 6.692
     },
     {
+      "id": "04d023f3-025c-4d78-9571-53edda3eaf2a",
+      "name": "GPT-5.1 Codex (high)",
+      "slug": "gpt-5-1-codex",
+      "release_date": "2025-11-13",
       "id": "04d023f3-025c-4d78-9571-53edda3eaf2a",
       "name": "GPT-5.1 Codex (high)",
       "slug": "gpt-5-1-codex",
@@ -199,6 +236,14 @@
         "hle": 0.234,
         "livecodebench": 0.849,
         "scicode": 0.402,
+        "artificial_analysis_intelligence_index": 66.9,
+        "artificial_analysis_coding_index": 52.5,
+        "artificial_analysis_math_index": 95.7,
+        "mmlu_pro": 0.86,
+        "gpqa": 0.86,
+        "hle": 0.234,
+        "livecodebench": 0.849,
+        "scicode": 0.402,
         "math_500": null,
         "aime": null,
         "aime_25": 0.957,
@@ -206,8 +251,16 @@
         "lcr": 0.673,
         "terminalbench_hard": 0.326,
         "tau2": 0.83
+        "aime_25": 0.957,
+        "ifbench": 0.7,
+        "lcr": 0.673,
+        "terminalbench_hard": 0.326,
+        "tau2": 0.83
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 3.438,
+        "price_1m_input_tokens": 1.25,
+        "price_1m_output_tokens": 10
         "price_1m_blended_3_to_1": 3.438,
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
@@ -257,12 +310,24 @@
       "name": "gpt-oss-20B (low)",
       "slug": "gpt-oss-20b-low",
       "release_date": "2025-08-05",
+      "id": "16149b9c-a1e9-4669-a5cb-ff3c00d78f89",
+      "name": "gpt-oss-20B (low)",
+      "slug": "gpt-oss-20b-low",
+      "release_date": "2025-08-05",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 44.3,
+        "artificial_analysis_coding_index": 34.5,
+        "artificial_analysis_math_index": 62.3,
+        "mmlu_pro": 0.718,
+        "gpqa": 0.611,
+        "hle": 0.051,
+        "livecodebench": 0.652,
+        "scicode": 0.34,
         "artificial_analysis_intelligence_index": 44.3,
         "artificial_analysis_coding_index": 34.5,
         "artificial_analysis_math_index": 62.3,
@@ -278,8 +343,16 @@
         "lcr": 0.31,
         "terminalbench_hard": 0.043,
         "tau2": 0.503
+        "aime_25": 0.623,
+        "ifbench": 0.578,
+        "lcr": 0.31,
+        "terminalbench_hard": 0.043,
+        "tau2": 0.503
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.1,
+        "price_1m_input_tokens": 0.07,
+        "price_1m_output_tokens": 0.2
         "price_1m_blended_3_to_1": 0.1,
         "price_1m_input_tokens": 0.07,
         "price_1m_output_tokens": 0.2
@@ -289,6 +362,9 @@
       "median_time_to_first_answer_token": 8.795
     },
     {
+      "id": "29855680-7469-43eb-8b88-cd3fb1d99da3",
+      "name": "GPT-5 mini (high)",
+      "slug": "gpt-5-mini",
       "id": "29855680-7469-43eb-8b88-cd3fb1d99da3",
       "name": "GPT-5 mini (high)",
       "slug": "gpt-5-mini",
@@ -314,8 +390,26 @@
         "lcr": 0.68,
         "terminalbench_hard": 0.312,
         "tau2": 0.684
+        "artificial_analysis_intelligence_index": 64.3,
+        "artificial_analysis_coding_index": 51.4,
+        "artificial_analysis_math_index": 90.7,
+        "mmlu_pro": 0.837,
+        "gpqa": 0.828,
+        "hle": 0.197,
+        "livecodebench": 0.838,
+        "scicode": 0.392,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.907,
+        "ifbench": 0.754,
+        "lcr": 0.68,
+        "terminalbench_hard": 0.312,
+        "tau2": 0.684
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.688,
+        "price_1m_input_tokens": 0.25,
+        "price_1m_output_tokens": 2
         "price_1m_blended_3_to_1": 0.688,
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
@@ -325,6 +419,10 @@
       "median_time_to_first_answer_token": 95.819
     },
     {
+      "id": "498862c3-f9ac-49d2-852f-16a02bb0c38f",
+      "name": "GPT-5.2 (xhigh)",
+      "slug": "gpt-5-2",
+      "release_date": "2025-12-11",
       "id": "498862c3-f9ac-49d2-852f-16a02bb0c38f",
       "name": "GPT-5.2 (xhigh)",
       "slug": "gpt-5-2",
@@ -343,6 +441,14 @@
         "hle": 0.314,
         "livecodebench": 0.892,
         "scicode": 0.521,
+        "artificial_analysis_intelligence_index": 72.6,
+        "artificial_analysis_coding_index": 61.8,
+        "artificial_analysis_math_index": 98.7,
+        "mmlu_pro": 0.874,
+        "gpqa": 0.903,
+        "hle": 0.314,
+        "livecodebench": 0.892,
+        "scicode": 0.521,
         "math_500": null,
         "aime": null,
         "aime_25": 0.987,
@@ -350,8 +456,16 @@
         "lcr": 0.727,
         "terminalbench_hard": 0.44,
         "tau2": 0.848
+        "aime_25": 0.987,
+        "ifbench": 0.754,
+        "lcr": 0.727,
+        "terminalbench_hard": 0.44,
+        "tau2": 0.848
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 4.813,
+        "price_1m_input_tokens": 1.75,
+        "price_1m_output_tokens": 14
         "price_1m_blended_3_to_1": 4.813,
         "price_1m_input_tokens": 1.75,
         "price_1m_output_tokens": 14
@@ -401,6 +515,10 @@
       "name": "GPT-5.1 Codex mini (high)",
       "slug": "gpt-5-1-codex-mini",
       "release_date": "2025-11-13",
+      "id": "fd4454ff-e703-46c0-a7f5-fa69af09486d",
+      "name": "GPT-5.1 Codex mini (high)",
+      "slug": "gpt-5-1-codex-mini",
+      "release_date": "2025-11-13",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
@@ -415,8 +533,21 @@
         "hle": 0.169,
         "livecodebench": 0.836,
         "scicode": 0.426,
+        "artificial_analysis_intelligence_index": 62.3,
+        "artificial_analysis_coding_index": 52.5,
+        "artificial_analysis_math_index": 91.7,
+        "mmlu_pro": 0.82,
+        "gpqa": 0.813,
+        "hle": 0.169,
+        "livecodebench": 0.836,
+        "scicode": 0.426,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.917,
+        "ifbench": 0.679,
+        "lcr": 0.627,
+        "terminalbench_hard": 0.312,
+        "tau2": 0.629
         "aime_25": 0.917,
         "ifbench": 0.679,
         "lcr": 0.627,
@@ -709,9 +840,26 @@
         "ifbench": 0.279,
         "lcr": 0,
         "terminalbench_hard": 0.021,
+        "artificial_analysis_intelligence_index": 15.5,
+        "artificial_analysis_coding_index": 8.3,
+        "artificial_analysis_math_index": 14.3,
+        "mmlu_pro": 0.488,
+        "gpqa": 0.296,
+        "hle": 0.044,
+        "livecodebench": 0.146,
+        "scicode": 0.081,
+        "math_500": 0.771,
+        "aime": 0.137,
+        "aime_25": 0.143,
+        "ifbench": 0.279,
+        "lcr": 0,
+        "terminalbench_hard": 0.021,
         "tau2": 0.05
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.025,
+        "price_1m_input_tokens": 0.02,
+        "price_1m_output_tokens": 0.04
         "price_1m_blended_3_to_1": 0.025,
         "price_1m_input_tokens": 0.02,
         "price_1m_output_tokens": 0.04
@@ -761,12 +909,24 @@
       "name": "Gemini 3 Pro Preview (high)",
       "slug": "gemini-3-pro",
       "release_date": "2025-11-18",
+      "id": "d1122eff-ee85-4fdc-8a9f-23bee6590667",
+      "name": "Gemini 3 Pro Preview (high)",
+      "slug": "gemini-3-pro",
+      "release_date": "2025-11-18",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
         "slug": "google"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 72.8,
+        "artificial_analysis_coding_index": 62.3,
+        "artificial_analysis_math_index": 95.7,
+        "mmlu_pro": 0.898,
+        "gpqa": 0.908,
+        "hle": 0.372,
+        "livecodebench": 0.917,
+        "scicode": 0.561,
         "artificial_analysis_intelligence_index": 72.8,
         "artificial_analysis_coding_index": 62.3,
         "artificial_analysis_math_index": 95.7,
@@ -782,8 +942,16 @@
         "lcr": 0.707,
         "terminalbench_hard": 0.39,
         "tau2": 0.871
+        "aime_25": 0.957,
+        "ifbench": 0.704,
+        "lcr": 0.707,
+        "terminalbench_hard": 0.39,
+        "tau2": 0.871
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 4.5,
+        "price_1m_input_tokens": 2,
+        "price_1m_output_tokens": 12
         "price_1m_blended_3_to_1": 4.5,
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 12
@@ -793,6 +961,10 @@
       "median_time_to_first_answer_token": 28.286
     },
     {
+      "id": "783a0ea2-1eef-422a-8c3d-f6d40d943f54",
+      "name": "Gemini 3 Flash Preview (Non-reasoning)",
+      "slug": "gemini-3-flash",
+      "release_date": "2025-12-17",
       "id": "783a0ea2-1eef-422a-8c3d-f6d40d943f54",
       "name": "Gemini 3 Flash Preview (Non-reasoning)",
       "slug": "gemini-3-flash",
@@ -811,8 +983,21 @@
         "hle": 0.141,
         "livecodebench": 0.797,
         "scicode": 0.499,
+        "artificial_analysis_intelligence_index": 54.5,
+        "artificial_analysis_coding_index": 53.1,
+        "artificial_analysis_math_index": 55.7,
+        "mmlu_pro": 0.882,
+        "gpqa": 0.812,
+        "hle": 0.141,
+        "livecodebench": 0.797,
+        "scicode": 0.499,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.557,
+        "ifbench": 0.551,
+        "lcr": 0.48,
+        "terminalbench_hard": 0.298,
+        "tau2": 0.433
         "aime_25": 0.557,
         "ifbench": 0.551,
         "lcr": 0.48,
@@ -823,12 +1008,19 @@
         "price_1m_blended_3_to_1": 1.125,
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 3
+        "price_1m_blended_3_to_1": 1.125,
+        "price_1m_input_tokens": 0.5,
+        "price_1m_output_tokens": 3
       },
       "median_output_tokens_per_second": 201.789,
       "median_time_to_first_token_seconds": 0.702,
       "median_time_to_first_answer_token": 0.702
     },
     {
+      "id": "84922739-425f-46e1-87ac-bb4268dcacbb",
+      "name": "Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning)",
+      "slug": "gemini-2-5-flash-lite-preview-09-2025-reasoning",
+      "release_date": "2025-09-08",
       "id": "84922739-425f-46e1-87ac-bb4268dcacbb",
       "name": "Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning)",
       "slug": "gemini-2-5-flash-lite-preview-09-2025-reasoning",
@@ -854,8 +1046,26 @@
         "lcr": 0.59,
         "terminalbench_hard": 0.121,
         "tau2": 0.307
+        "artificial_analysis_intelligence_index": 47.9,
+        "artificial_analysis_coding_index": 36.5,
+        "artificial_analysis_math_index": 68.7,
+        "mmlu_pro": 0.808,
+        "gpqa": 0.709,
+        "hle": 0.066,
+        "livecodebench": 0.688,
+        "scicode": 0.287,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.687,
+        "ifbench": 0.526,
+        "lcr": 0.59,
+        "terminalbench_hard": 0.121,
+        "tau2": 0.307
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.175,
+        "price_1m_input_tokens": 0.1,
+        "price_1m_output_tokens": 0.4
         "price_1m_blended_3_to_1": 0.175,
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
@@ -865,6 +1075,10 @@
       "median_time_to_first_answer_token": 6.892
     },
     {
+      "id": "71f51ea9-94fe-4635-a80d-4cfffbb685f4",
+      "name": "Gemini 2.5 Flash-Lite Preview (Sep '25) (Non-reasoning)",
+      "slug": "gemini-2-5-flash-lite-preview-09-2025",
+      "release_date": "2025-09-25",
       "id": "71f51ea9-94fe-4635-a80d-4cfffbb685f4",
       "name": "Gemini 2.5 Flash-Lite Preview (Sep '25) (Non-reasoning)",
       "slug": "gemini-2-5-flash-lite-preview-09-2025",
@@ -926,12 +1140,16 @@
         "lcr": 0,
         "terminalbench_hard": 0,
         "tau2": 0.091
+        "tau2": 0.091
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -977,6 +1195,10 @@
       "name": "Gemma 3 4B Instruct",
       "slug": "gemma-3-4b",
       "release_date": "2025-03-12",
+      "id": "222fb320-6e55-4672-846a-b6d5a24a45f4",
+      "name": "Gemma 3 4B Instruct",
+      "slug": "gemma-3-4b",
+      "release_date": "2025-03-12",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -998,8 +1220,26 @@
         "lcr": 0.057,
         "terminalbench_hard": 0.007,
         "tau2": 0.05
+        "artificial_analysis_intelligence_index": 14.7,
+        "artificial_analysis_coding_index": 6.4,
+        "artificial_analysis_math_index": 12.7,
+        "mmlu_pro": 0.417,
+        "gpqa": 0.291,
+        "hle": 0.052,
+        "livecodebench": 0.112,
+        "scicode": 0.073,
+        "math_500": 0.766,
+        "aime": 0.063,
+        "aime_25": 0.127,
+        "ifbench": 0.283,
+        "lcr": 0.057,
+        "terminalbench_hard": 0.007,
+        "tau2": 0.05
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -1009,6 +1249,10 @@
       "median_time_to_first_answer_token": 0.99
     },
     {
+      "id": "2e6400f5-85ca-4ebc-ba8f-c2811a631138",
+      "name": "Gemma 3 12B Instruct",
+      "slug": "gemma-3-12b",
+      "release_date": "2025-03-12",
       "id": "2e6400f5-85ca-4ebc-ba8f-c2811a631138",
       "name": "Gemma 3 12B Instruct",
       "slug": "gemma-3-12b",
@@ -1034,8 +1278,26 @@
         "lcr": 0.067,
         "terminalbench_hard": 0.007,
         "tau2": 0.108
+        "artificial_analysis_intelligence_index": 20.4,
+        "artificial_analysis_coding_index": 10.6,
+        "artificial_analysis_math_index": 18.3,
+        "mmlu_pro": 0.595,
+        "gpqa": 0.349,
+        "hle": 0.048,
+        "livecodebench": 0.137,
+        "scicode": 0.174,
+        "math_500": 0.853,
+        "aime": 0.22,
+        "aime_25": 0.183,
+        "ifbench": 0.367,
+        "lcr": 0.067,
+        "terminalbench_hard": 0.007,
+        "tau2": 0.108
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -1045,6 +1307,10 @@
       "median_time_to_first_answer_token": 7.131
     },
     {
+      "id": "a8c67863-9d66-44dd-8d27-f58654ecde03",
+      "name": "Gemma 3n E2B Instruct",
+      "slug": "gemma-3n-e2b",
+      "release_date": "2025-06-26",
       "id": "a8c67863-9d66-44dd-8d27-f58654ecde03",
       "name": "Gemma 3n E2B Instruct",
       "slug": "gemma-3n-e2b",
@@ -1070,8 +1336,26 @@
         "lcr": 0,
         "terminalbench_hard": 0.007,
         "tau2": 0
+        "artificial_analysis_intelligence_index": 11.3,
+        "artificial_analysis_coding_index": 5.2,
+        "artificial_analysis_math_index": 10.3,
+        "mmlu_pro": 0.378,
+        "gpqa": 0.229,
+        "hle": 0.04,
+        "livecodebench": 0.095,
+        "scicode": 0.052,
+        "math_500": 0.691,
+        "aime": 0.09,
+        "aime_25": 0.103,
+        "ifbench": 0.22,
+        "lcr": 0,
+        "terminalbench_hard": 0.007,
+        "tau2": 0
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -1081,6 +1365,10 @@
       "median_time_to_first_answer_token": 0.388
     },
     {
+      "id": "d1720545-d0a8-4c15-a53e-ef5ca99ac7ea",
+      "name": "Gemma 3 1B Instruct",
+      "slug": "gemma-3-1b",
+      "release_date": "2025-03-13",
       "id": "d1720545-d0a8-4c15-a53e-ef5ca99ac7ea",
       "name": "Gemma 3 1B Instruct",
       "slug": "gemma-3-1b",
@@ -1106,8 +1394,26 @@
         "lcr": 0,
         "terminalbench_hard": 0,
         "tau2": 0
+        "artificial_analysis_intelligence_index": 6.8,
+        "artificial_analysis_coding_index": 0.8,
+        "artificial_analysis_math_index": 3.3,
+        "mmlu_pro": 0.135,
+        "gpqa": 0.237,
+        "hle": 0.052,
+        "livecodebench": 0.017,
+        "scicode": 0.007,
+        "math_500": 0.484,
+        "aime": 0,
+        "aime_25": 0.033,
+        "ifbench": 0.199,
+        "lcr": 0,
+        "terminalbench_hard": 0,
+        "tau2": 0
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -1156,6 +1462,9 @@
       "id": "b2f3191f-77d6-4155-8be6-330f0baa1ae5",
       "name": "Gemini 3 Pro Preview (low)",
       "slug": "gemini-3-pro-low",
+      "id": "b2f3191f-77d6-4155-8be6-330f0baa1ae5",
+      "name": "Gemini 3 Pro Preview (low)",
+      "slug": "gemini-3-pro-low",
       "release_date": "2025-11-18",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
@@ -1171,8 +1480,21 @@
         "hle": 0.276,
         "livecodebench": 0.857,
         "scicode": 0.499,
+        "artificial_analysis_intelligence_index": 64.5,
+        "artificial_analysis_coding_index": 55.8,
+        "artificial_analysis_math_index": 86.7,
+        "mmlu_pro": 0.895,
+        "gpqa": 0.887,
+        "hle": 0.276,
+        "livecodebench": 0.857,
+        "scicode": 0.499,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.867,
+        "ifbench": 0.497,
+        "lcr": 0.673,
+        "terminalbench_hard": 0.319,
+        "tau2": 0.681
         "aime_25": 0.867,
         "ifbench": 0.497,
         "lcr": 0.673,
@@ -1445,12 +1767,31 @@
       "name": "Mistral Medium 3.1",
       "slug": "mistral-medium-3-1",
       "release_date": "2025-08-12",
+      "id": "05a32e26-e609-4377-951b-8fa23d329926",
+      "name": "Mistral Medium 3.1",
+      "slug": "mistral-medium-3-1",
+      "release_date": "2025-08-12",
       "model_creator": {
         "id": "b5c0639a-cc9c-443b-a07e-bae6b7088933",
         "name": "Mistral",
         "slug": "mistral"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 35.4,
+        "artificial_analysis_coding_index": 28.1,
+        "artificial_analysis_math_index": 38.3,
+        "mmlu_pro": 0.683,
+        "gpqa": 0.588,
+        "hle": 0.044,
+        "livecodebench": 0.406,
+        "scicode": 0.338,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.383,
+        "ifbench": 0.398,
+        "lcr": 0.197,
+        "terminalbench_hard": 0.099,
+        "tau2": 0.406
         "artificial_analysis_intelligence_index": 35.4,
         "artificial_analysis_coding_index": 28.1,
         "artificial_analysis_math_index": 38.3,
@@ -1805,6 +2146,10 @@
       "name": "Ministral 3B (Dec '25)",
       "slug": "ministral-3b",
       "release_date": "2025-12-02",
+      "id": "66f4ce73-9a9b-4b49-9c6e-bedb9bfdc720",
+      "name": "Ministral 3B (Dec '25)",
+      "slug": "ministral-3b",
+      "release_date": "2025-12-02",
       "model_creator": {
         "id": "b5c0639a-cc9c-443b-a07e-bae6b7088933",
         "name": "Mistral",
@@ -1819,8 +2164,20 @@
         "hle": 0.053,
         "livecodebench": 0.247,
         "scicode": 0.144,
+        "artificial_analysis_intelligence_index": 21.8,
+        "artificial_analysis_coding_index": 13,
+        "artificial_analysis_math_index": 22,
+        "mmlu_pro": 0.524,
+        "gpqa": 0.358,
+        "hle": 0.053,
+        "livecodebench": 0.247,
+        "scicode": 0.144,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.22,
+        "ifbench": 0.268,
+        "lcr": 0.117,
+        "terminalbench_hard": 0,
         "aime_25": 0.22,
         "ifbench": 0.268,
         "lcr": 0.117,
@@ -1831,7 +2188,13 @@
         "price_1m_blended_3_to_1": 0.1,
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.1
+        "price_1m_blended_3_to_1": 0.1,
+        "price_1m_input_tokens": 0.1,
+        "price_1m_output_tokens": 0.1
       },
+      "median_output_tokens_per_second": 293.703,
+      "median_time_to_first_token_seconds": 0.258,
+      "median_time_to_first_answer_token": 0.258
       "median_output_tokens_per_second": 293.703,
       "median_time_to_first_token_seconds": 0.258,
       "median_time_to_first_answer_token": 0.258
@@ -1866,6 +2229,7 @@
       "pricing": {
         "price_1m_blended_3_to_1": 0.875,
         "price_1m_input_tokens": 0.8,
+        "price_1m_output_tokens": 1.2
         "price_1m_output_tokens": 1.2
       },
       "median_output_tokens_per_second": 93.105,
@@ -1913,12 +2277,24 @@
       "name": "DeepSeek V3.1 Terminus (Non-reasoning)",
       "slug": "deepseek-v3-1-terminus",
       "release_date": "2025-09-22",
+      "id": "dfb9292d-bc7c-4425-a260-4256217e709f",
+      "name": "DeepSeek V3.1 Terminus (Non-reasoning)",
+      "slug": "deepseek-v3-1-terminus",
+      "release_date": "2025-09-22",
       "model_creator": {
         "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
         "name": "DeepSeek",
         "slug": "deepseek"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 45.7,
+        "artificial_analysis_coding_index": 38.3,
+        "artificial_analysis_math_index": 53.7,
+        "mmlu_pro": 0.836,
+        "gpqa": 0.751,
+        "hle": 0.084,
+        "livecodebench": 0.529,
+        "scicode": 0.321,
         "artificial_analysis_intelligence_index": 45.7,
         "artificial_analysis_coding_index": 38.3,
         "artificial_analysis_math_index": 53.7,
@@ -1934,12 +2310,23 @@
         "lcr": 0.433,
         "terminalbench_hard": 0.298,
         "tau2": 0.371
+        "aime_25": 0.537,
+        "ifbench": 0.412,
+        "lcr": 0.433,
+        "terminalbench_hard": 0.298,
+        "tau2": 0.371
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.8,
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 1.68
+        "price_1m_blended_3_to_1": 0.8,
+        "price_1m_input_tokens": 0.4,
+        "price_1m_output_tokens": 1.68
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -1984,6 +2371,9 @@
       "id": "d621247c-d47e-458c-82cb-a166bc3b37e5",
       "name": "DeepSeek V3.2 (Reasoning)",
       "slug": "deepseek-v3-2-reasoning",
+      "id": "d621247c-d47e-458c-82cb-a166bc3b37e5",
+      "name": "DeepSeek V3.2 (Reasoning)",
+      "slug": "deepseek-v3-2-reasoning",
       "release_date": "2025-12-01",
       "model_creator": {
         "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
@@ -1999,8 +2389,21 @@
         "hle": 0.222,
         "livecodebench": 0.862,
         "scicode": 0.389,
+        "artificial_analysis_intelligence_index": 65.9,
+        "artificial_analysis_coding_index": 52.8,
+        "artificial_analysis_math_index": 92,
+        "mmlu_pro": 0.862,
+        "gpqa": 0.84,
+        "hle": 0.222,
+        "livecodebench": 0.862,
+        "scicode": 0.389,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.92,
+        "ifbench": 0.607,
+        "lcr": 0.65,
+        "terminalbench_hard": 0.333,
+        "tau2": 0.906
         "aime_25": 0.92,
         "ifbench": 0.607,
         "lcr": 0.65,
@@ -2057,6 +2460,10 @@
       "name": "DeepSeek V3.2 (Non-reasoning)",
       "slug": "deepseek-v3-2",
       "release_date": "2025-12-01",
+      "id": "6d9a176d-feb8-4dac-8872-afe32b31897f",
+      "name": "DeepSeek V3.2 (Non-reasoning)",
+      "slug": "deepseek-v3-2",
+      "release_date": "2025-12-01",
       "model_creator": {
         "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
         "name": "DeepSeek",
@@ -2067,12 +2474,24 @@
         "artificial_analysis_coding_index": 42.8,
         "artificial_analysis_math_index": 59,
         "mmlu_pro": 0.837,
+        "artificial_analysis_intelligence_index": 52.4,
+        "artificial_analysis_coding_index": 42.8,
+        "artificial_analysis_math_index": 59,
+        "mmlu_pro": 0.837,
         "gpqa": 0.751,
+        "hle": 0.105,
+        "livecodebench": 0.593,
+        "scicode": 0.387,
         "hle": 0.105,
         "livecodebench": 0.593,
         "scicode": 0.387,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.59,
+        "ifbench": 0.49,
+        "lcr": 0.39,
+        "terminalbench_hard": 0.305,
+        "tau2": 0.789
         "aime_25": 0.59,
         "ifbench": 0.49,
         "lcr": 0.39,
@@ -2453,6 +2872,10 @@
       "name": "Grok 4 Fast (Non-reasoning)",
       "slug": "grok-4-fast",
       "release_date": "2025-09-19",
+      "id": "2dbb6dc7-8c40-4b6d-af9c-cf805f83b79a",
+      "name": "Grok 4 Fast (Non-reasoning)",
+      "slug": "grok-4-fast",
+      "release_date": "2025-09-19",
       "model_creator": {
         "id": "a1e3ddcf-d3e4-44a5-9e8f-029a69850875",
         "name": "xAI",
@@ -2464,11 +2887,22 @@
         "artificial_analysis_math_index": 41.3,
         "mmlu_pro": 0.73,
         "gpqa": 0.606,
+        "artificial_analysis_intelligence_index": 38.6,
+        "artificial_analysis_coding_index": 28.1,
+        "artificial_analysis_math_index": 41.3,
+        "mmlu_pro": 0.73,
+        "gpqa": 0.606,
         "hle": 0.05,
+        "livecodebench": 0.401,
+        "scicode": 0.329,
         "livecodebench": 0.401,
         "scicode": 0.329,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.413,
+        "ifbench": 0.377,
+        "lcr": 0.2,
+        "terminalbench_hard": 0.113,
         "aime_25": 0.413,
         "ifbench": 0.377,
         "lcr": 0.2,
@@ -2525,6 +2959,10 @@
       "name": "Nova Premier",
       "slug": "nova-premier",
       "release_date": "2025-04-30",
+      "id": "e58bbffd-fdc2-412a-b6d7-ca0e3f5d611a",
+      "name": "Nova Premier",
+      "slug": "nova-premier",
+      "release_date": "2025-04-30",
       "model_creator": {
         "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
         "name": "Amazon",
@@ -2546,8 +2984,26 @@
         "lcr": 0.3,
         "terminalbench_hard": 0.064,
         "tau2": 0.383
+        "artificial_analysis_intelligence_index": 32.3,
+        "artificial_analysis_coding_index": 22,
+        "artificial_analysis_math_index": 17.3,
+        "mmlu_pro": 0.733,
+        "gpqa": 0.569,
+        "hle": 0.047,
+        "livecodebench": 0.317,
+        "scicode": 0.279,
+        "math_500": 0.839,
+        "aime": 0.17,
+        "aime_25": 0.173,
+        "ifbench": 0.362,
+        "lcr": 0.3,
+        "terminalbench_hard": 0.064,
+        "tau2": 0.383
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 5,
+        "price_1m_input_tokens": 2.5,
+        "price_1m_output_tokens": 12.5
         "price_1m_blended_3_to_1": 5,
         "price_1m_input_tokens": 2.5,
         "price_1m_output_tokens": 12.5
@@ -2557,6 +3013,10 @@
       "median_time_to_first_answer_token": 0.791
     },
     {
+      "id": "6fd796d3-f346-4f66-97df-5da81714fc73",
+      "name": "Nova 2.0 Lite (low)",
+      "slug": "nova-2-0-lite-reasoning-low",
+      "release_date": "2025-10-29",
       "id": "6fd796d3-f346-4f66-97df-5da81714fc73",
       "name": "Nova 2.0 Lite (low)",
       "slug": "nova-2-0-lite-reasoning-low",
@@ -2575,12 +3035,24 @@
         "hle": 0.042,
         "livecodebench": 0.469,
         "scicode": 0.333,
+        "artificial_analysis_intelligence_index": 46.8,
+        "artificial_analysis_coding_index": 27.9,
+        "artificial_analysis_math_index": 46.7,
+        "mmlu_pro": 0.788,
+        "gpqa": 0.698,
+        "hle": 0.042,
+        "livecodebench": 0.469,
+        "scicode": 0.333,
         "math_500": null,
         "aime": null,
         "aime_25": 0.467,
         "ifbench": 0.612,
         "lcr": 0.52,
+        "aime_25": 0.467,
+        "ifbench": 0.612,
+        "lcr": 0.52,
         "terminalbench_hard": 0.035,
+        "tau2": 0.719
         "tau2": 0.719
       },
       "pricing": {
@@ -2683,8 +3155,21 @@
         "hle": 0.04,
         "livecodebench": 0.592,
         "scicode": 0.343,
+        "artificial_analysis_intelligence_index": 48.7,
+        "artificial_analysis_coding_index": 32.3,
+        "artificial_analysis_math_index": 56,
+        "mmlu_pro": 0.798,
+        "gpqa": 0.699,
+        "hle": 0.04,
+        "livecodebench": 0.592,
+        "scicode": 0.343,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.56,
+        "ifbench": 0.618,
+        "lcr": 0.51,
+        "terminalbench_hard": 0.035,
+        "tau2": 0.678
         "aime_25": 0.56,
         "ifbench": 0.618,
         "lcr": 0.51,
@@ -2699,8 +3184,15 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
+      "id": "0d94dc87-12c8-4d4a-8d99-804ce3f17bc2",
+      "name": "Nova 2.0 Pro Preview (medium)",
+      "slug": "nova-2-0-pro-reasoning-medium",
+      "release_date": "2025-11-27",
       "id": "0d94dc87-12c8-4d4a-8d99-804ce3f17bc2",
       "name": "Nova 2.0 Pro Preview (medium)",
       "slug": "nova-2-0-pro-reasoning-medium",
@@ -2762,8 +3254,12 @@
         "lcr": 0.177,
         "terminalbench_hard": 0.064,
         "tau2": 0.62
+        "tau2": 0.62
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.85,
+        "price_1m_input_tokens": 0.3,
+        "price_1m_output_tokens": 2.5
         "price_1m_blended_3_to_1": 0.85,
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
@@ -2773,6 +3269,9 @@
       "median_time_to_first_answer_token": 0.516
     },
     {
+      "id": "fbdf8da1-b341-448c-b3cb-8aff1d8f70b9",
+      "name": "Nova 2.0 Lite (medium)",
+      "slug": "nova-2-0-lite-reasoning-medium",
       "id": "fbdf8da1-b341-448c-b3cb-8aff1d8f70b9",
       "name": "Nova 2.0 Lite (medium)",
       "slug": "nova-2-0-lite-reasoning-medium",
@@ -2791,8 +3290,21 @@
         "hle": 0.086,
         "livecodebench": 0.663,
         "scicode": 0.368,
+        "artificial_analysis_intelligence_index": 57.7,
+        "artificial_analysis_coding_index": 39.8,
+        "artificial_analysis_math_index": 88.7,
+        "mmlu_pro": 0.813,
+        "gpqa": 0.768,
+        "hle": 0.086,
+        "livecodebench": 0.663,
+        "scicode": 0.368,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.887,
+        "ifbench": 0.685,
+        "lcr": 0.583,
+        "terminalbench_hard": 0.163,
+        "tau2": 0.757
         "aime_25": 0.887,
         "ifbench": 0.685,
         "lcr": 0.583,
@@ -2849,6 +3361,10 @@
       "name": "Nova 2.0 Omni (Non-reasoning)",
       "slug": "nova-2-0-omni",
       "release_date": "2025-11-26",
+      "id": "1f6478c9-3e22-4586-adbe-841782859677",
+      "name": "Nova 2.0 Omni (Non-reasoning)",
+      "slug": "nova-2-0-omni",
+      "release_date": "2025-11-26",
       "model_creator": {
         "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
         "name": "Amazon",
@@ -2856,7 +3372,14 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 34.1,
+        "artificial_analysis_intelligence_index": 34.1,
         "artificial_analysis_coding_index": 21.6,
+        "artificial_analysis_math_index": 37,
+        "mmlu_pro": 0.719,
+        "gpqa": 0.555,
+        "hle": 0.039,
+        "livecodebench": 0.305,
+        "scicode": 0.279,
         "artificial_analysis_math_index": 37,
         "mmlu_pro": 0.719,
         "gpqa": 0.555,
@@ -2868,7 +3391,11 @@
         "aime_25": 0.37,
         "ifbench": 0.411,
         "lcr": 0.223,
+        "aime_25": 0.37,
+        "ifbench": 0.411,
+        "lcr": 0.223,
         "terminalbench_hard": 0.064,
+        "tau2": 0.447
         "tau2": 0.447
       },
       "pricing": {
@@ -3097,6 +3624,42 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "739e531a-eb0a-478f-bb67-5845b79ce65d",
+      "name": "LFM2 2.6B",
+      "slug": "lfm2-2-6b",
+      "release_date": "2025-09-23",
+      "model_creator": {
+        "id": "5b1886c4-43ba-4007-b840-9d21a2b7d42c",
+        "name": "Liquid AI",
+        "slug": "liquidai"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 11.8,
+        "artificial_analysis_coding_index": 3.8,
+        "artificial_analysis_math_index": 8.3,
+        "mmlu_pro": 0.298,
+        "gpqa": 0.306,
+        "hle": 0.052,
+        "livecodebench": 0.081,
+        "scicode": 0.025,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.083,
+        "ifbench": 0.195,
+        "lcr": 0,
+        "terminalbench_hard": 0.007,
+        "tau2": 0.135
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
       "id": "44db6283-aa82-4799-af4a-679fe0530845",
       "name": "Solar Pro 2 (Non-reasoning)",
       "slug": "solar-pro-2",
@@ -3235,6 +3798,9 @@
         "price_1m_blended_3_to_1": 1.2,
         "price_1m_input_tokens": 1.2,
         "price_1m_output_tokens": 1.2
+        "price_1m_blended_3_to_1": 1.2,
+        "price_1m_input_tokens": 1.2,
+        "price_1m_output_tokens": 1.2
       },
       "median_output_tokens_per_second": 39.475,
       "median_time_to_first_token_seconds": 0.449,
@@ -3245,12 +3811,31 @@
       "name": "Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning)",
       "slug": "llama-3-1-nemotron-nano-4b-reasoning",
       "release_date": "2025-05-20",
+      "id": "b1fa84f8-1ed3-4124-b403-4655dafa4267",
+      "name": "Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning)",
+      "slug": "llama-3-1-nemotron-nano-4b-reasoning",
+      "release_date": "2025-05-20",
       "model_creator": {
         "id": "0c303112-430d-4367-a484-51defaa2e166",
         "name": "NVIDIA",
         "slug": "nvidia"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 26.1,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": 50,
+        "mmlu_pro": 0.556,
+        "gpqa": 0.408,
+        "hle": 0.051,
+        "livecodebench": 0.493,
+        "scicode": 0.101,
+        "math_500": 0.947,
+        "aime": 0.707,
+        "aime_25": 0.5,
+        "ifbench": 0.255,
+        "lcr": 0,
+        "terminalbench_hard": null,
+        "tau2": 0.117
         "artificial_analysis_intelligence_index": 26.1,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": 50,
@@ -3388,6 +3973,45 @@
       "id": "76dcf6ef-39ea-4be0-b693-b88da25b4caf",
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
       "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "id": "c4c3b42f-e0f0-48ca-b6f9-b296e7697806",
+      "name": "Llama 3.3 Nemotron Super 49B v1 (Non-reasoning)",
+      "slug": "llama-3-3-nemotron-super-49b",
+      "release_date": "2025-03-18",
+      "model_creator": {
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA",
+        "slug": "nvidia"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 25.9,
+        "artificial_analysis_coding_index": 17,
+        "artificial_analysis_math_index": 7.7,
+        "mmlu_pro": 0.698,
+        "gpqa": 0.517,
+        "hle": 0.035,
+        "livecodebench": 0.28,
+        "scicode": 0.229,
+        "math_500": 0.775,
+        "aime": 0.193,
+        "aime_25": 0.077,
+        "ifbench": 0.395,
+        "lcr": 0.113,
+        "terminalbench_hard": 0,
+        "tau2": null
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
+      "id": "76dcf6ef-39ea-4be0-b693-b88da25b4caf",
+      "name": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
+      "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
       "release_date": "2025-12-15",
       "model_creator": {
         "id": "0c303112-430d-4367-a484-51defaa2e166",
@@ -3403,8 +4027,21 @@
         "hle": 0.102,
         "livecodebench": 0.741,
         "scicode": 0.296,
+        "artificial_analysis_intelligence_index": 51.8,
+        "artificial_analysis_coding_index": 38.8,
+        "artificial_analysis_math_index": 91,
+        "mmlu_pro": 0.794,
+        "gpqa": 0.757,
+        "hle": 0.102,
+        "livecodebench": 0.741,
+        "scicode": 0.296,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.91,
+        "ifbench": 0.711,
+        "lcr": 0.337,
+        "terminalbench_hard": 0.128,
+        "tau2": 0.409
         "aime_25": 0.91,
         "ifbench": 0.711,
         "lcr": 0.337,
@@ -3461,6 +4098,10 @@
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "slug": "nvidia-nemotron-nano-12b-v2-vl",
       "release_date": "2025-10-28",
+      "id": "ab7f016c-a29b-4710-bdf6-6a5cd96aacca",
+      "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
+      "slug": "nvidia-nemotron-nano-12b-v2-vl",
+      "release_date": "2025-10-28",
       "model_creator": {
         "id": "0c303112-430d-4367-a484-51defaa2e166",
         "name": "NVIDIA",
@@ -3482,8 +4123,26 @@
         "lcr": 0.17,
         "terminalbench_hard": 0,
         "tau2": 0.193
+        "artificial_analysis_intelligence_index": 25.4,
+        "artificial_analysis_coding_index": 17.4,
+        "artificial_analysis_math_index": 26.7,
+        "mmlu_pro": 0.649,
+        "gpqa": 0.439,
+        "hle": 0.045,
+        "livecodebench": 0.345,
+        "scicode": 0.176,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.267,
+        "ifbench": 0.259,
+        "lcr": 0.17,
+        "terminalbench_hard": 0,
+        "tau2": 0.193
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.3,
+        "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 0.6
         "price_1m_blended_3_to_1": 0.3,
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.6
@@ -3533,6 +4192,10 @@
       "name": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
       "slug": "nvidia-nemotron-nano-9b-v2-reasoning",
       "release_date": "2025-08-18",
+      "id": "f1d52583-9d20-4099-99ac-b5df9430c3b6",
+      "name": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
+      "slug": "nvidia-nemotron-nano-9b-v2-reasoning",
+      "release_date": "2025-08-18",
       "model_creator": {
         "id": "0c303112-430d-4367-a484-51defaa2e166",
         "name": "NVIDIA",
@@ -3554,8 +4217,26 @@
         "lcr": 0.21,
         "terminalbench_hard": 0.014,
         "tau2": 0.219
+        "artificial_analysis_intelligence_index": 37.2,
+        "artificial_analysis_coding_index": 31.9,
+        "artificial_analysis_math_index": 69.7,
+        "mmlu_pro": 0.742,
+        "gpqa": 0.57,
+        "hle": 0.046,
+        "livecodebench": 0.724,
+        "scicode": 0.22,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.697,
+        "ifbench": 0.276,
+        "lcr": 0.21,
+        "terminalbench_hard": 0.014,
+        "tau2": 0.219
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.07,
+        "price_1m_input_tokens": 0.04,
+        "price_1m_output_tokens": 0.16
         "price_1m_blended_3_to_1": 0.07,
         "price_1m_input_tokens": 0.04,
         "price_1m_output_tokens": 0.16
@@ -3565,6 +4246,9 @@
       "median_time_to_first_answer_token": 28.129
     },
     {
+      "id": "23b379f7-18df-492a-9fc1-a56c5a5b9cfc",
+      "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
+      "slug": "nvidia-nemotron-3-nano-30b-a3b",
       "id": "23b379f7-18df-492a-9fc1-a56c5a5b9cfc",
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
       "slug": "nvidia-nemotron-3-nano-30b-a3b",
@@ -3583,8 +4267,21 @@
         "hle": 0.046,
         "livecodebench": 0.36,
         "scicode": 0.23,
+        "artificial_analysis_intelligence_index": 25.6,
+        "artificial_analysis_coding_index": 23.4,
+        "artificial_analysis_math_index": 13.3,
+        "mmlu_pro": 0.579,
+        "gpqa": 0.399,
+        "hle": 0.046,
+        "livecodebench": 0.36,
+        "scicode": 0.23,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.133,
+        "ifbench": 0.375,
+        "lcr": 0.067,
+        "terminalbench_hard": 0.113,
+        "tau2": 0.254
         "aime_25": 0.133,
         "ifbench": 0.375,
         "lcr": 0.067,
@@ -3605,7 +4302,14 @@
       "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
       "slug": "llama-3-1-nemotron-ultra-253b-v1-reasoning",
       "release_date": "2025-04-07",
+      "id": "cf095603-72b6-47f8-8ee1-09a42890f92a",
+      "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
+      "slug": "llama-3-1-nemotron-ultra-253b-v1-reasoning",
+      "release_date": "2025-04-07",
       "model_creator": {
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA",
+        "slug": "nvidia"
         "id": "0c303112-430d-4367-a484-51defaa2e166",
         "name": "NVIDIA",
         "slug": "nvidia"
@@ -3626,10 +4330,27 @@
         "lcr": 0.073,
         "terminalbench_hard": 0.021,
         "tau2": 0.114
+        "artificial_analysis_intelligence_index": 38.5,
+        "artificial_analysis_coding_index": 33.7,
+        "artificial_analysis_math_index": 63.7,
+        "mmlu_pro": 0.825,
+        "gpqa": 0.728,
+        "hle": 0.081,
+        "livecodebench": 0.641,
+        "scicode": 0.347,
+        "math_500": 0.952,
+        "aime": 0.747,
+        "aime_25": 0.637,
+        "ifbench": 0.382,
+        "lcr": 0.073,
+        "terminalbench_hard": 0.021,
+        "tau2": 0.114
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.9,
+        "price_1m_blended_3_to_1": 0.9,
         "price_1m_input_tokens": 0.6,
+        "price_1m_output_tokens": 1.8
         "price_1m_output_tokens": 1.8
       },
       "median_output_tokens_per_second": 37.1,
@@ -3811,6 +4532,45 @@
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
+      "id": "af74f222-05c7-422d-a653-b9c0707c9c72",
+      "name": "Molmo 7B-D",
+      "slug": "molmo-7b-d",
+      "release_date": "2024-09-25",
+      "model_creator": {
+        "id": "ab6c5270-d7b9-4c09-92fe-62662618c631",
+        "name": "Allen Institute for AI",
+        "slug": "ai2"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 9.3,
+        "artificial_analysis_coding_index": 2.5,
+        "artificial_analysis_math_index": 0,
+        "mmlu_pro": 0.371,
+        "gpqa": 0.24,
+        "hle": 0.051,
+        "livecodebench": 0.039,
+        "scicode": 0.036,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0,
+        "ifbench": 0.197,
+        "lcr": 0,
+        "terminalbench_hard": 0,
+        "tau2": 0
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
@@ -3923,6 +4683,9 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
       "id": "8f74a6ed-f82f-4a2f-a96b-4914993e47da",
@@ -3965,6 +4728,10 @@
       "name": "Granite 4.0 H 1B",
       "slug": "granite-4-0-h-nano-1b",
       "release_date": "2025-10-28",
+      "id": "dafbb6d2-4825-43d1-a927-feedcfd2e998",
+      "name": "Granite 4.0 H 1B",
+      "slug": "granite-4-0-h-nano-1b",
+      "release_date": "2025-10-28",
       "model_creator": {
         "id": "512ef1e4-e02e-4532-a5f2-d11a40962498",
         "name": "IBM",
@@ -3979,8 +4746,21 @@
         "hle": 0.05,
         "livecodebench": 0.115,
         "scicode": 0.082,
+        "artificial_analysis_intelligence_index": 13.7,
+        "artificial_analysis_coding_index": 6.6,
+        "artificial_analysis_math_index": 6.3,
+        "mmlu_pro": 0.277,
+        "gpqa": 0.263,
+        "hle": 0.05,
+        "livecodebench": 0.115,
+        "scicode": 0.082,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.063,
+        "ifbench": 0.262,
+        "lcr": 0.063,
+        "terminalbench_hard": 0,
+        "tau2": 0.196
         "aime_25": 0.063,
         "ifbench": 0.262,
         "lcr": 0.063,
@@ -4000,6 +4780,9 @@
       "id": "a2c8e7b2-57bf-4d1e-96ea-7944d786d94d",
       "name": "Granite 4.0 1B",
       "slug": "granite-4-0-nano-1b",
+      "id": "a2c8e7b2-57bf-4d1e-96ea-7944d786d94d",
+      "name": "Granite 4.0 1B",
+      "slug": "granite-4-0-nano-1b",
       "release_date": "2025-10-28",
       "model_creator": {
         "id": "512ef1e4-e02e-4532-a5f2-d11a40962498",
@@ -4009,7 +4792,14 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 13.3,
         "artificial_analysis_coding_index": 4.5,
+        "artificial_analysis_intelligence_index": 13.3,
+        "artificial_analysis_coding_index": 4.5,
         "artificial_analysis_math_index": 6.3,
+        "mmlu_pro": 0.325,
+        "gpqa": 0.281,
+        "hle": 0.051,
+        "livecodebench": 0.047,
+        "scicode": 0.087,
         "mmlu_pro": 0.325,
         "gpqa": 0.281,
         "hle": 0.051,
@@ -4020,7 +4810,10 @@
         "aime_25": 0.063,
         "ifbench": 0.205,
         "lcr": 0.04,
+        "ifbench": 0.205,
+        "lcr": 0.04,
         "terminalbench_hard": 0,
+        "tau2": 0.228
         "tau2": 0.228
       },
       "pricing": {
@@ -4033,6 +4826,10 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "1fc32894-1060-493b-af94-62bb1068555e",
+      "name": "Granite 4.0 Micro",
+      "slug": "granite-4-0-micro",
+      "release_date": "2025-09-22",
       "id": "1fc32894-1060-493b-af94-62bb1068555e",
       "name": "Granite 4.0 Micro",
       "slug": "granite-4-0-micro",
@@ -4051,8 +4848,21 @@
         "hle": 0.051,
         "livecodebench": 0.18,
         "scicode": 0.119,
+        "artificial_analysis_intelligence_index": 16.2,
+        "artificial_analysis_coding_index": 10.4,
+        "artificial_analysis_math_index": 6,
+        "mmlu_pro": 0.447,
+        "gpqa": 0.336,
+        "hle": 0.051,
+        "livecodebench": 0.18,
+        "scicode": 0.119,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.06,
+        "ifbench": 0.248,
+        "lcr": 0.04,
+        "terminalbench_hard": 0.014,
+        "tau2": 0.126
         "aime_25": 0.06,
         "ifbench": 0.248,
         "lcr": 0.04,
@@ -4108,6 +4918,9 @@
       "id": "54c7f3fc-7078-442a-b472-e8691257a88c",
       "name": "Granite 4.0 350M",
       "slug": "granite-4-0-350m",
+      "id": "54c7f3fc-7078-442a-b472-e8691257a88c",
+      "name": "Granite 4.0 350M",
+      "slug": "granite-4-0-350m",
       "release_date": "2025-10-28",
       "model_creator": {
         "id": "512ef1e4-e02e-4532-a5f2-d11a40962498",
@@ -4123,12 +4936,24 @@
         "hle": 0.057,
         "livecodebench": 0.024,
         "scicode": 0.009,
+        "artificial_analysis_intelligence_index": 7.7,
+        "artificial_analysis_coding_index": 1.1,
+        "artificial_analysis_math_index": 0,
+        "mmlu_pro": 0.124,
+        "gpqa": 0.261,
+        "hle": 0.057,
+        "livecodebench": 0.024,
+        "scicode": 0.009,
         "math_500": null,
         "aime": null,
         "aime_25": 0,
         "ifbench": 0.159,
         "lcr": 0,
+        "aime_25": 0,
+        "ifbench": 0.159,
+        "lcr": 0,
         "terminalbench_hard": 0,
+        "tau2": 0.132
         "tau2": 0.132
       },
       "pricing": {
@@ -4141,6 +4966,9 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "a68afa0b-7fe2-4e9d-bf3e-741cce3c6aeb",
+      "name": "Granite 4.0 H 350M",
+      "slug": "granite-4-0-h-350m",
       "id": "a68afa0b-7fe2-4e9d-bf3e-741cce3c6aeb",
       "name": "Granite 4.0 H 350M",
       "slug": "granite-4-0-h-350m",
@@ -4159,12 +4987,23 @@
         "hle": 0.064,
         "livecodebench": 0.019,
         "scicode": 0.017,
+        "artificial_analysis_intelligence_index": 8.2,
+        "artificial_analysis_coding_index": 1.2,
+        "artificial_analysis_math_index": 1.3,
+        "mmlu_pro": 0.127,
+        "gpqa": 0.257,
+        "hle": 0.064,
+        "livecodebench": 0.019,
+        "scicode": 0.017,
         "math_500": null,
         "aime": null,
         "aime_25": 0.013,
         "ifbench": 0.176,
+        "aime_25": 0.013,
+        "ifbench": 0.176,
         "lcr": 0,
         "terminalbench_hard": 0,
+        "tau2": 0.146
         "tau2": 0.146
       },
       "pricing": {
@@ -4252,6 +5091,9 @@
       "id": "6ba9e8eb-8124-436d-842f-dbe36df80c27",
       "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
       "slug": "hermes-4-llama-3-1-70b-reasoning",
+      "id": "6ba9e8eb-8124-436d-842f-dbe36df80c27",
+      "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
+      "slug": "hermes-4-llama-3-1-70b-reasoning",
       "release_date": "2025-08-27",
       "model_creator": {
         "id": "0a2f41cc-2cbc-4949-be54-9fef1319d4a9",
@@ -4267,6 +5109,14 @@
         "hle": 0.079,
         "livecodebench": 0.653,
         "scicode": 0.341,
+        "artificial_analysis_intelligence_index": 39.2,
+        "artificial_analysis_coding_index": 34.6,
+        "artificial_analysis_math_index": 68.7,
+        "mmlu_pro": 0.811,
+        "gpqa": 0.699,
+        "hle": 0.079,
+        "livecodebench": 0.653,
+        "scicode": 0.341,
         "math_500": null,
         "aime": null,
         "aime_25": 0.687,
@@ -4274,8 +5124,16 @@
         "lcr": 0.067,
         "terminalbench_hard": 0.043,
         "tau2": 0.225
+        "aime_25": 0.687,
+        "ifbench": 0.313,
+        "lcr": 0.067,
+        "terminalbench_hard": 0.043,
+        "tau2": 0.225
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.198,
+        "price_1m_input_tokens": 0.13,
+        "price_1m_output_tokens": 0.4
         "price_1m_blended_3_to_1": 0.198,
         "price_1m_input_tokens": 0.13,
         "price_1m_output_tokens": 0.4
@@ -4324,6 +5182,9 @@
       "id": "d3968fd3-97d8-4693-8d26-19cefc6f5d5f",
       "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
       "slug": "hermes-4-llama-3-1-405b",
+      "id": "d3968fd3-97d8-4693-8d26-19cefc6f5d5f",
+      "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
+      "slug": "hermes-4-llama-3-1-405b",
       "release_date": "2025-08-27",
       "model_creator": {
         "id": "0a2f41cc-2cbc-4949-be54-9fef1319d4a9",
@@ -4339,6 +5200,14 @@
         "hle": 0.042,
         "livecodebench": 0.546,
         "scicode": 0.346,
+        "artificial_analysis_intelligence_index": 32.6,
+        "artificial_analysis_coding_index": 32.8,
+        "artificial_analysis_math_index": 15.3,
+        "mmlu_pro": 0.729,
+        "gpqa": 0.536,
+        "hle": 0.042,
+        "livecodebench": 0.546,
+        "scicode": 0.346,
         "math_500": null,
         "aime": null,
         "aime_25": 0.153,
@@ -4346,8 +5215,16 @@
         "lcr": 0.2,
         "terminalbench_hard": 0.092,
         "tau2": 0.266
+        "aime_25": 0.153,
+        "ifbench": 0.348,
+        "lcr": 0.2,
+        "terminalbench_hard": 0.092,
+        "tau2": 0.266
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 1.5,
+        "price_1m_input_tokens": 1,
+        "price_1m_output_tokens": 3
         "price_1m_blended_3_to_1": 1.5,
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 3
@@ -4432,6 +5309,9 @@
       "id": "44b19b51-5367-4ef9-a2ff-2f90b89a0867",
       "name": "EXAONE 4.0 32B (Reasoning)",
       "slug": "exaone-4-0-32b-reasoning",
+      "id": "44b19b51-5367-4ef9-a2ff-2f90b89a0867",
+      "name": "EXAONE 4.0 32B (Reasoning)",
+      "slug": "exaone-4-0-32b-reasoning",
       "release_date": "2025-07-15",
       "model_creator": {
         "id": "45157c16-fcbb-4110-b20f-7bca754b6554",
@@ -4454,8 +5334,26 @@
         "lcr": 0.14,
         "terminalbench_hard": 0.035,
         "tau2": 0.173
+        "artificial_analysis_intelligence_index": 42.6,
+        "artificial_analysis_coding_index": 37.5,
+        "artificial_analysis_math_index": 80,
+        "mmlu_pro": 0.818,
+        "gpqa": 0.739,
+        "hle": 0.105,
+        "livecodebench": 0.747,
+        "scicode": 0.344,
+        "math_500": 0.977,
+        "aime": 0.843,
+        "aime_25": 0.8,
+        "ifbench": 0.363,
+        "lcr": 0.14,
+        "terminalbench_hard": 0.035,
+        "tau2": 0.173
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.7,
+        "price_1m_input_tokens": 0.6,
+        "price_1m_output_tokens": 1
         "price_1m_blended_3_to_1": 0.7,
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 1
@@ -4676,6 +5574,9 @@
         "price_1m_input_tokens": 0.84,
         "price_1m_output_tokens": 3.37
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -4937,12 +5838,24 @@
       "name": "GLM-4.6V (Reasoning)",
       "slug": "glm-4-6v-reasoning",
       "release_date": "2025-12-08",
+      "id": "d2d7dd95-770f-4cb0-9bbc-d275ac19c265",
+      "name": "GLM-4.6V (Reasoning)",
+      "slug": "glm-4-6v-reasoning",
+      "release_date": "2025-12-08",
       "model_creator": {
         "id": "67437eb6-7dc1-4e93-befd-22c8b8ec2065",
         "name": "Z AI",
         "slug": "zai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 40.8,
+        "artificial_analysis_coding_index": 20,
+        "artificial_analysis_math_index": 85.3,
+        "mmlu_pro": 0.799,
+        "gpqa": 0.719,
+        "hle": 0.089,
+        "livecodebench": 0.16,
+        "scicode": 0.304,
         "artificial_analysis_intelligence_index": 40.8,
         "artificial_analysis_coding_index": 20,
         "artificial_analysis_math_index": 85.3,
@@ -4958,8 +5871,16 @@
         "lcr": 0.403,
         "terminalbench_hard": 0.135,
         "tau2": 0.316
+        "aime_25": 0.853,
+        "ifbench": 0.301,
+        "lcr": 0.403,
+        "terminalbench_hard": 0.135,
+        "tau2": 0.316
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.45,
+        "price_1m_input_tokens": 0.3,
+        "price_1m_output_tokens": 0.9
         "price_1m_blended_3_to_1": 0.45,
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 0.9
@@ -4997,7 +5918,9 @@
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.988,
+        "price_1m_blended_3_to_1": 0.988,
         "price_1m_input_tokens": 0.6,
+        "price_1m_output_tokens": 2.195
         "price_1m_output_tokens": 2.195
       },
       "median_output_tokens_per_second": 118.111,
@@ -5045,12 +5968,24 @@
       "name": "GLM-4.6 (Non-reasoning)",
       "slug": "glm-4-6",
       "release_date": "2025-09-30",
+      "id": "946e7aab-db1c-4c3f-b0b3-7720d0cff187",
+      "name": "GLM-4.6 (Non-reasoning)",
+      "slug": "glm-4-6",
+      "release_date": "2025-09-30",
       "model_creator": {
         "id": "67437eb6-7dc1-4e93-befd-22c8b8ec2065",
         "name": "Z AI",
         "slug": "zai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 44.7,
+        "artificial_analysis_coding_index": 38.7,
+        "artificial_analysis_math_index": 44.3,
+        "mmlu_pro": 0.784,
+        "gpqa": 0.632,
+        "hle": 0.052,
+        "livecodebench": 0.561,
+        "scicode": 0.331,
         "artificial_analysis_intelligence_index": 44.7,
         "artificial_analysis_coding_index": 38.7,
         "artificial_analysis_math_index": 44.3,
@@ -5066,8 +6001,16 @@
         "lcr": 0.263,
         "terminalbench_hard": 0.27,
         "tau2": 0.769
+        "aime_25": 0.443,
+        "ifbench": 0.367,
+        "lcr": 0.263,
+        "terminalbench_hard": 0.27,
+        "tau2": 0.769
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 1,
+        "price_1m_input_tokens": 0.6,
+        "price_1m_output_tokens": 2.2
         "price_1m_blended_3_to_1": 1,
         "price_1m_input_tokens": 0.6,
         "price_1m_output_tokens": 2.2
@@ -5081,12 +6024,27 @@
       "name": "Llama 65B",
       "slug": "llama-65b",
       "release_date": "2023-02-24",
+      "id": "fe11ab6c-a4dd-4c28-9fef-07da76d5ed14",
+      "name": "Llama 65B",
+      "slug": "llama-65b",
+      "release_date": "2023-02-24",
       "model_creator": {
+        "id": "e1694725-0192-4e54-b1b8-c97e816c6cbe",
+        "name": "Meta",
+        "slug": "meta"
         "id": "e1694725-0192-4e54-b1b8-c97e816c6cbe",
         "name": "Meta",
         "slug": "meta"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 1,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": null,
+        "gpqa": null,
+        "hle": null,
+        "livecodebench": null,
+        "scicode": null,
         "artificial_analysis_intelligence_index": 1,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
@@ -5102,8 +6060,16 @@
         "lcr": null,
         "terminalbench_hard": null,
         "tau2": null
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -5111,8 +6077,14 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
+      "id": "43098bd0-77ca-408b-b698-9d60b1d1c3b8",
+      "name": "GLM-4.6V (Non-reasoning)",
+      "slug": "glm-4-6v",
       "id": "43098bd0-77ca-408b-b698-9d60b1d1c3b8",
       "name": "GLM-4.6V (Non-reasoning)",
       "slug": "glm-4-6v",
@@ -5131,8 +6103,21 @@
         "hle": 0.037,
         "livecodebench": 0.411,
         "scicode": 0.272,
+        "artificial_analysis_intelligence_index": 30.4,
+        "artificial_analysis_coding_index": 23.7,
+        "artificial_analysis_math_index": 26.3,
+        "mmlu_pro": 0.752,
+        "gpqa": 0.566,
+        "hle": 0.037,
+        "livecodebench": 0.411,
+        "scicode": 0.272,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.263,
+        "ifbench": 0.279,
+        "lcr": 0.123,
+        "terminalbench_hard": 0.028,
+        "tau2": 0.307
         "aime_25": 0.263,
         "ifbench": 0.279,
         "lcr": 0.123,
@@ -5333,6 +6318,10 @@
       "name": "Qwen3 1.7B (Non-reasoning)",
       "slug": "qwen3-1.7b-instruct",
       "release_date": "2025-04-28",
+      "id": "2bb84433-f38e-4edc-9b65-4d7b1f473db9",
+      "name": "Qwen3 1.7B (Non-reasoning)",
+      "slug": "qwen3-1.7b-instruct",
+      "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -5354,8 +6343,26 @@
         "lcr": 0,
         "terminalbench_hard": 0,
         "tau2": 0.216
+        "artificial_analysis_intelligence_index": 14.4,
+        "artificial_analysis_coding_index": 6.5,
+        "artificial_analysis_math_index": 7.3,
+        "mmlu_pro": 0.411,
+        "gpqa": 0.283,
+        "hle": 0.052,
+        "livecodebench": 0.126,
+        "scicode": 0.069,
+        "math_500": 0.717,
+        "aime": 0.097,
+        "aime_25": 0.073,
+        "ifbench": 0.211,
+        "lcr": 0,
+        "terminalbench_hard": 0,
+        "tau2": 0.216
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.188,
+        "price_1m_input_tokens": 0.11,
+        "price_1m_output_tokens": 0.42
         "price_1m_blended_3_to_1": 0.188,
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 0.42
@@ -5365,6 +6372,10 @@
       "median_time_to_first_answer_token": 0.964
     },
     {
+      "id": "3373245b-e6dc-4b66-a7b0-3f06f9b7bd46",
+      "name": "Qwen3 235B A22B 2507 Instruct",
+      "slug": "qwen3-235b-a22b-instruct-2507",
+      "release_date": "2025-07-21",
       "id": "3373245b-e6dc-4b66-a7b0-3f06f9b7bd46",
       "name": "Qwen3 235B A22B 2507 Instruct",
       "slug": "qwen3-235b-a22b-instruct-2507",
@@ -5390,10 +6401,27 @@
         "lcr": 0.312,
         "terminalbench_hard": 0.142,
         "tau2": 0.333
+        "artificial_analysis_intelligence_index": 45.3,
+        "artificial_analysis_coding_index": 34.2,
+        "artificial_analysis_math_index": 71.7,
+        "mmlu_pro": 0.828,
+        "gpqa": 0.753,
+        "hle": 0.106,
+        "livecodebench": 0.524,
+        "scicode": 0.36,
+        "math_500": 0.98,
+        "aime": 0.717,
+        "aime_25": 0.717,
+        "ifbench": 0.461,
+        "lcr": 0.312,
+        "terminalbench_hard": 0.142,
+        "tau2": 0.333
       },
       "pricing": {
         "price_1m_blended_3_to_1": 1.225,
+        "price_1m_blended_3_to_1": 1.225,
         "price_1m_input_tokens": 0.7,
+        "price_1m_output_tokens": 2.8
         "price_1m_output_tokens": 2.8
       },
       "median_output_tokens_per_second": 63.502,
@@ -5401,6 +6429,10 @@
       "median_time_to_first_answer_token": 1.044
     },
     {
+      "id": "b0249961-b8b2-479d-8325-a29ea17c7b89",
+      "name": "Qwen3 4B 2507 Instruct",
+      "slug": "qwen3-4b-2507-instruct",
+      "release_date": "2025-08-06",
       "id": "b0249961-b8b2-479d-8325-a29ea17c7b89",
       "name": "Qwen3 4B 2507 Instruct",
       "slug": "qwen3-4b-2507-instruct",
@@ -5413,7 +6445,14 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 30.4,
         "artificial_analysis_coding_index": 20,
+        "artificial_analysis_intelligence_index": 30.4,
+        "artificial_analysis_coding_index": 20,
         "artificial_analysis_math_index": 52.3,
+        "mmlu_pro": 0.672,
+        "gpqa": 0.517,
+        "hle": 0.047,
+        "livecodebench": 0.377,
+        "scicode": 0.181,
         "mmlu_pro": 0.672,
         "gpqa": 0.517,
         "hle": 0.047,
@@ -5426,12 +6465,22 @@
         "lcr": 0.073,
         "terminalbench_hard": 0.043,
         "tau2": 0.266
+        "ifbench": 0.335,
+        "lcr": 0.073,
+        "terminalbench_hard": 0.043,
+        "tau2": 0.266
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -5477,12 +6526,24 @@
       "name": "Qwen3 VL 30B A3B (Reasoning)",
       "slug": "qwen3-vl-30b-a3b-reasoning",
       "release_date": "2025-10-03",
+      "id": "ce3d286e-093d-413d-a81a-0270309f039e",
+      "name": "Qwen3 VL 30B A3B (Reasoning)",
+      "slug": "qwen3-vl-30b-a3b-reasoning",
+      "release_date": "2025-10-03",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
         "slug": "alibaba"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 45.3,
+        "artificial_analysis_coding_index": 34.5,
+        "artificial_analysis_math_index": 82.3,
+        "mmlu_pro": 0.807,
+        "gpqa": 0.72,
+        "hle": 0.087,
+        "livecodebench": 0.697,
+        "scicode": 0.288,
         "artificial_analysis_intelligence_index": 45.3,
         "artificial_analysis_coding_index": 34.5,
         "artificial_analysis_math_index": 82.3,
@@ -5498,10 +6559,17 @@
         "lcr": 0.407,
         "terminalbench_hard": 0.05,
         "tau2": 0.199
+        "aime_25": 0.823,
+        "ifbench": 0.451,
+        "lcr": 0.407,
+        "terminalbench_hard": 0.05,
+        "tau2": 0.199
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.75,
+        "price_1m_blended_3_to_1": 0.75,
         "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 2.4
         "price_1m_output_tokens": 2.4
       },
       "median_output_tokens_per_second": 107.053,
@@ -5509,6 +6577,10 @@
       "median_time_to_first_answer_token": 19.7
     },
     {
+      "id": "cbac8c35-e069-4c73-823e-0953e6ed0e85",
+      "name": "Qwen3 Max Thinking",
+      "slug": "qwen3-max-thinking",
+      "release_date": "2025-11-03",
       "id": "cbac8c35-e069-4c73-823e-0953e6ed0e85",
       "name": "Qwen3 Max Thinking",
       "slug": "qwen3-max-thinking",
@@ -5534,8 +6606,26 @@
         "lcr": 0.577,
         "terminalbench_hard": 0.163,
         "tau2": 0.836
+        "artificial_analysis_intelligence_index": 55.8,
+        "artificial_analysis_coding_index": 36.2,
+        "artificial_analysis_math_index": 82.3,
+        "mmlu_pro": 0.824,
+        "gpqa": 0.776,
+        "hle": 0.12,
+        "livecodebench": 0.535,
+        "scicode": 0.387,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.823,
+        "ifbench": 0.538,
+        "lcr": 0.577,
+        "terminalbench_hard": 0.163,
+        "tau2": 0.836
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.4,
+        "price_1m_input_tokens": 1.2,
+        "price_1m_output_tokens": 6
         "price_1m_blended_3_to_1": 2.4,
         "price_1m_input_tokens": 1.2,
         "price_1m_output_tokens": 6
@@ -5545,6 +6635,10 @@
       "median_time_to_first_answer_token": 52.658
     },
     {
+      "id": "093883ed-f5fc-443b-8e18-afbfb166699e",
+      "name": "Qwen3 Coder 480B A35B Instruct",
+      "slug": "qwen3-coder-480b-a35b-instruct",
+      "release_date": "2025-07-22",
       "id": "093883ed-f5fc-443b-8e18-afbfb166699e",
       "name": "Qwen3 Coder 480B A35B Instruct",
       "slug": "qwen3-coder-480b-a35b-instruct",
@@ -5570,8 +6664,26 @@
         "lcr": 0.423,
         "terminalbench_hard": 0.177,
         "tau2": 0.436
+        "artificial_analysis_intelligence_index": 42.3,
+        "artificial_analysis_coding_index": 37.4,
+        "artificial_analysis_math_index": 39.3,
+        "mmlu_pro": 0.788,
+        "gpqa": 0.618,
+        "hle": 0.044,
+        "livecodebench": 0.585,
+        "scicode": 0.359,
+        "math_500": 0.942,
+        "aime": 0.477,
+        "aime_25": 0.393,
+        "ifbench": 0.405,
+        "lcr": 0.423,
+        "terminalbench_hard": 0.177,
+        "tau2": 0.436
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 3,
+        "price_1m_input_tokens": 1.5,
+        "price_1m_output_tokens": 7.5
         "price_1m_blended_3_to_1": 3,
         "price_1m_input_tokens": 1.5,
         "price_1m_output_tokens": 7.5
@@ -5621,12 +6733,24 @@
       "name": "Qwen3 VL 30B A3B Instruct",
       "slug": "qwen3-vl-30b-a3b-instruct",
       "release_date": "2025-10-03",
+      "id": "51d0b717-953d-4b44-af61-406c6b7dff39",
+      "name": "Qwen3 VL 30B A3B Instruct",
+      "slug": "qwen3-vl-30b-a3b-instruct",
+      "release_date": "2025-10-03",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
         "slug": "alibaba"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 38.5,
+        "artificial_analysis_coding_index": 28,
+        "artificial_analysis_math_index": 72.3,
+        "mmlu_pro": 0.764,
+        "gpqa": 0.695,
+        "hle": 0.064,
+        "livecodebench": 0.476,
+        "scicode": 0.308,
         "artificial_analysis_intelligence_index": 38.5,
         "artificial_analysis_coding_index": 28,
         "artificial_analysis_math_index": 72.3,
@@ -5642,8 +6766,16 @@
         "lcr": 0.237,
         "terminalbench_hard": 0.057,
         "tau2": 0.19
+        "aime_25": 0.723,
+        "ifbench": 0.331,
+        "lcr": 0.237,
+        "terminalbench_hard": 0.057,
+        "tau2": 0.19
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.35,
+        "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 0.8
         "price_1m_blended_3_to_1": 0.35,
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.8
@@ -5729,6 +6861,10 @@
       "name": "Qwen3 1.7B (Reasoning)",
       "slug": "qwen3-1.7b-instruct-reasoning",
       "release_date": "2025-04-28",
+      "id": "5962d643-0a6f-4630-bb08-ab5720d80056",
+      "name": "Qwen3 1.7B (Reasoning)",
+      "slug": "qwen3-1.7b-instruct-reasoning",
+      "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -5750,8 +6886,26 @@
         "lcr": 0,
         "terminalbench_hard": 0,
         "tau2": 0.26
+        "artificial_analysis_intelligence_index": 22.4,
+        "artificial_analysis_coding_index": 11.7,
+        "artificial_analysis_math_index": 38.7,
+        "mmlu_pro": 0.57,
+        "gpqa": 0.356,
+        "hle": 0.048,
+        "livecodebench": 0.308,
+        "scicode": 0.043,
+        "math_500": 0.894,
+        "aime": 0.51,
+        "aime_25": 0.387,
+        "ifbench": 0.269,
+        "lcr": 0,
+        "terminalbench_hard": 0,
+        "tau2": 0.26
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.398,
+        "price_1m_input_tokens": 0.11,
+        "price_1m_output_tokens": 1.26
         "price_1m_blended_3_to_1": 0.398,
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 1.26
@@ -6017,6 +7171,10 @@
       "name": "Qwen3 30B A3B 2507 Instruct",
       "slug": "qwen3-30b-a3b-2507",
       "release_date": "2025-07-29",
+      "id": "7ec1065a-c90e-41e4-bd17-abb7042eed76",
+      "name": "Qwen3 30B A3B 2507 Instruct",
+      "slug": "qwen3-30b-a3b-2507",
+      "release_date": "2025-07-29",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -6038,10 +7196,27 @@
         "lcr": 0.227,
         "terminalbench_hard": 0.057,
         "tau2": 0.102
+        "artificial_analysis_intelligence_index": 37,
+        "artificial_analysis_coding_index": 29.2,
+        "artificial_analysis_math_index": 66.3,
+        "mmlu_pro": 0.777,
+        "gpqa": 0.659,
+        "hle": 0.068,
+        "livecodebench": 0.515,
+        "scicode": 0.304,
+        "math_500": 0.975,
+        "aime": 0.727,
+        "aime_25": 0.663,
+        "ifbench": 0.331,
+        "lcr": 0.227,
+        "terminalbench_hard": 0.057,
+        "tau2": 0.102
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.35,
+        "price_1m_blended_3_to_1": 0.35,
         "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 0.8
         "price_1m_output_tokens": 0.8
       },
       "median_output_tokens_per_second": 62.614,
@@ -6139,8 +7314,21 @@
         "hle": 0.037,
         "livecodebench": 0.29,
         "scicode": 0.137,
+        "artificial_analysis_intelligence_index": 25.2,
+        "artificial_analysis_coding_index": 14.2,
+        "artificial_analysis_math_index": 37,
+        "mmlu_pro": 0.634,
+        "gpqa": 0.371,
+        "hle": 0.037,
+        "livecodebench": 0.29,
+        "scicode": 0.137,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.37,
+        "ifbench": 0.318,
+        "lcr": 0.13,
+        "terminalbench_hard": 0,
+        "tau2": 0.234
         "aime_25": 0.37,
         "ifbench": 0.318,
         "lcr": 0.13,
@@ -6161,12 +7349,24 @@
       "name": "Qwen3 Max",
       "slug": "qwen3-max",
       "release_date": "2025-09-23",
+      "id": "7ae943a9-9310-4472-a834-c61f0ab68485",
+      "name": "Qwen3 Max",
+      "slug": "qwen3-max",
+      "release_date": "2025-09-23",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
         "slug": "alibaba"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 55.1,
+        "artificial_analysis_coding_index": 44.7,
+        "artificial_analysis_math_index": 80.7,
+        "mmlu_pro": 0.841,
+        "gpqa": 0.764,
+        "hle": 0.111,
+        "livecodebench": 0.767,
+        "scicode": 0.383,
         "artificial_analysis_intelligence_index": 55.1,
         "artificial_analysis_coding_index": 44.7,
         "artificial_analysis_math_index": 80.7,
@@ -6182,8 +7382,16 @@
         "lcr": 0.467,
         "terminalbench_hard": 0.191,
         "tau2": 0.743
+        "aime_25": 0.807,
+        "ifbench": 0.441,
+        "lcr": 0.467,
+        "terminalbench_hard": 0.191,
+        "tau2": 0.743
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.4,
+        "price_1m_input_tokens": 1.2,
+        "price_1m_output_tokens": 6
         "price_1m_blended_3_to_1": 2.4,
         "price_1m_input_tokens": 1.2,
         "price_1m_output_tokens": 6
@@ -6193,6 +7401,10 @@
       "median_time_to_first_answer_token": 1.772
     },
     {
+      "id": "2aacdc07-5f4e-4ab9-8ea5-5f7ab93f9eeb",
+      "name": "Qwen3 4B 2507 (Reasoning)",
+      "slug": "qwen3-4b-2507-instruct-reasoning",
+      "release_date": "2025-08-06",
       "id": "2aacdc07-5f4e-4ab9-8ea5-5f7ab93f9eeb",
       "name": "Qwen3 4B 2507 (Reasoning)",
       "slug": "qwen3-4b-2507-instruct-reasoning",
@@ -6218,12 +7430,33 @@
         "lcr": 0.377,
         "terminalbench_hard": 0.014,
         "tau2": 0.254
+        "artificial_analysis_intelligence_index": 43.4,
+        "artificial_analysis_coding_index": 30.4,
+        "artificial_analysis_math_index": 82.7,
+        "mmlu_pro": 0.743,
+        "gpqa": 0.667,
+        "hle": 0.059,
+        "livecodebench": 0.641,
+        "scicode": 0.256,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.827,
+        "ifbench": 0.498,
+        "lcr": 0.377,
+        "terminalbench_hard": 0.014,
+        "tau2": 0.254
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -6305,12 +7538,24 @@
       "name": "Qwen3 VL 8B (Reasoning)",
       "slug": "qwen3-vl-8b-reasoning",
       "release_date": "2025-10-14",
+      "id": "dec8073c-57e2-41c0-b1aa-7a62960f103f",
+      "name": "Qwen3 VL 8B (Reasoning)",
+      "slug": "qwen3-vl-8b-reasoning",
+      "release_date": "2025-10-14",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
         "slug": "alibaba"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 32.1,
+        "artificial_analysis_coding_index": 20.3,
+        "artificial_analysis_math_index": 30.7,
+        "mmlu_pro": 0.749,
+        "gpqa": 0.579,
+        "hle": 0.033,
+        "livecodebench": 0.353,
+        "scicode": 0.219,
         "artificial_analysis_intelligence_index": 32.1,
         "artificial_analysis_coding_index": 20.3,
         "artificial_analysis_math_index": 30.7,
@@ -6326,8 +7571,16 @@
         "lcr": 0.31,
         "terminalbench_hard": 0.035,
         "tau2": 0.225
+        "aime_25": 0.307,
+        "ifbench": 0.399,
+        "lcr": 0.31,
+        "terminalbench_hard": 0.035,
+        "tau2": 0.225
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.66,
+        "price_1m_input_tokens": 0.18,
+        "price_1m_output_tokens": 2.1
         "price_1m_blended_3_to_1": 0.66,
         "price_1m_input_tokens": 0.18,
         "price_1m_output_tokens": 2.1
@@ -6337,6 +7590,10 @@
       "median_time_to_first_answer_token": 32.91
     },
     {
+      "id": "d370fcbf-c4a1-41a2-abc4-d204fcc3fcbf",
+      "name": "Qwen3 VL 32B (Reasoning)",
+      "slug": "qwen3-vl-32b-reasoning",
+      "release_date": "2025-10-21",
       "id": "d370fcbf-c4a1-41a2-abc4-d204fcc3fcbf",
       "name": "Qwen3 VL 32B (Reasoning)",
       "slug": "qwen3-vl-32b-reasoning",
@@ -6355,6 +7612,14 @@
         "hle": 0.096,
         "livecodebench": 0.738,
         "scicode": 0.285,
+        "artificial_analysis_intelligence_index": 51.9,
+        "artificial_analysis_coding_index": 36.4,
+        "artificial_analysis_math_index": 84.7,
+        "mmlu_pro": 0.818,
+        "gpqa": 0.733,
+        "hle": 0.096,
+        "livecodebench": 0.738,
+        "scicode": 0.285,
         "math_500": null,
         "aime": null,
         "aime_25": 0.847,
@@ -6362,8 +7627,16 @@
         "lcr": 0.553,
         "terminalbench_hard": 0.071,
         "tau2": 0.456
+        "aime_25": 0.847,
+        "ifbench": 0.594,
+        "lcr": 0.553,
+        "terminalbench_hard": 0.071,
+        "tau2": 0.456
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.625,
+        "price_1m_input_tokens": 0.7,
+        "price_1m_output_tokens": 8.4
         "price_1m_blended_3_to_1": 2.625,
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
@@ -6377,7 +7650,14 @@
       "name": "Ling-mini-2.0",
       "slug": "ling-mini-2-0",
       "release_date": "2025-09-09",
+      "id": "3d64bf83-232e-427e-8590-26b478bae4a8",
+      "name": "Ling-mini-2.0",
+      "slug": "ling-mini-2-0",
+      "release_date": "2025-09-09",
       "model_creator": {
+        "id": "4df238a9-d4fd-4cf2-ab1e-d12956c41f9b",
+        "name": "InclusionAI",
+        "slug": "inclusionai"
         "id": "4df238a9-d4fd-4cf2-ab1e-d12956c41f9b",
         "name": "InclusionAI",
         "slug": "inclusionai"
@@ -6398,8 +7678,26 @@
         "lcr": 0.067,
         "terminalbench_hard": 0.007,
         "tau2": 0.132
+        "artificial_analysis_intelligence_index": 27.8,
+        "artificial_analysis_coding_index": 19,
+        "artificial_analysis_math_index": 49.3,
+        "mmlu_pro": 0.671,
+        "gpqa": 0.562,
+        "hle": 0.05,
+        "livecodebench": 0.429,
+        "scicode": 0.135,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.493,
+        "ifbench": 0.236,
+        "lcr": 0.067,
+        "terminalbench_hard": 0.007,
+        "tau2": 0.132
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.122,
+        "price_1m_input_tokens": 0.07,
+        "price_1m_output_tokens": 0.28
         "price_1m_blended_3_to_1": 0.122,
         "price_1m_input_tokens": 0.07,
         "price_1m_output_tokens": 0.28
@@ -6413,12 +7711,27 @@
       "name": "Ring-1T",
       "slug": "ring-1t",
       "release_date": "2025-10-13",
+      "id": "a29e66d6-1c3c-456a-8770-59ee3845b35d",
+      "name": "Ring-1T",
+      "slug": "ring-1t",
+      "release_date": "2025-10-13",
       "model_creator": {
+        "id": "4df238a9-d4fd-4cf2-ab1e-d12956c41f9b",
+        "name": "InclusionAI",
+        "slug": "inclusionai"
         "id": "4df238a9-d4fd-4cf2-ab1e-d12956c41f9b",
         "name": "InclusionAI",
         "slug": "inclusionai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 41.8,
+        "artificial_analysis_coding_index": 35.8,
+        "artificial_analysis_math_index": 89.3,
+        "mmlu_pro": 0.806,
+        "gpqa": 0.595,
+        "hle": 0.102,
+        "livecodebench": 0.643,
+        "scicode": 0.367,
         "artificial_analysis_intelligence_index": 41.8,
         "artificial_analysis_coding_index": 35.8,
         "artificial_analysis_math_index": 89.3,
@@ -6434,8 +7747,16 @@
         "lcr": 0,
         "terminalbench_hard": 0.064,
         "tau2": 0.263
+        "aime_25": 0.893,
+        "ifbench": 0.446,
+        "lcr": 0,
+        "terminalbench_hard": 0.064,
+        "tau2": 0.263
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.989,
+        "price_1m_input_tokens": 0.565,
+        "price_1m_output_tokens": 2.26
         "price_1m_blended_3_to_1": 0.989,
         "price_1m_input_tokens": 0.565,
         "price_1m_output_tokens": 2.26
@@ -6445,6 +7766,10 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "47b7df55-5804-40de-ba11-317de786710a",
+      "name": "Ring-flash-2.0",
+      "slug": "ring-flash-2-0",
+      "release_date": "2025-09-19",
       "id": "47b7df55-5804-40de-ba11-317de786710a",
       "name": "Ring-flash-2.0",
       "slug": "ring-flash-2-0",
@@ -6463,6 +7788,14 @@
         "hle": 0.089,
         "livecodebench": 0.628,
         "scicode": 0.168,
+        "artificial_analysis_intelligence_index": 39.5,
+        "artificial_analysis_coding_index": 28.9,
+        "artificial_analysis_math_index": 83.7,
+        "mmlu_pro": 0.793,
+        "gpqa": 0.725,
+        "hle": 0.089,
+        "livecodebench": 0.628,
+        "scicode": 0.168,
         "math_500": null,
         "aime": null,
         "aime_25": 0.837,
@@ -6470,8 +7803,16 @@
         "lcr": 0.21,
         "terminalbench_hard": 0.071,
         "tau2": 0
+        "aime_25": 0.837,
+        "ifbench": 0.433,
+        "lcr": 0.21,
+        "terminalbench_hard": 0.071,
+        "tau2": 0
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.247,
+        "price_1m_input_tokens": 0.14,
+        "price_1m_output_tokens": 0.57
         "price_1m_blended_3_to_1": 0.247,
         "price_1m_input_tokens": 0.14,
         "price_1m_output_tokens": 0.57
@@ -6557,7 +7898,14 @@
       "name": "Seed-OSS-36B-Instruct",
       "slug": "seed-oss-36b-instruct",
       "release_date": "2025-08-20",
+      "id": "5c6533f3-75a2-4109-b9a9-3623afc6b86a",
+      "name": "Seed-OSS-36B-Instruct",
+      "slug": "seed-oss-36b-instruct",
+      "release_date": "2025-08-20",
       "model_creator": {
+        "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
+        "name": "ByteDance Seed",
+        "slug": "bytedance_seed"
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed",
         "slug": "bytedance_seed"
@@ -6571,15 +7919,29 @@
         "hle": 0.091,
         "livecodebench": 0.765,
         "scicode": 0.365,
+        "artificial_analysis_intelligence_index": 51.6,
+        "artificial_analysis_coding_index": 39.8,
+        "artificial_analysis_math_index": 84.7,
+        "mmlu_pro": 0.815,
+        "gpqa": 0.726,
+        "hle": 0.091,
+        "livecodebench": 0.765,
+        "scicode": 0.365,
         "math_500": null,
         "aime": null,
         "aime_25": 0.847,
         "ifbench": 0.419,
         "lcr": 0.577,
+        "aime_25": 0.847,
+        "ifbench": 0.419,
+        "lcr": 0.577,
         "terminalbench_hard": 0.064,
+        "tau2": 0.494
         "tau2": 0.494
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.3,
+        "price_1m_input_tokens": 0.21,
         "price_1m_blended_3_to_1": 0.3,
         "price_1m_input_tokens": 0.21,
         "price_1m_output_tokens": 0.57
@@ -6620,6 +7982,9 @@
         "price_1m_input_tokens": 0.17,
         "price_1m_output_tokens": 1.12
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -6989,12 +8354,18 @@
       "name": "o1-pro",
       "slug": "o1-pro",
       "release_date": "2025-03-19",
+      "id": "e8d4100e-165b-4c5d-ac11-ac553590a334",
+      "name": "o1-pro",
+      "slug": "o1-pro",
+      "release_date": "2025-03-19",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 48,
+        "artificial_analysis_coding_index": null,
         "artificial_analysis_intelligence_index": 48,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
@@ -7015,12 +8386,22 @@
         "price_1m_blended_3_to_1": 262.5,
         "price_1m_input_tokens": 150,
         "price_1m_output_tokens": 600
+        "price_1m_blended_3_to_1": 262.5,
+        "price_1m_input_tokens": 150,
+        "price_1m_output_tokens": 600
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "c3738fb0-3408-4430-a699-760ae4b70c93",
+      "name": "GPT-5 (minimal)",
+      "slug": "gpt-5-minimal",
+      "release_date": "2025-08-07",
       "id": "c3738fb0-3408-4430-a699-760ae4b70c93",
       "name": "GPT-5 (minimal)",
       "slug": "gpt-5-minimal",
@@ -7046,8 +8427,26 @@
         "lcr": 0.25,
         "terminalbench_hard": 0.177,
         "tau2": 0.67
+        "artificial_analysis_intelligence_index": 43.5,
+        "artificial_analysis_coding_index": 37.4,
+        "artificial_analysis_math_index": 31.7,
+        "mmlu_pro": 0.806,
+        "gpqa": 0.673,
+        "hle": 0.054,
+        "livecodebench": 0.558,
+        "scicode": 0.388,
+        "math_500": 0.861,
+        "aime": 0.367,
+        "aime_25": 0.317,
+        "ifbench": 0.456,
+        "lcr": 0.25,
+        "terminalbench_hard": 0.177,
+        "tau2": 0.67
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 3.438,
+        "price_1m_input_tokens": 1.25,
+        "price_1m_output_tokens": 10
         "price_1m_blended_3_to_1": 3.438,
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
@@ -7118,6 +8517,20 @@
         "lcr": 0.756,
         "terminalbench_hard": 0.305,
         "tau2": 0.848
+        "artificial_analysis_coding_index": 52.7,
+        "artificial_analysis_math_index": 94.3,
+        "mmlu_pro": 0.871,
+        "gpqa": 0.854,
+        "hle": 0.265,
+        "livecodebench": 0.846,
+        "scicode": 0.429,
+        "math_500": 0.994,
+        "aime": 0.957,
+        "aime_25": 0.943,
+        "ifbench": 0.731,
+        "lcr": 0.756,
+        "terminalbench_hard": 0.305,
+        "tau2": 0.848
       },
       "pricing": {
         "price_1m_blended_3_to_1": 3.438,
@@ -7129,6 +8542,10 @@
       "median_time_to_first_answer_token": 68.156
     },
     {
+      "id": "bc26bfdb-4923-4442-a6ca-e77392923581",
+      "name": "GPT-5 mini (minimal)",
+      "slug": "gpt-5-mini-minimal",
+      "release_date": "2025-08-07",
       "id": "bc26bfdb-4923-4442-a6ca-e77392923581",
       "name": "GPT-5 mini (minimal)",
       "slug": "gpt-5-mini-minimal",
@@ -7147,8 +8564,21 @@
         "hle": 0.05,
         "livecodebench": 0.545,
         "scicode": 0.369,
+        "artificial_analysis_intelligence_index": 41.6,
+        "artificial_analysis_coding_index": 35,
+        "artificial_analysis_math_index": 46.7,
+        "mmlu_pro": 0.775,
+        "gpqa": 0.687,
+        "hle": 0.05,
+        "livecodebench": 0.545,
+        "scicode": 0.369,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.467,
+        "ifbench": 0.456,
+        "lcr": 0.357,
+        "terminalbench_hard": 0.135,
+        "tau2": 0.319
         "aime_25": 0.467,
         "ifbench": 0.456,
         "lcr": 0.357,
@@ -7159,12 +8589,19 @@
         "price_1m_blended_3_to_1": 0.688,
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2
+        "price_1m_blended_3_to_1": 0.688,
+        "price_1m_input_tokens": 0.25,
+        "price_1m_output_tokens": 2
       },
       "median_output_tokens_per_second": 72.012,
       "median_time_to_first_token_seconds": 0.741,
       "median_time_to_first_answer_token": 0.741
     },
     {
+      "id": "3b608b70-6434-4baa-99ad-45d499703c67",
+      "name": "GPT-4.1",
+      "slug": "gpt-4-1",
+      "release_date": "2025-04-14",
       "id": "3b608b70-6434-4baa-99ad-45d499703c67",
       "name": "GPT-4.1",
       "slug": "gpt-4-1",
@@ -7313,12 +8750,17 @@
       "name": "GPT-4o mini Realtime (Dec '24)",
       "slug": "gpt-4o-mini-realtime-dec-2024",
       "release_date": "2024-12-17",
+      "id": "4343afb1-c928-44c9-92e2-68fa1195b6f5",
+      "name": "GPT-4o mini Realtime (Dec '24)",
+      "slug": "gpt-4o-mini-realtime-dec-2024",
+      "release_date": "2024-12-17",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": null,
         "artificial_analysis_intelligence_index": null,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
@@ -7349,12 +8791,17 @@
       "name": "GPT-4o (March 2025, chatgpt-4o-latest)",
       "slug": "gpt-4o-chatgpt-03-25",
       "release_date": "2025-03-27",
+      "id": "575498d6-60ec-466b-9372-fea19911fd07",
+      "name": "GPT-4o (March 2025, chatgpt-4o-latest)",
+      "slug": "gpt-4o-chatgpt-03-25",
+      "release_date": "2025-03-27",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 35.6,
         "artificial_analysis_intelligence_index": 35.6,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": 25.7,
@@ -7366,7 +8813,17 @@
         "math_500": 0.893,
         "aime": 0.327,
         "aime_25": 0.257,
+        "artificial_analysis_math_index": 25.7,
+        "mmlu_pro": 0.803,
+        "gpqa": 0.655,
+        "hle": 0.05,
+        "livecodebench": 0.425,
+        "scicode": 0.366,
+        "math_500": 0.893,
+        "aime": 0.327,
+        "aime_25": 0.257,
         "ifbench": null,
+        "lcr": null,
         "lcr": null,
         "terminalbench_hard": null,
         "tau2": null
@@ -7381,6 +8838,10 @@
       "median_time_to_first_answer_token": 0.714
     },
     {
+      "id": "5d11e7a1-4f70-4e5a-9364-e193761d6757",
+      "name": "GPT-5 Codex (high)",
+      "slug": "gpt-5-codex",
+      "release_date": "2025-09-23",
       "id": "5d11e7a1-4f70-4e5a-9364-e193761d6757",
       "name": "GPT-5 Codex (high)",
       "slug": "gpt-5-codex",
@@ -7406,8 +8867,26 @@
         "lcr": 0.69,
         "terminalbench_hard": 0.355,
         "tau2": 0.868
+        "artificial_analysis_intelligence_index": 68.5,
+        "artificial_analysis_coding_index": 53.5,
+        "artificial_analysis_math_index": 98.7,
+        "mmlu_pro": 0.865,
+        "gpqa": 0.837,
+        "hle": 0.256,
+        "livecodebench": 0.84,
+        "scicode": 0.409,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.987,
+        "ifbench": 0.741,
+        "lcr": 0.69,
+        "terminalbench_hard": 0.355,
+        "tau2": 0.868
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 3.438,
+        "price_1m_input_tokens": 1.25,
+        "price_1m_output_tokens": 10
         "price_1m_blended_3_to_1": 3.438,
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
@@ -7421,12 +8900,17 @@
       "name": "GPT-3.5 Turbo (0613)",
       "slug": "gpt-3-5-turbo-0613",
       "release_date": "2023-06-13",
+      "id": "8b1a70d1-e05f-426b-9122-023d4629ab47",
+      "name": "GPT-3.5 Turbo (0613)",
+      "slug": "gpt-3-5-turbo-0613",
+      "release_date": "2023-06-13",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": null,
         "artificial_analysis_intelligence_index": null,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
@@ -7444,6 +8928,9 @@
         "tau2": null
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -7637,12 +9124,18 @@
       "name": "GPT-4",
       "slug": "gpt-4",
       "release_date": "2023-03-14",
+      "id": "6a7c0e25-1dcb-4b15-8495-a8536a9da051",
+      "name": "GPT-4",
+      "slug": "gpt-4",
+      "release_date": "2023-03-14",
       "model_creator": {
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI",
         "slug": "openai"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 21.5,
+        "artificial_analysis_coding_index": 13.1,
         "artificial_analysis_intelligence_index": 21.5,
         "artificial_analysis_coding_index": 13.1,
         "artificial_analysis_math_index": null,
@@ -7663,12 +9156,19 @@
         "price_1m_blended_3_to_1": 37.5,
         "price_1m_input_tokens": 30,
         "price_1m_output_tokens": 60
+        "price_1m_blended_3_to_1": 37.5,
+        "price_1m_input_tokens": 30,
+        "price_1m_output_tokens": 60
       },
       "median_output_tokens_per_second": 31.733,
       "median_time_to_first_token_seconds": 0.808,
       "median_time_to_first_answer_token": 0.808
     },
     {
+      "id": "8eb02396-f231-4189-ae15-05f7facebd9b",
+      "name": "GPT-5 nano (medium)",
+      "slug": "gpt-5-nano-medium",
+      "release_date": "2025-08-07",
       "id": "8eb02396-f231-4189-ae15-05f7facebd9b",
       "name": "GPT-5 nano (medium)",
       "slug": "gpt-5-nano-medium",
@@ -8104,6 +9604,9 @@
       "id": "6b08a75a-19ee-40b4-be33-133b8ef42f92",
       "name": "Llama 2 Chat 13B",
       "slug": "llama-2-chat-13b",
+      "id": "6b08a75a-19ee-40b4-be33-133b8ef42f92",
+      "name": "Llama 2 Chat 13B",
+      "slug": "llama-2-chat-13b",
       "release_date": "2023-07-18",
       "model_creator": {
         "id": "e1694725-0192-4e54-b1b8-c97e816c6cbe",
@@ -8112,12 +9615,18 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 5.5,
+        "artificial_analysis_intelligence_index": 5.5,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
         "mmlu_pro": 0.406,
         "gpqa": 0.321,
         "hle": 0.047,
+        "gpqa": 0.321,
+        "hle": 0.047,
         "livecodebench": 0.098,
+        "scicode": 0.118,
+        "math_500": 0.329,
+        "aime": 0.017,
         "scicode": 0.118,
         "math_500": 0.329,
         "aime": 0.017,
@@ -8176,6 +9685,9 @@
       "id": "599da8e0-bd9c-4b38-a127-b50e371fbcf8",
       "name": "Llama 2 Chat 70B",
       "slug": "llama-2-chat-70b",
+      "id": "599da8e0-bd9c-4b38-a127-b50e371fbcf8",
+      "name": "Llama 2 Chat 70B",
+      "slug": "llama-2-chat-70b",
       "release_date": "2023-07-18",
       "model_creator": {
         "id": "e1694725-0192-4e54-b1b8-c97e816c6cbe",
@@ -8184,12 +9696,18 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 5.6,
+        "artificial_analysis_intelligence_index": 5.6,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
         "mmlu_pro": 0.406,
         "gpqa": 0.327,
         "hle": 0.05,
+        "gpqa": 0.327,
+        "hle": 0.05,
         "livecodebench": 0.098,
+        "scicode": null,
+        "math_500": 0.323,
+        "aime": 0,
         "scicode": null,
         "math_500": 0.323,
         "aime": 0,
@@ -8351,6 +9869,9 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
       "id": "bcca0e70-7e80-4c07-b1fa-b33bcfb19e51",
@@ -8384,6 +9905,9 @@
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -8465,6 +9989,10 @@
       "name": "Gemini 2.5 Flash (Reasoning)",
       "slug": "gemini-2-5-flash-reasoning",
       "release_date": "2025-05-20",
+      "id": "219ed587-60c5-4a48-9517-8480e08d0ca1",
+      "name": "Gemini 2.5 Flash (Reasoning)",
+      "slug": "gemini-2-5-flash-reasoning",
+      "release_date": "2025-05-20",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8486,8 +10014,26 @@
         "lcr": 0.617,
         "terminalbench_hard": 0.128,
         "tau2": 0.316
+        "artificial_analysis_intelligence_index": 51.2,
+        "artificial_analysis_coding_index": 40.5,
+        "artificial_analysis_math_index": 73.3,
+        "mmlu_pro": 0.832,
+        "gpqa": 0.79,
+        "hle": 0.111,
+        "livecodebench": 0.695,
+        "scicode": 0.394,
+        "math_500": 0.981,
+        "aime": 0.823,
+        "aime_25": 0.733,
+        "ifbench": 0.503,
+        "lcr": 0.617,
+        "terminalbench_hard": 0.128,
+        "tau2": 0.316
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.85,
+        "price_1m_input_tokens": 0.3,
+        "price_1m_output_tokens": 2.5
         "price_1m_blended_3_to_1": 0.85,
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
@@ -8531,8 +10077,15 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
+      "id": "dfeeb904-e784-4d5c-ad66-9400146b150b",
+      "name": "Gemini 2.0 Flash Thinking Experimental (Dec '24)",
+      "slug": "gemini-2-0-flash-thinking-exp-1219",
+      "release_date": "2024-12-19",
       "id": "dfeeb904-e784-4d5c-ad66-9400146b150b",
       "name": "Gemini 2.0 Flash Thinking Experimental (Dec '24)",
       "slug": "gemini-2-0-flash-thinking-exp-1219",
@@ -8544,8 +10097,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 20.2,
+        "artificial_analysis_intelligence_index": 20.2,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": null,
+        "gpqa": null,
+        "hle": null,
+        "livecodebench": null,
+        "scicode": null,
+        "math_500": 0.48,
+        "aime": null,
         "mmlu_pro": null,
         "gpqa": null,
         "hle": null,
@@ -8573,6 +10134,10 @@
       "name": "PALM-2",
       "slug": "palm-2",
       "release_date": "2023-05-10",
+      "id": "515852e7-ba9c-4571-8cf9-82ad6b45f22f",
+      "name": "PALM-2",
+      "slug": "palm-2",
+      "release_date": "2023-05-10",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8581,7 +10146,16 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 6.6,
         "artificial_analysis_coding_index": 4.6,
+        "artificial_analysis_intelligence_index": 6.6,
+        "artificial_analysis_coding_index": 4.6,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": null,
+        "gpqa": null,
+        "hle": null,
+        "livecodebench": null,
+        "scicode": null,
+        "math_500": null,
+        "aime": null,
         "mmlu_pro": null,
         "gpqa": null,
         "hle": null,
@@ -8609,6 +10183,10 @@
       "name": "Gemini 2.5 Flash-Lite (Reasoning)",
       "slug": "gemini-2-5-flash-lite-reasoning",
       "release_date": "2025-06-17",
+      "id": "f4e8194a-d0e6-48eb-92be-4307de5aeeec",
+      "name": "Gemini 2.5 Flash-Lite (Reasoning)",
+      "slug": "gemini-2-5-flash-lite-reasoning",
+      "release_date": "2025-06-17",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8630,8 +10208,26 @@
         "lcr": 0.513,
         "terminalbench_hard": 0.043,
         "tau2": 0.184
+        "artificial_analysis_intelligence_index": 40.1,
+        "artificial_analysis_coding_index": 27.6,
+        "artificial_analysis_math_index": 53.3,
+        "mmlu_pro": 0.759,
+        "gpqa": 0.625,
+        "hle": 0.064,
+        "livecodebench": 0.593,
+        "scicode": 0.193,
+        "math_500": 0.969,
+        "aime": 0.703,
+        "aime_25": 0.533,
+        "ifbench": 0.499,
+        "lcr": 0.513,
+        "terminalbench_hard": 0.043,
+        "tau2": 0.184
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.175,
+        "price_1m_input_tokens": 0.1,
+        "price_1m_output_tokens": 0.4
         "price_1m_blended_3_to_1": 0.175,
         "price_1m_input_tokens": 0.1,
         "price_1m_output_tokens": 0.4
@@ -8645,6 +10241,10 @@
       "name": "Gemini 2.5 Pro Preview (Mar' 25)",
       "slug": "gemini-2-5-pro-03-25",
       "release_date": "2025-03-25",
+      "id": "62de31e8-a1a3-429c-b634-a2afccfd9363",
+      "name": "Gemini 2.5 Pro Preview (Mar' 25)",
+      "slug": "gemini-2-5-pro-03-25",
+      "release_date": "2025-03-25",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8653,7 +10253,16 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 54.1,
         "artificial_analysis_coding_index": 46.7,
+        "artificial_analysis_intelligence_index": 54.1,
+        "artificial_analysis_coding_index": 46.7,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.858,
+        "gpqa": 0.836,
+        "hle": 0.171,
+        "livecodebench": 0.778,
+        "scicode": 0.395,
+        "math_500": 0.98,
+        "aime": 0.87,
         "mmlu_pro": 0.858,
         "gpqa": 0.836,
         "hle": 0.171,
@@ -8671,12 +10280,19 @@
         "price_1m_blended_3_to_1": 3.438,
         "price_1m_input_tokens": 1.25,
         "price_1m_output_tokens": 10
+        "price_1m_blended_3_to_1": 3.438,
+        "price_1m_input_tokens": 1.25,
+        "price_1m_output_tokens": 10
       },
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "c7667559-d9b6-43f1-8cd8-8bdbc78d190b",
+      "name": "Gemini 2.5 Flash Preview (Sep '25) (Reasoning)",
+      "slug": "gemini-2-5-flash-preview-09-2025-reasoning",
+      "release_date": "2025-09-25",
       "id": "c7667559-d9b6-43f1-8cd8-8bdbc78d190b",
       "name": "Gemini 2.5 Flash Preview (Sep '25) (Reasoning)",
       "slug": "gemini-2-5-flash-preview-09-2025-reasoning",
@@ -8702,8 +10318,26 @@
         "lcr": 0.643,
         "terminalbench_hard": 0.156,
         "tau2": 0.456
+        "artificial_analysis_intelligence_index": 54.4,
+        "artificial_analysis_coding_index": 42.5,
+        "artificial_analysis_math_index": 78.3,
+        "mmlu_pro": 0.842,
+        "gpqa": 0.793,
+        "hle": 0.127,
+        "livecodebench": 0.713,
+        "scicode": 0.405,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.783,
+        "ifbench": 0.523,
+        "lcr": 0.643,
+        "terminalbench_hard": 0.156,
+        "tau2": 0.456
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.85,
+        "price_1m_input_tokens": 0.3,
+        "price_1m_output_tokens": 2.5
         "price_1m_blended_3_to_1": 0.85,
         "price_1m_input_tokens": 0.3,
         "price_1m_output_tokens": 2.5
@@ -8717,6 +10351,10 @@
       "name": "Gemini 1.0 Pro",
       "slug": "gemini-1-0-pro",
       "release_date": "2023-12-06",
+      "id": "8ddacd41-bf43-411b-aa30-43ebf0567dd8",
+      "name": "Gemini 1.0 Pro",
+      "slug": "gemini-1-0-pro",
+      "release_date": "2023-12-06",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8724,8 +10362,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 6.2,
+        "artificial_analysis_intelligence_index": 6.2,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.431,
+        "gpqa": 0.277,
+        "hle": 0.046,
+        "livecodebench": 0.116,
+        "scicode": 0.117,
+        "math_500": 0.403,
+        "aime": 0.007,
         "mmlu_pro": 0.431,
         "gpqa": 0.277,
         "hle": 0.046,
@@ -8789,6 +10435,10 @@
       "name": "Gemini 2.5 Flash Preview (Reasoning)",
       "slug": "gemini-2-5-flash-reasoning-04-2025",
       "release_date": "2025-04-17",
+      "id": "68c89ebf-779c-4445-9241-de964cd17355",
+      "name": "Gemini 2.5 Flash Preview (Reasoning)",
+      "slug": "gemini-2-5-flash-reasoning-04-2025",
+      "release_date": "2025-04-17",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8797,7 +10447,16 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 45.8,
         "artificial_analysis_coding_index": null,
+        "artificial_analysis_intelligence_index": 45.8,
+        "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.8,
+        "gpqa": 0.698,
+        "hle": 0.116,
+        "livecodebench": 0.505,
+        "scicode": 0.359,
+        "math_500": 0.981,
+        "aime": 0.843,
         "mmlu_pro": 0.8,
         "gpqa": 0.698,
         "hle": 0.116,
@@ -8825,6 +10484,10 @@
       "name": "Gemini 1.5 Flash (May '24)",
       "slug": "gemini-1-5-flash-may-2024",
       "release_date": "2024-05-14",
+      "id": "ac48c49d-9e77-4394-ac4e-d1ee51fd5fee",
+      "name": "Gemini 1.5 Flash (May '24)",
+      "slug": "gemini-1-5-flash-may-2024",
+      "release_date": "2024-05-14",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8833,7 +10496,16 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 14,
         "artificial_analysis_coding_index": null,
+        "artificial_analysis_intelligence_index": 14,
+        "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.574,
+        "gpqa": 0.324,
+        "hle": 0.042,
+        "livecodebench": 0.196,
+        "scicode": 0.181,
+        "math_500": 0.554,
+        "aime": 0.093,
         "mmlu_pro": 0.574,
         "gpqa": 0.324,
         "hle": 0.042,
@@ -8857,6 +10529,10 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "1d81aa1c-64c8-442a-9c41-81b37e407b91",
+      "name": "Gemini 2.5 Flash-Lite (Non-reasoning)",
+      "slug": "gemini-2-5-flash-lite",
+      "release_date": "2025-06-17",
       "id": "1d81aa1c-64c8-442a-9c41-81b37e407b91",
       "name": "Gemini 2.5 Flash-Lite (Non-reasoning)",
       "slug": "gemini-2-5-flash-lite",
@@ -8913,6 +10589,13 @@
         "scicode": 0.233,
         "math_500": 0.926,
         "aime": 0.433,
+        "mmlu_pro": 0.783,
+        "gpqa": 0.594,
+        "hle": 0.05,
+        "livecodebench": 0.406,
+        "scicode": 0.233,
+        "math_500": 0.926,
+        "aime": 0.433,
         "aime_25": null,
         "ifbench": null,
         "lcr": null,
@@ -8933,6 +10616,10 @@
       "name": "Gemini 2.0 Flash Thinking Experimental (Jan '25)",
       "slug": "gemini-2-0-flash-thinking-exp-0121",
       "release_date": "2025-01-21",
+      "id": "0399e614-5d46-484f-9183-e4f32d74e1c6",
+      "name": "Gemini 2.0 Flash Thinking Experimental (Jan '25)",
+      "slug": "gemini-2-0-flash-thinking-exp-0121",
+      "release_date": "2025-01-21",
       "model_creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google",
@@ -8941,7 +10628,16 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 37.7,
         "artificial_analysis_coding_index": 24.1,
+        "artificial_analysis_intelligence_index": 37.7,
+        "artificial_analysis_coding_index": 24.1,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.798,
+        "gpqa": 0.701,
+        "hle": 0.071,
+        "livecodebench": 0.321,
+        "scicode": 0.329,
+        "math_500": 0.944,
+        "aime": 0.5,
         "mmlu_pro": 0.798,
         "gpqa": 0.701,
         "hle": 0.071,
@@ -8959,12 +10655,19 @@
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "bd2c3517-00d8-4ba5-a989-1f1e52f3ffab",
+      "name": "Gemma 3n E4B Instruct Preview (May '25)",
+      "slug": "gemma-3n-e4b-preview-0520",
+      "release_date": "2025-05-20",
       "id": "bd2c3517-00d8-4ba5-a989-1f1e52f3ffab",
       "name": "Gemma 3n E4B Instruct Preview (May '25)",
       "slug": "gemma-3n-e4b-preview-0520",
@@ -8990,12 +10693,33 @@
         "lcr": null,
         "terminalbench_hard": null,
         "tau2": null
+        "artificial_analysis_intelligence_index": 12.5,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.483,
+        "gpqa": 0.278,
+        "hle": 0.049,
+        "livecodebench": 0.138,
+        "scicode": 0.086,
+        "math_500": 0.749,
+        "aime": 0.107,
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -9037,6 +10761,10 @@
       "median_time_to_first_answer_token": 0.403
     },
     {
+      "id": "877fdfc9-2026-477a-af96-e4fd602c0131",
+      "name": "Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning)",
+      "slug": "gemini-2-5-flash-preview-09-2025",
+      "release_date": "2025-09-25",
       "id": "877fdfc9-2026-477a-af96-e4fd602c0131",
       "name": "Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning)",
       "slug": "gemini-2-5-flash-preview-09-2025",
@@ -9092,7 +10820,44 @@
         "livecodebench": null,
         "scicode": null,
         "math_500": null,
+        "math_500": null,
         "aime": null,
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
+      "id": "16f2578b-1b28-4be3-b371-700c2677bcd6",
+      "name": "Gemini 1.5 Pro (May '24)",
+      "slug": "gemini-1-5-pro-may-2024",
+      "release_date": "2024-05-15",
+      "model_creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "slug": "google"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 19.2,
+        "artificial_analysis_coding_index": 19.8,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.657,
+        "gpqa": 0.371,
+        "hle": 0.039,
+        "livecodebench": 0.244,
+        "scicode": 0.274,
+        "math_500": 0.673,
+        "aime": 0.08,
         "aime_25": null,
         "ifbench": null,
         "lcr": null,
@@ -9436,6 +11201,9 @@
       "id": "a7564055-f8ba-4c4b-9e2d-060f61263645",
       "name": "Claude 4 Sonnet (Reasoning)",
       "slug": "claude-4-sonnet-thinking",
+      "id": "a7564055-f8ba-4c4b-9e2d-060f61263645",
+      "name": "Claude 4 Sonnet (Reasoning)",
+      "slug": "claude-4-sonnet-thinking",
       "release_date": "2025-05-22",
       "model_creator": {
         "id": "f0aa413f-e8ae-4fcd-9c48-0e049f4f3128",
@@ -9443,6 +11211,21 @@
         "slug": "anthropic"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 56.5,
+        "artificial_analysis_coding_index": 45.1,
+        "artificial_analysis_math_index": 74.3,
+        "mmlu_pro": 0.842,
+        "gpqa": 0.777,
+        "hle": 0.096,
+        "livecodebench": 0.655,
+        "scicode": 0.4,
+        "math_500": 0.991,
+        "aime": 0.773,
+        "aime_25": 0.743,
+        "ifbench": 0.547,
+        "lcr": 0.647,
+        "terminalbench_hard": 0.298,
+        "tau2": 0.646
         "artificial_analysis_intelligence_index": 56.5,
         "artificial_analysis_coding_index": 45.1,
         "artificial_analysis_math_index": 74.3,
@@ -9508,6 +11291,9 @@
       "id": "d034dafe-463d-4c50-956f-84fca657b26f",
       "name": "Claude 4 Sonnet (Non-reasoning)",
       "slug": "claude-4-sonnet",
+      "id": "d034dafe-463d-4c50-956f-84fca657b26f",
+      "name": "Claude 4 Sonnet (Non-reasoning)",
+      "slug": "claude-4-sonnet",
       "release_date": "2025-05-22",
       "model_creator": {
         "id": "f0aa413f-e8ae-4fcd-9c48-0e049f4f3128",
@@ -9530,8 +11316,26 @@
         "lcr": 0.443,
         "terminalbench_hard": 0.255,
         "tau2": 0.523
+        "artificial_analysis_intelligence_index": 44.4,
+        "artificial_analysis_coding_index": 35.9,
+        "artificial_analysis_math_index": 38,
+        "mmlu_pro": 0.837,
+        "gpqa": 0.683,
+        "hle": 0.04,
+        "livecodebench": 0.449,
+        "scicode": 0.373,
+        "math_500": 0.934,
+        "aime": 0.407,
+        "aime_25": 0.38,
+        "ifbench": 0.454,
+        "lcr": 0.443,
+        "terminalbench_hard": 0.255,
+        "tau2": 0.523
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 6,
+        "price_1m_input_tokens": 3,
+        "price_1m_output_tokens": 15
         "price_1m_blended_3_to_1": 6,
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
@@ -9652,6 +11456,9 @@
       "id": "504412c2-2ada-499b-aebf-7e0a35c9d286",
       "name": "Claude 4 Opus (Non-reasoning)",
       "slug": "claude-4-opus",
+      "id": "504412c2-2ada-499b-aebf-7e0a35c9d286",
+      "name": "Claude 4 Opus (Non-reasoning)",
+      "slug": "claude-4-opus",
       "release_date": "2025-05-22",
       "model_creator": {
         "id": "f0aa413f-e8ae-4fcd-9c48-0e049f4f3128",
@@ -9674,8 +11481,26 @@
         "lcr": 0.36,
         "terminalbench_hard": null,
         "tau2": null
+        "artificial_analysis_intelligence_index": 42.3,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": 36.3,
+        "mmlu_pro": 0.86,
+        "gpqa": 0.701,
+        "hle": 0.059,
+        "livecodebench": 0.542,
+        "scicode": 0.409,
+        "math_500": 0.941,
+        "aime": 0.563,
+        "aime_25": 0.363,
+        "ifbench": 0.433,
+        "lcr": 0.36,
+        "terminalbench_hard": null,
+        "tau2": null
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 30,
+        "price_1m_input_tokens": 15,
+        "price_1m_output_tokens": 75
         "price_1m_blended_3_to_1": 30,
         "price_1m_input_tokens": 15,
         "price_1m_output_tokens": 75
@@ -10301,6 +12126,10 @@
       "name": "Magistral Medium 1",
       "slug": "magistral-medium",
       "release_date": "2025-06-10",
+      "id": "660965b2-66d2-49ee-a6b9-79a6ac47d3c0",
+      "name": "Magistral Medium 1",
+      "slug": "magistral-medium",
+      "release_date": "2025-06-10",
       "model_creator": {
         "id": "b5c0639a-cc9c-443b-a07e-bae6b7088933",
         "name": "Mistral",
@@ -10322,8 +12151,26 @@
         "lcr": 0,
         "terminalbench_hard": 0.085,
         "tau2": 0.231
+        "artificial_analysis_intelligence_index": 33.2,
+        "artificial_analysis_coding_index": 30.3,
+        "artificial_analysis_math_index": 40.3,
+        "mmlu_pro": 0.753,
+        "gpqa": 0.679,
+        "hle": 0.095,
+        "livecodebench": 0.527,
+        "scicode": 0.297,
+        "math_500": 0.917,
+        "aime": 0.7,
+        "aime_25": 0.403,
+        "ifbench": 0.251,
+        "lcr": 0,
+        "terminalbench_hard": 0.085,
+        "tau2": 0.231
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.75,
+        "price_1m_input_tokens": 2,
+        "price_1m_output_tokens": 5
         "price_1m_blended_3_to_1": 2.75,
         "price_1m_input_tokens": 2,
         "price_1m_output_tokens": 5
@@ -10333,6 +12180,10 @@
       "median_time_to_first_answer_token": 59.589
     },
     {
+      "id": "7a7b52f6-fdef-4dae-9203-58c710ccc81d",
+      "name": "Mistral Saba",
+      "slug": "mistral-saba",
+      "release_date": "2025-02-17",
       "id": "7a7b52f6-fdef-4dae-9203-58c710ccc81d",
       "name": "Mistral Saba",
       "slug": "mistral-saba",
@@ -10350,7 +12201,21 @@
         "gpqa": 0.424,
         "hle": 0.041,
         "livecodebench": null,
+        "artificial_analysis_intelligence_index": 19.6,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.611,
+        "gpqa": 0.424,
+        "hle": 0.041,
+        "livecodebench": null,
         "scicode": 0.241,
+        "math_500": 0.677,
+        "aime": 0.13,
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
         "math_500": 0.677,
         "aime": 0.13,
         "aime_25": null,
@@ -10363,7 +12228,13 @@
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -10693,6 +12564,42 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "0e34f05c-387e-4968-be15-ccec4a55d8c1",
+      "name": "DeepSeek R1 (Jan '25)",
+      "slug": "deepseek-r1-0120",
+      "release_date": "2025-01-20",
+      "model_creator": {
+        "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
+        "name": "DeepSeek",
+        "slug": "deepseek"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 43.8,
+        "artificial_analysis_coding_index": 34.4,
+        "artificial_analysis_math_index": 68,
+        "mmlu_pro": 0.844,
+        "gpqa": 0.708,
+        "hle": 0.093,
+        "livecodebench": 0.617,
+        "scicode": 0.357,
+        "math_500": 0.966,
+        "aime": 0.683,
+        "aime_25": 0.68,
+        "ifbench": 0.39,
+        "lcr": 0.523,
+        "terminalbench_hard": 0.057,
+        "tau2": 0.114
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 2.362,
+        "price_1m_input_tokens": 1.35,
+        "price_1m_output_tokens": 4
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
       "id": "75e1c197-f239-4361-a9d6-66dccfead236",
       "name": "DeepSeek V3 0324",
       "slug": "deepseek-v3-0324",
@@ -10723,6 +12630,42 @@
         "price_1m_blended_3_to_1": 1.25,
         "price_1m_input_tokens": 1.14,
         "price_1m_output_tokens": 1.25
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
+      "id": "2d19c2d1-062d-436e-b2c2-3d3ecad34acc",
+      "name": "DeepSeek-V2-Chat",
+      "slug": "deepseek-v2",
+      "release_date": "2024-05-06",
+      "model_creator": {
+        "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
+        "name": "DeepSeek",
+        "slug": "deepseek"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 8.6,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": null,
+        "gpqa": null,
+        "hle": null,
+        "livecodebench": null,
+        "scicode": null,
+        "math_500": null,
+        "aime": null,
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
@@ -10805,6 +12748,10 @@
       "name": "DeepSeek V3.2 Exp (Reasoning)",
       "slug": "deepseek-v3-2-reasoning-0925",
       "release_date": "2025-09-29",
+      "id": "af134350-8ba3-4629-b56b-00bd6dcf60c4",
+      "name": "DeepSeek V3.2 Exp (Reasoning)",
+      "slug": "deepseek-v3-2-reasoning-0925",
+      "release_date": "2025-09-29",
       "model_creator": {
         "id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
         "name": "DeepSeek",
@@ -10826,8 +12773,26 @@
         "lcr": 0.69,
         "terminalbench_hard": 0.291,
         "tau2": 0.339
+        "artificial_analysis_intelligence_index": 56.9,
+        "artificial_analysis_coding_index": 48.6,
+        "artificial_analysis_math_index": 87.7,
+        "mmlu_pro": 0.85,
+        "gpqa": 0.797,
+        "hle": 0.138,
+        "livecodebench": 0.789,
+        "scicode": 0.377,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.877,
+        "ifbench": 0.541,
+        "lcr": 0.69,
+        "terminalbench_hard": 0.291,
+        "tau2": 0.339
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.315,
+        "price_1m_input_tokens": 0.28,
+        "price_1m_output_tokens": 0.42
         "price_1m_blended_3_to_1": 0.315,
         "price_1m_input_tokens": 0.28,
         "price_1m_output_tokens": 0.42
@@ -10873,6 +12838,10 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "07c35e00-2b12-44c8-91cc-408629cd569e",
+      "name": "DeepSeek V3.2 Exp (Non-reasoning)",
+      "slug": "deepseek-v3-2-0925",
+      "release_date": "2025-09-29",
       "id": "07c35e00-2b12-44c8-91cc-408629cd569e",
       "name": "DeepSeek V3.2 Exp (Non-reasoning)",
       "slug": "deepseek-v3-2-0925",
@@ -11015,6 +12984,9 @@
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
     },
     {
       "id": "1edc272c-d799-44d6-909a-bf3c1909a3a0",
@@ -11056,6 +13028,9 @@
       "id": "3435db18-9227-45a5-8e79-9546b14b5aaa",
       "name": "Sonar Pro",
       "slug": "sonar-pro",
+      "id": "3435db18-9227-45a5-8e79-9546b14b5aaa",
+      "name": "Sonar Pro",
+      "slug": "sonar-pro",
       "release_date": "2025-01-21",
       "model_creator": {
         "id": "941fc0f0-1d4e-405a-95b2-2d49494e0e6c",
@@ -11064,8 +13039,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 28.2,
+        "artificial_analysis_intelligence_index": 28.2,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.755,
+        "gpqa": 0.578,
+        "hle": 0.079,
+        "livecodebench": 0.275,
+        "scicode": 0.226,
+        "math_500": 0.745,
+        "aime": 0.29,
         "mmlu_pro": 0.755,
         "gpqa": 0.578,
         "hle": 0.079,
@@ -11083,12 +13066,18 @@
         "price_1m_blended_3_to_1": 6,
         "price_1m_input_tokens": 3,
         "price_1m_output_tokens": 15
+        "price_1m_blended_3_to_1": 6,
+        "price_1m_input_tokens": 3,
+        "price_1m_output_tokens": 15
       },
       "median_output_tokens_per_second": 140.362,
       "median_time_to_first_token_seconds": 1.523,
       "median_time_to_first_answer_token": 1.523
     },
     {
+      "id": "5ec4a0db-da66-4e46-9682-fceeed755ef8",
+      "name": "Sonar",
+      "slug": "sonar",
       "id": "5ec4a0db-da66-4e46-9682-fceeed755ef8",
       "name": "Sonar",
       "slug": "sonar",
@@ -11100,8 +13089,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 28.8,
+        "artificial_analysis_intelligence_index": 28.8,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.689,
+        "gpqa": 0.471,
+        "hle": 0.073,
+        "livecodebench": 0.295,
+        "scicode": 0.229,
+        "math_500": 0.817,
+        "aime": 0.487,
         "mmlu_pro": 0.689,
         "gpqa": 0.471,
         "hle": 0.073,
@@ -11116,6 +13113,9 @@
         "tau2": null
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 1,
+        "price_1m_input_tokens": 1,
+        "price_1m_output_tokens": 1
         "price_1m_blended_3_to_1": 1,
         "price_1m_input_tokens": 1,
         "price_1m_output_tokens": 1
@@ -11665,6 +13665,42 @@
       "median_time_to_first_answer_token": 0
     },
     {
+      "id": "9ca246a7-cf13-42c9-9182-5b5ad6b79026",
+      "name": "MiniMax M1 80k",
+      "slug": "minimax-m1-80k",
+      "release_date": "2025-06-17",
+      "model_creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "slug": "minimax"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 46.2,
+        "artificial_analysis_coding_index": 37.1,
+        "artificial_analysis_math_index": 61,
+        "mmlu_pro": 0.816,
+        "gpqa": 0.697,
+        "hle": 0.082,
+        "livecodebench": 0.711,
+        "scicode": 0.374,
+        "math_500": 0.98,
+        "aime": 0.847,
+        "aime_25": 0.61,
+        "ifbench": 0.418,
+        "lcr": 0.543,
+        "terminalbench_hard": 0.028,
+        "tau2": 0.342
+      },
+      "pricing": {
+        "price_1m_blended_3_to_1": 0.825,
+        "price_1m_input_tokens": 0.4,
+        "price_1m_output_tokens": 2.1
+      },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
+    },
+    {
       "id": "441734a9-8901-4850-9bae-b474c370291f",
       "name": "Kimi K2",
       "slug": "kimi-k2",
@@ -11741,6 +13777,10 @@
       "name": "OLMo 2 7B",
       "slug": "olmo-2-7b",
       "release_date": "2024-11-26",
+      "id": "f818a7bb-6f23-4b24-8d52-6b9c1a5ca628",
+      "name": "OLMo 2 7B",
+      "slug": "olmo-2-7b",
+      "release_date": "2024-11-26",
       "model_creator": {
         "id": "ab6c5270-d7b9-4c09-92fe-62662618c631",
         "name": "Allen Institute for AI",
@@ -11755,8 +13795,18 @@
         "hle": 0.055,
         "livecodebench": 0.041,
         "scicode": 0.037,
+        "artificial_analysis_intelligence_index": 9.5,
+        "artificial_analysis_coding_index": 2.6,
+        "artificial_analysis_math_index": 0.7,
+        "mmlu_pro": 0.282,
+        "gpqa": 0.288,
+        "hle": 0.055,
+        "livecodebench": 0.041,
+        "scicode": 0.037,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.007,
+        "ifbench": 0.244,
         "aime_25": 0.007,
         "ifbench": 0.244,
         "lcr": 0,
@@ -11777,6 +13827,10 @@
       "name": "OLMo 2 32B",
       "slug": "olmo-2-32b",
       "release_date": "2025-03-13",
+      "id": "54442579-2a4d-40cc-b264-bc4ff29e311a",
+      "name": "OLMo 2 32B",
+      "slug": "olmo-2-32b",
+      "release_date": "2025-03-13",
       "model_creator": {
         "id": "ab6c5270-d7b9-4c09-92fe-62662618c631",
         "name": "Allen Institute for AI",
@@ -11791,8 +13845,18 @@
         "hle": 0.037,
         "livecodebench": 0.068,
         "scicode": 0.08,
+        "artificial_analysis_intelligence_index": 14.4,
+        "artificial_analysis_coding_index": 4.9,
+        "artificial_analysis_math_index": 3.3,
+        "mmlu_pro": 0.511,
+        "gpqa": 0.328,
+        "hle": 0.037,
+        "livecodebench": 0.068,
+        "scicode": 0.08,
         "math_500": null,
         "aime": null,
+        "aime_25": 0.033,
+        "ifbench": 0.381,
         "aime_25": 0.033,
         "ifbench": 0.381,
         "lcr": 0,
@@ -11840,6 +13904,9 @@
         "price_1m_input_tokens": 0.03,
         "price_1m_output_tokens": 0.25
       },
+      "median_output_tokens_per_second": 286.445,
+      "median_time_to_first_token_seconds": 30.845,
+      "median_time_to_first_answer_token": 30.845
       "median_output_tokens_per_second": 286.445,
       "median_time_to_first_token_seconds": 30.845,
       "median_time_to_first_answer_token": 30.845
@@ -12101,7 +14168,14 @@
       "name": "Apriel-v1.5-15B-Thinker",
       "slug": "apriel-v1-5-15b-thinker",
       "release_date": "2025-09-30",
+      "id": "ac1031bc-c53e-4af7-9c6e-2005e0ff44fa",
+      "name": "Apriel-v1.5-15B-Thinker",
+      "slug": "apriel-v1-5-15b-thinker",
+      "release_date": "2025-09-30",
       "model_creator": {
+        "id": "7cc4f2b0-7e34-4459-82fd-667e93ca7f17",
+        "name": "ServiceNow",
+        "slug": "servicenow"
         "id": "7cc4f2b0-7e34-4459-82fd-667e93ca7f17",
         "name": "ServiceNow",
         "slug": "servicenow"
@@ -12122,8 +14196,26 @@
         "lcr": 0.2,
         "terminalbench_hard": 0.099,
         "tau2": 0.684
+        "artificial_analysis_intelligence_index": 51.6,
+        "artificial_analysis_coding_index": 39.2,
+        "artificial_analysis_math_index": 87.5,
+        "mmlu_pro": 0.773,
+        "gpqa": 0.713,
+        "hle": 0.12,
+        "livecodebench": 0.728,
+        "scicode": 0.348,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.875,
+        "ifbench": 0.617,
+        "lcr": 0.2,
+        "terminalbench_hard": 0.099,
+        "tau2": 0.684
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
@@ -12173,12 +14265,17 @@
       "name": "Jamba 1.6 Large",
       "slug": "jamba-1-6-large",
       "release_date": "2025-03-06",
+      "id": "92b19c88-fa87-4595-957e-fe9aa5fa5ad4",
+      "name": "Jamba 1.6 Large",
+      "slug": "jamba-1-6-large",
+      "release_date": "2025-03-06",
       "model_creator": {
         "id": "6216c686-bc60-4dbb-9f25-83e9dba803d1",
         "name": "AI21 Labs",
         "slug": "ai21-labs"
       },
       "evaluations": {
+        "artificial_analysis_intelligence_index": 14.3,
         "artificial_analysis_intelligence_index": 14.3,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
@@ -12245,6 +14342,10 @@
       "name": "Jamba 1.5 Mini",
       "slug": "jamba-1-5-mini",
       "release_date": "2024-08-22",
+      "id": "540ebc58-a2d8-4dc9-ba6b-973efa52fab1",
+      "name": "Jamba 1.5 Mini",
+      "slug": "jamba-1-5-mini",
+      "release_date": "2024-08-22",
       "model_creator": {
         "id": "6216c686-bc60-4dbb-9f25-83e9dba803d1",
         "name": "AI21 Labs",
@@ -12252,8 +14353,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 4,
+        "artificial_analysis_intelligence_index": 4,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.371,
+        "gpqa": 0.302,
+        "hle": 0.051,
+        "livecodebench": 0.062,
+        "scicode": 0.08,
+        "math_500": 0.357,
+        "aime": 0.01,
         "mmlu_pro": 0.371,
         "gpqa": 0.302,
         "hle": 0.051,
@@ -12271,7 +14380,13 @@
         "price_1m_blended_3_to_1": 0.25,
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 0.4
+        "price_1m_blended_3_to_1": 0.25,
+        "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 0.4
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
@@ -12533,6 +14648,10 @@
       "name": "QwQ 32B",
       "slug": "qwq-32b",
       "release_date": "2025-03-05",
+      "id": "ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca",
+      "name": "QwQ 32B",
+      "slug": "qwq-32b",
+      "release_date": "2025-03-05",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -12676,6 +14795,9 @@
       "id": "e46198a7-cd29-4afd-933d-cdf180f0f305",
       "name": "Qwen3 4B (Non-reasoning)",
       "slug": "qwen3-4b-instruct",
+      "id": "e46198a7-cd29-4afd-933d-cdf180f0f305",
+      "name": "Qwen3 4B (Non-reasoning)",
+      "slug": "qwen3-4b-instruct",
       "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
@@ -12734,6 +14856,8 @@
         "lcr": 0,
         "terminalbench_hard": 0.028,
         "tau2": 0.298
+        "terminalbench_hard": 0.028,
+        "tau2": 0.298
       },
       "pricing": {
         "price_1m_blended_3_to_1": 2.625,
@@ -12784,6 +14908,9 @@
       "id": "f3169f25-8c6f-48e4-ae87-0cf872dc0ec1",
       "name": "Qwen3 30B A3B (Non-reasoning)",
       "slug": "qwen3-30b-a3b-instruct",
+      "id": "f3169f25-8c6f-48e4-ae87-0cf872dc0ec1",
+      "name": "Qwen3 30B A3B (Non-reasoning)",
+      "slug": "qwen3-30b-a3b-instruct",
       "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
@@ -12803,13 +14930,29 @@
         "aime": 0.26,
         "aime_25": 0.217,
         "ifbench": 0.319,
+        "artificial_analysis_intelligence_index": 26.5,
+        "artificial_analysis_coding_index": 21.6,
+        "artificial_analysis_math_index": 21.7,
+        "mmlu_pro": 0.71,
+        "gpqa": 0.515,
+        "hle": 0.046,
+        "livecodebench": 0.322,
+        "scicode": 0.264,
+        "math_500": 0.863,
+        "aime": 0.26,
+        "aime_25": 0.217,
+        "ifbench": 0.319,
         "lcr": 0,
+        "terminalbench_hard": 0.064,
+        "tau2": null
         "terminalbench_hard": 0.064,
         "tau2": null
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0.35,
+        "price_1m_blended_3_to_1": 0.35,
         "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 0.8
         "price_1m_output_tokens": 0.8
       },
       "median_output_tokens_per_second": 77.596,
@@ -12817,6 +14960,9 @@
       "median_time_to_first_answer_token": 1.097
     },
     {
+      "id": "191a2097-cce3-49cf-881e-0c790892059f",
+      "name": "Qwen3 4B (Reasoning)",
+      "slug": "qwen3-4b-instruct-reasoning",
       "id": "191a2097-cce3-49cf-881e-0c790892059f",
       "name": "Qwen3 4B (Reasoning)",
       "slug": "qwen3-4b-instruct-reasoning",
@@ -12839,11 +14985,28 @@
         "aime": 0.657,
         "aime_25": 0.223,
         "ifbench": 0.325,
+        "artificial_analysis_intelligence_index": 25.6,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": 22.3,
+        "mmlu_pro": 0.696,
+        "gpqa": 0.522,
+        "hle": 0.051,
+        "livecodebench": 0.465,
+        "scicode": 0.035,
+        "math_500": 0.933,
+        "aime": 0.657,
+        "aime_25": 0.223,
+        "ifbench": 0.325,
         "lcr": 0,
+        "terminalbench_hard": null,
+        "tau2": 0.19
         "terminalbench_hard": null,
         "tau2": 0.19
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.398,
+        "price_1m_input_tokens": 0.11,
+        "price_1m_output_tokens": 1.26
         "price_1m_blended_3_to_1": 0.398,
         "price_1m_input_tokens": 0.11,
         "price_1m_output_tokens": 1.26
@@ -12853,6 +15016,10 @@
       "median_time_to_first_answer_token": 22.473
     },
     {
+      "id": "5b2beb12-81a9-47a1-8a2a-d0a727185b50",
+      "name": "Qwen3 Max (Preview)",
+      "slug": "qwen3-max-preview",
+      "release_date": "2025-09-05",
       "id": "5b2beb12-81a9-47a1-8a2a-d0a727185b50",
       "name": "Qwen3 Max (Preview)",
       "slug": "qwen3-max-preview",
@@ -12878,8 +15045,26 @@
         "lcr": 0.397,
         "terminalbench_hard": 0.184,
         "tau2": 0.327
+        "artificial_analysis_intelligence_index": 48.5,
+        "artificial_analysis_coding_index": 40.2,
+        "artificial_analysis_math_index": 75,
+        "mmlu_pro": 0.838,
+        "gpqa": 0.764,
+        "hle": 0.093,
+        "livecodebench": 0.651,
+        "scicode": 0.37,
+        "math_500": null,
+        "aime": null,
+        "aime_25": 0.75,
+        "ifbench": 0.48,
+        "lcr": 0.397,
+        "terminalbench_hard": 0.184,
+        "tau2": 0.327
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.4,
+        "price_1m_input_tokens": 1.2,
+        "price_1m_output_tokens": 6
         "price_1m_blended_3_to_1": 2.4,
         "price_1m_input_tokens": 1.2,
         "price_1m_output_tokens": 6
@@ -12889,6 +15074,10 @@
       "median_time_to_first_answer_token": 1.79
     },
     {
+      "id": "b2dd592a-fbc5-458a-b26d-f3964cbab82f",
+      "name": "Qwen3 8B (Non-reasoning)",
+      "slug": "qwen3-8b-instruct",
+      "release_date": "2025-04-28",
       "id": "b2dd592a-fbc5-458a-b26d-f3964cbab82f",
       "name": "Qwen3 8B (Non-reasoning)",
       "slug": "qwen3-8b-instruct",
@@ -12914,8 +15103,26 @@
         "lcr": 0,
         "terminalbench_hard": 0.021,
         "tau2": 0.249
+        "artificial_analysis_intelligence_index": 22.9,
+        "artificial_analysis_coding_index": 13,
+        "artificial_analysis_math_index": 24.3,
+        "mmlu_pro": 0.643,
+        "gpqa": 0.452,
+        "hle": 0.028,
+        "livecodebench": 0.202,
+        "scicode": 0.168,
+        "math_500": 0.828,
+        "aime": 0.243,
+        "aime_25": 0.243,
+        "ifbench": 0.286,
+        "lcr": 0,
+        "terminalbench_hard": 0.021,
+        "tau2": 0.249
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.31,
+        "price_1m_input_tokens": 0.18,
+        "price_1m_output_tokens": 0.7
         "price_1m_blended_3_to_1": 0.31,
         "price_1m_input_tokens": 0.18,
         "price_1m_output_tokens": 0.7
@@ -12964,6 +15171,9 @@
       "id": "bbe6d782-e630-48d5-b11c-3ce37f373f1e",
       "name": "Qwen3 235B A22B (Reasoning)",
       "slug": "qwen3-235b-a22b-instruct-reasoning",
+      "id": "bbe6d782-e630-48d5-b11c-3ce37f373f1e",
+      "name": "Qwen3 235B A22B (Reasoning)",
+      "slug": "qwen3-235b-a22b-instruct-reasoning",
       "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
@@ -12983,11 +15193,28 @@
         "aime": 0.84,
         "aime_25": 0.82,
         "ifbench": 0.387,
+        "artificial_analysis_intelligence_index": 41.7,
+        "artificial_analysis_coding_index": 35.9,
+        "artificial_analysis_math_index": 82,
+        "mmlu_pro": 0.828,
+        "gpqa": 0.7,
+        "hle": 0.117,
+        "livecodebench": 0.622,
+        "scicode": 0.399,
+        "math_500": 0.93,
+        "aime": 0.84,
+        "aime_25": 0.82,
+        "ifbench": 0.387,
         "lcr": 0,
+        "terminalbench_hard": 0.057,
+        "tau2": 0.24
         "terminalbench_hard": 0.057,
         "tau2": 0.24
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 2.625,
+        "price_1m_input_tokens": 0.7,
+        "price_1m_output_tokens": 8.4
         "price_1m_blended_3_to_1": 2.625,
         "price_1m_input_tokens": 0.7,
         "price_1m_output_tokens": 8.4
@@ -13001,6 +15228,10 @@
       "name": "Qwen Chat 72B",
       "slug": "qwen-chat-72b",
       "release_date": "2023-11-30",
+      "id": "41f73c27-880c-4f30-8b07-9999ce89a4ae",
+      "name": "Qwen Chat 72B",
+      "slug": "qwen-chat-72b",
+      "release_date": "2023-11-30",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -13008,9 +15239,11 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 7.6,
+        "artificial_analysis_intelligence_index": 7.6,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
         "mmlu_pro": null,
+        "gpqa": null,
         "gpqa": null,
         "hle": null,
         "livecodebench": null,
@@ -13036,6 +15269,9 @@
       "id": "3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5",
       "name": "Qwen3 30B A3B (Reasoning)",
       "slug": "qwen3-30b-a3b-instruct-reasoning",
+      "id": "3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5",
+      "name": "Qwen3 30B A3B (Reasoning)",
+      "slug": "qwen3-30b-a3b-instruct-reasoning",
       "release_date": "2025-04-28",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
@@ -13058,8 +15294,26 @@
         "lcr": 0,
         "terminalbench_hard": 0.021,
         "tau2": 0.26
+        "artificial_analysis_intelligence_index": 36.7,
+        "artificial_analysis_coding_index": 27.1,
+        "artificial_analysis_math_index": 72.3,
+        "mmlu_pro": 0.777,
+        "gpqa": 0.616,
+        "hle": 0.066,
+        "livecodebench": 0.506,
+        "scicode": 0.285,
+        "math_500": 0.959,
+        "aime": 0.753,
+        "aime_25": 0.723,
+        "ifbench": 0.415,
+        "lcr": 0,
+        "terminalbench_hard": 0.021,
+        "tau2": 0.26
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.75,
+        "price_1m_input_tokens": 0.2,
+        "price_1m_output_tokens": 2.4
         "price_1m_blended_3_to_1": 0.75,
         "price_1m_input_tokens": 0.2,
         "price_1m_output_tokens": 2.4
@@ -13069,6 +15323,9 @@
       "median_time_to_first_answer_token": 23.915
     },
     {
+      "id": "ecc6524a-d521-458a-8327-5009e8ce6549",
+      "name": "Qwen3 14B (Non-reasoning)",
+      "slug": "qwen3-14b-instruct",
       "id": "ecc6524a-d521-458a-8327-5009e8ce6549",
       "name": "Qwen3 14B (Non-reasoning)",
       "slug": "qwen3-14b-instruct",
@@ -13091,11 +15348,28 @@
         "aime": 0.28,
         "aime_25": 0.58,
         "ifbench": 0.239,
+        "artificial_analysis_intelligence_index": 29.2,
+        "artificial_analysis_coding_index": 19.8,
+        "artificial_analysis_math_index": 58,
+        "mmlu_pro": 0.675,
+        "gpqa": 0.47,
+        "hle": 0.042,
+        "livecodebench": 0.28,
+        "scicode": 0.265,
+        "math_500": 0.871,
+        "aime": 0.28,
+        "aime_25": 0.58,
+        "ifbench": 0.239,
         "lcr": 0,
+        "terminalbench_hard": 0.05,
+        "tau2": 0.322
         "terminalbench_hard": 0.05,
         "tau2": 0.322
       },
       "pricing": {
+        "price_1m_blended_3_to_1": 0.613,
+        "price_1m_input_tokens": 0.35,
+        "price_1m_output_tokens": 1.4
         "price_1m_blended_3_to_1": 0.613,
         "price_1m_input_tokens": 0.35,
         "price_1m_output_tokens": 1.4
@@ -13109,6 +15383,10 @@
       "name": "Qwen2.5 Instruct 32B",
       "slug": "qwen2.5-32b-instruct",
       "release_date": "2024-09-19",
+      "id": "1d0db5a3-3132-4213-a94b-c2e395d08283",
+      "name": "Qwen2.5 Instruct 32B",
+      "slug": "qwen2.5-32b-instruct",
+      "release_date": "2024-09-19",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -13116,8 +15394,16 @@
       },
       "evaluations": {
         "artificial_analysis_intelligence_index": 22.9,
+        "artificial_analysis_intelligence_index": 22.9,
         "artificial_analysis_coding_index": null,
         "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.697,
+        "gpqa": 0.466,
+        "hle": 0.038,
+        "livecodebench": 0.248,
+        "scicode": 0.229,
+        "math_500": 0.805,
+        "aime": 0.11,
         "mmlu_pro": 0.697,
         "gpqa": 0.466,
         "hle": 0.038,
@@ -13145,6 +15431,10 @@
       "name": "Qwen2.5 Coder Instruct 7B ",
       "slug": "qwen2-5-coder-7b-instruct",
       "release_date": "2024-09-19",
+      "id": "e410e854-104d-4b35-a171-899ff9d974bb",
+      "name": "Qwen2.5 Coder Instruct 7B ",
+      "slug": "qwen2-5-coder-7b-instruct",
+      "release_date": "2024-09-19",
       "model_creator": {
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba",
@@ -13166,12 +15456,33 @@
         "lcr": null,
         "terminalbench_hard": null,
         "tau2": null
+        "artificial_analysis_intelligence_index": 12.2,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_math_index": null,
+        "mmlu_pro": 0.473,
+        "gpqa": 0.339,
+        "hle": 0.048,
+        "livecodebench": 0.126,
+        "scicode": 0.148,
+        "math_500": 0.66,
+        "aime": 0.053,
+        "aime_25": null,
+        "ifbench": null,
+        "lcr": null,
+        "terminalbench_hard": null,
+        "tau2": null
       },
       "pricing": {
         "price_1m_blended_3_to_1": 0,
         "price_1m_input_tokens": 0,
         "price_1m_output_tokens": 0
+        "price_1m_blended_3_to_1": 0,
+        "price_1m_input_tokens": 0,
+        "price_1m_output_tokens": 0
       },
+      "median_output_tokens_per_second": 0,
+      "median_time_to_first_token_seconds": 0,
+      "median_time_to_first_answer_token": 0
       "median_output_tokens_per_second": 0,
       "median_time_to_first_token_seconds": 0,
       "median_time_to_first_answer_token": 0
