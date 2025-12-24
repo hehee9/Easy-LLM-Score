@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "lastUpdated": "2025-12-23",
+    "lastUpdated": "2025-12-24",
     "description": "LLM 벤치마크 통합 데이터",
     "totalModels": 96,
     "defaultModelIds": [],
@@ -11,7 +11,7 @@
         "totalModels": 290
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-23T18:49:07.034Z",
+        "lastFetched": "2025-12-24T00:18:59.086Z",
         "totalModels": 366
       }
     }
