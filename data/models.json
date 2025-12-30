@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "lastUpdated": "2025-12-29",
+    "lastUpdated": "2025-12-30",
     "description": "LLM 벤치마크 통합 데이터",
     "totalModels": 95,
     "defaultModelIds": [],
@@ -11,8 +11,8 @@
         "totalModels": 290
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-29T00:21:15.617Z",
-        "totalModels": 370
+        "lastFetched": "2025-12-30T00:19:14.892Z",
+        "totalModels": 371
       }
     }
   },
@@ -51,8 +51,8 @@
           "output": 12
         },
         "performance": {
-          "outputTokensPerSecond": 134.686,
-          "timeToFirstToken": 29.337
+          "outputTokensPerSecond": 133.405,
+          "timeToFirstToken": 29.506
         }
       },
       "tags": [],
@@ -94,8 +94,8 @@
           "output": 3
         },
         "performance": {
-          "outputTokensPerSecond": 218.676,
-          "timeToFirstToken": 11.528
+          "outputTokensPerSecond": 218.443,
+          "timeToFirstToken": 11.859
         }
       },
       "tags": [],
@@ -137,8 +137,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 45.106,
-          "timeToFirstToken": 1.633
+          "outputTokensPerSecond": 44.914,
+          "timeToFirstToken": 1.661
         }
       },
       "tags": [],
@@ -180,8 +180,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 47.735,
-          "timeToFirstToken": 1.346
+          "outputTokensPerSecond": 48.405,
+          "timeToFirstToken": 1.321
         }
       },
       "tags": [],
@@ -223,8 +223,8 @@
           "output": 3
         },
         "performance": {
-          "outputTokensPerSecond": 192.48,
-          "timeToFirstToken": 0.65
+          "outputTokensPerSecond": 191.964,
+          "timeToFirstToken": 0.67
         }
       },
       "tags": [],
@@ -266,8 +266,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 209.473,
-          "timeToFirstToken": 21.146
+          "outputTokensPerSecond": 189.268,
+          "timeToFirstToken": 21.521
         }
       },
       "tags": [],
@@ -309,8 +309,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 164.139,
-          "timeToFirstToken": 33.767
+          "outputTokensPerSecond": 160.641,
+          "timeToFirstToken": 34.967
         }
       },
       "tags": [],
@@ -353,7 +353,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 65.142,
-          "timeToFirstToken": 2.019
+          "timeToFirstToken": 1.987
         }
       },
       "tags": [],
@@ -395,8 +395,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 44.667,
-          "timeToFirstToken": 1.288
+          "outputTokensPerSecond": 46.043,
+          "timeToFirstToken": 1.324
         }
       },
       "tags": [],
@@ -438,8 +438,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 68.689,
-          "timeToFirstToken": 1.98
+          "outputTokensPerSecond": 70.729,
+          "timeToFirstToken": 1.947
         }
       },
       "tags": [],
@@ -567,8 +567,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 38.776,
-          "timeToFirstToken": 1.435
+          "outputTokensPerSecond": 39.981,
+          "timeToFirstToken": 1.437
         }
       },
       "tags": [],
@@ -610,8 +610,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 217.394,
-          "timeToFirstToken": 0.559
+          "outputTokensPerSecond": 200.582,
+          "timeToFirstToken": 0.631
         }
       },
       "tags": [],
@@ -653,8 +653,8 @@
           "output": 14
         },
         "performance": {
-          "outputTokensPerSecond": 125.172,
-          "timeToFirstToken": 42.085
+          "outputTokensPerSecond": 131.12,
+          "timeToFirstToken": 37.361
         }
       },
       "tags": [],
@@ -696,8 +696,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 160.22,
-          "timeToFirstToken": 0.963
+          "outputTokensPerSecond": 155.58,
+          "timeToFirstToken": 0.905
         }
       },
       "tags": [],
@@ -739,8 +739,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 121.878,
-          "timeToFirstToken": 79.729
+          "outputTokensPerSecond": 122.126,
+          "timeToFirstToken": 84.899
         }
       },
       "tags": [],
@@ -782,8 +782,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 351.126,
-          "timeToFirstToken": 9.163
+          "outputTokensPerSecond": 348.603,
+          "timeToFirstToken": 9.353
         }
       },
       "tags": [],
@@ -825,8 +825,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 42.87,
-          "timeToFirstToken": 1.489
+          "outputTokensPerSecond": 42.117,
+          "timeToFirstToken": 1.545
         }
       },
       "tags": [],
@@ -868,8 +868,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 154.683,
-          "timeToFirstToken": 5.592
+          "outputTokensPerSecond": 146.143,
+          "timeToFirstToken": 5.208
         }
       },
       "tags": [],
@@ -911,8 +911,8 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 62.224,
-          "timeToFirstToken": 0.984
+          "outputTokensPerSecond": 55.662,
+          "timeToFirstToken": 0.948
         }
       },
       "tags": [],
@@ -954,8 +954,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 193.395,
-          "timeToFirstToken": 0.644
+          "outputTokensPerSecond": 184.003,
+          "timeToFirstToken": 0.627
         }
       },
       "tags": [],
@@ -997,8 +997,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 31.472,
-          "timeToFirstToken": 1.617
+          "outputTokensPerSecond": 30.752,
+          "timeToFirstToken": 1.75
         }
       },
       "tags": [],
@@ -1040,8 +1040,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 31.134,
-          "timeToFirstToken": 1.325
+          "outputTokensPerSecond": 30.352,
+          "timeToFirstToken": 1.302
         }
       },
       "tags": [],
@@ -1083,8 +1083,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 42.924,
-          "timeToFirstToken": 1.174
+          "outputTokensPerSecond": 44.398,
+          "timeToFirstToken": 1.225
         }
       },
       "tags": [],
@@ -1127,7 +1127,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 30.711,
-          "timeToFirstToken": 1.364
+          "timeToFirstToken": 1.305
         }
       },
       "tags": [],
@@ -1169,8 +1169,8 @@
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 49.8,
-          "timeToFirstToken": 1.035
+          "outputTokensPerSecond": 45.352,
+          "timeToFirstToken": 0.972
         }
       },
       "tags": [],
@@ -1212,8 +1212,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 162.852,
-          "timeToFirstToken": 0.599
+          "outputTokensPerSecond": 158.821,
+          "timeToFirstToken": 0.59
         }
       },
       "tags": [],
@@ -1256,7 +1256,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 73.669,
-          "timeToFirstToken": 0.62
+          "timeToFirstToken": 0.607
         }
       },
       "tags": [],
@@ -1341,8 +1341,8 @@
           "output": 1.5
         },
         "performance": {
-          "outputTokensPerSecond": 47.206,
-          "timeToFirstToken": 0.545
+          "outputTokensPerSecond": 47.856,
+          "timeToFirstToken": 0.549
         }
       },
       "tags": [],
@@ -1427,8 +1427,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 29.484,
-          "timeToFirstToken": 1.33
+          "outputTokensPerSecond": 29.247,
+          "timeToFirstToken": 1.345
         }
       },
       "tags": [],
@@ -1556,8 +1556,8 @@
           "output": 2.8
         },
         "performance": {
-          "outputTokensPerSecond": 34.91,
-          "timeToFirstToken": 1.031
+          "outputTokensPerSecond": 35.433,
+          "timeToFirstToken": 1.017
         }
       },
       "tags": [],
@@ -1642,8 +1642,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 151.014,
-          "timeToFirstToken": 0.513
+          "outputTokensPerSecond": 133.544,
+          "timeToFirstToken": 0.543
         }
       },
       "tags": [],
@@ -1685,8 +1685,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 37.492,
-          "timeToFirstToken": 1.245
+          "outputTokensPerSecond": 38.652,
+          "timeToFirstToken": 1.269
         }
       },
       "tags": [],
@@ -1728,8 +1728,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 94.195,
-          "timeToFirstToken": 0.447
+          "outputTokensPerSecond": 89.016,
+          "timeToFirstToken": 0.418
         }
       },
       "tags": [],
@@ -1772,7 +1772,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 47.226,
-          "timeToFirstToken": 5.761
+          "timeToFirstToken": 5.991
         }
       },
       "tags": [],
@@ -1814,8 +1814,8 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 40.008,
-          "timeToFirstToken": 1.29
+          "outputTokensPerSecond": 38.691,
+          "timeToFirstToken": 0.752
         }
       },
       "tags": [],
@@ -1824,22 +1824,22 @@
       "isReasoning": false
     },
     {
-      "id": "gemini-2-5-flash",
-      "name": "Gemini 2.5 Flash (Non-reasoning)",
+      "id": "gemini-2-5-flash-reasoning",
+      "name": "Gemini 2.5 Flash (Reasoning)",
       "provider": "Google",
       "releaseDate": "2025-05-20",
       "benchmarks": {
-        "MMLU Pro": 80.9,
-        "GPQA Diamond": 68.30000000000001,
-        "Humanity's Last Exam": 5.1,
-        "AA-LCR": 45.9,
-        "LiveCodeBench": 49.5,
-        "SciCode": 29.099999999999998,
-        "AIME 2025": 60.3,
-        "MMMU Pro": 66,
-        "AA-Omniscience": -44,
-        "AA-Omniscience Accuracy": 25.35,
-        "AA-Omniscience Hallucination Rate": 92.57,
+        "MMLU Pro": 83.2,
+        "GPQA Diamond": 79,
+        "Humanity's Last Exam": 11.1,
+        "AA-LCR": 61.7,
+        "LiveCodeBench": 69.5,
+        "SciCode": 39.4,
+        "AIME 2025": 73.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1408,
         "LMArena-Text-Creative-Writing": 1398,
         "LMArean-Text-Math": 1413,
@@ -1857,8 +1857,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 232.834,
-          "timeToFirstToken": 0.404
+          "outputTokensPerSecond": 273.878,
+          "timeToFirstToken": 15.514
         }
       },
       "tags": [],
@@ -1900,8 +1900,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 287.688,
-          "timeToFirstToken": 0.355
+          "outputTokensPerSecond": 287.432,
+          "timeToFirstToken": 0.363
         }
       },
       "tags": [],
@@ -1943,8 +1943,8 @@
           "output": 5
         },
         "performance": {
-          "outputTokensPerSecond": 103.096,
-          "timeToFirstToken": 0.414
+          "outputTokensPerSecond": 104.899,
+          "timeToFirstToken": 0.43
         }
       },
       "tags": [],
@@ -1987,7 +1987,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 185.321,
-          "timeToFirstToken": 4.077
+          "timeToFirstToken": 4.182
         }
       },
       "tags": [],
@@ -2029,7 +2029,7 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 190.394,
+          "outputTokensPerSecond": 188.223,
           "timeToFirstToken": 1.064
         }
       },
@@ -2072,8 +2072,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 54.172,
-          "timeToFirstToken": 0.811
+          "outputTokensPerSecond": 54.714,
+          "timeToFirstToken": 0.859
         }
       },
       "tags": [],
@@ -2115,8 +2115,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 74.796,
-          "timeToFirstToken": 1.043
+          "outputTokensPerSecond": 73.669,
+          "timeToFirstToken": 1.057
         }
       },
       "tags": [],
@@ -2201,8 +2201,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 42.26,
-          "timeToFirstToken": 1.026
+          "outputTokensPerSecond": 42.323,
+          "timeToFirstToken": 1.043
         }
       },
       "tags": [],
@@ -2287,8 +2287,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 75.087,
-          "timeToFirstToken": 115.582
+          "outputTokensPerSecond": 68.662,
+          "timeToFirstToken": 120.772
         }
       },
       "tags": [],
@@ -2330,8 +2330,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 164.169,
-          "timeToFirstToken": 43.388
+          "outputTokensPerSecond": 149.218,
+          "timeToFirstToken": 44.396
         }
       },
       "tags": [],
@@ -2373,8 +2373,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 57.803,
-          "timeToFirstToken": 1.075
+          "outputTokensPerSecond": 57.37,
+          "timeToFirstToken": 1.114
         }
       },
       "tags": [],
@@ -2459,8 +2459,8 @@
           "output": 7.5
         },
         "performance": {
-          "outputTokensPerSecond": 54.799,
-          "timeToFirstToken": 1.53
+          "outputTokensPerSecond": 53.526,
+          "timeToFirstToken": 1.555
         }
       },
       "tags": [],
@@ -2502,8 +2502,8 @@
           "output": 0.8
         },
         "performance": {
-          "outputTokensPerSecond": 61.319,
-          "timeToFirstToken": 0.9
+          "outputTokensPerSecond": 60.978,
+          "timeToFirstToken": 0.947
         }
       },
       "tags": [],
@@ -2545,8 +2545,8 @@
           "output": 1.6
         },
         "performance": {
-          "outputTokensPerSecond": 72.407,
-          "timeToFirstToken": 0.484
+          "outputTokensPerSecond": 72.789,
+          "timeToFirstToken": 0.495
         }
       },
       "tags": [],
@@ -2588,8 +2588,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 452.283,
-          "timeToFirstToken": 0.35
+          "outputTokensPerSecond": 457.099,
+          "timeToFirstToken": 0.317
         }
       },
       "tags": [],
@@ -2631,8 +2631,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 365.582,
-          "timeToFirstToken": 21.024
+          "outputTokensPerSecond": 307.792,
+          "timeToFirstToken": 19.057
         }
       },
       "tags": [],
@@ -2674,8 +2674,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 62.109,
-          "timeToFirstToken": 0.968
+          "outputTokensPerSecond": 59.371,
+          "timeToFirstToken": 0.995
         }
       },
       "tags": [],
@@ -2717,8 +2717,8 @@
           "output": 6.4
         },
         "performance": {
-          "outputTokensPerSecond": 31.101,
-          "timeToFirstToken": 1.159
+          "outputTokensPerSecond": 31.181,
+          "timeToFirstToken": 1.178
         }
       },
       "tags": [],
@@ -2803,7 +2803,7 @@
           "output": 1.1
         },
         "performance": {
-          "outputTokensPerSecond": 104.885,
+          "outputTokensPerSecond": 106.731,
           "timeToFirstToken": 0.252
         }
       },
@@ -2846,8 +2846,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 189.314,
-          "timeToFirstToken": 0.984
+          "outputTokensPerSecond": 184.613,
+          "timeToFirstToken": 0.99
         }
       },
       "tags": [],
@@ -2890,7 +2890,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 44.19,
-          "timeToFirstToken": 1.87
+          "timeToFirstToken": 2.013
         }
       },
       "tags": [],
@@ -2932,8 +2932,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 161.509,
-          "timeToFirstToken": 48.399
+          "outputTokensPerSecond": 162.08,
+          "timeToFirstToken": 48.279
         }
       },
       "tags": [],
@@ -3018,8 +3018,8 @@
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 348.42,
-          "timeToFirstToken": 0.395
+          "outputTokensPerSecond": 341.708,
+          "timeToFirstToken": 0.4
         }
       },
       "tags": [],
@@ -3104,8 +3104,8 @@
           "output": 1.8
         },
         "performance": {
-          "outputTokensPerSecond": 36.323,
-          "timeToFirstToken": 0.739
+          "outputTokensPerSecond": 36.474,
+          "timeToFirstToken": 0.744
         }
       },
       "tags": [],
@@ -3147,8 +3147,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 95.773,
-          "timeToFirstToken": 0.203
+          "outputTokensPerSecond": 92.953,
+          "timeToFirstToken": 0.222
         }
       },
       "tags": [],
@@ -3190,8 +3190,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 189.333,
-          "timeToFirstToken": 13.348
+          "outputTokensPerSecond": 167.454,
+          "timeToFirstToken": 13.819
         }
       },
       "tags": [],
@@ -3233,8 +3233,8 @@
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 54.973,
-          "timeToFirstToken": 1.57
+          "outputTokensPerSecond": 53.477,
+          "timeToFirstToken": 1.59
         }
       },
       "tags": [],
@@ -3276,8 +3276,8 @@
           "output": 1.2
         },
         "performance": {
-          "outputTokensPerSecond": 64.769,
-          "timeToFirstToken": 1.264
+          "outputTokensPerSecond": 65.611,
+          "timeToFirstToken": 1.372
         }
       },
       "tags": [],
@@ -3319,8 +3319,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 92.286,
-          "timeToFirstToken": 0.881
+          "outputTokensPerSecond": 91.373,
+          "timeToFirstToken": 0.884
         }
       },
       "tags": [],
@@ -3362,8 +3362,8 @@
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 46.258,
-          "timeToFirstToken": 4.561
+          "outputTokensPerSecond": 45.522,
+          "timeToFirstToken": 5.87
         }
       },
       "tags": [],
@@ -3405,8 +3405,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 71.103,
-          "timeToFirstToken": 0.186
+          "outputTokensPerSecond": 69.614,
+          "timeToFirstToken": 0.19
         }
       },
       "tags": [],
@@ -3448,8 +3448,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 138.96,
-          "timeToFirstToken": 92.599
+          "outputTokensPerSecond": 136.365,
+          "timeToFirstToken": 104.508
         }
       },
       "tags": [],
@@ -3491,8 +3491,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 224.724,
-          "timeToFirstToken": 0.539
+          "outputTokensPerSecond": 230.301,
+          "timeToFirstToken": 0.538
         }
       },
       "tags": [],
@@ -3534,8 +3534,8 @@
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 31.794,
-          "timeToFirstToken": 0.524
+          "outputTokensPerSecond": 31.715,
+          "timeToFirstToken": 0.77
         }
       },
       "tags": [],
@@ -3577,8 +3577,8 @@
           "output": 0.85
         },
         "performance": {
-          "outputTokensPerSecond": 134.828,
-          "timeToFirstToken": 0.482
+          "outputTokensPerSecond": 131.733,
+          "timeToFirstToken": 0.479
         }
       },
       "tags": [],
@@ -3620,8 +3620,8 @@
           "output": 2.4
         },
         "performance": {
-          "outputTokensPerSecond": 91.839,
-          "timeToFirstToken": 0.968
+          "outputTokensPerSecond": 91.297,
+          "timeToFirstToken": 0.97
         }
       },
       "tags": [],
@@ -3706,8 +3706,8 @@
           "output": 0.24
         },
         "performance": {
-          "outputTokensPerSecond": 335.437,
-          "timeToFirstToken": 0.212
+          "outputTokensPerSecond": 339.243,
+          "timeToFirstToken": 0.211
         }
       },
       "tags": [],
@@ -3749,8 +3749,8 @@
           "output": 0.545
         },
         "performance": {
-          "outputTokensPerSecond": 163.328,
-          "timeToFirstToken": 0.46
+          "outputTokensPerSecond": 160.132,
+          "timeToFirstToken": 0.463
         }
       },
       "tags": [],
@@ -3792,8 +3792,8 @@
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 169.541,
-          "timeToFirstToken": 0.408
+          "outputTokensPerSecond": 168.574,
+          "timeToFirstToken": 0.413
         }
       },
       "tags": [],
@@ -3835,8 +3835,8 @@
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 74.506,
-          "timeToFirstToken": 1.507
+          "outputTokensPerSecond": 77.939,
+          "timeToFirstToken": 1.513
         }
       },
       "tags": [],
@@ -3921,8 +3921,8 @@
           "output": 0.2
         },
         "performance": {
-          "outputTokensPerSecond": 279.269,
-          "timeToFirstToken": 0.423
+          "outputTokensPerSecond": 267.935,
+          "timeToFirstToken": 0.426
         }
       },
       "tags": [],
@@ -4007,8 +4007,8 @@
           "output": 0.3
         },
         "performance": {
-          "outputTokensPerSecond": 131.572,
-          "timeToFirstToken": 0.31
+          "outputTokensPerSecond": 129.028,
+          "timeToFirstToken": 0.317
         }
       },
       "tags": [],
@@ -4050,8 +4050,8 @@
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 44.424,
-          "timeToFirstToken": 1.066
+          "outputTokensPerSecond": 45.041,
+          "timeToFirstToken": 1.051
         }
       },
       "tags": [],
@@ -4093,8 +4093,8 @@
           "output": 0.15
         },
         "performance": {
-          "outputTokensPerSecond": 197.324,
-          "timeToFirstToken": 0.281
+          "outputTokensPerSecond": 198.903,
+          "timeToFirstToken": 0.275
         }
       },
       "tags": [],
