@@ -7,7 +7,7 @@
     "defaultModelIds": [],
     "dataSources": {
       "lmarena": {
-        "lastFetched": "2025-12-31T14:11:03.955Z",
+        "lastFetched": "2025-12-31T14:32:25.281Z",
         "totalModels": 291
       },
       "artificialanalysis": {
@@ -41,7 +41,8 @@
         "LMArena-Text-Expert": 1504,
         "LMArena-Text-Hard-Prompts": 1505,
         "LMArena-Text-Longer-Query": 1494,
-        "LMArena-Text-Multi-Turn": 1496
+        "LMArena-Text-Multi-Turn": 1496,
+        "LMArena-Vision": 1309
       },
       "metadata": {
         "lmarenaRank": 1,
@@ -84,7 +85,8 @@
         "LMArena-Text-Expert": 1487,
         "LMArena-Text-Hard-Prompts": 1489,
         "LMArena-Text-Longer-Query": 1482,
-        "LMArena-Text-Multi-Turn": 1474
+        "LMArena-Text-Multi-Turn": 1474,
+        "LMArena-Vision": 1284
       },
       "metadata": {
         "lmarenaRank": 2,
@@ -127,7 +129,8 @@
         "LMArena-Text-Expert": 1512,
         "LMArena-Text-Hard-Prompts": 1502,
         "LMArena-Text-Longer-Query": 1496,
-        "LMArena-Text-Multi-Turn": 1469
+        "LMArena-Text-Multi-Turn": 1469,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 4,
@@ -170,7 +173,8 @@
         "LMArena-Text-Expert": 1527,
         "LMArena-Text-Hard-Prompts": 1493,
         "LMArena-Text-Longer-Query": 1497,
-        "LMArena-Text-Multi-Turn": 1476
+        "LMArena-Text-Multi-Turn": 1476,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 5,
@@ -213,7 +217,8 @@
         "LMArena-Text-Expert": 1467,
         "LMArena-Text-Hard-Prompts": 1481,
         "LMArena-Text-Longer-Query": 1469,
-        "LMArena-Text-Multi-Turn": 1491
+        "LMArena-Text-Multi-Turn": 1491,
+        "LMArena-Vision": 1268
       },
       "metadata": {
         "lmarenaRank": 7,
@@ -256,7 +261,8 @@
         "LMArena-Text-Expert": 1484,
         "LMArena-Text-Hard-Prompts": 1473,
         "LMArena-Text-Longer-Query": 1463,
-        "LMArena-Text-Multi-Turn": 1470
+        "LMArena-Text-Multi-Turn": 1470,
+        "LMArena-Vision": 1249
       },
       "metadata": {
         "lmarenaRank": 8,
@@ -299,7 +305,8 @@
         "LMArena-Text-Expert": 1465,
         "LMArena-Text-Hard-Prompts": 1463,
         "LMArena-Text-Longer-Query": 1464,
-        "LMArena-Text-Multi-Turn": 1454
+        "LMArena-Text-Multi-Turn": 1454,
+        "LMArena-Vision": 1249
       },
       "metadata": {
         "lmarenaRank": 9,
@@ -342,7 +349,8 @@
         "LMArena-Text-Expert": 1501,
         "LMArena-Text-Hard-Prompts": 1485,
         "LMArena-Text-Longer-Query": 1485,
-        "LMArena-Text-Multi-Turn": 1467
+        "LMArena-Text-Multi-Turn": 1467,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 10,
@@ -385,7 +393,8 @@
         "LMArena-Text-Expert": 1483,
         "LMArena-Text-Hard-Prompts": 1479,
         "LMArena-Text-Longer-Query": 1485,
-        "LMArena-Text-Multi-Turn": 1467
+        "LMArena-Text-Multi-Turn": 1467,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 11,
@@ -428,7 +437,8 @@
         "LMArena-Text-Expert": 1489,
         "LMArena-Text-Hard-Prompts": 1474,
         "LMArena-Text-Longer-Query": 1479,
-        "LMArena-Text-Multi-Turn": 1477
+        "LMArena-Text-Multi-Turn": 1477,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 12,
@@ -471,7 +481,8 @@
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1472,
         "LMArena-Text-Longer-Query": 1451,
-        "LMArena-Text-Multi-Turn": 1457
+        "LMArena-Text-Multi-Turn": 1457,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 14,
@@ -514,7 +525,8 @@
         "LMArena-Text-Expert": 1426,
         "LMArena-Text-Hard-Prompts": 1437,
         "LMArena-Text-Longer-Query": 1443,
-        "LMArena-Text-Multi-Turn": 1462
+        "LMArena-Text-Multi-Turn": 1462,
+        "LMArena-Vision": 1226
       },
       "metadata": {
         "lmarenaRank": 15,
@@ -557,7 +569,8 @@
         "LMArena-Text-Expert": 1458,
         "LMArena-Text-Hard-Prompts": 1471,
         "LMArena-Text-Longer-Query": 1467,
-        "LMArena-Text-Multi-Turn": 1462
+        "LMArena-Text-Multi-Turn": 1462,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 16,
@@ -600,7 +613,8 @@
         "LMArena-Text-Expert": 1422,
         "LMArena-Text-Hard-Prompts": 1451,
         "LMArena-Text-Longer-Query": 1437,
-        "LMArena-Text-Multi-Turn": 1464
+        "LMArena-Text-Multi-Turn": 1464,
+        "LMArena-Vision": 1236
       },
       "metadata": {
         "lmarenaRank": 17,
@@ -643,7 +657,8 @@
         "LMArena-Text-Expert": 1490,
         "LMArena-Text-Hard-Prompts": 1460,
         "LMArena-Text-Longer-Query": 1443,
-        "LMArena-Text-Multi-Turn": 1442
+        "LMArena-Text-Multi-Turn": 1442,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 18,
@@ -686,7 +701,8 @@
         "LMArena-Text-Expert": 1465,
         "LMArena-Text-Hard-Prompts": 1456,
         "LMArena-Text-Longer-Query": 1447,
-        "LMArena-Text-Multi-Turn": 1445
+        "LMArena-Text-Multi-Turn": 1445,
+        "LMArena-Vision": 1239
       },
       "metadata": {
         "lmarenaRank": 19,
@@ -729,7 +745,8 @@
         "LMArena-Text-Expert": 1458,
         "LMArena-Text-Hard-Prompts": 1448,
         "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1425
+        "LMArena-Text-Multi-Turn": 1425,
+        "LMArena-Vision": 1210
       },
       "metadata": {
         "lmarenaRank": 20,
@@ -772,7 +789,8 @@
         "LMArena-Text-Expert": 1444,
         "LMArena-Text-Hard-Prompts": 1440,
         "LMArena-Text-Longer-Query": 1410,
-        "LMArena-Text-Multi-Turn": 1420
+        "LMArena-Text-Multi-Turn": 1420,
+        "LMArena-Vision": 1217
       },
       "metadata": {
         "lmarenaRank": 21,
@@ -815,7 +833,8 @@
         "LMArena-Text-Expert": 1468,
         "LMArena-Text-Hard-Prompts": 1457,
         "LMArena-Text-Longer-Query": 1448,
-        "LMArena-Text-Multi-Turn": 1445
+        "LMArena-Text-Multi-Turn": 1445,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 22,
@@ -858,7 +877,8 @@
         "LMArena-Text-Expert": 1443,
         "LMArena-Text-Hard-Prompts": 1438,
         "LMArena-Text-Longer-Query": 1421,
-        "LMArena-Text-Multi-Turn": 1413
+        "LMArena-Text-Multi-Turn": 1413,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 23,
@@ -901,7 +921,8 @@
         "LMArena-Text-Expert": 1443,
         "LMArena-Text-Hard-Prompts": 1446,
         "LMArena-Text-Longer-Query": 1436,
-        "LMArena-Text-Multi-Turn": 1446
+        "LMArena-Text-Multi-Turn": 1446,
+        "LMArena-Vision": 1223
       },
       "metadata": {
         "lmarenaRank": 26,
@@ -944,7 +965,8 @@
         "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1442,
         "LMArena-Text-Longer-Query": 1434,
-        "LMArena-Text-Multi-Turn": 1422
+        "LMArena-Text-Multi-Turn": 1422,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 27,
@@ -987,7 +1009,8 @@
         "LMArena-Text-Expert": 1426,
         "LMArena-Text-Hard-Prompts": 1446,
         "LMArena-Text-Longer-Query": 1435,
-        "LMArena-Text-Multi-Turn": 1446
+        "LMArena-Text-Multi-Turn": 1446,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 28,
@@ -1030,7 +1053,8 @@
         "LMArena-Text-Expert": 1426,
         "LMArena-Text-Hard-Prompts": 1446,
         "LMArena-Text-Longer-Query": 1442,
-        "LMArena-Text-Multi-Turn": 1429
+        "LMArena-Text-Multi-Turn": 1429,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 29,
@@ -1073,7 +1097,8 @@
         "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1452,
         "LMArena-Text-Longer-Query": 1461,
-        "LMArena-Text-Multi-Turn": 1434
+        "LMArena-Text-Multi-Turn": 1434,
+        "LMArena-Vision": 1209
       },
       "metadata": {
         "lmarenaRank": 30,
@@ -1116,7 +1141,8 @@
         "LMArena-Text-Expert": 1433,
         "LMArena-Text-Hard-Prompts": 1438,
         "LMArena-Text-Longer-Query": 1436,
-        "LMArena-Text-Multi-Turn": 1419
+        "LMArena-Text-Multi-Turn": 1419,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 32,
@@ -1159,7 +1185,8 @@
         "LMArena-Text-Expert": 1449,
         "LMArena-Text-Hard-Prompts": 1449,
         "LMArena-Text-Longer-Query": 1439,
-        "LMArena-Text-Multi-Turn": 1433
+        "LMArena-Text-Multi-Turn": 1433,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 33,
@@ -1202,7 +1229,8 @@
         "LMArena-Text-Expert": 1424,
         "LMArena-Text-Hard-Prompts": 1430,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1426
+        "LMArena-Text-Multi-Turn": 1426,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 34,
@@ -1245,7 +1273,8 @@
         "LMArena-Text-Expert": 1429,
         "LMArena-Text-Hard-Prompts": 1443,
         "LMArena-Text-Longer-Query": 1438,
-        "LMArena-Text-Multi-Turn": 1423
+        "LMArena-Text-Multi-Turn": 1423,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 35,
@@ -1288,7 +1317,8 @@
         "LMArena-Text-Expert": 1419,
         "LMArena-Text-Hard-Prompts": 1434,
         "LMArena-Text-Longer-Query": 1404,
-        "LMArena-Text-Multi-Turn": 1405
+        "LMArena-Text-Multi-Turn": 1405,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 36,
@@ -1331,7 +1361,8 @@
         "LMArena-Text-Expert": 1412,
         "LMArena-Text-Hard-Prompts": 1432,
         "LMArena-Text-Longer-Query": 1409,
-        "LMArena-Text-Multi-Turn": 1405
+        "LMArena-Text-Multi-Turn": 1405,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 37,
@@ -1374,7 +1405,8 @@
         "LMArena-Text-Expert": 1409,
         "LMArena-Text-Hard-Prompts": 1440,
         "LMArena-Text-Longer-Query": 1422,
-        "LMArena-Text-Multi-Turn": 1416
+        "LMArena-Text-Multi-Turn": 1416,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 38,
@@ -1417,7 +1449,8 @@
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1431,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1405
+        "LMArena-Text-Multi-Turn": 1405,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 39,
@@ -1460,7 +1493,8 @@
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1435,
         "LMArena-Text-Longer-Query": 1447,
-        "LMArena-Text-Multi-Turn": 1414
+        "LMArena-Text-Multi-Turn": 1414,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 41,
@@ -1503,7 +1537,8 @@
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1422,
         "LMArena-Text-Longer-Query": 1416,
-        "LMArena-Text-Multi-Turn": 1393
+        "LMArena-Text-Multi-Turn": 1393,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 42,
@@ -1546,7 +1581,8 @@
         "LMArena-Text-Expert": 1436,
         "LMArena-Text-Hard-Prompts": 1439,
         "LMArena-Text-Longer-Query": 1424,
-        "LMArena-Text-Multi-Turn": 1423
+        "LMArena-Text-Multi-Turn": 1423,
+        "LMArena-Vision": 1209
       },
       "metadata": {
         "lmarenaRank": 43,
@@ -1589,7 +1625,8 @@
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1441,
         "LMArena-Text-Longer-Query": 1439,
-        "LMArena-Text-Multi-Turn": 1417
+        "LMArena-Text-Multi-Turn": 1417,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 44,
@@ -1632,7 +1669,8 @@
         "LMArena-Text-Expert": 1400,
         "LMArena-Text-Hard-Prompts": 1428,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1427
+        "LMArena-Text-Multi-Turn": 1427,
+        "LMArena-Vision": 1215
       },
       "metadata": {
         "lmarenaRank": 45,
@@ -1675,7 +1713,8 @@
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1433,
         "LMArena-Text-Longer-Query": 1444,
-        "LMArena-Text-Multi-Turn": 1424
+        "LMArena-Text-Multi-Turn": 1424,
+        "LMArena-Vision": 1188
       },
       "metadata": {
         "lmarenaRank": 46,
@@ -1718,7 +1757,8 @@
         "LMArena-Text-Expert": 1405,
         "LMArena-Text-Hard-Prompts": 1430,
         "LMArena-Text-Longer-Query": 1412,
-        "LMArena-Text-Multi-Turn": 1413
+        "LMArena-Text-Multi-Turn": 1413,
+        "LMArena-Vision": 1149
       },
       "metadata": {
         "lmarenaRank": 47,
@@ -1761,7 +1801,8 @@
         "LMArena-Text-Expert": 1431,
         "LMArena-Text-Hard-Prompts": 1417,
         "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1413
+        "LMArena-Text-Multi-Turn": 1413,
+        "LMArena-Vision": 1180
       },
       "metadata": {
         "lmarenaRank": 49,
@@ -1804,7 +1845,8 @@
         "LMArena-Text-Expert": 1440,
         "LMArena-Text-Hard-Prompts": 1431,
         "LMArena-Text-Longer-Query": 1422,
-        "LMArena-Text-Multi-Turn": 1407
+        "LMArena-Text-Multi-Turn": 1407,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 50,
@@ -1847,7 +1889,8 @@
         "LMArena-Text-Expert": 1428,
         "LMArena-Text-Hard-Prompts": 1415,
         "LMArena-Text-Longer-Query": 1422,
-        "LMArena-Text-Multi-Turn": 1401
+        "LMArena-Text-Multi-Turn": 1401,
+        "LMArena-Vision": 1213
       },
       "metadata": {
         "lmarenaRank": 51,
@@ -1890,7 +1933,8 @@
         "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1418,
         "LMArena-Text-Longer-Query": 1418,
-        "LMArena-Text-Multi-Turn": 1398
+        "LMArena-Text-Multi-Turn": 1398,
+        "LMArena-Vision": 1224
       },
       "metadata": {
         "lmarenaRank": 52,
@@ -1933,7 +1977,8 @@
         "LMArena-Text-Expert": 1437,
         "LMArena-Text-Hard-Prompts": 1434,
         "LMArena-Text-Longer-Query": 1433,
-        "LMArena-Text-Multi-Turn": 1419
+        "LMArena-Text-Multi-Turn": 1419,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 53,
@@ -1976,7 +2021,8 @@
         "LMArena-Text-Expert": 1414,
         "LMArena-Text-Hard-Prompts": 1410,
         "LMArena-Text-Longer-Query": 1410,
-        "LMArena-Text-Multi-Turn": 1404
+        "LMArena-Text-Multi-Turn": 1404,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 54,
@@ -2019,7 +2065,8 @@
         "LMArena-Text-Expert": 1399,
         "LMArena-Text-Hard-Prompts": 1421,
         "LMArena-Text-Longer-Query": 1395,
-        "LMArena-Text-Multi-Turn": 1402
+        "LMArena-Text-Multi-Turn": 1402,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 56,
@@ -2062,7 +2109,8 @@
         "LMArena-Text-Expert": 1432,
         "LMArena-Text-Hard-Prompts": 1429,
         "LMArena-Text-Longer-Query": 1439,
-        "LMArena-Text-Multi-Turn": 1415
+        "LMArena-Text-Multi-Turn": 1415,
+        "LMArena-Vision": 1204
       },
       "metadata": {
         "lmarenaRank": 59,
@@ -2105,7 +2153,8 @@
         "LMArena-Text-Expert": 1460,
         "LMArena-Text-Hard-Prompts": 1417,
         "LMArena-Text-Longer-Query": 1404,
-        "LMArena-Text-Multi-Turn": 1394
+        "LMArena-Text-Multi-Turn": 1394,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 60,
@@ -2148,7 +2197,8 @@
         "LMArena-Text-Expert": 1395,
         "LMArena-Text-Hard-Prompts": 1415,
         "LMArena-Text-Longer-Query": 1398,
-        "LMArena-Text-Multi-Turn": 1406
+        "LMArena-Text-Multi-Turn": 1406,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 61,
@@ -2191,7 +2241,8 @@
         "LMArena-Text-Expert": 1436,
         "LMArena-Text-Hard-Prompts": 1416,
         "LMArena-Text-Longer-Query": 1406,
-        "LMArena-Text-Multi-Turn": 1382
+        "LMArena-Text-Multi-Turn": 1382,
+        "LMArena-Vision": 1190
       },
       "metadata": {
         "lmarenaRank": 62,
@@ -2234,7 +2285,8 @@
         "LMArena-Text-Expert": 1390,
         "LMArena-Text-Hard-Prompts": 1404,
         "LMArena-Text-Longer-Query": 1393,
-        "LMArena-Text-Multi-Turn": 1406
+        "LMArena-Text-Multi-Turn": 1406,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 63,
@@ -2277,7 +2329,8 @@
         "LMArena-Text-Expert": 1404,
         "LMArena-Text-Hard-Prompts": 1404,
         "LMArena-Text-Longer-Query": 1375,
-        "LMArena-Text-Multi-Turn": 1375
+        "LMArena-Text-Multi-Turn": 1375,
+        "LMArena-Vision": 1184
       },
       "metadata": {
         "lmarenaRank": 64,
@@ -2320,7 +2373,8 @@
         "LMArena-Text-Expert": 1406,
         "LMArena-Text-Hard-Prompts": 1404,
         "LMArena-Text-Longer-Query": 1368,
-        "LMArena-Text-Multi-Turn": 1381
+        "LMArena-Text-Multi-Turn": 1381,
+        "LMArena-Vision": 1202
       },
       "metadata": {
         "lmarenaRank": 66,
@@ -2363,7 +2417,8 @@
         "LMArena-Text-Expert": 1397,
         "LMArena-Text-Hard-Prompts": 1415,
         "LMArena-Text-Longer-Query": 1423,
-        "LMArena-Text-Multi-Turn": 1403
+        "LMArena-Text-Multi-Turn": 1403,
+        "LMArena-Vision": 1186
       },
       "metadata": {
         "lmarenaRank": 68,
@@ -2406,7 +2461,8 @@
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1414,
         "LMArena-Text-Longer-Query": 1403,
-        "LMArena-Text-Multi-Turn": 1398
+        "LMArena-Text-Multi-Turn": 1398,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 69,
@@ -2449,7 +2505,8 @@
         "LMArena-Text-Expert": 1406,
         "LMArena-Text-Hard-Prompts": 1414,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1395
+        "LMArena-Text-Multi-Turn": 1395,
+        "LMArena-Vision": 1195
       },
       "metadata": {
         "lmarenaRank": 71,
@@ -2492,7 +2549,8 @@
         "LMArena-Text-Expert": 1379,
         "LMArena-Text-Hard-Prompts": 1412,
         "LMArena-Text-Longer-Query": 1406,
-        "LMArena-Text-Multi-Turn": 1394
+        "LMArena-Text-Multi-Turn": 1394,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 72,
@@ -2535,7 +2593,8 @@
         "LMArena-Text-Expert": 1385,
         "LMArena-Text-Hard-Prompts": 1406,
         "LMArena-Text-Longer-Query": 1383,
-        "LMArena-Text-Multi-Turn": 1382
+        "LMArena-Text-Multi-Turn": 1382,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 75,
@@ -2578,7 +2637,8 @@
         "LMArena-Text-Expert": 1380,
         "LMArena-Text-Hard-Prompts": 1399,
         "LMArena-Text-Longer-Query": 1388,
-        "LMArena-Text-Multi-Turn": 1389
+        "LMArena-Text-Multi-Turn": 1389,
+        "LMArena-Vision": 1202
       },
       "metadata": {
         "lmarenaRank": 76,
@@ -2621,7 +2681,8 @@
         "LMArena-Text-Expert": 1383,
         "LMArena-Text-Hard-Prompts": 1389,
         "LMArena-Text-Longer-Query": 1388,
-        "LMArena-Text-Multi-Turn": 1369
+        "LMArena-Text-Multi-Turn": 1369,
+        "LMArena-Vision": 1178
       },
       "metadata": {
         "lmarenaRank": 78,
@@ -2664,7 +2725,8 @@
         "LMArena-Text-Expert": 1366,
         "LMArena-Text-Hard-Prompts": 1381,
         "LMArena-Text-Longer-Query": 1383,
-        "LMArena-Text-Multi-Turn": 1367
+        "LMArena-Text-Multi-Turn": 1367,
+        "LMArena-Vision": 1188
       },
       "metadata": {
         "lmarenaRank": 79,
@@ -2707,7 +2769,8 @@
         "LMArena-Text-Expert": 1381,
         "LMArena-Text-Hard-Prompts": 1390,
         "LMArena-Text-Longer-Query": 1381,
-        "LMArena-Text-Multi-Turn": 1369
+        "LMArena-Text-Multi-Turn": 1369,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 80,
@@ -2750,7 +2813,8 @@
         "LMArena-Text-Expert": 1364,
         "LMArena-Text-Hard-Prompts": 1382,
         "LMArena-Text-Longer-Query": 1384,
-        "LMArena-Text-Multi-Turn": 1369
+        "LMArena-Text-Multi-Turn": 1369,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 81,
@@ -2793,7 +2857,8 @@
         "LMArena-Text-Expert": 1382,
         "LMArena-Text-Hard-Prompts": 1395,
         "LMArena-Text-Longer-Query": 1410,
-        "LMArena-Text-Multi-Turn": 1394
+        "LMArena-Text-Multi-Turn": 1394,
+        "LMArena-Vision": 1177
       },
       "metadata": {
         "lmarenaRank": 83,
@@ -2836,7 +2901,8 @@
         "LMArena-Text-Expert": 1388,
         "LMArena-Text-Hard-Prompts": 1389,
         "LMArena-Text-Longer-Query": 1381,
-        "LMArena-Text-Multi-Turn": 1369
+        "LMArena-Text-Multi-Turn": 1369,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 84,
@@ -2879,7 +2945,8 @@
         "LMArena-Text-Expert": 1385,
         "LMArena-Text-Hard-Prompts": 1383,
         "LMArena-Text-Longer-Query": 1370,
-        "LMArena-Text-Multi-Turn": 1345
+        "LMArena-Text-Multi-Turn": 1345,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 85,
@@ -2922,7 +2989,8 @@
         "LMArena-Text-Expert": 1332,
         "LMArena-Text-Hard-Prompts": 1363,
         "LMArena-Text-Longer-Query": 1365,
-        "LMArena-Text-Multi-Turn": 1358
+        "LMArena-Text-Multi-Turn": 1358,
+        "LMArena-Vision": 1155
       },
       "metadata": {
         "lmarenaRank": 88,
@@ -2965,7 +3033,8 @@
         "LMArena-Text-Expert": 1394,
         "LMArena-Text-Hard-Prompts": 1398,
         "LMArena-Text-Longer-Query": 1371,
-        "LMArena-Text-Multi-Turn": 1343
+        "LMArena-Text-Multi-Turn": 1343,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 89,
@@ -3008,7 +3077,8 @@
         "LMArena-Text-Expert": 1351,
         "LMArena-Text-Hard-Prompts": 1359,
         "LMArena-Text-Longer-Query": 1365,
-        "LMArena-Text-Multi-Turn": 1356
+        "LMArena-Text-Multi-Turn": 1356,
+        "LMArena-Vision": 1168
       },
       "metadata": {
         "lmarenaRank": 91,
@@ -3051,7 +3121,8 @@
         "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1360,
         "LMArena-Text-Longer-Query": 1325,
-        "LMArena-Text-Multi-Turn": 1323
+        "LMArena-Text-Multi-Turn": 1323,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 96,
@@ -3094,7 +3165,8 @@
         "LMArena-Text-Expert": 1326,
         "LMArena-Text-Hard-Prompts": 1347,
         "LMArena-Text-Longer-Query": 1347,
-        "LMArena-Text-Multi-Turn": 1326
+        "LMArena-Text-Multi-Turn": 1326,
+        "LMArena-Vision": 1133
       },
       "metadata": {
         "lmarenaRank": 97,
@@ -3137,7 +3209,8 @@
         "LMArena-Text-Expert": 1404,
         "LMArena-Text-Hard-Prompts": 1370,
         "LMArena-Text-Longer-Query": 1341,
-        "LMArena-Text-Multi-Turn": 1355
+        "LMArena-Text-Multi-Turn": 1355,
+        "LMArena-Vision": 1157
       },
       "metadata": {
         "lmarenaRank": 98,
@@ -3180,7 +3253,8 @@
         "LMArena-Text-Expert": 1336,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1368,
-        "LMArena-Text-Multi-Turn": 1358
+        "LMArena-Text-Multi-Turn": 1358,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 99,
@@ -3223,7 +3297,8 @@
         "LMArena-Text-Expert": 1362,
         "LMArena-Text-Hard-Prompts": 1368,
         "LMArena-Text-Longer-Query": 1359,
-        "LMArena-Text-Multi-Turn": 1337
+        "LMArena-Text-Multi-Turn": 1337,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 101,
@@ -3266,7 +3341,8 @@
         "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1329,
-        "LMArena-Text-Multi-Turn": 1317
+        "LMArena-Text-Multi-Turn": 1317,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 105,
@@ -3309,7 +3385,8 @@
         "LMArena-Text-Expert": 1332,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1348,
-        "LMArena-Text-Multi-Turn": 1363
+        "LMArena-Text-Multi-Turn": 1363,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 107,
@@ -3352,7 +3429,8 @@
         "LMArena-Text-Expert": 1395,
         "LMArena-Text-Hard-Prompts": 1363,
         "LMArena-Text-Longer-Query": 1356,
-        "LMArena-Text-Multi-Turn": 1335
+        "LMArena-Text-Multi-Turn": 1335,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 110,
@@ -3395,7 +3473,8 @@
         "LMArena-Text-Expert": 1269,
         "LMArena-Text-Hard-Prompts": 1330,
         "LMArena-Text-Longer-Query": 1349,
-        "LMArena-Text-Multi-Turn": 1344
+        "LMArena-Text-Multi-Turn": 1344,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 114,
@@ -3438,7 +3517,8 @@
         "LMArena-Text-Expert": 1366,
         "LMArena-Text-Hard-Prompts": 1358,
         "LMArena-Text-Longer-Query": 1341,
-        "LMArena-Text-Multi-Turn": 1335
+        "LMArena-Text-Multi-Turn": 1335,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 115,
@@ -3481,7 +3561,8 @@
         "LMArena-Text-Expert": 1357,
         "LMArena-Text-Hard-Prompts": 1353,
         "LMArena-Text-Longer-Query": 1332,
-        "LMArena-Text-Multi-Turn": 1329
+        "LMArena-Text-Multi-Turn": 1329,
+        "LMArena-Vision": 1146
       },
       "metadata": {
         "lmarenaRank": 117,
@@ -3524,7 +3605,8 @@
         "LMArena-Text-Expert": 1358,
         "LMArena-Text-Hard-Prompts": 1355,
         "LMArena-Text-Longer-Query": 1336,
-        "LMArena-Text-Multi-Turn": 1319
+        "LMArena-Text-Multi-Turn": 1319,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 122,
@@ -3567,7 +3649,8 @@
         "LMArena-Text-Expert": 1360,
         "LMArena-Text-Hard-Prompts": 1367,
         "LMArena-Text-Longer-Query": 1346,
-        "LMArena-Text-Multi-Turn": 1327
+        "LMArena-Text-Multi-Turn": 1327,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 124,
@@ -3610,7 +3693,8 @@
         "LMArena-Text-Expert": 1323,
         "LMArena-Text-Hard-Prompts": 1337,
         "LMArena-Text-Longer-Query": 1335,
-        "LMArena-Text-Multi-Turn": 1323
+        "LMArena-Text-Multi-Turn": 1323,
+        "LMArena-Vision": 1146
       },
       "metadata": {
         "lmarenaRank": 128,
@@ -3653,7 +3737,8 @@
         "LMArena-Text-Expert": 1343,
         "LMArena-Text-Hard-Prompts": 1343,
         "LMArena-Text-Longer-Query": 1340,
-        "LMArena-Text-Multi-Turn": 1319
+        "LMArena-Text-Multi-Turn": 1319,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 129,
@@ -3696,7 +3781,8 @@
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1358,
         "LMArena-Text-Longer-Query": 1334,
-        "LMArena-Text-Multi-Turn": 1326
+        "LMArena-Text-Multi-Turn": 1326,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 130,
@@ -3739,7 +3825,8 @@
         "LMArena-Text-Expert": 1338,
         "LMArena-Text-Hard-Prompts": 1336,
         "LMArena-Text-Longer-Query": 1308,
-        "LMArena-Text-Multi-Turn": 1295
+        "LMArena-Text-Multi-Turn": 1295,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 133,
@@ -3782,7 +3869,8 @@
         "LMArena-Text-Expert": 1305,
         "LMArena-Text-Hard-Prompts": 1327,
         "LMArena-Text-Longer-Query": 1328,
-        "LMArena-Text-Multi-Turn": 1320
+        "LMArena-Text-Multi-Turn": 1320,
+        "LMArena-Vision": 1125
       },
       "metadata": {
         "lmarenaRank": 135,
@@ -3825,7 +3913,8 @@
         "LMArena-Text-Expert": 1310,
         "LMArena-Text-Hard-Prompts": 1330,
         "LMArena-Text-Longer-Query": 1326,
-        "LMArena-Text-Multi-Turn": 1311
+        "LMArena-Text-Multi-Turn": 1311,
+        "LMArena-Vision": 1088
       },
       "metadata": {
         "lmarenaRank": 139,
@@ -3868,7 +3957,8 @@
         "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1350,
         "LMArena-Text-Longer-Query": 1332,
-        "LMArena-Text-Multi-Turn": 1282
+        "LMArena-Text-Multi-Turn": 1282,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 140,
@@ -3911,7 +4001,8 @@
         "LMArena-Text-Expert": 1279,
         "LMArena-Text-Hard-Prompts": 1312,
         "LMArena-Text-Longer-Query": 1313,
-        "LMArena-Text-Multi-Turn": 1292
+        "LMArena-Text-Multi-Turn": 1292,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 143,
@@ -3954,7 +4045,8 @@
         "LMArena-Text-Expert": 1317,
         "LMArena-Text-Hard-Prompts": 1321,
         "LMArena-Text-Longer-Query": 1305,
-        "LMArena-Text-Multi-Turn": 1288
+        "LMArena-Text-Multi-Turn": 1288,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 145,
@@ -3997,7 +4089,8 @@
         "LMArena-Text-Expert": 1291,
         "LMArena-Text-Hard-Prompts": 1324,
         "LMArena-Text-Longer-Query": 1319,
-        "LMArena-Text-Multi-Turn": 1296
+        "LMArena-Text-Multi-Turn": 1296,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 161,
@@ -4040,7 +4133,8 @@
         "LMArena-Text-Expert": 1307,
         "LMArena-Text-Hard-Prompts": 1318,
         "LMArena-Text-Longer-Query": 1326,
-        "LMArena-Text-Multi-Turn": 1291
+        "LMArena-Text-Multi-Turn": 1291,
+        "LMArena-Vision": 1125
       },
       "metadata": {
         "lmarenaRank": 162,
@@ -4083,7 +4177,8 @@
         "LMArena-Text-Expert": 1253,
         "LMArena-Text-Hard-Prompts": 1282,
         "LMArena-Text-Longer-Query": 1313,
-        "LMArena-Text-Multi-Turn": 1271
+        "LMArena-Text-Multi-Turn": 1271,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 163,
@@ -4126,7 +4221,8 @@
         "LMArena-Text-Expert": 1232,
         "LMArena-Text-Hard-Prompts": 1248,
         "LMArena-Text-Longer-Query": 1257,
-        "LMArena-Text-Multi-Turn": 1205
+        "LMArena-Text-Multi-Turn": 1205,
+        "LMArena-Vision": 0
       },
       "metadata": {
         "lmarenaRank": 201,

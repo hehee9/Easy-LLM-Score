@@ -83,7 +83,8 @@ async function mergeData() {
     'lmarena-text-expert',
     'lmarena-text-hard-prompts',
     'lmarena-text-longer-query',
-    'lmarena-text-multi-turn'
+    'lmarena-text-multi-turn',
+    'lmarena-vision'
   ];
 
   const lmarenaData = {};
@@ -174,7 +175,9 @@ async function mergeData() {
           'LMArena-Text-Longer-Query':
             lmarenaData['lmarena-text-longer-query'].models.find(m => m.model === lmModel.model)?.score || 0,
           'LMArena-Text-Multi-Turn':
-            lmarenaData['lmarena-text-multi-turn'].models.find(m => m.model === lmModel.model)?.score || 0
+            lmarenaData['lmarena-text-multi-turn'].models.find(m => m.model === lmModel.model)?.score || 0,
+          'LMArena-Vision':
+            lmarenaData['lmarena-vision'].models.find(m => m.model === lmModel.model)?.score || 0
         },
         metadata: {
           lmarenaRank: lmModel.rank,

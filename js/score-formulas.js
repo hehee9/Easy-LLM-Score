@@ -96,58 +96,60 @@ export function calculateScores(model, allModels = []) {
         'LMArena-Text-Expert': allModels.map(m => m.benchmarks?.['LMArena-Text-Expert']),
         'LMArena-Text-Hard-Prompts': allModels.map(m => m.benchmarks?.['LMArena-Text-Hard-Prompts']),
         'LMArena-Text-Longer-Query': allModels.map(m => m.benchmarks?.['LMArena-Text-Longer-Query']),
-        'LMArena-Text-Multi-Turn': allModels.map(m => m.benchmarks?.['LMArena-Text-Multi-Turn'])
+        'LMArena-Text-Multi-Turn': allModels.map(m => m.benchmarks?.['LMArena-Text-Multi-Turn']),
+        'LMArena-Vision': allModels.map(m => m.benchmarks?.['LMArena-Vision'])
     };
 
     // LM Arena 정규화 함수 (각 벤치마크별)
     const getLMArena = (key) => normalizeLMArena(benchmarks[key], lmArenaScores[key]);
 
     const scores = {
-        // 일반 지식: (5A MMLU Pro) + (1A GPQA Diamond) + (4A LMArena-Text)
+        // 일반 지식: MMLU Pro(5) + GPQA Diamond(1) + LMArena-Text(2)
         general_knowledge: weightedAverage([
             { value: getBenchmark(benchmarks, 'MMLU Pro'), weight: 5 },
             { value: getBenchmark(benchmarks, 'GPQA Diamond'), weight: 1 },
-            { value: getLMArena('LMArena-Text'), weight: 4 }
+            { value: getLMArena('LMArena-Text'), weight: 2 }
         ]),
 
-        // 전문 지식: (2A MMLU Pro) + (4A GPQA Diamond) + (6A Humanity's Last Exam) + (5A LMArena-Text-Expert) + (2A LMArena-Text-Hard-Prompts)
+        // 전문 지식: MMLU Pro(2) + GPQA Diamond(4) + HLE(6) + LMArena-Expert(2) + LMArena-Hard(2)
         expert_knowledge: weightedAverage([
             { value: getBenchmark(benchmarks, 'MMLU Pro'), weight: 2 },
             { value: getBenchmark(benchmarks, 'GPQA Diamond'), weight: 4 },
             { value: getBenchmark(benchmarks, "Humanity's Last Exam"), weight: 6 },
-            { value: getLMArena('LMArena-Text-Expert'), weight: 5 },
+            { value: getLMArena('LMArena-Text-Expert'), weight: 2 },
             { value: getLMArena('LMArena-Text-Hard-Prompts'), weight: 2 }
         ]),
 
-        // 일반 추론: (4A MMLU Pro) + (3A GPQA Diamond) + (3A Humanity's Last Exam) + (2A AA-LCR) + (2A LMArena-Text-Hard-Prompts)
+        // 일반 추론: MMLU Pro(4) + GPQA Diamond(3) + HLE(2) + AA-LCR(3) + LMArena-Hard(1)
         general_reasoning: weightedAverage([
             { value: getBenchmark(benchmarks, 'MMLU Pro'), weight: 4 },
             { value: getBenchmark(benchmarks, 'GPQA Diamond'), weight: 3 },
-            { value: getBenchmark(benchmarks, "Humanity's Last Exam"), weight: 3 },
-            { value: getBenchmark(benchmarks, 'AA-LCR'), weight: 2 },
-            { value: getLMArena('LMArena-Text-Hard-Prompts'), weight: 2 }
+            { value: getBenchmark(benchmarks, "Humanity's Last Exam"), weight: 2 },
+            { value: getBenchmark(benchmarks, 'AA-LCR'), weight: 3 },
+            { value: getLMArena('LMArena-Text-Hard-Prompts'), weight: 1 }
         ]),
 
-        // 수학 추론: (1A GPQA Diamond) + (7A AIME 2025) + (8A LMArean-Text-Math) + (1A MMLU Pro) + (1A Humanity's Last Exam)
+        // 수학 추론: GPQA Diamond(2) + AIME 2025(7) + LMArena-Math(4) + MMLU Pro(1) + HLE(1)
         math_reasoning: weightedAverage([
-            { value: getBenchmark(benchmarks, 'GPQA Diamond'), weight: 1 },
+            { value: getBenchmark(benchmarks, 'GPQA Diamond'), weight: 2 },
             { value: getBenchmark(benchmarks, 'AIME 2025'), weight: 7 },
-            { value: getLMArena('LMArean-Text-Math'), weight: 8 },
+            { value: getLMArena('LMArean-Text-Math'), weight: 4 },
             { value: getBenchmark(benchmarks, 'MMLU Pro'), weight: 1 },
             { value: getBenchmark(benchmarks, "Humanity's Last Exam"), weight: 1 }
         ]),
 
-        // 코딩: (5A LiveCodeBench) + (3A SciCode) + (5A LMArena-Text-Coding)
+        // 코딩: LiveCodeBench(5) + SciCode(3) + LMArena-Coding(3)
         coding: weightedAverage([
             { value: getBenchmark(benchmarks, 'LiveCodeBench'), weight: 5 },
             { value: getBenchmark(benchmarks, 'SciCode'), weight: 3 },
-            { value: getLMArena('LMArena-Text-Coding'), weight: 5 }
+            { value: getLMArena('LMArena-Text-Coding'), weight: 3 }
         ]),
 
-        // 시각 이해: (2A LMArena-Text) + (8A MMMU Pro)
+        // 시각 이해: LMArena-Text(1) + MMMU Pro(8) + LMArena-Vision(3)
         vision: weightedAverage([
-            { value: getLMArena('LMArena-Text'), weight: 2 },
-            { value: getBenchmark(benchmarks, 'MMMU Pro'), weight: 8 }
+            { value: getLMArena('LMArena-Text'), weight: 1 },
+            { value: getBenchmark(benchmarks, 'MMMU Pro'), weight: 8 },
+            { value: getLMArena('LMArena-Vision'), weight: 3 }
         ]),
 
         // 음성 이해 (비활성화)
@@ -156,16 +158,16 @@ export function calculateScores(model, allModels = []) {
         // 동영상 이해 (비활성화)
         video: 0,
 
-        // 긴 맥락 이해: (4A AA-LCR) + (2A LMArena-Text-Longer-Query) + (1A LMArena-Text-Multi-Turn) + (2A AA-Omniscience Accuracy) + (4A AA-Omniscience Hallucination Rate)
+        // 긴 맥락 이해: AA-LCR(4) + LMArena-Longer(1) + LMArena-Multi(1) + Omniscience-Acc(2) + Omniscience-Hall(4)
         long_context: weightedAverage([
             { value: getBenchmark(benchmarks, 'AA-LCR'), weight: 4 },
-            { value: getLMArena('LMArena-Text-Longer-Query'), weight: 2 },
+            { value: getLMArena('LMArena-Text-Longer-Query'), weight: 1 },
             { value: getLMArena('LMArena-Text-Multi-Turn'), weight: 1 },
             { value: getBenchmark(benchmarks, 'AA-Omniscience Accuracy'), weight: 2 },
             { value: getBenchmark(benchmarks, 'AA-Omniscience Hallucination Rate'), weight: 4 }
         ]),
 
-        // 환각: (2A AA-LCR) + (4A AA-Omniscience Accuracy) + (8A (100 - AA-Omniscience Hallucination Rate)) + (3A LMArena-Text-Longer-Query)
+        // 환각 저항: AA-LCR(2) + Omniscience-Acc(4) + (100-Omniscience-Hall)(7) + LMArena-Longer(2)
         // ⚠️ 환각률을 환각 저항률로 변환 (100 - 원점수)
         hallucination: weightedAverage([
             { value: getBenchmark(benchmarks, 'AA-LCR'), weight: 2 },
@@ -175,15 +177,17 @@ export function calculateScores(model, allModels = []) {
                        benchmarks['AA-Omniscience Hallucination Rate'] !== undefined
                     ? 100 - benchmarks['AA-Omniscience Hallucination Rate']
                     : null,
-                weight: 8
+                weight: 7
             },
-            { value: getLMArena('LMArena-Text-Longer-Query'), weight: 3 }
+            { value: getLMArena('LMArena-Text-Longer-Query'), weight: 2 }
         ]),
 
-        // 자연스러운 말투: (4A LMArena-Text) + (4A LMArena-Text-Creative-Writing) + (2A LMArena-Text-Multi-Turn)
+        // 응답 품질: MMLU Pro(3) + AA-LCR(2) + LMArena-Text(2) + LMArena-Creative(2) + LMArena-Multi(2)
         natural_speech: weightedAverage([
-            { value: getLMArena('LMArena-Text'), weight: 4 },
-            { value: getLMArena('LMArena-Text-Creative-Writing'), weight: 4 },
+            { value: getBenchmark(benchmarks, 'MMLU Pro'), weight: 3 },
+            { value: getBenchmark(benchmarks, 'AA-LCR'), weight: 2 },
+            { value: getLMArena('LMArena-Text'), weight: 2 },
+            { value: getLMArena('LMArena-Text-Creative-Writing'), weight: 2 },
             { value: getLMArena('LMArena-Text-Multi-Turn'), weight: 2 }
         ])
     };

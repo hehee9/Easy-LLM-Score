@@ -15,7 +15,8 @@ const CATEGORIES = [
   { id: 'text-expert', path: 'text/expert', field: 'LMArena-Text-Expert' },
   { id: 'text-hard-prompts', path: 'text/hard-prompts', field: 'LMArena-Text-Hard-Prompts' },
   { id: 'text-longer-query', path: 'text/longer-query', field: 'LMArena-Text-Longer-Query' },
-  { id: 'text-multi-turn', path: 'text/multi-turn', field: 'LMArena-Text-Multi-Turn' }
+  { id: 'text-multi-turn', path: 'text/multi-turn', field: 'LMArena-Text-Multi-Turn' },
+  { id: 'vision', path: 'vision', field: 'LMArena-Vision' }
 ];
 
 async function fetchWithRetry(url, options = {}, maxRetries = 3) {
