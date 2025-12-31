@@ -89,6 +89,15 @@ body {
     background-color: var(--bg-hover);
 }
 
+/* 필터링된 모델 (범위 밖) - 연하게 표시 */
+.model-item.filtered-out {
+    opacity: 0.4;
+}
+
+.model-item.filtered-out:hover {
+    opacity: 0.6;
+}
+
 .model-item input[type="checkbox"] {
     cursor: pointer;
 }
@@ -114,6 +123,39 @@ body {
     outline: none;
     border-color: var(--chart-color-1);
     box-shadow: 0 0 0 2px rgba(84, 112, 198, 0.2);
+}
+
+/* 출시일 필터 */
+.date-filter {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+}
+
+.date-filter .filter-label {
+    font-size: var(--font-size-xs);
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.date-filter input[type="date"] {
+    flex: 1;
+    min-width: 0;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+.date-filter input[type="date"]:focus {
+    outline: none;
+    border-color: var(--chart-color-1);
 }
 
 /* 전체 선택 컨트롤 */

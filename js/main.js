@@ -15,6 +15,7 @@ let selectedModelIds = new Set();  // 선택된 모델 ID
 let radarChart = null;
 let barChart = null;
 let currentCategory = 'overall';  // 기본 카테고리 (종합)
+let dateFilter = { start: null, end: null };  // 출시일 필터
 
 // ============================================================
 // URL 쿼리 파라미터 관련 함수
@@ -206,6 +207,10 @@ function createModelSelector() {
 
     container.innerHTML = '<h3>모델 선택</h3>';
 
+    // 출시일 필터 UI 생성
+    const dateFilterUI = createDateFilter();
+    container.appendChild(dateFilterUI);
+
     // 검색창 생성
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
@@ -332,9 +337,12 @@ function createModelSelector() {
     container.appendChild(groupsContainer);
 }
 
-/** @description 모든 모델 선택/취소 */
+/** @description 모든 모델 선택/취소 (필터링된 모델 제외) */
 function selectAllModels(select) {
     allModels.forEach(model => {
+        // 필터링된 모델은 전체 선택에서 제외
+        if (isModelFilteredOut(model.id)) return;
+
         if (select) {
             selectedModelIds.add(model.id);
         } else {
@@ -342,12 +350,21 @@ function selectAllModels(select) {
         }
     });
 
-    // UI 업데이트
+    // UI 업데이트 (필터링되지 않은 모델만)
     document.querySelectorAll('.model-item input[type="checkbox"]').forEach(cb => {
-        cb.checked = select;
+        const item = cb.closest('.model-item');
+        if (!item.classList.contains('filtered-out')) {
+            cb.checked = select;
+        }
     });
     document.querySelectorAll('.provider-checkbox').forEach(cb => {
-        cb.checked = select;
+        // 개발사 체크박스는 updateProviderCheckbox에서 처리
+    });
+
+    // 개발사별 체크박스 상태 업데이트
+    const grouped = groupModelsByProvider(allModels);
+    Object.keys(grouped).forEach(provider => {
+        updateProviderCheckbox(provider);
     });
 
     updateSelectionCounts();
@@ -382,12 +399,15 @@ function updateSelectionCounts() {
     });
 }
 
-/** @description 개발사별 모델 선택/취소 */
+/** @description 개발사별 모델 선택/취소 (필터링된 모델 제외) */
 function selectProviderModels(provider, select) {
     const grouped = groupModelsByProvider(allModels);
     const models = grouped[provider] || [];
 
     models.forEach(model => {
+        // 필터링된 모델은 개발사 선택에서 제외
+        if (isModelFilteredOut(model.id)) return;
+
         if (select) {
             selectedModelIds.add(model.id);
         } else {
@@ -395,11 +415,14 @@ function selectProviderModels(provider, select) {
         }
     });
 
-    // 해당 개발사의 체크박스 UI 업데이트
+    // 해당 개발사의 체크박스 UI 업데이트 (필터링되지 않은 모델만)
     const group = document.querySelector(`.provider-group[data-provider="${provider}"]`);
     if (group) {
         group.querySelectorAll('.model-item input[type="checkbox"]').forEach(cb => {
-            cb.checked = select;
+            const item = cb.closest('.model-item');
+            if (!item.classList.contains('filtered-out')) {
+                cb.checked = select;
+            }
         });
     }
 
@@ -451,6 +474,85 @@ function filterModels(query) {
             group.style.display = '';
         }
     });
+}
+
+// ============================================================
+// 출시일 필터 관련 함수
+// ============================================================
+
+/** @description 날짜 필터 UI 생성 */
+function createDateFilter() {
+    const container = document.createElement('div');
+    container.className = 'date-filter';
+
+    const label = document.createElement('span');
+    label.className = 'filter-label';
+    label.textContent = '출시일';
+
+    const startInput = document.createElement('input');
+    startInput.type = 'date';
+    startInput.id = 'filter-start-date';
+    startInput.addEventListener('change', applyDateFilter);
+
+    const separator = document.createElement('span');
+    separator.textContent = '~';
+    separator.style.color = 'var(--text-secondary)';
+
+    const endInput = document.createElement('input');
+    endInput.type = 'date';
+    endInput.id = 'filter-end-date';
+    endInput.addEventListener('change', applyDateFilter);
+
+    container.appendChild(label);
+    container.appendChild(startInput);
+    container.appendChild(separator);
+    container.appendChild(endInput);
+
+    return container;
+}
+
+/** @description 날짜 필터 적용 */
+function applyDateFilter() {
+    const startInput = document.getElementById('filter-start-date');
+    const endInput = document.getElementById('filter-end-date');
+
+    dateFilter.start = startInput.value || null;
+    dateFilter.end = endInput.value || null;
+
+    // 모든 모델 아이템에 필터 적용
+    document.querySelectorAll('.model-item').forEach(item => {
+        const modelId = item.querySelector('input[type="checkbox"]').dataset.modelId;
+        const model = allModels.find(m => m.id === modelId);
+        const releaseDate = model?.releaseDate;
+
+        const isInRange = isDateInRange(releaseDate, dateFilter);
+
+        // 범위 밖 모델은 연하게 표시 (숨기지 않음)
+        if (isInRange) {
+            item.classList.remove('filtered-out');
+        } else {
+            item.classList.add('filtered-out');
+        }
+    });
+
+    updateSelectionCounts();
+}
+
+/** @description 날짜 범위 체크 헬퍼 */
+function isDateInRange(dateStr, filter) {
+    if (!dateStr) return true;  // 날짜 없는 모델은 항상 표시
+    if (!filter.start && !filter.end) return true;
+
+    const date = new Date(dateStr);
+    if (filter.start && date < new Date(filter.start)) return false;
+    if (filter.end && date > new Date(filter.end)) return false;
+    return true;
+}
+
+/** @description 필터링 상태 체크 헬퍼 (전체 선택에서 사용) */
+function isModelFilteredOut(modelId) {
+    const checkbox = document.querySelector(`.model-item input[data-model-id="${modelId}"]`);
+    return checkbox?.closest('.model-item')?.classList.contains('filtered-out') || false;
 }
 
 /** @description 모델 선택/해제 처리 */
