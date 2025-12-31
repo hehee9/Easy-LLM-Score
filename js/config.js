@@ -106,6 +106,14 @@ export const PROVIDER_COLORS = {
     'MiniMax': '#EC4899',          // Pink
     'InclusionAI': '#14B8A6',      // Teal
     'Allen Institute for AI': '#8B5CF6', // Violet
+    'Baidu': '#DE0F17',            // Baidu Red
+    'IBM': '#1F70C1',              // IBM Blue
+    'Naver': '#03C75A',            // Naver Green
+    'Perplexity': '#20808D',       // Perplexity Teal
+    'Xiaomi': '#FF6700',           // Xiaomi Orange
+    'ServiceNow': '#293E40',       // ServiceNow Dark Green
+    'LG AI Research': '#A50034',   // LG Red
+    'ByteDance Seed': '#000000',   // ByteDance Black
     'default': '#6B7280'           // Gray
 };
 

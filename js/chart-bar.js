@@ -92,8 +92,8 @@ export function renderBarChart(containerId, models, categoryId = 'general_knowle
         grid: {
             left: '22%',
             right: '8%',
-            top: '1.5%',
-            bottom: '1.5%'
+            top: 8,
+            bottom: 8
         },
         xAxis: {
             type: 'value',
