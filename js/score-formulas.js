@@ -12,9 +12,11 @@ const SCORE_CATEGORIES = [
 ];
 
 /**
- * @description LM Arena 점수를 0-100으로 정규화 (Bradley-Terry 기반)
+ * @description LM Arena 점수를 0-100으로 정규화 (Bradley-Terry 기반, 2배 스케일)
  *
- * Bradley-Terry 모델: 최고점 대비 승률 → 0-100 스케일
+ * Bradley-Terry 모델: 최고점 대비 승률 × 2 → 0-100 스케일
+ * - 1위 모델: 50% 승률 × 2 = 100점
+ * - 하위 모델: 승률에 비례하여 감소
  *
  * @param {number} score 원본 Elo 점수
  * @param {Array<number>} allScores 모든 모델의 해당 벤치마크 점수 배열
@@ -36,9 +38,9 @@ function normalizeLMArena(score, allScores) {
     if (maxScore === minScore) return 100;
 
     // Bradley-Terry 승률 공식: P(A beats Max) = 1 / (1 + 10^((MaxElo - Elo) / 400))
-    // 1위 대비 승률을 0-100 스케일로 변환
+    // 2배 스케일: 1위(50% 승률) = 100점, 하위 모델은 비례 감소
     const winRateVsMax = 1 / (1 + Math.pow(10, (maxScore - score) / 400));
-    const normalized = winRateVsMax * 100;
+    const normalized = winRateVsMax * 200;
 
     return Math.round(normalized * 100) / 100;
 }
