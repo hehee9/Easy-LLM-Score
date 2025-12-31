@@ -228,7 +228,74 @@ async function mergeData() {
     }
   }
 
-  // 4. 최종 JSON 생성 (defaultModelIds는 data-loader.js에서 동적으로 선택)
+  // 4. AA에만 있는 모델 추가 (LM Arena 데이터 없이)
+  const aaOnlyModels = [];
+  for (const aaModel of aaModels) {
+    const modelId = (aaModel.slug || aaModel.id).toLowerCase().replace(/[\s\-]/g, '-');
+
+    // 이미 병합된 모델은 스킵
+    if (usedIds.has(modelId)) continue;
+
+    // 1년 이상 된 모델 제외
+    if (isModelTooOld(aaModel.release_date)) continue;
+
+    // AA 벤치마크 데이터 부족 모델 제외
+    if (!hasEnoughAAData(aaModel)) continue;
+
+    usedIds.add(modelId);
+    aaOnlyModels.push(aaModel.name);
+
+    mergedModels.push({
+      id: modelId,
+      name: aaModel.name,
+      provider: aaModel.model_creator?.name || 'Unknown',
+      releaseDate: aaModel.release_date || '',
+      benchmarks: {
+        // Artificial Analysis 점수 (0-1 → 0-100 변환)
+        'MMLU Pro': convertScore(aaModel.evaluations?.mmlu_pro),
+        'GPQA Diamond': convertScore(aaModel.evaluations?.gpqa),
+        "Humanity's Last Exam": convertScore(aaModel.evaluations?.hle),
+        'AA-LCR': convertScore(aaModel.evaluations?.lcr),
+        'LiveCodeBench': convertScore(aaModel.evaluations?.livecodebench),
+        'SciCode': convertScore(aaModel.evaluations?.scicode),
+        'AIME 2025': convertScore(aaModel.evaluations?.aime_25),
+        'MMMU Pro': getManualValue(modelId, 'MMMU Pro', manualData),
+        'AA-Omniscience': getManualValue(modelId, 'AA-Omniscience', manualData),
+        'AA-Omniscience Accuracy': getManualValue(modelId, 'AA-Omniscience Accuracy', manualData),
+        'AA-Omniscience Hallucination Rate': getManualValue(modelId, 'AA-Omniscience Hallucination Rate', manualData),
+        // LM Arena 점수 없음
+        'LMArena-Text': 0,
+        'LMArena-Text-Creative-Writing': 0,
+        'LMArean-Text-Math': 0,
+        'LMArena-Text-Coding': 0,
+        'LMArena-Text-Expert': 0,
+        'LMArena-Text-Hard-Prompts': 0,
+        'LMArena-Text-Longer-Query': 0,
+        'LMArena-Text-Multi-Turn': 0,
+        'LMArena-Vision': 0
+      },
+      metadata: {
+        lmarenaRank: null,
+        lmarenaVotes: null,
+        pricing: {
+          input: aaModel.pricing?.price_1m_input_tokens || 0,
+          output: aaModel.pricing?.price_1m_output_tokens || 0
+        },
+        performance: {
+          outputTokensPerSecond: aaModel.median_output_tokens_per_second || 0,
+          timeToFirstToken: aaModel.median_time_to_first_token_seconds || 0
+        }
+      },
+      tags: [],
+      description: '',
+      supportsVision: manualData.models?.[modelId]?.supportsVision !== false,
+      isReasoning: manualData.models?.[modelId]?.isReasoning === true
+    });
+
+    console.log(` ✓ Added (AA only): ${aaModel.name}`);
+  }
+
+  // 5. 최종 JSON 생성 (defaultModelIds는 data-loader.js에서 동적으로 선택)
   const output = {
     metadata: {
       version: '2.0.0',
@@ -255,14 +322,22 @@ async function mergeData() {
 
   console.log(`\n✅ Merge complete!`);
   console.log(`  - Total models: ${mergedModels.length}`);
+  console.log(`    - LM Arena + AA: ${mergedModels.length - aaOnlyModels.length}`);
+  console.log(`    - AA only: ${aaOnlyModels.length}`);
   console.log(`  - Skipped old models (>1 year): ${skippedOldModels.length}`);
   console.log(`  - Skipped insufficient AA data: ${skippedInsufficientData.length}`);
-  console.log(`  - Unmatched models: ${unmatchedModels.length}`);
+  console.log(`  - Unmatched (LM Arena only): ${unmatchedModels.length}`);
 
   // AA 데이터 부족 모델 출력
   if (skippedInsufficientData.length > 0) {
     console.log(`\nSkipped (insufficient AA data):`);
     skippedInsufficientData.forEach(name => console.log(`  - ${name}`));
+  }
+
+  // AA-only 모델 출력
+  if (aaOnlyModels.length > 0) {
+    console.log(`\nAA-only models added:`);
+    aaOnlyModels.forEach(name => console.log(`  - ${name}`));
   }
 
   // 6. 매칭 실패 모델 저장 (디버깅용)
