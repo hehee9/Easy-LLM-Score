@@ -3,16 +3,16 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-31",
     "description": "LLM 벤치마크 통합 데이터",
-    "totalModels": 95,
+    "totalModels": 96,
     "defaultModelIds": [],
     "dataSources": {
       "lmarena": {
-        "lastFetched": "2025-12-23T18:48:17.427Z",
-        "totalModels": 290
+        "lastFetched": "2025-12-31T14:11:03.955Z",
+        "totalModels": 291
       },
       "artificialanalysis": {
-        "lastFetched": "2025-12-31T00:20:20.625Z",
-        "totalModels": 371
+        "lastFetched": "2025-12-31T14:10:47.718Z",
+        "totalModels": 372
       }
     }
   },
@@ -35,13 +35,13 @@
         "AA-Omniscience Accuracy": 53.65,
         "AA-Omniscience Hallucination Rate": 87.99,
         "LMArena-Text": 1490,
-        "LMArena-Text-Creative-Writing": 1491,
-        "LMArean-Text-Math": 1477,
+        "LMArena-Text-Creative-Writing": 1489,
+        "LMArean-Text-Math": 1480,
         "LMArena-Text-Coding": 1520,
-        "LMArena-Text-Expert": 1503,
+        "LMArena-Text-Expert": 1504,
         "LMArena-Text-Hard-Prompts": 1505,
-        "LMArena-Text-Longer-Query": 1495,
-        "LMArena-Text-Multi-Turn": 1495
+        "LMArena-Text-Longer-Query": 1494,
+        "LMArena-Text-Multi-Turn": 1496
       },
       "metadata": {
         "lmarenaRank": 1,
@@ -51,7 +51,7 @@
           "output": 12
         },
         "performance": {
-          "outputTokensPerSecond": 128.21,
+          "outputTokensPerSecond": 127.443,
           "timeToFirstToken": 32.722
         }
       },
@@ -77,25 +77,25 @@
         "AA-Omniscience": 13,
         "AA-Omniscience Accuracy": 54.5,
         "AA-Omniscience Hallucination Rate": 91.21,
-        "LMArena-Text": 1476,
-        "LMArena-Text-Creative-Writing": 1469,
-        "LMArean-Text-Math": 1485,
-        "LMArena-Text-Coding": 1502,
-        "LMArena-Text-Expert": 1492,
-        "LMArena-Text-Hard-Prompts": 1487,
+        "LMArena-Text": 1478,
+        "LMArena-Text-Creative-Writing": 1463,
+        "LMArean-Text-Math": 1480,
+        "LMArena-Text-Coding": 1505,
+        "LMArena-Text-Expert": 1487,
+        "LMArena-Text-Hard-Prompts": 1489,
         "LMArena-Text-Longer-Query": 1482,
-        "LMArena-Text-Multi-Turn": 1472
+        "LMArena-Text-Multi-Turn": 1474
       },
       "metadata": {
-        "lmarenaRank": 3,
+        "lmarenaRank": 2,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.5,
           "output": 3
         },
         "performance": {
-          "outputTokensPerSecond": 218.676,
-          "timeToFirstToken": 11.837
+          "outputTokensPerSecond": 218.987,
+          "timeToFirstToken": 11.68
         }
       },
       "tags": [],
@@ -120,12 +120,12 @@
         "AA-Omniscience": 10,
         "AA-Omniscience Accuracy": 43.12,
         "AA-Omniscience Hallucination Rate": 57.81,
-        "LMArena-Text": 1468,
-        "LMArena-Text-Creative-Writing": 1449,
-        "LMArean-Text-Math": 1468,
-        "LMArena-Text-Coding": 1541,
-        "LMArena-Text-Expert": 1510,
-        "LMArena-Text-Hard-Prompts": 1503,
+        "LMArena-Text": 1469,
+        "LMArena-Text-Creative-Writing": 1451,
+        "LMArean-Text-Math": 1466,
+        "LMArena-Text-Coding": 1540,
+        "LMArena-Text-Expert": 1512,
+        "LMArena-Text-Hard-Prompts": 1502,
         "LMArena-Text-Longer-Query": 1496,
         "LMArena-Text-Multi-Turn": 1469
       },
@@ -137,8 +137,8 @@
           "output": 25
         },
         "performance": {
-          "outputTokensPerSecond": 58.081,
-          "timeToFirstToken": 1.661
+          "outputTokensPerSecond": 58.72,
+          "timeToFirstToken": 1.656
         }
       },
       "tags": [],
@@ -163,14 +163,14 @@
         "AA-Omniscience": -6,
         "AA-Omniscience Accuracy": 38.9,
         "AA-Omniscience Hallucination Rate": 74.22,
-        "LMArena-Text": 1466,
-        "LMArena-Text-Creative-Writing": 1456,
-        "LMArean-Text-Math": 1469,
-        "LMArena-Text-Coding": 1513,
-        "LMArena-Text-Expert": 1530,
-        "LMArena-Text-Hard-Prompts": 1492,
-        "LMArena-Text-Longer-Query": 1495,
-        "LMArena-Text-Multi-Turn": 1475
+        "LMArena-Text": 1467,
+        "LMArena-Text-Creative-Writing": 1458,
+        "LMArean-Text-Math": 1466,
+        "LMArena-Text-Coding": 1515,
+        "LMArena-Text-Expert": 1527,
+        "LMArena-Text-Hard-Prompts": 1493,
+        "LMArena-Text-Longer-Query": 1497,
+        "LMArena-Text-Multi-Turn": 1476
       },
       "metadata": {
         "lmarenaRank": 5,
@@ -181,7 +181,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 76.894,
-          "timeToFirstToken": 1.898
+          "timeToFirstToken": 1.905
         }
       },
       "tags": [],
@@ -207,13 +207,13 @@
         "AA-Omniscience Accuracy": 47.15,
         "AA-Omniscience Hallucination Rate": 90.95,
         "LMArena-Text": 1463,
-        "LMArena-Text-Creative-Writing": 1437,
-        "LMArean-Text-Math": 1473,
+        "LMArena-Text-Creative-Writing": 1438,
+        "LMArean-Text-Math": 1474,
         "LMArena-Text-Coding": 1497,
-        "LMArena-Text-Expert": 1466,
-        "LMArena-Text-Hard-Prompts": 1480,
+        "LMArena-Text-Expert": 1467,
+        "LMArena-Text-Hard-Prompts": 1481,
         "LMArena-Text-Longer-Query": 1469,
-        "LMArena-Text-Multi-Turn": 1490
+        "LMArena-Text-Multi-Turn": 1491
       },
       "metadata": {
         "lmarenaRank": 7,
@@ -223,8 +223,8 @@
           "output": 3
         },
         "performance": {
-          "outputTokensPerSecond": 201.603,
-          "timeToFirstToken": 0.701
+          "outputTokensPerSecond": 199.872,
+          "timeToFirstToken": 0.674
         }
       },
       "tags": [],
@@ -249,14 +249,14 @@
         "AA-Omniscience": 2,
         "AA-Omniscience Accuracy": 35.3,
         "AA-Omniscience Hallucination Rate": 51.16,
-        "LMArena-Text": 1457,
+        "LMArena-Text": 1455,
         "LMArena-Text-Creative-Writing": 1435,
         "LMArean-Text-Math": 1474,
-        "LMArena-Text-Coding": 1490,
-        "LMArena-Text-Expert": 1486,
-        "LMArena-Text-Hard-Prompts": 1474,
-        "LMArena-Text-Longer-Query": 1464,
-        "LMArena-Text-Multi-Turn": 1472
+        "LMArena-Text-Coding": 1488,
+        "LMArena-Text-Expert": 1484,
+        "LMArena-Text-Hard-Prompts": 1473,
+        "LMArena-Text-Longer-Query": 1463,
+        "LMArena-Text-Multi-Turn": 1470
       },
       "metadata": {
         "lmarenaRank": 8,
@@ -266,8 +266,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 179.045,
-          "timeToFirstToken": 23.177
+          "outputTokensPerSecond": 175.606,
+          "timeToFirstToken": 24.012
         }
       },
       "tags": [],
@@ -293,13 +293,13 @@
         "AA-Omniscience Accuracy": 37.48,
         "AA-Omniscience Hallucination Rate": 88.67,
         "LMArena-Text": 1451,
-        "LMArena-Text-Creative-Writing": 1451,
+        "LMArena-Text-Creative-Writing": 1452,
         "LMArean-Text-Math": 1453,
-        "LMArena-Text-Coding": 1469,
-        "LMArena-Text-Expert": 1464,
-        "LMArena-Text-Hard-Prompts": 1462,
-        "LMArena-Text-Longer-Query": 1463,
-        "LMArena-Text-Multi-Turn": 1453
+        "LMArena-Text-Coding": 1470,
+        "LMArena-Text-Expert": 1465,
+        "LMArena-Text-Hard-Prompts": 1463,
+        "LMArena-Text-Longer-Query": 1464,
+        "LMArena-Text-Multi-Turn": 1454
       },
       "metadata": {
         "lmarenaRank": 9,
@@ -309,8 +309,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 161.343,
-          "timeToFirstToken": 32.698
+          "outputTokensPerSecond": 160.387,
+          "timeToFirstToken": 32.498
         }
       },
       "tags": [],
@@ -335,25 +335,25 @@
         "AA-Omniscience": -2,
         "AA-Omniscience Accuracy": 30.9,
         "AA-Omniscience Hallucination Rate": 47.73,
-        "LMArena-Text": 1449,
-        "LMArena-Text-Creative-Writing": 1437,
+        "LMArena-Text": 1450,
+        "LMArena-Text-Creative-Writing": 1438,
         "LMArean-Text-Math": 1464,
         "LMArena-Text-Coding": 1525,
-        "LMArena-Text-Expert": 1502,
-        "LMArena-Text-Hard-Prompts": 1484,
-        "LMArena-Text-Longer-Query": 1484,
-        "LMArena-Text-Multi-Turn": 1466
+        "LMArena-Text-Expert": 1501,
+        "LMArena-Text-Hard-Prompts": 1485,
+        "LMArena-Text-Longer-Query": 1485,
+        "LMArena-Text-Multi-Turn": 1467
       },
       "metadata": {
-        "lmarenaRank": 11,
+        "lmarenaRank": 10,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 63.859,
-          "timeToFirstToken": 1.945
+          "outputTokensPerSecond": 63.254,
+          "timeToFirstToken": 1.962
         }
       },
       "tags": [],
@@ -379,16 +379,16 @@
         "AA-Omniscience Accuracy": 35.93,
         "AA-Omniscience Hallucination Rate": 48.39,
         "LMArena-Text": 1448,
-        "LMArena-Text-Creative-Writing": 1440,
+        "LMArena-Text-Creative-Writing": 1441,
         "LMArean-Text-Math": 1448,
         "LMArena-Text-Coding": 1513,
-        "LMArena-Text-Expert": 1482,
+        "LMArena-Text-Expert": 1483,
         "LMArena-Text-Hard-Prompts": 1479,
-        "LMArena-Text-Longer-Query": 1483,
-        "LMArena-Text-Multi-Turn": 1466
+        "LMArena-Text-Longer-Query": 1485,
+        "LMArena-Text-Multi-Turn": 1467
       },
       "metadata": {
-        "lmarenaRank": 12,
+        "lmarenaRank": 11,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 15,
@@ -396,7 +396,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 45.779,
-          "timeToFirstToken": 1.405
+          "timeToFirstToken": 1.338
         }
       },
       "tags": [],
@@ -421,68 +421,25 @@
         "AA-Omniscience": -11,
         "AA-Omniscience Accuracy": 26.93,
         "AA-Omniscience Hallucination Rate": 51.44,
-        "LMArena-Text": 1446,
-        "LMArena-Text-Creative-Writing": 1440,
-        "LMArean-Text-Math": 1428,
+        "LMArena-Text": 1447,
+        "LMArena-Text-Creative-Writing": 1441,
+        "LMArean-Text-Math": 1429,
         "LMArena-Text-Coding": 1506,
-        "LMArena-Text-Expert": 1488,
+        "LMArena-Text-Expert": 1489,
         "LMArena-Text-Hard-Prompts": 1474,
         "LMArena-Text-Longer-Query": 1479,
-        "LMArena-Text-Multi-Turn": 1478
+        "LMArena-Text-Multi-Turn": 1477
       },
       "metadata": {
-        "lmarenaRank": 13,
+        "lmarenaRank": 12,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 69.993,
-          "timeToFirstToken": 1.972
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "gpt-4-5",
-      "name": "GPT-4.5 (Preview)",
-      "provider": "OpenAI",
-      "releaseDate": "2025-02-27",
-      "benchmarks": {
-        "MMLU Pro": 0,
-        "GPQA Diamond": 0,
-        "Humanity's Last Exam": 0,
-        "AA-LCR": 0,
-        "LiveCodeBench": 0,
-        "SciCode": 0,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1442,
-        "LMArena-Text-Creative-Writing": 1433,
-        "LMArean-Text-Math": 1413,
-        "LMArena-Text-Coding": 1457,
-        "LMArena-Text-Expert": 1426,
-        "LMArena-Text-Hard-Prompts": 1437,
-        "LMArena-Text-Longer-Query": 1442,
-        "LMArena-Text-Multi-Turn": 1462
-      },
-      "metadata": {
-        "lmarenaRank": 14,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0,
-          "output": 0
-        },
-        "performance": {
-          "outputTokensPerSecond": 0,
-          "timeToFirstToken": 0
+          "outputTokensPerSecond": 70.34,
+          "timeToFirstToken": 1.949
         }
       },
       "tags": [],
@@ -507,21 +464,64 @@
         "AA-Omniscience": -15,
         "AA-Omniscience Accuracy": 27.95,
         "AA-Omniscience Hallucination Rate": 60.17,
-        "LMArena-Text": 1442,
-        "LMArena-Text-Creative-Writing": 1405,
+        "LMArena-Text": 1443,
+        "LMArena-Text-Creative-Writing": 1408,
         "LMArean-Text-Math": 0,
-        "LMArena-Text-Coding": 1479,
+        "LMArena-Text-Coding": 1480,
         "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1470,
-        "LMArena-Text-Longer-Query": 1447,
-        "LMArena-Text-Multi-Turn": 1455
+        "LMArena-Text-Hard-Prompts": 1472,
+        "LMArena-Text-Longer-Query": 1451,
+        "LMArena-Text-Multi-Turn": 1457
+      },
+      "metadata": {
+        "lmarenaRank": 14,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 1.75,
+          "output": 14
+        },
+        "performance": {
+          "outputTokensPerSecond": 74.883,
+          "timeToFirstToken": 0.557
+        }
+      },
+      "tags": [],
+      "description": "",
+      "supportsVision": true,
+      "isReasoning": false
+    },
+    {
+      "id": "gpt-4-5",
+      "name": "GPT-4.5 (Preview)",
+      "provider": "OpenAI",
+      "releaseDate": "2025-02-27",
+      "benchmarks": {
+        "MMLU Pro": 0,
+        "GPQA Diamond": 0,
+        "Humanity's Last Exam": 0,
+        "AA-LCR": 0,
+        "LiveCodeBench": 0,
+        "SciCode": 0,
+        "AIME 2025": 0,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1443,
+        "LMArena-Text-Creative-Writing": 1434,
+        "LMArean-Text-Math": 1413,
+        "LMArena-Text-Coding": 1457,
+        "LMArena-Text-Expert": 1426,
+        "LMArena-Text-Hard-Prompts": 1437,
+        "LMArena-Text-Longer-Query": 1443,
+        "LMArena-Text-Multi-Turn": 1462
       },
       "metadata": {
         "lmarenaRank": 15,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 1.75,
-          "output": 14
+          "input": 0,
+          "output": 0
         },
         "performance": {
           "outputTokensPerSecond": 0,
@@ -550,14 +550,14 @@
         "AA-Omniscience": 0,
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1440,
+        "LMArena-Text": 1441,
         "LMArena-Text-Creative-Writing": 1434,
         "LMArean-Text-Math": 1434,
-        "LMArena-Text-Coding": 1499,
+        "LMArena-Text-Coding": 1500,
         "LMArena-Text-Expert": 1458,
-        "LMArena-Text-Hard-Prompts": 1470,
+        "LMArena-Text-Hard-Prompts": 1471,
         "LMArena-Text-Longer-Query": 1467,
-        "LMArena-Text-Multi-Turn": 1461
+        "LMArena-Text-Multi-Turn": 1462
       },
       "metadata": {
         "lmarenaRank": 16,
@@ -567,8 +567,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 39.981,
-          "timeToFirstToken": 1.457
+          "outputTokensPerSecond": 37.845,
+          "timeToFirstToken": 1.437
         }
       },
       "tags": [],
@@ -600,7 +600,7 @@
         "LMArena-Text-Expert": 1422,
         "LMArena-Text-Hard-Prompts": 1451,
         "LMArena-Text-Longer-Query": 1437,
-        "LMArena-Text-Multi-Turn": 1463
+        "LMArena-Text-Multi-Turn": 1464
       },
       "metadata": {
         "lmarenaRank": 17,
@@ -610,7 +610,7 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 191.463,
+          "outputTokensPerSecond": 200.582,
           "timeToFirstToken": 0.554
         }
       },
@@ -637,13 +637,13 @@
         "AA-Omniscience Accuracy": 41.35,
         "AA-Omniscience Hallucination Rate": 77.86,
         "LMArena-Text": 1440,
-        "LMArena-Text-Creative-Writing": 1386,
-        "LMArean-Text-Math": 1506,
-        "LMArena-Text-Coding": 1494,
-        "LMArena-Text-Expert": 1494,
-        "LMArena-Text-Hard-Prompts": 1461,
-        "LMArena-Text-Longer-Query": 1442,
-        "LMArena-Text-Multi-Turn": 1441
+        "LMArena-Text-Creative-Writing": 1387,
+        "LMArean-Text-Math": 1503,
+        "LMArena-Text-Coding": 1493,
+        "LMArena-Text-Expert": 1490,
+        "LMArena-Text-Hard-Prompts": 1460,
+        "LMArena-Text-Longer-Query": 1443,
+        "LMArena-Text-Multi-Turn": 1442
       },
       "metadata": {
         "lmarenaRank": 18,
@@ -653,8 +653,8 @@
           "output": 14
         },
         "performance": {
-          "outputTokensPerSecond": 100.653,
-          "timeToFirstToken": 38.226
+          "outputTokensPerSecond": 103.683,
+          "timeToFirstToken": 36.714
         }
       },
       "tags": [],
@@ -679,13 +679,13 @@
         "AA-Omniscience": -37,
         "AA-Omniscience Accuracy": 27.8,
         "AA-Omniscience Hallucination Rate": 89.17,
-        "LMArena-Text": 1437,
-        "LMArena-Text-Creative-Writing": 1409,
-        "LMArean-Text-Math": 1417,
-        "LMArena-Text-Coding": 1478,
-        "LMArena-Text-Expert": 1463,
-        "LMArena-Text-Hard-Prompts": 1455,
-        "LMArena-Text-Longer-Query": 1446,
+        "LMArena-Text": 1438,
+        "LMArena-Text-Creative-Writing": 1408,
+        "LMArean-Text-Math": 1418,
+        "LMArena-Text-Coding": 1479,
+        "LMArena-Text-Expert": 1465,
+        "LMArena-Text-Hard-Prompts": 1456,
+        "LMArena-Text-Longer-Query": 1447,
         "LMArena-Text-Multi-Turn": 1445
       },
       "metadata": {
@@ -696,8 +696,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 150.328,
-          "timeToFirstToken": 0.704
+          "outputTokensPerSecond": 149.641,
+          "timeToFirstToken": 0.776
         }
       },
       "tags": [],
@@ -729,7 +729,7 @@
         "LMArena-Text-Expert": 1458,
         "LMArena-Text-Hard-Prompts": 1448,
         "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1424
+        "LMArena-Text-Multi-Turn": 1425
       },
       "metadata": {
         "lmarenaRank": 20,
@@ -739,8 +739,8 @@
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 111.908,
-          "timeToFirstToken": 86.638
+          "outputTokensPerSecond": 115.833,
+          "timeToFirstToken": 86.696
         }
       },
       "tags": [],
@@ -782,8 +782,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 330.964,
-          "timeToFirstToken": 9.232
+          "outputTokensPerSecond": 310.241,
+          "timeToFirstToken": 9.453
         }
       },
       "tags": [],
@@ -812,9 +812,9 @@
         "LMArena-Text-Creative-Writing": 1396,
         "LMArean-Text-Math": 1442,
         "LMArena-Text-Coding": 1481,
-        "LMArena-Text-Expert": 1467,
+        "LMArena-Text-Expert": 1468,
         "LMArena-Text-Hard-Prompts": 1457,
-        "LMArena-Text-Longer-Query": 1447,
+        "LMArena-Text-Longer-Query": 1448,
         "LMArena-Text-Multi-Turn": 1445
       },
       "metadata": {
@@ -825,8 +825,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 40.972,
-          "timeToFirstToken": 1.686
+          "outputTokensPerSecond": 40.262,
+          "timeToFirstToken": 1.786
         }
       },
       "tags": [],
@@ -852,12 +852,12 @@
         "AA-Omniscience Accuracy": 23.5,
         "AA-Omniscience Hallucination Rate": 71.74,
         "LMArena-Text": 1430,
-        "LMArena-Text-Creative-Writing": 1410,
-        "LMArean-Text-Math": 1407,
+        "LMArena-Text-Creative-Writing": 1408,
+        "LMArean-Text-Math": 1406,
         "LMArena-Text-Coding": 1455,
-        "LMArena-Text-Expert": 1442,
-        "LMArena-Text-Hard-Prompts": 1437,
-        "LMArena-Text-Longer-Query": 1419,
+        "LMArena-Text-Expert": 1443,
+        "LMArena-Text-Hard-Prompts": 1438,
+        "LMArena-Text-Longer-Query": 1421,
         "LMArena-Text-Multi-Turn": 1413
       },
       "metadata": {
@@ -868,56 +868,13 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 146.143,
-          "timeToFirstToken": 5.013
+          "outputTokensPerSecond": 146.015,
+          "timeToFirstToken": 4.845
         }
       },
       "tags": [],
       "description": "",
       "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "glm-4-6",
-      "name": "GLM-4.6 (Non-reasoning)",
-      "provider": "Z AI",
-      "releaseDate": "2025-09-30",
-      "benchmarks": {
-        "MMLU Pro": 78.4,
-        "GPQA Diamond": 63.2,
-        "Humanity's Last Exam": 5.2,
-        "AA-LCR": 26.3,
-        "LiveCodeBench": 56.10000000000001,
-        "SciCode": 33.1,
-        "AIME 2025": 44.3,
-        "MMMU Pro": 0,
-        "AA-Omniscience": -33,
-        "AA-Omniscience Accuracy": 20.27,
-        "AA-Omniscience Hallucination Rate": 67.12,
-        "LMArena-Text": 1425,
-        "LMArena-Text-Creative-Writing": 1398,
-        "LMArean-Text-Math": 1429,
-        "LMArena-Text-Coding": 1463,
-        "LMArena-Text-Expert": 1442,
-        "LMArena-Text-Hard-Prompts": 1442,
-        "LMArena-Text-Longer-Query": 1433,
-        "LMArena-Text-Multi-Turn": 1421
-      },
-      "metadata": {
-        "lmarenaRank": 26,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.6,
-          "output": 2.2
-        },
-        "performance": {
-          "outputTokensPerSecond": 36.56,
-          "timeToFirstToken": 0.956
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -944,10 +901,10 @@
         "LMArena-Text-Expert": 1443,
         "LMArena-Text-Hard-Prompts": 1446,
         "LMArena-Text-Longer-Query": 1436,
-        "LMArena-Text-Multi-Turn": 1445
+        "LMArena-Text-Multi-Turn": 1446
       },
       "metadata": {
-        "lmarenaRank": 27,
+        "lmarenaRank": 26,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.25,
@@ -961,6 +918,49 @@
       "tags": [],
       "description": "",
       "supportsVision": true,
+      "isReasoning": false
+    },
+    {
+      "id": "glm-4-6",
+      "name": "GLM-4.6 (Non-reasoning)",
+      "provider": "Z AI",
+      "releaseDate": "2025-09-30",
+      "benchmarks": {
+        "MMLU Pro": 78.4,
+        "GPQA Diamond": 63.2,
+        "Humanity's Last Exam": 5.2,
+        "AA-LCR": 26.3,
+        "LiveCodeBench": 56.10000000000001,
+        "SciCode": 33.1,
+        "AIME 2025": 44.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": -33,
+        "AA-Omniscience Accuracy": 20.27,
+        "AA-Omniscience Hallucination Rate": 67.12,
+        "LMArena-Text": 1424,
+        "LMArena-Text-Creative-Writing": 1400,
+        "LMArean-Text-Math": 1428,
+        "LMArena-Text-Coding": 1462,
+        "LMArena-Text-Expert": 1442,
+        "LMArena-Text-Hard-Prompts": 1442,
+        "LMArena-Text-Longer-Query": 1434,
+        "LMArena-Text-Multi-Turn": 1422
+      },
+      "metadata": {
+        "lmarenaRank": 27,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.6,
+          "output": 2.2
+        },
+        "performance": {
+          "outputTokensPerSecond": 31.743,
+          "timeToFirstToken": 0.972
+        }
+      },
+      "tags": [],
+      "description": "",
+      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -981,12 +981,12 @@
         "AA-Omniscience Accuracy": 23.35,
         "AA-Omniscience Hallucination Rate": 89.04,
         "LMArena-Text": 1424,
-        "LMArena-Text-Creative-Writing": 1394,
+        "LMArena-Text-Creative-Writing": 1395,
         "LMArean-Text-Math": 1436,
         "LMArena-Text-Coding": 1475,
-        "LMArena-Text-Expert": 1425,
+        "LMArena-Text-Expert": 1426,
         "LMArena-Text-Hard-Prompts": 1446,
-        "LMArena-Text-Longer-Query": 1434,
+        "LMArena-Text-Longer-Query": 1435,
         "LMArena-Text-Multi-Turn": 1446
       },
       "metadata": {
@@ -997,7 +997,7 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 26.007,
+          "outputTokensPerSecond": 24.845,
           "timeToFirstToken": 1.666
         }
       },
@@ -1024,12 +1024,12 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1423,
-        "LMArena-Text-Creative-Writing": 1400,
+        "LMArena-Text-Creative-Writing": 1401,
         "LMArean-Text-Math": 1419,
         "LMArena-Text-Coding": 1468,
         "LMArena-Text-Expert": 1426,
         "LMArena-Text-Hard-Prompts": 1446,
-        "LMArena-Text-Longer-Query": 1441,
+        "LMArena-Text-Longer-Query": 1442,
         "LMArena-Text-Multi-Turn": 1429
       },
       "metadata": {
@@ -1040,8 +1040,8 @@
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 30.352,
-          "timeToFirstToken": 1.258
+          "outputTokensPerSecond": 29.297,
+          "timeToFirstToken": 1.253
         }
       },
       "tags": [],
@@ -1072,7 +1072,7 @@
         "LMArena-Text-Coding": 1495,
         "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1452,
-        "LMArena-Text-Longer-Query": 1460,
+        "LMArena-Text-Longer-Query": 1461,
         "LMArena-Text-Multi-Turn": 1434
       },
       "metadata": {
@@ -1083,8 +1083,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 44.398,
-          "timeToFirstToken": 1.233
+          "outputTokensPerSecond": 45.132,
+          "timeToFirstToken": 1.229
         }
       },
       "tags": [],
@@ -1110,23 +1110,23 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1422,
-        "LMArena-Text-Creative-Writing": 1409,
-        "LMArean-Text-Math": 1428,
+        "LMArena-Text-Creative-Writing": 1408,
+        "LMArean-Text-Math": 1425,
         "LMArena-Text-Coding": 1466,
-        "LMArena-Text-Expert": 1426,
-        "LMArena-Text-Hard-Prompts": 1440,
+        "LMArena-Text-Expert": 1433,
+        "LMArena-Text-Hard-Prompts": 1438,
         "LMArena-Text-Longer-Query": 1436,
-        "LMArena-Text-Multi-Turn": 1420
+        "LMArena-Text-Multi-Turn": 1419
       },
       "metadata": {
-        "lmarenaRank": 31,
+        "lmarenaRank": 32,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.28,
           "output": 0.42
         },
         "performance": {
-          "outputTokensPerSecond": 30.375,
+          "outputTokensPerSecond": 30.248,
           "timeToFirstToken": 1.294
         }
       },
@@ -1162,7 +1162,7 @@
         "LMArena-Text-Multi-Turn": 1433
       },
       "metadata": {
-        "lmarenaRank": 32,
+        "lmarenaRank": 33,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
@@ -1197,12 +1197,12 @@
         "AA-Omniscience Hallucination Rate": 86.41,
         "LMArena-Text": 1420,
         "LMArena-Text-Creative-Writing": 1382,
-        "LMArean-Text-Math": 1425,
+        "LMArean-Text-Math": 1426,
         "LMArena-Text-Coding": 1454,
         "LMArena-Text-Expert": 1424,
         "LMArena-Text-Hard-Prompts": 1430,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1425
+        "LMArena-Text-Multi-Turn": 1426
       },
       "metadata": {
         "lmarenaRank": 34,
@@ -1212,13 +1212,56 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 155.855,
-          "timeToFirstToken": 0.572
+          "outputTokensPerSecond": 154.673,
+          "timeToFirstToken": 0.578
         }
       },
       "tags": [],
       "description": "",
       "supportsVision": true,
+      "isReasoning": false
+    },
+    {
+      "id": "deepseek-v3-2",
+      "name": "DeepSeek V3.2 (Non-reasoning)",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-12-01",
+      "benchmarks": {
+        "MMLU Pro": 83.7,
+        "GPQA Diamond": 75.1,
+        "Humanity's Last Exam": 10.5,
+        "AA-LCR": 39,
+        "LiveCodeBench": 59.3,
+        "SciCode": 38.7,
+        "AIME 2025": 59,
+        "MMMU Pro": 0,
+        "AA-Omniscience": -49,
+        "AA-Omniscience Accuracy": 22.77,
+        "AA-Omniscience Hallucination Rate": 92.51,
+        "LMArena-Text": 1419,
+        "LMArena-Text-Creative-Writing": 1395,
+        "LMArean-Text-Math": 1425,
+        "LMArena-Text-Coding": 1457,
+        "LMArena-Text-Expert": 1429,
+        "LMArena-Text-Hard-Prompts": 1443,
+        "LMArena-Text-Longer-Query": 1438,
+        "LMArena-Text-Multi-Turn": 1423
+      },
+      "metadata": {
+        "lmarenaRank": 35,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.28,
+          "output": 0.42
+        },
+        "performance": {
+          "outputTokensPerSecond": 29.031,
+          "timeToFirstToken": 1.337
+        }
+      },
+      "tags": [],
+      "description": "",
+      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -1238,17 +1281,17 @@
         "AA-Omniscience": -28,
         "AA-Omniscience Accuracy": 24.03,
         "AA-Omniscience Hallucination Rate": 68.96,
-        "LMArena-Text": 1418,
+        "LMArena-Text": 1419,
         "LMArena-Text-Creative-Writing": 1381,
         "LMArean-Text-Math": 1417,
         "LMArena-Text-Coding": 1465,
-        "LMArena-Text-Expert": 1418,
-        "LMArena-Text-Hard-Prompts": 1433,
-        "LMArena-Text-Longer-Query": 1403,
-        "LMArena-Text-Multi-Turn": 1404
+        "LMArena-Text-Expert": 1419,
+        "LMArena-Text-Hard-Prompts": 1434,
+        "LMArena-Text-Longer-Query": 1404,
+        "LMArena-Text-Multi-Turn": 1405
       },
       "metadata": {
-        "lmarenaRank": 35,
+        "lmarenaRank": 36,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.99,
@@ -1256,7 +1299,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 86.575,
-          "timeToFirstToken": 0.602
+          "timeToFirstToken": 0.595
         }
       },
       "tags": [],
@@ -1282,7 +1325,7 @@
         "AA-Omniscience Accuracy": 29.28,
         "AA-Omniscience Hallucination Rate": 83.36,
         "LMArena-Text": 1418,
-        "LMArena-Text-Creative-Writing": 1388,
+        "LMArena-Text-Creative-Writing": 1389,
         "LMArean-Text-Math": 1398,
         "LMArena-Text-Coding": 1462,
         "LMArena-Text-Expert": 1412,
@@ -1291,11 +1334,11 @@
         "LMArena-Text-Multi-Turn": 1405
       },
       "metadata": {
-        "lmarenaRank": 36,
+        "lmarenaRank": 37,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 1.075,
-          "output": 3.5
+          "input": 1.35,
+          "output": 3
         },
         "performance": {
           "outputTokensPerSecond": 0,
@@ -1325,23 +1368,23 @@
         "AA-Omniscience Accuracy": 23.68,
         "AA-Omniscience Hallucination Rate": 84.73,
         "LMArena-Text": 1417,
-        "LMArena-Text-Creative-Writing": 1366,
+        "LMArena-Text-Creative-Writing": 1368,
         "LMArean-Text-Math": 1422,
         "LMArena-Text-Coding": 1471,
-        "LMArena-Text-Expert": 1407,
-        "LMArena-Text-Hard-Prompts": 1439,
-        "LMArena-Text-Longer-Query": 1420,
-        "LMArena-Text-Multi-Turn": 1419
+        "LMArena-Text-Expert": 1409,
+        "LMArena-Text-Hard-Prompts": 1440,
+        "LMArena-Text-Longer-Query": 1422,
+        "LMArena-Text-Multi-Turn": 1416
       },
       "metadata": {
-        "lmarenaRank": 37,
+        "lmarenaRank": 38,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.5,
           "output": 1.5
         },
         "performance": {
-          "outputTokensPerSecond": 48.179,
+          "outputTokensPerSecond": 47.836,
           "timeToFirstToken": 0.536
         }
       },
@@ -1374,14 +1417,14 @@
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1431,
         "LMArena-Text-Longer-Query": 1425,
-        "LMArena-Text-Multi-Turn": 1404
+        "LMArena-Text-Multi-Turn": 1405
       },
       "metadata": {
-        "lmarenaRank": 38,
+        "lmarenaRank": 39,
         "lmarenaVotes": 0,
         "pricing": {
-          "input": 0.56,
-          "output": 1.66
+          "input": 0.555,
+          "output": 1.67
         },
         "performance": {
           "outputTokensPerSecond": 0,
@@ -1391,49 +1434,6 @@
       "tags": [],
       "description": "",
       "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "deepseek-v3-2",
-      "name": "DeepSeek V3.2 (Non-reasoning)",
-      "provider": "DeepSeek",
-      "releaseDate": "2025-12-01",
-      "benchmarks": {
-        "MMLU Pro": 83.7,
-        "GPQA Diamond": 75.1,
-        "Humanity's Last Exam": 10.5,
-        "AA-LCR": 39,
-        "LiveCodeBench": 59.3,
-        "SciCode": 38.7,
-        "AIME 2025": 59,
-        "MMMU Pro": 0,
-        "AA-Omniscience": -49,
-        "AA-Omniscience Accuracy": 22.77,
-        "AA-Omniscience Hallucination Rate": 92.51,
-        "LMArena-Text": 1416,
-        "LMArena-Text-Creative-Writing": 1390,
-        "LMArean-Text-Math": 1423,
-        "LMArena-Text-Coding": 1456,
-        "LMArena-Text-Expert": 1434,
-        "LMArena-Text-Hard-Prompts": 1441,
-        "LMArena-Text-Longer-Query": 1437,
-        "LMArena-Text-Multi-Turn": 1423
-      },
-      "metadata": {
-        "lmarenaRank": 39,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.28,
-          "output": 0.42
-        },
-        "performance": {
-          "outputTokensPerSecond": 29.424,
-          "timeToFirstToken": 1.337
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": false,
       "isReasoning": false
     },
     {
@@ -1455,12 +1455,12 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1416,
         "LMArena-Text-Creative-Writing": 1404,
-        "LMArean-Text-Math": 1423,
+        "LMArean-Text-Math": 1422,
         "LMArena-Text-Coding": 1456,
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1435,
         "LMArena-Text-Longer-Query": 1447,
-        "LMArena-Text-Multi-Turn": 1413
+        "LMArena-Text-Multi-Turn": 1414
       },
       "metadata": {
         "lmarenaRank": 41,
@@ -1497,7 +1497,7 @@
         "AA-Omniscience Accuracy": 22.62,
         "AA-Omniscience Hallucination Rate": 86.84,
         "LMArena-Text": 1415,
-        "LMArena-Text-Creative-Writing": 1404,
+        "LMArena-Text-Creative-Writing": 1405,
         "LMArean-Text-Math": 1399,
         "LMArena-Text-Coding": 1437,
         "LMArena-Text-Expert": 0,
@@ -1540,12 +1540,12 @@
         "AA-Omniscience Accuracy": 19.22,
         "AA-Omniscience Hallucination Rate": 90.47,
         "LMArena-Text": 1414,
-        "LMArena-Text-Creative-Writing": 1361,
+        "LMArena-Text-Creative-Writing": 1363,
         "LMArean-Text-Math": 1413,
         "LMArena-Text-Coding": 1465,
-        "LMArena-Text-Expert": 1437,
+        "LMArena-Text-Expert": 1436,
         "LMArena-Text-Hard-Prompts": 1439,
-        "LMArena-Text-Longer-Query": 1423,
+        "LMArena-Text-Longer-Query": 1424,
         "LMArena-Text-Multi-Turn": 1423
       },
       "metadata": {
@@ -1557,7 +1557,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 34.335,
-          "timeToFirstToken": 1.02
+          "timeToFirstToken": 1.011
         }
       },
       "tags": [],
@@ -1588,8 +1588,8 @@
         "LMArena-Text-Coding": 1457,
         "LMArena-Text-Expert": 0,
         "LMArena-Text-Hard-Prompts": 1441,
-        "LMArena-Text-Longer-Query": 1438,
-        "LMArena-Text-Multi-Turn": 1416
+        "LMArena-Text-Longer-Query": 1439,
+        "LMArena-Text-Multi-Turn": 1417
       },
       "metadata": {
         "lmarenaRank": 44,
@@ -1631,8 +1631,8 @@
         "LMArena-Text-Coding": 1454,
         "LMArena-Text-Expert": 1400,
         "LMArena-Text-Hard-Prompts": 1428,
-        "LMArena-Text-Longer-Query": 1424,
-        "LMArena-Text-Multi-Turn": 1426
+        "LMArena-Text-Longer-Query": 1425,
+        "LMArena-Text-Multi-Turn": 1427
       },
       "metadata": {
         "lmarenaRank": 45,
@@ -1642,8 +1642,8 @@
           "output": 8
         },
         "performance": {
-          "outputTokensPerSecond": 118.224,
-          "timeToFirstToken": 0.504
+          "outputTokensPerSecond": 110.071,
+          "timeToFirstToken": 0.514
         }
       },
       "tags": [],
@@ -1674,7 +1674,7 @@
         "LMArena-Text-Coding": 1461,
         "LMArena-Text-Expert": 1430,
         "LMArena-Text-Hard-Prompts": 1433,
-        "LMArena-Text-Longer-Query": 1443,
+        "LMArena-Text-Longer-Query": 1444,
         "LMArena-Text-Multi-Turn": 1424
       },
       "metadata": {
@@ -1685,8 +1685,8 @@
           "output": 75
         },
         "performance": {
-          "outputTokensPerSecond": 39.224,
-          "timeToFirstToken": 1.313
+          "outputTokensPerSecond": 39.795,
+          "timeToFirstToken": 1.306
         }
       },
       "tags": [],
@@ -1712,13 +1712,13 @@
         "AA-Omniscience Accuracy": 18.95,
         "AA-Omniscience Hallucination Rate": 82.48,
         "LMArena-Text": 1411,
-        "LMArena-Text-Creative-Writing": 1378,
-        "LMArean-Text-Math": 1403,
+        "LMArena-Text-Creative-Writing": 1379,
+        "LMArean-Text-Math": 1402,
         "LMArena-Text-Coding": 1453,
-        "LMArena-Text-Expert": 1406,
+        "LMArena-Text-Expert": 1405,
         "LMArena-Text-Hard-Prompts": 1430,
-        "LMArena-Text-Longer-Query": 1411,
-        "LMArena-Text-Multi-Turn": 1412
+        "LMArena-Text-Longer-Query": 1412,
+        "LMArena-Text-Multi-Turn": 1413
       },
       "metadata": {
         "lmarenaRank": 47,
@@ -1728,8 +1728,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 89.016,
-          "timeToFirstToken": 0.381
+          "outputTokensPerSecond": 86.835,
+          "timeToFirstToken": 0.387
         }
       },
       "tags": [],
@@ -1755,13 +1755,13 @@
         "AA-Omniscience Accuracy": 39.57,
         "AA-Omniscience Hallucination Rate": 63.9,
         "LMArena-Text": 1409,
-        "LMArena-Text-Creative-Writing": 1394,
+        "LMArena-Text-Creative-Writing": 1395,
         "LMArean-Text-Math": 1437,
         "LMArena-Text-Coding": 1432,
         "LMArena-Text-Expert": 1431,
         "LMArena-Text-Hard-Prompts": 1417,
         "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1412
+        "LMArena-Text-Multi-Turn": 1413
       },
       "metadata": {
         "lmarenaRank": 49,
@@ -1771,8 +1771,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 44.667,
-          "timeToFirstToken": 7.325
+          "outputTokensPerSecond": 44.314,
+          "timeToFirstToken": 7.313
         }
       },
       "tags": [],
@@ -1797,14 +1797,14 @@
         "AA-Omniscience": -29,
         "AA-Omniscience Accuracy": 23.87,
         "AA-Omniscience Hallucination Rate": 69.46,
-        "LMArena-Text": 1408,
-        "LMArena-Text-Creative-Writing": 1374,
+        "LMArena-Text": 1409,
+        "LMArena-Text-Creative-Writing": 1375,
         "LMArean-Text-Math": 1420,
         "LMArena-Text-Coding": 1454,
         "LMArena-Text-Expert": 1440,
         "LMArena-Text-Hard-Prompts": 1431,
         "LMArena-Text-Longer-Query": 1422,
-        "LMArena-Text-Multi-Turn": 1406
+        "LMArena-Text-Multi-Turn": 1407
       },
       "metadata": {
         "lmarenaRank": 50,
@@ -1814,8 +1814,8 @@
           "output": 2.2
         },
         "performance": {
-          "outputTokensPerSecond": 40.066,
-          "timeToFirstToken": 0.665
+          "outputTokensPerSecond": 38.136,
+          "timeToFirstToken": 0.678
         }
       },
       "tags": [],
@@ -1847,7 +1847,7 @@
         "LMArena-Text-Expert": 1428,
         "LMArena-Text-Hard-Prompts": 1415,
         "LMArena-Text-Longer-Query": 1422,
-        "LMArena-Text-Multi-Turn": 1400
+        "LMArena-Text-Multi-Turn": 1401
       },
       "metadata": {
         "lmarenaRank": 51,
@@ -1857,8 +1857,8 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 274.794,
-          "timeToFirstToken": 15.619
+          "outputTokensPerSecond": 273.987,
+          "timeToFirstToken": 15.514
         }
       },
       "tags": [],
@@ -1887,10 +1887,10 @@
         "LMArena-Text-Creative-Writing": 1382,
         "LMArean-Text-Math": 1422,
         "LMArena-Text-Coding": 1424,
-        "LMArena-Text-Expert": 1441,
+        "LMArena-Text-Expert": 1442,
         "LMArena-Text-Hard-Prompts": 1418,
-        "LMArena-Text-Longer-Query": 1417,
-        "LMArena-Text-Multi-Turn": 1397
+        "LMArena-Text-Longer-Query": 1418,
+        "LMArena-Text-Multi-Turn": 1398
       },
       "metadata": {
         "lmarenaRank": 52,
@@ -1900,7 +1900,7 @@
           "output": 2.5
         },
         "performance": {
-          "outputTokensPerSecond": 281.327,
+          "outputTokensPerSecond": 277.328,
           "timeToFirstToken": 0.362
         }
       },
@@ -1926,12 +1926,12 @@
         "AA-Omniscience": -8,
         "AA-Omniscience Accuracy": 13.42,
         "AA-Omniscience Hallucination Rate": 24.68,
-        "LMArena-Text": 1403,
+        "LMArena-Text": 1402,
         "LMArena-Text-Creative-Writing": 1376,
         "LMArean-Text-Math": 1396,
         "LMArena-Text-Coding": 1475,
-        "LMArena-Text-Expert": 1438,
-        "LMArena-Text-Hard-Prompts": 1433,
+        "LMArena-Text-Expert": 1437,
+        "LMArena-Text-Hard-Prompts": 1434,
         "LMArena-Text-Longer-Query": 1433,
         "LMArena-Text-Multi-Turn": 1419
       },
@@ -1943,8 +1943,8 @@
           "output": 5
         },
         "performance": {
-          "outputTokensPerSecond": 105.545,
-          "timeToFirstToken": 0.436
+          "outputTokensPerSecond": 104.529,
+          "timeToFirstToken": 0.463
         }
       },
       "tags": [],
@@ -1970,13 +1970,13 @@
         "AA-Omniscience Accuracy": 22.03,
         "AA-Omniscience Hallucination Rate": 67.38,
         "LMArena-Text": 1402,
-        "LMArena-Text-Creative-Writing": 1376,
+        "LMArena-Text-Creative-Writing": 1377,
         "LMArean-Text-Math": 1412,
         "LMArena-Text-Coding": 1438,
         "LMArena-Text-Expert": 1414,
         "LMArena-Text-Hard-Prompts": 1410,
-        "LMArena-Text-Longer-Query": 1409,
-        "LMArena-Text-Multi-Turn": 1403
+        "LMArena-Text-Longer-Query": 1410,
+        "LMArena-Text-Multi-Turn": 1404
       },
       "metadata": {
         "lmarenaRank": 54,
@@ -1986,8 +1986,8 @@
           "output": 0.5
         },
         "performance": {
-          "outputTokensPerSecond": 183.789,
-          "timeToFirstToken": 5.077
+          "outputTokensPerSecond": 171.374,
+          "timeToFirstToken": 5.03
         }
       },
       "tags": [],
@@ -2013,13 +2013,13 @@
         "AA-Omniscience Accuracy": 16.72,
         "AA-Omniscience Hallucination Rate": 92.7,
         "LMArena-Text": 1400,
-        "LMArena-Text-Creative-Writing": 1317,
+        "LMArena-Text-Creative-Writing": 1318,
         "LMArean-Text-Math": 1426,
         "LMArena-Text-Coding": 1446,
         "LMArena-Text-Expert": 1399,
         "LMArena-Text-Hard-Prompts": 1421,
         "LMArena-Text-Longer-Query": 1395,
-        "LMArena-Text-Multi-Turn": 1401
+        "LMArena-Text-Multi-Turn": 1402
       },
       "metadata": {
         "lmarenaRank": 56,
@@ -2029,8 +2029,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 186.918,
-          "timeToFirstToken": 1.05
+          "outputTokensPerSecond": 183.799,
+          "timeToFirstToken": 1.054
         }
       },
       "tags": [],
@@ -2061,8 +2061,8 @@
         "LMArena-Text-Coding": 1469,
         "LMArena-Text-Expert": 1432,
         "LMArena-Text-Hard-Prompts": 1429,
-        "LMArena-Text-Longer-Query": 1438,
-        "LMArena-Text-Multi-Turn": 1414
+        "LMArena-Text-Longer-Query": 1439,
+        "LMArena-Text-Multi-Turn": 1415
       },
       "metadata": {
         "lmarenaRank": 59,
@@ -2072,8 +2072,8 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 54.714,
-          "timeToFirstToken": 0.897
+          "outputTokensPerSecond": 55.93,
+          "timeToFirstToken": 0.898
         }
       },
       "tags": [],
@@ -2104,8 +2104,8 @@
         "LMArena-Text-Coding": 1441,
         "LMArena-Text-Expert": 1460,
         "LMArena-Text-Hard-Prompts": 1417,
-        "LMArena-Text-Longer-Query": 1403,
-        "LMArena-Text-Multi-Turn": 1393
+        "LMArena-Text-Longer-Query": 1404,
+        "LMArena-Text-Multi-Turn": 1394
       },
       "metadata": {
         "lmarenaRank": 60,
@@ -2115,8 +2115,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 69.669,
-          "timeToFirstToken": 1.052
+          "outputTokensPerSecond": 69.341,
+          "timeToFirstToken": 1.061
         }
       },
       "tags": [],
@@ -2142,12 +2142,12 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1396,
-        "LMArena-Text-Creative-Writing": 1372,
+        "LMArena-Text-Creative-Writing": 1373,
         "LMArean-Text-Math": 1413,
         "LMArena-Text-Coding": 1443,
-        "LMArena-Text-Expert": 1394,
+        "LMArena-Text-Expert": 1395,
         "LMArena-Text-Hard-Prompts": 1415,
-        "LMArena-Text-Longer-Query": 1397,
+        "LMArena-Text-Longer-Query": 1398,
         "LMArena-Text-Multi-Turn": 1406
       },
       "metadata": {
@@ -2186,11 +2186,11 @@
         "AA-Omniscience Hallucination Rate": 84.24,
         "LMArena-Text": 1394,
         "LMArena-Text-Creative-Writing": 1342,
-        "LMArean-Text-Math": 1415,
-        "LMArena-Text-Coding": 1453,
-        "LMArena-Text-Expert": 1437,
+        "LMArean-Text-Math": 1414,
+        "LMArena-Text-Coding": 1452,
+        "LMArena-Text-Expert": 1436,
         "LMArena-Text-Hard-Prompts": 1416,
-        "LMArena-Text-Longer-Query": 1405,
+        "LMArena-Text-Longer-Query": 1406,
         "LMArena-Text-Multi-Turn": 1382
       },
       "metadata": {
@@ -2201,8 +2201,8 @@
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 42.327,
-          "timeToFirstToken": 1.027
+          "outputTokensPerSecond": 42.408,
+          "timeToFirstToken": 1.044
         }
       },
       "tags": [],
@@ -2228,13 +2228,13 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1392,
-        "LMArena-Text-Creative-Writing": 1388,
+        "LMArena-Text-Creative-Writing": 1389,
         "LMArean-Text-Math": 1375,
         "LMArena-Text-Coding": 1425,
         "LMArena-Text-Expert": 1390,
         "LMArena-Text-Hard-Prompts": 1404,
-        "LMArena-Text-Longer-Query": 1392,
-        "LMArena-Text-Multi-Turn": 1405
+        "LMArena-Text-Longer-Query": 1393,
+        "LMArena-Text-Multi-Turn": 1406
       },
       "metadata": {
         "lmarenaRank": 63,
@@ -2272,7 +2272,7 @@
         "AA-Omniscience Hallucination Rate": 55.28,
         "LMArena-Text": 1392,
         "LMArena-Text-Creative-Writing": 1329,
-        "LMArean-Text-Math": 1415,
+        "LMArean-Text-Math": 1414,
         "LMArena-Text-Coding": 1429,
         "LMArena-Text-Expert": 1404,
         "LMArena-Text-Hard-Prompts": 1404,
@@ -2287,8 +2287,8 @@
           "output": 2
         },
         "performance": {
-          "outputTokensPerSecond": 71.871,
-          "timeToFirstToken": 110.537
+          "outputTokensPerSecond": 76.515,
+          "timeToFirstToken": 108.541
         }
       },
       "tags": [],
@@ -2315,11 +2315,11 @@
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1391,
         "LMArena-Text-Creative-Writing": 1339,
-        "LMArean-Text-Math": 1420,
+        "LMArean-Text-Math": 1419,
         "LMArena-Text-Coding": 1429,
         "LMArena-Text-Expert": 1406,
         "LMArena-Text-Hard-Prompts": 1404,
-        "LMArena-Text-Longer-Query": 1367,
+        "LMArena-Text-Longer-Query": 1368,
         "LMArena-Text-Multi-Turn": 1381
       },
       "metadata": {
@@ -2330,8 +2330,8 @@
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 147.989,
-          "timeToFirstToken": 49.955
+          "outputTokensPerSecond": 145.562,
+          "timeToFirstToken": 53.447
         }
       },
       "tags": [],
@@ -2373,8 +2373,51 @@
           "output": 15
         },
         "performance": {
-          "outputTokensPerSecond": 58.636,
-          "timeToFirstToken": 1.179
+          "outputTokensPerSecond": 58.481,
+          "timeToFirstToken": 1.2
+        }
+      },
+      "tags": [],
+      "description": "",
+      "supportsVision": true,
+      "isReasoning": false
+    },
+    {
+      "id": "mimo-v2-flash-reasoning",
+      "name": "MiMo-V2-Flash (Reasoning)",
+      "provider": "Xiaomi",
+      "releaseDate": "2025-12-16",
+      "benchmarks": {
+        "MMLU Pro": 84.3,
+        "GPQA Diamond": 84.6,
+        "Humanity's Last Exam": 21.099999999999998,
+        "AA-LCR": 63,
+        "LiveCodeBench": 86.8,
+        "SciCode": 39.4,
+        "AIME 2025": 96.3,
+        "MMMU Pro": 0,
+        "AA-Omniscience": 0,
+        "AA-Omniscience Accuracy": 0,
+        "AA-Omniscience Hallucination Rate": 0,
+        "LMArena-Text": 1388,
+        "LMArena-Text-Creative-Writing": 1352,
+        "LMArean-Text-Math": 0,
+        "LMArena-Text-Coding": 1423,
+        "LMArena-Text-Expert": 0,
+        "LMArena-Text-Hard-Prompts": 1414,
+        "LMArena-Text-Longer-Query": 1403,
+        "LMArena-Text-Multi-Turn": 1398
+      },
+      "metadata": {
+        "lmarenaRank": 69,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "performance": {
+          "outputTokensPerSecond": 134.135,
+          "timeToFirstToken": 2.154
         }
       },
       "tags": [],
@@ -2409,7 +2452,7 @@
         "LMArena-Text-Multi-Turn": 1395
       },
       "metadata": {
-        "lmarenaRank": 70,
+        "lmarenaRank": 71,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
@@ -2443,16 +2486,16 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1386,
-        "LMArena-Text-Creative-Writing": 1360,
+        "LMArena-Text-Creative-Writing": 1362,
         "LMArean-Text-Math": 1380,
-        "LMArena-Text-Coding": 1455,
+        "LMArena-Text-Coding": 1454,
         "LMArena-Text-Expert": 1379,
         "LMArena-Text-Hard-Prompts": 1412,
-        "LMArena-Text-Longer-Query": 1407,
-        "LMArena-Text-Multi-Turn": 1392
+        "LMArena-Text-Longer-Query": 1406,
+        "LMArena-Text-Multi-Turn": 1394
       },
       "metadata": {
-        "lmarenaRank": 71,
+        "lmarenaRank": 72,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.5,
@@ -2460,7 +2503,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 53.526,
-          "timeToFirstToken": 1.567
+          "timeToFirstToken": 1.571
         }
       },
       "tags": [],
@@ -2486,23 +2529,23 @@
         "AA-Omniscience Accuracy": 14.3,
         "AA-Omniscience Hallucination Rate": 94.63,
         "LMArena-Text": 1382,
-        "LMArena-Text-Creative-Writing": 1323,
-        "LMArean-Text-Math": 1387,
-        "LMArena-Text-Coding": 1437,
+        "LMArena-Text-Creative-Writing": 1324,
+        "LMArean-Text-Math": 1386,
+        "LMArena-Text-Coding": 1438,
         "LMArena-Text-Expert": 1385,
-        "LMArena-Text-Hard-Prompts": 1405,
-        "LMArena-Text-Longer-Query": 1382,
-        "LMArena-Text-Multi-Turn": 1381
+        "LMArena-Text-Hard-Prompts": 1406,
+        "LMArena-Text-Longer-Query": 1383,
+        "LMArena-Text-Multi-Turn": 1382
       },
       "metadata": {
-        "lmarenaRank": 74,
+        "lmarenaRank": 75,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
           "output": 0.8
         },
         "performance": {
-          "outputTokensPerSecond": 60.385,
+          "outputTokensPerSecond": 59.173,
           "timeToFirstToken": 0.945
         }
       },
@@ -2528,25 +2571,25 @@
         "AA-Omniscience": -56,
         "AA-Omniscience Accuracy": 18.73,
         "AA-Omniscience Hallucination Rate": 91.59,
-        "LMArena-Text": 1380,
-        "LMArena-Text-Creative-Writing": 1344,
+        "LMArena-Text": 1381,
+        "LMArena-Text-Creative-Writing": 1345,
         "LMArean-Text-Math": 1357,
         "LMArena-Text-Coding": 1432,
         "LMArena-Text-Expert": 1380,
         "LMArena-Text-Hard-Prompts": 1399,
-        "LMArena-Text-Longer-Query": 1387,
-        "LMArena-Text-Multi-Turn": 1388
+        "LMArena-Text-Longer-Query": 1388,
+        "LMArena-Text-Multi-Turn": 1389
       },
       "metadata": {
-        "lmarenaRank": 75,
+        "lmarenaRank": 76,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.4,
           "output": 1.6
         },
         "performance": {
-          "outputTokensPerSecond": 72.95,
-          "timeToFirstToken": 0.502
+          "outputTokensPerSecond": 74.016,
+          "timeToFirstToken": 0.466
         }
       },
       "tags": [],
@@ -2573,15 +2616,15 @@
         "AA-Omniscience Hallucination Rate": 65.86,
         "LMArena-Text": 1378,
         "LMArena-Text-Creative-Writing": 1360,
-        "LMArean-Text-Math": 1371,
+        "LMArean-Text-Math": 1370,
         "LMArena-Text-Coding": 1393,
         "LMArena-Text-Expert": 1383,
         "LMArena-Text-Hard-Prompts": 1389,
-        "LMArena-Text-Longer-Query": 1387,
-        "LMArena-Text-Multi-Turn": 1368
+        "LMArena-Text-Longer-Query": 1388,
+        "LMArena-Text-Multi-Turn": 1369
       },
       "metadata": {
-        "lmarenaRank": 77,
+        "lmarenaRank": 78,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
@@ -2617,14 +2660,14 @@
         "LMArena-Text": 1375,
         "LMArena-Text-Creative-Writing": 1370,
         "LMArean-Text-Math": 1372,
-        "LMArena-Text-Coding": 1383,
+        "LMArena-Text-Coding": 1384,
         "LMArena-Text-Expert": 1366,
         "LMArena-Text-Hard-Prompts": 1381,
-        "LMArena-Text-Longer-Query": 1382,
+        "LMArena-Text-Longer-Query": 1383,
         "LMArena-Text-Multi-Turn": 1367
       },
       "metadata": {
-        "lmarenaRank": 78,
+        "lmarenaRank": 79,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
@@ -2658,23 +2701,23 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1374,
-        "LMArena-Text-Creative-Writing": 1328,
+        "LMArena-Text-Creative-Writing": 1329,
         "LMArean-Text-Math": 1401,
         "LMArena-Text-Coding": 1432,
         "LMArena-Text-Expert": 1381,
         "LMArena-Text-Hard-Prompts": 1390,
-        "LMArena-Text-Longer-Query": 1380,
-        "LMArena-Text-Multi-Turn": 1368
+        "LMArena-Text-Longer-Query": 1381,
+        "LMArena-Text-Multi-Turn": 1369
       },
       "metadata": {
-        "lmarenaRank": 79,
+        "lmarenaRank": 80,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 59.629,
+          "outputTokensPerSecond": 59.591,
           "timeToFirstToken": 1.031
         }
       },
@@ -2701,24 +2744,24 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1373,
-        "LMArena-Text-Creative-Writing": 1352,
+        "LMArena-Text-Creative-Writing": 1353,
         "LMArean-Text-Math": 1368,
         "LMArena-Text-Coding": 1400,
         "LMArena-Text-Expert": 1364,
         "LMArena-Text-Hard-Prompts": 1382,
-        "LMArena-Text-Longer-Query": 1383,
+        "LMArena-Text-Longer-Query": 1384,
         "LMArena-Text-Multi-Turn": 1369
       },
       "metadata": {
-        "lmarenaRank": 80,
+        "lmarenaRank": 81,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.6,
           "output": 6.4
         },
         "performance": {
-          "outputTokensPerSecond": 29.43,
-          "timeToFirstToken": 1.109
+          "outputTokensPerSecond": 29.703,
+          "timeToFirstToken": 1.11
         }
       },
       "tags": [],
@@ -2749,11 +2792,11 @@
         "LMArena-Text-Coding": 1427,
         "LMArena-Text-Expert": 1382,
         "LMArena-Text-Hard-Prompts": 1395,
-        "LMArena-Text-Longer-Query": 1409,
-        "LMArena-Text-Multi-Turn": 1393
+        "LMArena-Text-Longer-Query": 1410,
+        "LMArena-Text-Multi-Turn": 1394
       },
       "metadata": {
-        "lmarenaRank": 82,
+        "lmarenaRank": 83,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 3,
@@ -2787,24 +2830,24 @@
         "AA-Omniscience Accuracy": 15.05,
         "AA-Omniscience Hallucination Rate": 92.05,
         "LMArena-Text": 1370,
-        "LMArena-Text-Creative-Writing": 1326,
+        "LMArena-Text-Creative-Writing": 1327,
         "LMArean-Text-Math": 1396,
         "LMArena-Text-Coding": 1426,
         "LMArena-Text-Expert": 1388,
         "LMArena-Text-Hard-Prompts": 1389,
-        "LMArena-Text-Longer-Query": 1380,
-        "LMArena-Text-Multi-Turn": 1368
+        "LMArena-Text-Longer-Query": 1381,
+        "LMArena-Text-Multi-Turn": 1369
       },
       "metadata": {
-        "lmarenaRank": 83,
+        "lmarenaRank": 84,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
           "output": 1.1
         },
         "performance": {
-          "outputTokensPerSecond": 122.599,
-          "timeToFirstToken": 0.935
+          "outputTokensPerSecond": 140.046,
+          "timeToFirstToken": 0.611
         }
       },
       "tags": [],
@@ -2830,13 +2873,13 @@
         "AA-Omniscience Accuracy": 18.22,
         "AA-Omniscience Hallucination Rate": 86.81,
         "LMArena-Text": 1367,
-        "LMArena-Text-Creative-Writing": 1320,
+        "LMArena-Text-Creative-Writing": 1321,
         "LMArean-Text-Math": 1400,
         "LMArena-Text-Coding": 1423,
         "LMArena-Text-Expert": 1385,
         "LMArena-Text-Hard-Prompts": 1383,
-        "LMArena-Text-Longer-Query": 1369,
-        "LMArena-Text-Multi-Turn": 1344
+        "LMArena-Text-Longer-Query": 1370,
+        "LMArena-Text-Multi-Turn": 1345
       },
       "metadata": {
         "lmarenaRank": 85,
@@ -2846,8 +2889,8 @@
           "output": 6
         },
         "performance": {
-          "outputTokensPerSecond": 182.453,
-          "timeToFirstToken": 0.984
+          "outputTokensPerSecond": 183.704,
+          "timeToFirstToken": 0.962
         }
       },
       "tags": [],
@@ -2876,21 +2919,21 @@
         "LMArena-Text-Creative-Writing": 1347,
         "LMArean-Text-Math": 1325,
         "LMArena-Text-Coding": 1359,
-        "LMArena-Text-Expert": 1331,
+        "LMArena-Text-Expert": 1332,
         "LMArena-Text-Hard-Prompts": 1363,
-        "LMArena-Text-Longer-Query": 1364,
-        "LMArena-Text-Multi-Turn": 1357
+        "LMArena-Text-Longer-Query": 1365,
+        "LMArena-Text-Multi-Turn": 1358
       },
       "metadata": {
-        "lmarenaRank": 87,
+        "lmarenaRank": 88,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 45.626,
-          "timeToFirstToken": 4.118
+          "outputTokensPerSecond": 45.665,
+          "timeToFirstToken": 3.895
         }
       },
       "tags": [],
@@ -2919,20 +2962,20 @@
         "LMArena-Text-Creative-Writing": 1310,
         "LMArean-Text-Math": 1409,
         "LMArena-Text-Coding": 1432,
-        "LMArena-Text-Expert": 1393,
+        "LMArena-Text-Expert": 1394,
         "LMArena-Text-Hard-Prompts": 1398,
         "LMArena-Text-Longer-Query": 1371,
-        "LMArena-Text-Multi-Turn": 1342
+        "LMArena-Text-Multi-Turn": 1343
       },
       "metadata": {
-        "lmarenaRank": 88,
+        "lmarenaRank": 89,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.1,
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 163.014,
+          "outputTokensPerSecond": 164.276,
           "timeToFirstToken": 50.974
         }
       },
@@ -2959,16 +3002,16 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1360,
-        "LMArena-Text-Creative-Writing": 1345,
+        "LMArena-Text-Creative-Writing": 1346,
         "LMArean-Text-Math": 1358,
         "LMArena-Text-Coding": 1363,
         "LMArena-Text-Expert": 1351,
         "LMArena-Text-Hard-Prompts": 1359,
-        "LMArena-Text-Longer-Query": 1364,
-        "LMArena-Text-Multi-Turn": 1355
+        "LMArena-Text-Longer-Query": 1365,
+        "LMArena-Text-Multi-Turn": 1356
       },
       "metadata": {
-        "lmarenaRank": 90,
+        "lmarenaRank": 91,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
@@ -3001,25 +3044,25 @@
         "AA-Omniscience": -52,
         "AA-Omniscience Accuracy": 20.02,
         "AA-Omniscience Hallucination Rate": 89.96,
-        "LMArena-Text": 1352,
+        "LMArena-Text": 1353,
         "LMArena-Text-Creative-Writing": 1282,
         "LMArean-Text-Math": 1387,
         "LMArena-Text-Coding": 1389,
         "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1360,
         "LMArena-Text-Longer-Query": 1325,
-        "LMArena-Text-Multi-Turn": 1322
+        "LMArena-Text-Multi-Turn": 1323
       },
       "metadata": {
-        "lmarenaRank": 95,
+        "lmarenaRank": 96,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.15,
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 341.823,
-          "timeToFirstToken": 0.411
+          "outputTokensPerSecond": 341.601,
+          "timeToFirstToken": 0.409
         }
       },
       "tags": [],
@@ -3051,10 +3094,10 @@
         "LMArena-Text-Expert": 1326,
         "LMArena-Text-Hard-Prompts": 1347,
         "LMArena-Text-Longer-Query": 1347,
-        "LMArena-Text-Multi-Turn": 1325
+        "LMArena-Text-Multi-Turn": 1326
       },
       "metadata": {
-        "lmarenaRank": 96,
+        "lmarenaRank": 97,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.075,
@@ -3088,24 +3131,24 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1352,
-        "LMArena-Text-Creative-Writing": 1307,
+        "LMArena-Text-Creative-Writing": 1308,
         "LMArean-Text-Math": 1365,
-        "LMArena-Text-Coding": 1402,
+        "LMArena-Text-Coding": 1403,
         "LMArena-Text-Expert": 1404,
         "LMArena-Text-Hard-Prompts": 1370,
-        "LMArena-Text-Longer-Query": 1339,
-        "LMArena-Text-Multi-Turn": 1354
+        "LMArena-Text-Longer-Query": 1341,
+        "LMArena-Text-Multi-Turn": 1355
       },
       "metadata": {
-        "lmarenaRank": 97,
+        "lmarenaRank": 98,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.6,
           "output": 1.8
         },
         "performance": {
-          "outputTokensPerSecond": 35.292,
-          "timeToFirstToken": 0.761
+          "outputTokensPerSecond": 34.304,
+          "timeToFirstToken": 0.753
         }
       },
       "tags": [],
@@ -3132,23 +3175,23 @@
         "AA-Omniscience Hallucination Rate": 76.12,
         "LMArena-Text": 1352,
         "LMArena-Text-Creative-Writing": 1334,
-        "LMArean-Text-Math": 1314,
-        "LMArena-Text-Coding": 1388,
-        "LMArena-Text-Expert": 1335,
+        "LMArean-Text-Math": 1313,
+        "LMArena-Text-Coding": 1387,
+        "LMArena-Text-Expert": 1336,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1368,
         "LMArena-Text-Multi-Turn": 1358
       },
       "metadata": {
-        "lmarenaRank": 98,
+        "lmarenaRank": 99,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 2.5,
           "output": 10
         },
         "performance": {
-          "outputTokensPerSecond": 89.986,
-          "timeToFirstToken": 0.218
+          "outputTokensPerSecond": 91.53,
+          "timeToFirstToken": 0.216
         }
       },
       "tags": [],
@@ -3174,23 +3217,23 @@
         "AA-Omniscience Accuracy": 0,
         "AA-Omniscience Hallucination Rate": 0,
         "LMArena-Text": 1348,
-        "LMArena-Text-Creative-Writing": 1301,
+        "LMArena-Text-Creative-Writing": 1302,
         "LMArean-Text-Math": 1386,
         "LMArena-Text-Coding": 1413,
         "LMArena-Text-Expert": 1362,
         "LMArena-Text-Hard-Prompts": 1368,
-        "LMArena-Text-Longer-Query": 1358,
-        "LMArena-Text-Multi-Turn": 1336
+        "LMArena-Text-Longer-Query": 1359,
+        "LMArena-Text-Multi-Turn": 1337
       },
       "metadata": {
-        "lmarenaRank": 100,
+        "lmarenaRank": 101,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 1.1,
           "output": 4.4
         },
         "performance": {
-          "outputTokensPerSecond": 167.255,
+          "outputTokensPerSecond": 175.994,
           "timeToFirstToken": 14.861
         }
       },
@@ -3218,15 +3261,15 @@
         "AA-Omniscience Hallucination Rate": 94.11,
         "LMArena-Text": 1346,
         "LMArena-Text-Creative-Writing": 1272,
-        "LMArean-Text-Math": 1359,
+        "LMArean-Text-Math": 1358,
         "LMArena-Text-Coding": 1412,
-        "LMArena-Text-Expert": 1360,
+        "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1329,
-        "LMArena-Text-Multi-Turn": 1316
+        "LMArena-Text-Multi-Turn": 1317
       },
       "metadata": {
-        "lmarenaRank": 103,
+        "lmarenaRank": 105,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
@@ -3234,7 +3277,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 55.864,
-          "timeToFirstToken": 1.59
+          "timeToFirstToken": 1.603
         }
       },
       "tags": [],
@@ -3260,24 +3303,24 @@
         "AA-Omniscience Accuracy": 20.83,
         "AA-Omniscience Hallucination Rate": 88.88,
         "LMArena-Text": 1346,
-        "LMArena-Text-Creative-Writing": 1287,
+        "LMArena-Text-Creative-Writing": 1288,
         "LMArean-Text-Math": 1363,
         "LMArena-Text-Coding": 1376,
-        "LMArena-Text-Expert": 1333,
+        "LMArena-Text-Expert": 1332,
         "LMArena-Text-Hard-Prompts": 1365,
         "LMArena-Text-Longer-Query": 1348,
         "LMArena-Text-Multi-Turn": 1363
       },
       "metadata": {
-        "lmarenaRank": 105,
+        "lmarenaRank": 107,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.3,
           "output": 1.2
         },
         "performance": {
-          "outputTokensPerSecond": 65.556,
-          "timeToFirstToken": 1.498
+          "outputTokensPerSecond": 65.394,
+          "timeToFirstToken": 1.569
         }
       },
       "tags": [],
@@ -3308,19 +3351,19 @@
         "LMArena-Text-Coding": 1405,
         "LMArena-Text-Expert": 1395,
         "LMArena-Text-Hard-Prompts": 1363,
-        "LMArena-Text-Longer-Query": 1355,
-        "LMArena-Text-Multi-Turn": 1334
+        "LMArena-Text-Longer-Query": 1356,
+        "LMArena-Text-Multi-Turn": 1335
       },
       "metadata": {
-        "lmarenaRank": 109,
+        "lmarenaRank": 110,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.7,
           "output": 8.4
         },
         "performance": {
-          "outputTokensPerSecond": 91.064,
-          "timeToFirstToken": 0.907
+          "outputTokensPerSecond": 90.851,
+          "timeToFirstToken": 0.948
         }
       },
       "tags": [],
@@ -3351,19 +3394,19 @@
         "LMArena-Text-Coding": 1317,
         "LMArena-Text-Expert": 1269,
         "LMArena-Text-Hard-Prompts": 1330,
-        "LMArena-Text-Longer-Query": 1347,
-        "LMArena-Text-Multi-Turn": 1343
+        "LMArena-Text-Longer-Query": 1349,
+        "LMArena-Text-Multi-Turn": 1344
       },
       "metadata": {
-        "lmarenaRank": 113,
+        "lmarenaRank": 114,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 46.297,
-          "timeToFirstToken": 6.657
+          "outputTokensPerSecond": 47.194,
+          "timeToFirstToken": 3.132
         }
       },
       "tags": [],
@@ -3394,19 +3437,19 @@
         "LMArena-Text-Coding": 1395,
         "LMArena-Text-Expert": 1366,
         "LMArena-Text-Hard-Prompts": 1358,
-        "LMArena-Text-Longer-Query": 1340,
-        "LMArena-Text-Multi-Turn": 1334
+        "LMArena-Text-Longer-Query": 1341,
+        "LMArena-Text-Multi-Turn": 1335
       },
       "metadata": {
-        "lmarenaRank": 114,
+        "lmarenaRank": 115,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 70.208,
-          "timeToFirstToken": 0.197
+          "outputTokensPerSecond": 67.439,
+          "timeToFirstToken": 0.22
         }
       },
       "tags": [],
@@ -3435,64 +3478,21 @@
         "LMArena-Text-Creative-Writing": 1253,
         "LMArean-Text-Math": 1356,
         "LMArena-Text-Coding": 1380,
-        "LMArena-Text-Expert": 1358,
+        "LMArena-Text-Expert": 1357,
         "LMArena-Text-Hard-Prompts": 1353,
         "LMArena-Text-Longer-Query": 1332,
-        "LMArena-Text-Multi-Turn": 1328
+        "LMArena-Text-Multi-Turn": 1329
       },
       "metadata": {
-        "lmarenaRank": 116,
+        "lmarenaRank": 117,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.05,
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 120.667,
-          "timeToFirstToken": 120.246
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "nova-2-0-lite",
-      "name": "Nova 2.0 Lite (Non-reasoning)",
-      "provider": "Amazon",
-      "releaseDate": "2025-10-29",
-      "benchmarks": {
-        "MMLU Pro": 74.3,
-        "GPQA Diamond": 60.3,
-        "Humanity's Last Exam": 3,
-        "AA-LCR": 17.7,
-        "LiveCodeBench": 34.599999999999994,
-        "SciCode": 24,
-        "AIME 2025": 33.7,
-        "MMMU Pro": 49,
-        "AA-Omniscience": -60,
-        "AA-Omniscience Accuracy": 13.28,
-        "AA-Omniscience Hallucination Rate": 85.07,
-        "LMArena-Text": 1334,
-        "LMArena-Text-Creative-Writing": 1267,
-        "LMArean-Text-Math": 1350,
-        "LMArena-Text-Coding": 1399,
-        "LMArena-Text-Expert": 1364,
-        "LMArena-Text-Hard-Prompts": 1368,
-        "LMArena-Text-Longer-Query": 1345,
-        "LMArena-Text-Multi-Turn": 1329
-      },
-      "metadata": {
-        "lmarenaRank": 120,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0.3,
-          "output": 2.5
-        },
-        "performance": {
-          "outputTokensPerSecond": 230.301,
-          "timeToFirstToken": 0.532
+          "outputTokensPerSecond": 120.28,
+          "timeToFirstToken": 126.634
         }
       },
       "tags": [],
@@ -3522,7 +3522,7 @@
         "LMArean-Text-Math": 1365,
         "LMArena-Text-Coding": 1384,
         "LMArena-Text-Expert": 1358,
-        "LMArena-Text-Hard-Prompts": 1354,
+        "LMArena-Text-Hard-Prompts": 1355,
         "LMArena-Text-Longer-Query": 1336,
         "LMArena-Text-Multi-Turn": 1319
       },
@@ -3534,8 +3534,51 @@
           "output": 0.6
         },
         "performance": {
-          "outputTokensPerSecond": 31.929,
-          "timeToFirstToken": 0.801
+          "outputTokensPerSecond": 32.232,
+          "timeToFirstToken": 0.832
+        }
+      },
+      "tags": [],
+      "description": "",
+      "supportsVision": true,
+      "isReasoning": false
+    },
+    {
+      "id": "nova-2-0-lite",
+      "name": "Nova 2.0 Lite (Non-reasoning)",
+      "provider": "Amazon",
+      "releaseDate": "2025-10-29",
+      "benchmarks": {
+        "MMLU Pro": 74.3,
+        "GPQA Diamond": 60.3,
+        "Humanity's Last Exam": 3,
+        "AA-LCR": 17.7,
+        "LiveCodeBench": 34.599999999999994,
+        "SciCode": 24,
+        "AIME 2025": 33.7,
+        "MMMU Pro": 49,
+        "AA-Omniscience": -60,
+        "AA-Omniscience Accuracy": 13.28,
+        "AA-Omniscience Hallucination Rate": 85.07,
+        "LMArena-Text": 1334,
+        "LMArena-Text-Creative-Writing": 1268,
+        "LMArean-Text-Math": 1345,
+        "LMArena-Text-Coding": 1399,
+        "LMArena-Text-Expert": 1360,
+        "LMArena-Text-Hard-Prompts": 1367,
+        "LMArena-Text-Longer-Query": 1346,
+        "LMArena-Text-Multi-Turn": 1327
+      },
+      "metadata": {
+        "lmarenaRank": 124,
+        "lmarenaVotes": 0,
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5
+        },
+        "performance": {
+          "outputTokensPerSecond": 230.214,
+          "timeToFirstToken": 0.526
         }
       },
       "tags": [],
@@ -3561,24 +3604,24 @@
         "AA-Omniscience Accuracy": 23.52,
         "AA-Omniscience Hallucination Rate": 87.58,
         "LMArena-Text": 1327,
-        "LMArena-Text-Creative-Writing": 1306,
+        "LMArena-Text-Creative-Writing": 1307,
         "LMArean-Text-Math": 1324,
         "LMArena-Text-Coding": 1371,
         "LMArena-Text-Expert": 1323,
         "LMArena-Text-Hard-Prompts": 1337,
         "LMArena-Text-Longer-Query": 1335,
-        "LMArena-Text-Multi-Turn": 1322
+        "LMArena-Text-Multi-Turn": 1323
       },
       "metadata": {
-        "lmarenaRank": 127,
+        "lmarenaRank": 128,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.27,
           "output": 0.85
         },
         "performance": {
-          "outputTokensPerSecond": 135.502,
-          "timeToFirstToken": 0.478
+          "outputTokensPerSecond": 135.666,
+          "timeToFirstToken": 0.471
         }
       },
       "tags": [],
@@ -3604,24 +3647,24 @@
         "AA-Omniscience Accuracy": 15.35,
         "AA-Omniscience Hallucination Rate": 79.96,
         "LMArena-Text": 1326,
-        "LMArena-Text-Creative-Writing": 1284,
+        "LMArena-Text-Creative-Writing": 1285,
         "LMArean-Text-Math": 1360,
         "LMArena-Text-Coding": 1384,
-        "LMArena-Text-Expert": 1342,
+        "LMArena-Text-Expert": 1343,
         "LMArena-Text-Hard-Prompts": 1343,
         "LMArena-Text-Longer-Query": 1340,
-        "LMArena-Text-Multi-Turn": 1318
+        "LMArena-Text-Multi-Turn": 1319
       },
       "metadata": {
-        "lmarenaRank": 128,
+        "lmarenaRank": 129,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
           "output": 2.4
         },
         "performance": {
-          "outputTokensPerSecond": 92.649,
-          "timeToFirstToken": 0.905
+          "outputTokensPerSecond": 93.659,
+          "timeToFirstToken": 0.933
         }
       },
       "tags": [],
@@ -3647,16 +3690,16 @@
         "AA-Omniscience Accuracy": 12.92,
         "AA-Omniscience Hallucination Rate": 73.42,
         "LMArena-Text": 1326,
-        "LMArena-Text-Creative-Writing": 1294,
+        "LMArena-Text-Creative-Writing": 1295,
         "LMArean-Text-Math": 0,
         "LMArena-Text-Coding": 1362,
         "LMArena-Text-Expert": 0,
-        "LMArena-Text-Hard-Prompts": 1357,
-        "LMArena-Text-Longer-Query": 1335,
-        "LMArena-Text-Multi-Turn": 1325
+        "LMArena-Text-Hard-Prompts": 1358,
+        "LMArena-Text-Longer-Query": 1334,
+        "LMArena-Text-Multi-Turn": 1326
       },
       "metadata": {
-        "lmarenaRank": 129,
+        "lmarenaRank": 130,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
@@ -3689,24 +3732,24 @@
         "AA-Omniscience": -65,
         "AA-Omniscience Accuracy": 12.97,
         "AA-Omniscience Hallucination Rate": 89.81,
-        "LMArena-Text": 1324,
-        "LMArena-Text-Creative-Writing": 1256,
-        "LMArean-Text-Math": 1380,
-        "LMArena-Text-Coding": 1366,
-        "LMArena-Text-Expert": 1346,
-        "LMArena-Text-Hard-Prompts": 1338,
-        "LMArena-Text-Longer-Query": 1306,
-        "LMArena-Text-Multi-Turn": 1296
+        "LMArena-Text": 1323,
+        "LMArena-Text-Creative-Writing": 1255,
+        "LMArean-Text-Math": 1372,
+        "LMArena-Text-Coding": 1368,
+        "LMArena-Text-Expert": 1338,
+        "LMArena-Text-Hard-Prompts": 1336,
+        "LMArena-Text-Longer-Query": 1308,
+        "LMArena-Text-Multi-Turn": 1295
       },
       "metadata": {
-        "lmarenaRank": 131,
+        "lmarenaRank": 133,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.06,
           "output": 0.24
         },
         "performance": {
-          "outputTokensPerSecond": 317.532,
+          "outputTokensPerSecond": 310.195,
           "timeToFirstToken": 0.208
         }
       },
@@ -3736,20 +3779,20 @@
         "LMArena-Text-Creative-Writing": 1290,
         "LMArean-Text-Math": 1316,
         "LMArena-Text-Coding": 1361,
-        "LMArena-Text-Expert": 1304,
+        "LMArena-Text-Expert": 1305,
         "LMArena-Text-Hard-Prompts": 1327,
         "LMArena-Text-Longer-Query": 1328,
-        "LMArena-Text-Multi-Turn": 1319
+        "LMArena-Text-Multi-Turn": 1320
       },
       "metadata": {
-        "lmarenaRank": 134,
+        "lmarenaRank": 135,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
           "output": 0.545
         },
         "performance": {
-          "outputTokensPerSecond": 158.47,
+          "outputTokensPerSecond": 125.29,
           "timeToFirstToken": 0.456
         }
       },
@@ -3785,15 +3828,15 @@
         "LMArena-Text-Multi-Turn": 1311
       },
       "metadata": {
-        "lmarenaRank": 138,
+        "lmarenaRank": 139,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
           "output": 0.4
         },
         "performance": {
-          "outputTokensPerSecond": 176.075,
-          "timeToFirstToken": 0.39
+          "outputTokensPerSecond": 176.946,
+          "timeToFirstToken": 0.388
         }
       },
       "tags": [],
@@ -3819,24 +3862,24 @@
         "AA-Omniscience Accuracy": 6.98,
         "AA-Omniscience Hallucination Rate": 38.7,
         "LMArena-Text": 1320,
-        "LMArena-Text-Creative-Writing": 1257,
+        "LMArena-Text-Creative-Writing": 1258,
         "LMArean-Text-Math": 1353,
         "LMArena-Text-Coding": 1390,
         "LMArena-Text-Expert": 1359,
         "LMArena-Text-Hard-Prompts": 1350,
         "LMArena-Text-Longer-Query": 1332,
-        "LMArena-Text-Multi-Turn": 1281
+        "LMArena-Text-Multi-Turn": 1282
       },
       "metadata": {
-        "lmarenaRank": 139,
+        "lmarenaRank": 140,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.14,
           "output": 0.57
         },
         "performance": {
-          "outputTokensPerSecond": 85.473,
-          "timeToFirstToken": 1.494
+          "outputTokensPerSecond": 88.091,
+          "timeToFirstToken": 1.476
         }
       },
       "tags": [],
@@ -3862,16 +3905,16 @@
         "AA-Omniscience Accuracy": 7.42,
         "AA-Omniscience Hallucination Rate": 96.56,
         "LMArena-Text": 1318,
-        "LMArena-Text-Creative-Writing": 1297,
+        "LMArena-Text-Creative-Writing": 1298,
         "LMArean-Text-Math": 1269,
         "LMArena-Text-Coding": 1311,
-        "LMArena-Text-Expert": 1278,
+        "LMArena-Text-Expert": 1279,
         "LMArena-Text-Hard-Prompts": 1312,
         "LMArena-Text-Longer-Query": 1313,
-        "LMArena-Text-Multi-Turn": 1291
+        "LMArena-Text-Multi-Turn": 1292
       },
       "metadata": {
-        "lmarenaRank": 142,
+        "lmarenaRank": 143,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.02,
@@ -3879,7 +3922,7 @@
         },
         "performance": {
           "outputTokensPerSecond": 53.691,
-          "timeToFirstToken": 0.352
+          "timeToFirstToken": 0.378
         }
       },
       "tags": [],
@@ -3905,24 +3948,24 @@
         "AA-Omniscience Accuracy": 14.65,
         "AA-Omniscience Hallucination Rate": 93.2,
         "LMArena-Text": 1318,
-        "LMArena-Text-Creative-Writing": 1238,
+        "LMArena-Text-Creative-Writing": 1239,
         "LMArean-Text-Math": 1338,
         "LMArena-Text-Coding": 1369,
         "LMArena-Text-Expert": 1317,
         "LMArena-Text-Hard-Prompts": 1321,
-        "LMArena-Text-Longer-Query": 1304,
+        "LMArena-Text-Longer-Query": 1305,
         "LMArena-Text-Multi-Turn": 1288
       },
       "metadata": {
-        "lmarenaRank": 144,
+        "lmarenaRank": 145,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.07,
           "output": 0.2
         },
         "performance": {
-          "outputTokensPerSecond": 258.481,
-          "timeToFirstToken": 0.464
+          "outputTokensPerSecond": 263.2,
+          "timeToFirstToken": 0.479
         }
       },
       "tags": [],
@@ -3947,17 +3990,17 @@
         "AA-Omniscience": -60,
         "AA-Omniscience Accuracy": 13.98,
         "AA-Omniscience Hallucination Rate": 86.3,
-        "LMArena-Text": 1306,
-        "LMArena-Text-Creative-Writing": 1252,
-        "LMArean-Text-Math": 1320,
-        "LMArena-Text-Coding": 1362,
-        "LMArena-Text-Expert": 1293,
-        "LMArena-Text-Hard-Prompts": 1326,
-        "LMArena-Text-Longer-Query": 1318,
-        "LMArena-Text-Multi-Turn": 1298
+        "LMArena-Text": 1304,
+        "LMArena-Text-Creative-Writing": 1260,
+        "LMArean-Text-Math": 1324,
+        "LMArena-Text-Coding": 1361,
+        "LMArena-Text-Expert": 1291,
+        "LMArena-Text-Hard-Prompts": 1324,
+        "LMArena-Text-Longer-Query": 1319,
+        "LMArena-Text-Multi-Turn": 1296
       },
       "metadata": {
-        "lmarenaRank": 157,
+        "lmarenaRank": 161,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.2,
@@ -3991,24 +4034,24 @@
         "AA-Omniscience Accuracy": 14.32,
         "AA-Omniscience Hallucination Rate": 77.61,
         "LMArena-Text": 1303,
-        "LMArena-Text-Creative-Writing": 1271,
-        "LMArean-Text-Math": 1282,
+        "LMArena-Text-Creative-Writing": 1272,
+        "LMArean-Text-Math": 1281,
         "LMArena-Text-Coding": 1359,
         "LMArena-Text-Expert": 1307,
         "LMArena-Text-Hard-Prompts": 1318,
         "LMArena-Text-Longer-Query": 1326,
-        "LMArena-Text-Multi-Turn": 1290
+        "LMArena-Text-Multi-Turn": 1291
       },
       "metadata": {
-        "lmarenaRank": 161,
+        "lmarenaRank": 162,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.1,
           "output": 0.3
         },
         "performance": {
-          "outputTokensPerSecond": 121.806,
-          "timeToFirstToken": 0.3
+          "outputTokensPerSecond": 120.859,
+          "timeToFirstToken": 0.295
         }
       },
       "tags": [],
@@ -4039,19 +4082,19 @@
         "LMArena-Text-Coding": 1274,
         "LMArena-Text-Expert": 1253,
         "LMArena-Text-Hard-Prompts": 1282,
-        "LMArena-Text-Longer-Query": 1312,
+        "LMArena-Text-Longer-Query": 1313,
         "LMArena-Text-Multi-Turn": 1271
       },
       "metadata": {
-        "lmarenaRank": 162,
+        "lmarenaRank": 163,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0,
           "output": 0
         },
         "performance": {
-          "outputTokensPerSecond": 47.578,
-          "timeToFirstToken": 1.002
+          "outputTokensPerSecond": 47.203,
+          "timeToFirstToken": 1.025
         }
       },
       "tags": [],
@@ -4077,23 +4120,23 @@
         "AA-Omniscience Accuracy": 11.82,
         "AA-Omniscience Hallucination Rate": 92.76,
         "LMArena-Text": 1237,
-        "LMArena-Text-Creative-Writing": 1218,
+        "LMArena-Text-Creative-Writing": 1219,
         "LMArean-Text-Math": 1215,
         "LMArena-Text-Coding": 1271,
         "LMArena-Text-Expert": 1232,
         "LMArena-Text-Hard-Prompts": 1248,
-        "LMArena-Text-Longer-Query": 1256,
-        "LMArena-Text-Multi-Turn": 1204
+        "LMArena-Text-Longer-Query": 1257,
+        "LMArena-Text-Multi-Turn": 1205
       },
       "metadata": {
-        "lmarenaRank": 200,
+        "lmarenaRank": 201,
         "lmarenaVotes": 0,
         "pricing": {
           "input": 0.15,
           "output": 0.15
         },
         "performance": {
-          "outputTokensPerSecond": 196.713,
+          "outputTokensPerSecond": 196.797,
           "timeToFirstToken": 0.275
         }
       },
