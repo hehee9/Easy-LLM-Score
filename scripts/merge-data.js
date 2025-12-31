@@ -57,6 +57,21 @@ function isModelTooOld(releaseDate, maxAgeMonths = 12) {
   return release < cutoffDate;
 }
 
+// AA 벤치마크 데이터가 충분한지 확인 (반 이상 있어야 함)
+const CORE_AA_BENCHMARKS = ['mmlu_pro', 'gpqa', 'hle', 'lcr', 'livecodebench', 'scicode', 'aime_25'];
+
+function hasEnoughAAData(aaMatch) {
+  if (!aaMatch?.evaluations) return false;
+
+  const validCount = CORE_AA_BENCHMARKS.filter(key => {
+    const value = aaMatch.evaluations[key];
+    return value !== null && value !== undefined && value !== 0;
+  }).length;
+
+  // 반 이상(4개 이상) 있어야 포함
+  return validCount >= Math.ceil(CORE_AA_BENCHMARKS.length / 2);
+}
+
 async function mergeData() {
   console.log('Starting data merge...\n');
 
@@ -109,6 +124,7 @@ async function mergeData() {
   const mergedModels = [];
   const unmatchedModels = [];
   const skippedOldModels = [];  // 1년 이상 된 모델
+  const skippedInsufficientData = [];  // AA 데이터 부족 모델
   const usedIds = new Set();  // 중복 ID 체크용
 
   for (const lmModel of baseModels) {
@@ -119,6 +135,11 @@ async function mergeData() {
       // 1년 이상 된 모델 제외
       if (isModelTooOld(aaMatch.release_date)) {
         skippedOldModels.push({ name: lmModel.model, releaseDate: aaMatch.release_date });
+        continue;
+      }
+      // AA 벤치마크 데이터 부족 모델 제외
+      if (!hasEnoughAAData(aaMatch)) {
+        skippedInsufficientData.push(lmModel.model);
         continue;
       }
       // 매칭 성공
@@ -235,7 +256,14 @@ async function mergeData() {
   console.log(`\n✅ Merge complete!`);
   console.log(`  - Total models: ${mergedModels.length}`);
   console.log(`  - Skipped old models (>1 year): ${skippedOldModels.length}`);
+  console.log(`  - Skipped insufficient AA data: ${skippedInsufficientData.length}`);
   console.log(`  - Unmatched models: ${unmatchedModels.length}`);
+
+  // AA 데이터 부족 모델 출력
+  if (skippedInsufficientData.length > 0) {
+    console.log(`\nSkipped (insufficient AA data):`);
+    skippedInsufficientData.forEach(name => console.log(`  - ${name}`));
+  }
 
   // 6. 매칭 실패 모델 저장 (디버깅용)
   if (unmatchedModels.length > 0) {

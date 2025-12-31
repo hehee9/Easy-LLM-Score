@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "lastUpdated": "2025-12-31",
     "description": "LLM 벤치마크 통합 데이터",
-    "totalModels": 96,
+    "totalModels": 94,
     "defaultModelIds": [],
     "dataSources": {
       "lmarena": {
@@ -494,94 +494,6 @@
         "performance": {
           "outputTokensPerSecond": 74.883,
           "timeToFirstToken": 0.557
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "gpt-4-5",
-      "name": "GPT-4.5 (Preview)",
-      "provider": "OpenAI",
-      "releaseDate": "2025-02-27",
-      "benchmarks": {
-        "MMLU Pro": 0,
-        "GPQA Diamond": 0,
-        "Humanity's Last Exam": 0,
-        "AA-LCR": 0,
-        "LiveCodeBench": 0,
-        "SciCode": 0,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1443,
-        "LMArena-Text-Creative-Writing": 1434,
-        "LMArean-Text-Math": 1413,
-        "LMArena-Text-Coding": 1457,
-        "LMArena-Text-Expert": 1426,
-        "LMArena-Text-Hard-Prompts": 1437,
-        "LMArena-Text-Longer-Query": 1443,
-        "LMArena-Text-Multi-Turn": 1462,
-        "LMArena-Vision": 1226
-      },
-      "metadata": {
-        "lmarenaRank": 15,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 0,
-          "output": 0
-        },
-        "performance": {
-          "outputTokensPerSecond": 0,
-          "timeToFirstToken": 0
-        }
-      },
-      "tags": [],
-      "description": "",
-      "supportsVision": true,
-      "isReasoning": false
-    },
-    {
-      "id": "claude-4-1-opus",
-      "name": "Claude 4.1 Opus (Non-reasoning)",
-      "provider": "Anthropic",
-      "releaseDate": "2025-08-05",
-      "benchmarks": {
-        "MMLU Pro": 0,
-        "GPQA Diamond": 0,
-        "Humanity's Last Exam": 0,
-        "AA-LCR": 0,
-        "LiveCodeBench": 0,
-        "SciCode": 0,
-        "AIME 2025": 0,
-        "MMMU Pro": 0,
-        "AA-Omniscience": 0,
-        "AA-Omniscience Accuracy": 0,
-        "AA-Omniscience Hallucination Rate": 0,
-        "LMArena-Text": 1441,
-        "LMArena-Text-Creative-Writing": 1434,
-        "LMArean-Text-Math": 1434,
-        "LMArena-Text-Coding": 1500,
-        "LMArena-Text-Expert": 1458,
-        "LMArena-Text-Hard-Prompts": 1471,
-        "LMArena-Text-Longer-Query": 1467,
-        "LMArena-Text-Multi-Turn": 1462,
-        "LMArena-Vision": 0
-      },
-      "metadata": {
-        "lmarenaRank": 16,
-        "lmarenaVotes": 0,
-        "pricing": {
-          "input": 15,
-          "output": 75
-        },
-        "performance": {
-          "outputTokensPerSecond": 37.845,
-          "timeToFirstToken": 1.437
         }
       },
       "tags": [],
